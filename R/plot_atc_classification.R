@@ -237,10 +237,10 @@ preview_atc_classification <-
 
 
 #' @title
-#' Plot a LOINC Class
+#' Plot an ATC Preview as a Tree Diagram
 #'
 #' @description
-#' Plot a LOINC Class. Due to the high amount of records, use \code{\link{loinc_classification}} to determine the appropriate range based on row counts per level to supply the optional `range` argument.
+#' Due to the high amount of records, use \code{\link{preview_atc_classification}} to determine the appropriate range based on row counts per level to supply the optional `range` argument. The final output is either 1. the data.tree-style dataframe if the `skip_plot` argument is set to true, 2. a plot in the Viewer, or 3. a plot saved to an html file as named by the `file` argument if one is provided.
 #'
 #' @param skip_plot If true, returns the dataframe before it is plotted and plotting is not done. This is an option to troubleshoot or customize a plot beyond what is available within the function.
 #' @seealso
@@ -306,6 +306,12 @@ plot_atc_classification <-
                 df <- dplyr::bind_rows(root,
                                        range_output)
 
+                color <- unlist(df[,color_by])
+                color[is.na(color)] <- "NA"
+                df$color <- factor(color)
+                levels(df$color) <- colorspace::diverging_hcl(n = length(levels(df$color)))
+                df$color <- as.character(df$color)
+
                 tooltip <-
                         df %>%
                         dplyr::mutate_all(as.character) %>%
@@ -324,12 +330,6 @@ plot_atc_classification <-
                         dplyr::summarize_at(dplyr::vars(tooltip), ~paste(., collapse = "<br>")) %>%
                         dplyr::ungroup() %>%
                         dplyr::distinct()
-
-                color <- unlist(df[,color_by])
-                color[is.na(color)] <- "NA"
-                df$color <- factor(color)
-                levels(df$color) <- colorspace::terrain_hcl(n = length(levels(df$color)))
-                df$color <- as.character(df$color)
 
                 df <-
                         df %>%
