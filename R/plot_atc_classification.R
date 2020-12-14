@@ -2,7 +2,7 @@
 #' Preview an ATC Class's Descendants
 #'
 #' @description
-#' The ATC Classification includes the interface between the ATC 5th Concept Class and the RxNorm Ingredient Concept Class.
+#' The ATC Classification includes the interface between the ATC 5th Concept Class and the RxNorm Ingredient Concept Class. While all 5 concept classes belonging to ATC have a level of separation of 1, the ATC 5th Concept Class and RxNorm Ingredient have a level of separation of 0, but it is treated as 1 for this use case.
 #'
 #' Due to the high amount of records, used to determine the appropriate range based on row counts per level to supply the optional `range` argument for \code{\link{plot_atc_classification}}, where this function is called again and can be optionally filtered on a numeric range before plotting.
 #'
