@@ -1,4 +1,4 @@
-# amphora Package <img src="man/figures/logo.png" align="right" alt="" width="120"  
+# amphora Package <img src="man/figures/logo.png" align="right" alt="" width="120" /> 
 
 Amphora is an extension of the chariot R package that creates 
 Reingold-Tilford tree diagrams in D3.js. This package branched off from
