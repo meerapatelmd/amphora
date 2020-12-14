@@ -5,13 +5,14 @@
 #' Get the top classes in the Concept Ancestor table by vocabulary with the option of filtering further for domain.
 #'
 #' @export
+#' @importFrom chariot queryAthena connectAthena
 
 lookup_top_classes <-
         function(vocabulary_id,
                  domain_id,
                  vocab_schema = "omop_vocabulary",
                  conn,
-                 conn_fun = "connectAthena()",
+                 conn_fun = "chariot::connectAthena()",
                  cache_only = FALSE,
                  skip_cache = FALSE,
                  override_cache = FALSE,
@@ -23,7 +24,7 @@ lookup_top_classes <-
 
                 if (missing(domain_id)) {
 
-                        queryAthena(sql_statement =
+                        chariot::queryAthena(sql_statement =
                                             SqlRender::render(
                                                     "
                                 WITH ancestry AS (
@@ -68,7 +69,7 @@ lookup_top_classes <-
 
                 } else {
 
-                        queryAthena(sql_statement =
+                        chariot::queryAthena(sql_statement =
                                             SqlRender::render(
                                                     "
                                 WITH ancestry AS (

@@ -1,8 +1,10 @@
 #' @title
-#' Vuew ATC Class Descendants
+#' Preview an ATC Class's Descendants
 #'
 #' @description
-#' Due to the high amount of records, used to determine the appropriate range based on row counts per level to supply the optional `range` argument for \code{\link{plot_loinc_classification}}, where this fucntion is called again and can be optionally filtered on a numeric range before plotting.
+#' The ATC Classification includes the interface between the ATC 5th Concept Class and the RxNorm Ingredient Concept Class.
+#'
+#' Due to the high amount of records, used to determine the appropriate range based on row counts per level to supply the optional `range` argument for \code{\link{plot_atc_classification}}, where this function is called again and can be optionally filtered on a numeric range before plotting.
 #'
 #' @export
 #' @rdname preview_atc_classification
@@ -18,7 +20,14 @@ preview_atc_classification <-
 
                 if (is.concept(concept_class_obj)) {
 
+                        if (concept_class_obj@standard_concept %in% "C" &&
+                            concept_class_obj@vocabulary_id %in% "ATC" &&
+                            is.na(concept_class_obj@invalid_reason)) {
+
                         concept_id <- concept_class_obj@concept_id
+                        } else {
+                                stop("`concept_class_obj` is not a valid ATC Class")
+                        }
 
                 } else {
 
@@ -32,7 +41,7 @@ preview_atc_classification <-
 
 
 
-                level_1 <<-
+                level_1 <-
                         queryAthena(sql_statement =
                                             SqlRender::render(
                                                     "
@@ -66,7 +75,6 @@ preview_atc_classification <-
                                                     domain_id = domain_id,
                                                     concept_id = concept_id),
                                     conn = conn,
-                                    conn_fun = conn_fun,
                                     skip_cache = TRUE,
                                     render_sql = render_sql,
                                     verbose = verbose,
@@ -104,7 +112,7 @@ preview_atc_classification <-
                                 as.integer()
 
                         level_n <-
-                                queryAthena(sql_statement =
+                                chariot::queryAthena(sql_statement =
                                                     SqlRender::render(
                                                             "
                                     WITH ancestry AS (
@@ -158,6 +166,61 @@ preview_atc_classification <-
 
                 }
 
+                # Get ATC 5th to RxNorm Ingredient
+                atc_5th <-
+                        dplyr::bind_rows(range_output) %>%
+                        dplyr::filter(concept_class_id %in% "ATC 5th")
+
+
+                last_level <-
+                        queryAthena(sql_statement =
+                                                     SqlRender::render(
+                                                             "
+                                    WITH ancestry AS (
+                                        SELECT DISTINCT ca.ancestor_concept_id, ca.descendant_concept_id
+                                        FROM @vocab_schema.concept c
+                                        INNER JOIN @vocab_schema.concept_ancestor ca
+                                        ON ca.ancestor_concept_id = c.concept_id
+                                        INNER JOIN @vocab_schema.concept c2
+                                        ON ca.descendant_concept_id = c2.concept_id
+                                        WHERE
+                                        c.vocabulary_id IN ('ATC')
+                                        AND c.concept_class_id IN ('ATC 5th')
+                                        AND c.standard_concept = 'C'
+                                        AND c.invalid_reason IS NULL
+                                        AND c2.invalid_reason IS NULL
+                                        --AND c2.standard_concept = 'C'
+                                        AND c2.vocabulary_id IN ('RxNorm', 'RxNorm Extension')
+                                        AND c2.concept_class_id IN ('Ingredient')
+                                        AND c.domain_id = 'Drug'
+                                        AND c2.domain_id = 'Drug'
+                                        AND ca.ancestor_concept_id <> ca.descendant_concept_id
+                                        AND ca.min_levels_of_separation = 0 AND ca.max_levels_of_separation = 0
+                                    )
+
+                                    SELECT DISTINCT
+                                        CONCAT(parent.concept_id, ' ', parent.concept_name) AS parent,
+                                        CONCAT(child.concept_id, ' ', child.concept_name) AS child,
+                                        child.*
+                                    FROM ancestry a
+                                    INNER JOIN @vocab_schema.concept parent
+                                    ON a.ancestor_concept_id = parent.concept_id
+                                    INNER JOIN @vocab_schema.concept child
+                                    ON a.descendant_concept_id = child.concept_id
+                                    ;",
+                                                             vocab_schema = vocab_schema),
+                                             conn = conn,
+                                             verbose = verbose,
+                                             render_sql = render_sql
+                        )
+
+
+                range_output[[length(range_output)+1]] <-
+                        last_level %>%
+                        dplyr::inner_join(atc_5th %>%
+                                                  dplyr::select(parent = child),
+                                          by = "parent")
+
                 secretary::typewrite("There are", length(range_output), "levels below", secretary::inside_out(sprintf('%s %s', concept_class_obj@concept_id, concept_class_obj@concept_name)))
                 secretary::typewrite("Row counts:")
                 1:length(range_output) %>%
@@ -166,8 +229,9 @@ preview_atc_classification <-
                                             secretary::typewrite(sprintf("%s: %s", x, nrow(y)), tabs = 4, timepunched = FALSE)
                         )
 
-
                 range_output
+
+
         }
 
 
@@ -209,15 +273,15 @@ plot_atc_classification <-
                  skip_plot = FALSE) {
 
 
-                if (is.concept(concept_class_obj)) {
-
-                        concept_id <- concept_class_obj@concept_id
-
-                } else {
-
-                        stop("`concept_class_obj` must be a concept class object")
-
-                }
+                # if (is.concept(concept_class_obj)) {
+                #
+                #         concept_id <- concept_class_obj@concept_id
+                #
+                # } else {
+                #
+                #         stop("`concept_class_obj` must be a concept class object")
+                #
+                # }
 
                 domain_id <- "Measurement"
                 vocabulary_id <- "LOINC"
