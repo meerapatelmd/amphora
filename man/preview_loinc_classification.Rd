@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_loinc_classification.R
 \name{preview_loinc_classification}
 \alias{preview_loinc_classification}
-\title{View LOINC Class Descendants}
+\title{Preview LOINC Class Descendants}
 \usage{
 preview_loinc_classification(
   conn,
