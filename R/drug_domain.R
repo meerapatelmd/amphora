@@ -487,7 +487,7 @@ plot_atc_classification <-
 
 
                 range_output <- preview_atc_classification(conn = conn,
-                                                        concept_class_obj = concept_class_obj,
+                                                        concept_class_obj = concept_obj,
                                                         vocab_schema = vocab_schema,
                                                         verbose = verbose,
                                                         render_sql = render_sql,
