@@ -1,6 +1,12 @@
 pandoc: 2.3.1
 pkgdown: 1.6.1
 pkgdown_sha: ~
-articles: {}
-last_built: 2020-12-14T11:46Z
+articles:
+  devel/plot-atc-classification: plot-atc-classification.html
+  devel/plot-false-positive-cancer-drugs: plot-false-positive-cancer-drugs.html
+  devel/plot-loinc-classification: plot-loinc-classification.html
+  plot-atc-1st-classes: plot-atc-1st-classes.html
+  rmd/00_false_positives: 00_false_positives.html
+  rmd/01_reverse_engineering_false_positives: 01_reverse_engineering_false_positives.html
+last_built: 2020-12-20T06:40Z
 

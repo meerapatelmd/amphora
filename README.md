@@ -1,15 +1,25 @@
-# amphora Package <img src="man/figures/logo.png" align="right" alt="" width="120" />  
-<a href="https://www.vectorstock.com/royalty-free-vector/amphora-from-greece-in-flat-style-with-shadow-vector-20886871" target="_blank">Vector image by VectorStock / vectorstock</a>  
 
-Amphora is an extension of the chariot R package that creates 
-Reingold-Tilford tree diagrams in D3.js. This package branched off from
-the [chariot R package](https://meerapatelmd.github.io/chariot), which 
-is moreover centered around querying data rather than visualizing it.  
+# amphora
 
+<!-- badges: start -->
+<!-- badges: end -->
 
+The goal of amphora is to ...
 
-## Code of Conduct
+## Installation
 
-Please note that the amphora project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). 
-By contributing to this project, you agree to abide by its terms.  
+You can install the released version of amphora from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("amphora")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(amphora)
+## basic example code
+```
 

@@ -17,12 +17,12 @@ library(htmltools)
 
 # HemOnc   
 
-```{r}
-includeHTML("vignettes/widgets/reverse_engineered_false_positives_ho.html")
+```{r hemonc_tree, echo=FALSE,eval=TRUE}
+includeHTML(file.path(getwd(), "vignettes/widgets/reverse_engineered_false_positives_ho.html"))
 ```
 
 # ATC 
 
-```{r}
-includeHTML("vignettes/widgets/reverse_engineered_false_positives_atc.html")
+```{r atc_tree, echo=FALSE,eval=TRUE}
+includeHTML(file.path(getwd(), "vignettes/widgets/reverse_engineered_false_positives_atc.html"))
 ```
