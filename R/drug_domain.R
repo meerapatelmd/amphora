@@ -1,4 +1,199 @@
 #' @title
+#' Plot ATC 1st
+#'
+#' @description
+#' Plot the hierarchy of an ATC 1st Class.
+#'
+#' @export
+#' @rdname plot_atc_1st_class
+
+plot_atc_1st_class <-
+        function(conn,
+                 vocab_schema = "omop_vocabulary",
+                 atc_1st_concept) {
+
+                if (class(atc_1st_concept) != "concept") {
+
+                        atc_class_concept_obj <-
+                        get_concept(concept_id = atc_1st_concept,
+                                    vocab_schema = vocab_schema,
+                                    conn = conn)
+
+                } else {
+
+                        atc_class_concept_obj <- atc_1st_concept
+                }
+
+                if (!(atc_class_concept_obj@vocabulary_id %in% "ATC")) {
+
+                        stop("source vocabulary is not ATC")
+
+                }
+
+                if (!(atc_class_concept_obj@concept_class_id %in% "ATC 1st")) {
+
+                        stop("concept class is not 'ATC 1st'")
+
+                }
+
+
+                atc_class_id <- atc_class_concept_obj@concept_id
+
+                atc_classification <-
+                queryAthena(
+                        sql_statement =
+                        SqlRender::render(
+                        "
+                        WITH atc AS (
+                                SELECT *
+                                FROM omop_vocabulary.concept c
+                                WHERE c.vocabulary_id = 'ATC'
+                                        AND c.invalid_reason IS NULL
+                                        AND c.standard_concept = 'C'
+                        )
+
+                        SELECT
+                                ca.max_levels_of_separation AS level_of_separation,
+                                atc.concept_id AS ancestor_concept_id,
+                                atc.concept_name AS ancestor_concept_name,
+                                atc.domain_id AS ancestor_domain_id,
+                                atc.vocabulary_id AS ancestor_vocabulary_id,
+                                atc.concept_class_id AS ancestor_concept_class_id,
+                                atc.standard_concept AS ancestor_standard_concept,
+                                atc.concept_code AS ancestor_concept_code,
+                                atc.valid_start_date AS ancestor_valid_start_date,
+                                atc.valid_end_date AS ancestor_valid_end_date,
+                                atc.invalid_reason AS ancestor_invalid_reason,
+                                a2.concept_id AS descendant_concept_id,
+                                a2.concept_name AS descendant_concept_name,
+                                a2.domain_id AS descendant_domain_id,
+                                a2.vocabulary_id AS descendant_vocabulary_id,
+                                a2.concept_class_id AS descendant_concept_class_id,
+                                a2.standard_concept AS descendant_standard_concept,
+                                a2.concept_code AS descendant_concept_code,
+                                a2.valid_start_date AS descendant_valid_start_date,
+                                a2.valid_end_date AS descendant_valid_end_date,
+                                a2.invalid_reason AS descendant_invalid_reason
+                        FROM omop_vocabulary.concept_ancestor ca
+                        INNER JOIN atc
+                        ON atc.concept_id = ca.ancestor_concept_id
+                        INNER JOIN atc a2
+                        ON a2.concept_id = ca.descendant_concept_id
+                        WHERE atc.concept_class_id = 'ATC 1st'
+                                AND atc.concept_id = @atc_class_id
+                        ", atc_class_id = atc_class_id
+                        )
+                )
+
+
+                rxnorm_ingredients <-
+                        queryAthena(
+                                sql_statement =
+                                        SqlRender::render(
+                                        "
+                        WITH atc AS (
+                                SELECT *
+                                FROM omop_vocabulary.concept c
+                                WHERE c.vocabulary_id = 'ATC'
+                                        AND c.invalid_reason IS NULL
+                                        AND c.standard_concept = 'C'
+                                        AND c.concept_class_id = 'ATC 1st'
+                                        AND c.concept_id = @atc_class_id
+                        ),
+                        rxnorm AS (
+                                SELECT *
+                                FROM omop_vocabulary.concept c
+                                WHERE c.vocabulary_id IN ('RxNorm', 'RxNorm Extension')
+                                        AND c.invalid_reason IS NULL
+                                        AND c.concept_class_id = 'Ingredient'
+                        )
+
+                        SELECT
+                                5 AS level_of_separation,
+                                atc.concept_id AS ancestor_concept_id,
+                                atc.concept_name AS ancestor_concept_name,
+                                atc.domain_id AS ancestor_domain_id,
+                                atc.vocabulary_id AS ancestor_vocabulary_id,
+                                atc.concept_class_id AS ancestor_concept_class_id,
+                                atc.standard_concept AS ancestor_standard_concept,
+                                atc.concept_code AS ancestor_concept_code,
+                                atc.valid_start_date AS ancestor_valid_start_date,
+                                atc.valid_end_date AS ancestor_valid_end_date,
+                                atc.invalid_reason AS ancestor_invalid_reason,
+                                rx.concept_id AS descendant_concept_id,
+                                rx.concept_name AS descendant_concept_name,
+                                rx.domain_id AS descendant_domain_id,
+                                rx.vocabulary_id AS descendant_vocabulary_id,
+                                rx.concept_class_id AS descendant_concept_class_id,
+                                rx.standard_concept AS descendant_standard_concept,
+                                rx.concept_code AS descendant_concept_code,
+                                rx.valid_start_date AS descendant_valid_start_date,
+                                rx.valid_end_date AS descendant_valid_end_date,
+                                rx.invalid_reason AS descendant_invalid_reason
+                        FROM omop_vocabulary.concept_ancestor ca
+                        INNER JOIN atc
+                        ON atc.concept_id = ca.ancestor_concept_id
+                        INNER JOIN rxnorm rx
+                        ON rx.concept_id = ca.descendant_concept_id
+                        ",
+                                        atc_class_id = atc_class_id
+                        )
+                        )
+
+                final <-
+                        dplyr::bind_rows(atc_classification,
+                                         rxnorm_ingredients) %>%
+                        chariot::merge_strip(into = "ancestor",
+                                             prefix = "ancestor_") %>%
+                        chariot::merge_strip(into = "descendant",
+                                             prefix = "descendant_") %>%
+                        dplyr::filter(level_of_separation != 0) %>%
+                        dplyr::distinct()
+
+
+                final2 <-
+                        final %>%
+                        tidyr::pivot_wider(id_cols = ancestor,
+                                           names_from = level_of_separation,
+                                           values_from = descendant,
+                                           values_fn = function(x) paste(x, collapse = "|")) %>%
+                        dplyr::select(ancestor,
+                                      dplyr::all_of(as.character(1:3)))
+
+
+                final3 <-
+                        final2 %>%
+                        tidyr::separate_rows(`1`, sep = "[|]{1}")
+
+
+                final4 <-
+                        final3 %>%
+                        tidyr::separate_rows(`2`, sep = "[|]{1}")
+
+
+                final5 <-
+                        final4 %>%
+                        tidyr::separate_rows(`3`, sep = "[|]{1}") %>%
+                        dplyr::distinct()
+
+
+                collapsibleTree::collapsibleTree(df = final5,
+                                                 hierarchy = c("ancestor",
+                                                               "1",
+                                                               "2",
+                                                               "3"),
+                                                 linkLength = 1000,
+                                                 collapsed = FALSE,
+                                                 zoomable = TRUE,
+                                                 width = 15000,
+                                                 height = 20000)
+
+        }
+
+
+
+
+#' @title
 #' Preview an ATC Class's Descendants
 #'
 #' @description

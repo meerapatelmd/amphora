@@ -1,0 +1,113 @@
+---
+title: 'Methods: Derive False Positive Drugs'
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r}
+library(tidyverse)
+library(pg13)
+conn <- pg13::local_connect()
+```
+
+
+
+```{r}
+input <-
+tibble::tribble(~rxnorm_ingredient_name,
+        "filgrastim",
+        "benralizumab",
+        "cyclosporine",
+        "dihematoporphyrin ether",
+        "eculizumab",
+        "ethoglucid",
+        "fosfestrol",
+        "fostamatinib",
+        "herpesvirus 1, human",
+        "mesna",
+        "pravastatin",
+        "ravulizumab",
+        "ruxolitinib",
+        "tranexamic acid",
+        "valproate",
+        "levamisole",
+        "methyl 5-aminolevulinate",
+        "phenytoin",
+        "zidovudine",
+        "mepolizumab",
+        "mycophenolate mofetil",
+        "ketoconazole",
+        "pirfenidone",
+        "sargramostim",
+        "octreotide",
+        "quinine",
+        "tacrolimus",
+        "megestrol",
+        "miltefosine",
+        "medroxyprogesterone",
+        "methylprednisolone",
+        "omeprazole",
+        "tocilizumab",
+        "leucovorin",
+        "levoleucovorin",
+        "hydrocortisone",
+        "cortisone",
+        "danazol",
+        "doxycycline",
+        "estradiol",
+        "dexamethasone",
+        "denosumab",
+        "amoxicillin",
+        "aspirin",
+        "azathioprine",
+        "sirolimus",
+        "isotretinoin",
+        "diethylstilbestrol",
+        "dutasteride",
+        "prednisolone",
+        "prednisone",
+)
+```
+
+
+```{r}
+staging_table_name <- 
+        pg13::write_staging_table(conn = conn, 
+                                  schema = "public",
+                                  drop_existing = TRUE,
+                                  data = input)
+
+sql_statement <-
+pg13::build_join_query(distinct = TRUE,
+                 schema = "public",
+                 table = staging_table_name,
+                 column = "rxnorm_ingredient_name",
+                 join_on_schema = "omop_vocabulary",
+                 join_on_table = "concept",
+                 join_on_column = "concept_name",
+                 case_insensitive = TRUE,
+                 where_in_join_on_field = "vocabulary_id",
+                 where_in_join_on_vector = "RxNorm")
+
+false_positive_concepts <-
+        pg13::query(conn = conn, 
+                    sql_statement = sql_statement) 
+
+false_positive_concepts <-
+        input %>%
+        left_join(false_positive_concepts) %>%
+        select(-rxnorm_ingredient_name) %>%
+        distinct()
+
+false_positive_concepts
+```
+
+
+
+
+```{r}
+pg13::dc(conn = conn)
+```
+

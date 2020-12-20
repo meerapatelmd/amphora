@@ -1,0 +1,28 @@
+---
+title: "Plot False Positive Cancer Drugs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Plot False Positive Cancer Drugs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(htmltools)
+```
+
+# HemOnc   
+
+```{r}
+includeHTML("vignettes/widgets/reverse_engineered_false_positives_ho.html")
+```
+
+# ATC 
+
+```{r}
+includeHTML("vignettes/widgets/reverse_engineered_false_positives_atc.html")
+```
