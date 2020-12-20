@@ -61,6 +61,6 @@ htmltools::includeHTML(path = temp_html)
 
 ```{r final}
 unlink(temp_html)
-dcAthena(conn = conn)
+pg13::(conn = conn)
 ```
 

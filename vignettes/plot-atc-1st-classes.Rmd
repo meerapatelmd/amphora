@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(amphora)
+library(tidyverse)
 conn <- pg13::local_connect()
 ```
 
