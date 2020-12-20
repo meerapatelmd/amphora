@@ -1,0 +1,95 @@
+---
+title: "Plot ATC 1st Classes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Plot ATC 1st Classes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(amphora)
+library(tidyverse)
+conn <- pg13::local_connect()
+```
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21600001)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21600959)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21601237)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21601386)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21601907)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21602359)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21602681)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21602795)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21603550)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21603931)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21604180)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21604847)
+```
+ 
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21605007)
+```
+
+
+```{r}
+ plot_atc_1st_class(conn = conn, vocab_schema = 'omop_vocabulary', atc_1st_concept = 21605212)
+```
+
+```{r}
+pg13::dc(conn = conn)
+```
+
