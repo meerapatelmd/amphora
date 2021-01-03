@@ -20,9 +20,11 @@ BugReports: https://github.com/meerapatelmd/amphora/issues
 Suggests: 
     knitr,
     rmarkdown,
-    spelling
+    spelling,
+    R.rsp
 VignetteBuilder: 
-    knitr
+    knitr,
+    R.rsp
 Encoding: UTF-8
 Language: en-US
 LazyData: true
