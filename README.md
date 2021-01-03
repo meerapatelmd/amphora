@@ -1,25 +1,33 @@
 
-# amphora
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# amphora <img src="man/figures/logo.png" align="right" alt="" width="120" /> <a href="https://www.vectorstock.com/royalty-free-vector/amphora-from-greece-in-flat-style-with-shadow-vector-20886871">Vector image by VectorStock / vectorstock</a>
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of amphora is to ...
+Amphora was inititally created to serve as an extension of the chariot R
+package to create interactive Reingold-Tilford tree diagrams in D3.js.
+It has now been extended to include the reading, parsing, and authoring
+of OWL/RDF files for knowledge representation in the clinical medicine
+domain.
+
+Related packages include
+[chariot](https://meerapatelmd.github.io/chariot) as mentioned, and
+[mOMOP](https://meerapatelmd.github.io/mOMOP) which is used to create
+the OWL class hierarchy of the data elements represented in mCode.
 
 ## Installation
 
-You can install the released version of amphora from [CRAN](https://CRAN.R-project.org) with:
-
 ``` r
-install.packages("amphora")
+# install.packages("devtools")
+devtools::install_github("meerapatelmd/amphora")
 ```
 
-## Example
+## Code of Conduct
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(amphora)
-## basic example code
-```
-
+Please note that the amphora project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
