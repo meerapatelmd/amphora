@@ -1,7 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# amphora <img src="man/figures/logo.png" align="right" alt="" width="120" /> <a href="https://www.vectorstock.com/royalty-free-vector/amphora-from-greece-in-flat-style-with-shadow-vector-20886871">Vector image by VectorStock / vectorstock</a>
+# amphora <img src="man/figures/logo.png" align="right" alt="" width="120" />
+
+<a href="https://www.vectorstock.com/royalty-free-vector/amphora-from-greece-in-flat-style-with-shadow-vector-20886871">Vector
+image by VectorStock / vectorstock</a>
 
 <!-- badges: start -->
 
