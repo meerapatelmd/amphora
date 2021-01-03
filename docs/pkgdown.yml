@@ -2,13 +2,11 @@ pandoc: 2.3.1
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
-  devel/plot-atc-classification: plot-atc-classification.html
-  devel/plot-false-positive-cancer-drugs: plot-false-positive-cancer-drugs.html
-  devel/plot-loinc-classification: plot-loinc-classification.html
-  false-positives: false-positives.html
-  rmd/01_reverse_engineering_false_positives: 01_reverse_engineering_false_positives.html
-  rmd/02_plot-atc-1st-classes: 02_plot-atc-1st-classes.html
-  rmd/false_positives: false_positives.html
-  visualize-false-positive-classes: visualize-false-positive-classes.html
-last_built: 2021-01-03T19:21Z
+  rmd/devel-01_reverse_engineering_false_positives: devel-01_reverse_engineering_false_positives.html
+  rmd/devel-02_plot-atc-1st-classes: devel-02_plot-atc-1st-classes.html
+  rmd/devel-plot-atc-classification: devel-plot-atc-classification.html
+  rmd/devel-plot-false-positive-cancer-drugs: devel-plot-false-positive-cancer-drugs.html
+  rmd/devel-plot-loinc-classification: devel-plot-loinc-classification.html
+  rmd/visualize-false-positive-classes: visualize-false-positive-classes.html
+last_built: 2021-01-03T20:14Z
 
