@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="localhost://">
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Olives">
+    <ns0:subClassOf xmlns:ns0="ttp://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#PizzaToppings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Olives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Pepperoni">
+    <ns0:subClassOf xmlns:ns0="ttp://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#PizzaToppings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#PizzaToppings">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Anchovies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Anchovies">
+    <ns0:subClassOf xmlns:ns0="ttp://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#PizzaToppings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2021/0/amphora-example#Pepperoni">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

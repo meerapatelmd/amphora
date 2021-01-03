@@ -2401,19 +2401,25 @@
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
     
 
 
@@ -2431,31 +2437,41 @@
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator"/>
+    </owl:Class>
     
 
 

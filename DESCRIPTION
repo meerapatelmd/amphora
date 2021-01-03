@@ -1,23 +1,30 @@
 Package: amphora
-Title: Create Reingold-Tilford tree diagrams of the OMOP Vocabularies
-Version: 0.0.0.9000
+Title: Manipulate Clinical Ontologies
+Version: 0.1.0
 Authors@R: 
     person(given = "Meera",
            family = "Patel, MD",
            role = c("aut", "cre"),
            email = "patelmeeray@gmail.com",
            comment = c(ORCID = "0000-0002-3401-3948"))
-Description: Create interactive collapsible Reingold-Tilford tree diagrams by vocabulary domain using D3.js.
+Description: Amphora was inititally created to serve as an
+    extension of the chariot R package to create interactive
+    Reingold-Tilford tree diagrams in D3.js. It has now been extended to
+    include the reading, parsing, and authoring of OWL/RDF files for
+    knowledge representation in the clinical medicine domain. Wrappers to
+    install [ROBOT](http://robot.obolibrary.org/) and use it for format
+    conversions are also included.
 License: Apache License 2.0
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
 URL: https://github.com/meerapatelmd/amphora
 BugReports: https://github.com/meerapatelmd/amphora/issues
 Suggests: 
     knitr,
     rmarkdown,
     spelling
-VignetteBuilder: knitr
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
 Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
