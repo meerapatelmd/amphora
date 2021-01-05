@@ -1,0 +1,2800 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#"
+     xml:base="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs">
+        <rdfs:comment>Antineoplastic Drug Ontology derived from UpToDate and other resources.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Acne_Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Acne_Products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Angiogenesis_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Angiogenesis_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antiandrogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antiandrogen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Appetite_Stimulant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Appetite_Stimulant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#CAR-T_Cell_Immunotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#CAR-T_Cell_Immunotherapy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Chimeric_Antigen_Receptor_T-Cell_Immunotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Chimeric_Antigen_Receptor_T-Cell_Immunotherapy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Agonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Agonist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Immunosuppressant_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Immunosuppressant_Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Interleukin-6_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Interleukin-6_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Janus_Associated_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Janus_Associated_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Progestin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Progestin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Retinoic_Acid_Derivative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Retinoic_Acid_Derivative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Thymidine_Phosphorylase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Thymidine_Phosphorylase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Topical_Skin_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Topical_Skin_Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#abemaciclib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#abemaciclib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cyclin-Dependent_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#abiraterone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#abiraterone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antiandrogen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#acalabrutinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#acalabrutinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Bruton_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ado-trastuzumab_emtansine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ado-trastuzumab_emtansine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#afatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#afatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#aldesleukin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#aldesleukin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#alectinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#alectinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#altretamine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#altretamine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#amsacrine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#amsacrine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_March_2021. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_March_2021."/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_in_January_2021. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_in_January_2021."/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#apalutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#apalutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#arsenic_trioxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#arsenic_trioxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#atezolizumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#atezolizumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-L1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#avapritinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#avapritinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PDGFR-alpha_Blocker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#avelumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#avelumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-L1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#axicabtagene_ciloleucel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#axicabtagene_ciloleucel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#CAR-T_Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Chimeric_Antigen_Receptor_T-Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_CAR-T_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Cellular_Immunotherapy,_Autologous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#axitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#axitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#azacitidine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#azacitidine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#belantamab_mafodotin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#belantamab_mafodotin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-BCMA"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate;_Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#belinostat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#belinostat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bicalutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bicalutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#binimetinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#binimetinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MEK_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bleomycin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bleomycin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#blinatumomab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#blinatumomab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19/CD3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bortezomib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bortezomib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Proteasome_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bosutinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bosutinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brentuximab_vedotin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brentuximab_vedotin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD30"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brexucabtagene_autoleucel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brexucabtagene_autoleucel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#CAR-T_Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Chimeric_Antigen_Receptor_T-Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_CAR-T_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Cellular_Immunotherapy,_Autologous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brigatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#brigatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cabazitaxel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cabazitaxel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cabozantinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cabozantinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#calaspargase_pegol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#calaspargase_pegol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Enzyme"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#capecitabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#capecitabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#capmatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#capmatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MET_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carboplatin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carboplatin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Platinum_Analog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carfilzomib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carfilzomib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Proteasome_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carmustine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#carmustine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cemiplimab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cemiplimab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Immune_Checkpoint_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ceritinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ceritinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#chlorambucil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#chlorambucil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cisplatin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cisplatin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Platinum_Analog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cladribine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cladribine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#clofarabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#clofarabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cobimetinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cobimetinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MEK_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#copanlisib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#copanlisib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Phosphatidylinositol_3-Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cyclophosphamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cyclophosphamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Immunosuppressant_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cyproterone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cyproterone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antiandrogen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cytarabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#cytarabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dabrafenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dabrafenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BRAF_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dacarbazine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dacarbazine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dacomitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dacomitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dactinomycin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dactinomycin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#darolutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#darolutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dasatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dasatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daunorubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daunorubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#decitabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#decitabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#decitabine_and_cedazuridine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#decitabine_and_cedazuridine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor;_Cytidine_Deaminase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#degarelix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#degarelix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Antagonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dinutuximab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#dinutuximab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-GD2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#docetaxel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#docetaxel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#durvalumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#durvalumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-L1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#duvelisib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#duvelisib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Phosphatidylinositol_3-Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#elotuzumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#elotuzumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-SLAMF7"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enasidenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enasidenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH2_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#encorafenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#encorafenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BRAF_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enfortumab_vedotin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enfortumab_vedotin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Nectin-4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#entrectinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#entrectinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tropomyosin_Receptor_Kinase_(TRK)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enzalutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#enzalutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#epirubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#epirubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erdafitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erdafitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Fibroblast_Growth_Factor_Receptor_(FGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#eribulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#eribulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erlotinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erlotinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erwinia_asparaginase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#erwinia_asparaginase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Enzyme"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#estramustine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#estramustine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone_(Estrogen/Nitrogen_Mustard)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#etoposide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#etoposide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Podophyllotoxin_Derivative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#etoposide_phosphate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#etoposide_phosphate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Podophyllotoxin_Derivative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#everolimus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#everolimus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Immunosuppressant_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mTOR_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_mTOR_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#exemestane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#exemestane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Aromatase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fam-trastuzumab_deruxtecan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fam-trastuzumab_deruxtecan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fedratinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fedratinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Janus_Associated_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_FLT3_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor;_Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#floxuridine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#floxuridine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fludarabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fludarabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#flutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#flutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fulvestrant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fulvestrant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Estrogen_Receptor_Antagonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gefitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gefitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gemcitabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gemcitabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gemtuzumab_ozogamicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gemtuzumab_ozogamicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD33"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gilteritinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#gilteritinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_FLT3_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#glasdegib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#glasdegib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hedgehog_Pathway_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#goserelin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#goserelin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Agonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Agonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#histrelin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#histrelin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Agonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Agonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ibritumomab_tiuxetan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ibritumomab_tiuxetan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody;_Radiopharmaceutical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#idarubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#idarubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#idelalisib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#idelalisib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Phosphatidylinositol_3-Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ifosfamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ifosfamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#imatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#imatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#inotuzumab_ozogamicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#inotuzumab_ozogamicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD22"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#intravesical_bacillus_calmette-guerin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#intravesical_bacillus_calmette-guerin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ipilimumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ipilimumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#isatuximab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#isatuximab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#isotretinoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#isotretinoin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Acne_Products"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Retinoic_Acid_Derivative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ivosidenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ivosidenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH1_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ixabepilone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ixabepilone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epothilone_B_Analog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ixazomib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ixazomib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Proteasome_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lapatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lapatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#larotrectinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#larotrectinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tropomyosin_Receptor_Kinase_(TRK)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lenalidomide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lenalidomide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Angiogenesis_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lenvatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lenvatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#letrozole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#letrozole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Aromatase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#leuprolide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#leuprolide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Agonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Agonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_daunorubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_daunorubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_daunorubicin_and_cytarabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_daunorubicin_and_cytarabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_irinotecan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_irinotecan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Camptothecin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_vincristine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#liposomal_vincristine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lomustine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lomustine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lorlatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lorlatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lurbinectedin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#lurbinectedin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mTOR_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mTOR_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#margetuximab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#margetuximab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_March_2021."/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody_Product_Availability_Margenza:_FDA_approved_December_2020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#megestrol_acetate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#megestrol_acetate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Appetite_Stimulant"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Progestin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#melphalan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#melphalan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mercaptopurine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mercaptopurine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#methotrexate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#methotrexate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Disease_Modifying;_Immunosuppressant_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#midostaurin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#midostaurin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_FLT3_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitotane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitotane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitoxantrone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitoxantrone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracenedione"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mogamulizumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mogamulizumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CC_Chemokine_Receptor_4_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#moxetumomab_pasudotox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#moxetumomab_pasudotox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#naxitamab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#naxitamab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-GD2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#necitumumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#necitumumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nelarabine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nelarabine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#neratinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#neratinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nilotinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nilotinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nilutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nilutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#niraparib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#niraparib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nivolumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nivolumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Immune_Checkpoint_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#obinutuzumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#obinutuzumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ofatumumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ofatumumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#olaparib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#olaparib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#olaratumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#olaratumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PDGFR-alpha_Blocker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#omacetaxine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#omacetaxine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cephalotaxine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Protein_Synthesis_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#osimertinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#osimertinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#oxaliplatin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#oxaliplatin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Platinum_Analog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#palbociclib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#palbociclib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cyclin-Dependent_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#panitumumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#panitumumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#panobinostat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#panobinostat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pazopanib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pazopanib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegaspargase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegaspargase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Enzyme"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegylated_liposomal_doxorubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegylated_liposomal_doxorubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pembrolizumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pembrolizumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-1_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Immune_Checkpoint_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pemetrexed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pemetrexed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pemigatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pemigatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Fibroblast_Growth_Factor_Receptor_(FGFR)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pentostatin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pentostatin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pertuzumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pertuzumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pexidartinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pexidartinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#polatuzumab_vedotin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#polatuzumab_vedotin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD79B"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pomalidomide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pomalidomide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Angiogenesis_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ponatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ponatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#porfimer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#porfimer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pralatrexate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pralatrexate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pralsetinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pralsetinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_RET_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#procarbazine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#procarbazine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#raltitrexed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#raltitrexed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ramucirumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ramucirumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_Receptor_2_(VEGFR2)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#regorafenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#regorafenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#relugolix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#relugolix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#anticipated_availability_in_January_2021."/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Antagonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist_Product_Availability_Orgovyx:_FDA_approved_December_2020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ribociclib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ribociclib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cyclin-Dependent_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ripretinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ripretinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_KIT_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PDGFR-alpha_Blocker"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#romidepsin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#romidepsin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rucaparib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rucaparib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ruxolitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#ruxolitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Janus_Associated_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sacituzumab_govitecan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sacituzumab_govitecan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Trop-2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#selinexor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#selinexor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Nuclear_Export_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#selpercatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#selpercatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_RET_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#siltuximab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#siltuximab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Interleukin-6_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sonidegib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sonidegib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hedgehog_Pathway_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sorafenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sorafenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#streptozocin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#streptozocin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sunitinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#sunitinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tafasitamab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tafasitamab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tagraxofusp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tagraxofusp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD123"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#talazoparib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#talazoparib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#talimogene_laherparepvec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#talimogene_laherparepvec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Oncolytic_Virus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tamoxifen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tamoxifen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Estrogen_Receptor_Antagonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Selective_Estrogen_Receptor_Modulator_(SERM)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tazemetostat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tazemetostat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_EZH2-Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Methyltransferase_(HMT)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#temozolomide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#temozolomide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#temsirolimus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#temsirolimus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_mTOR_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#teniposide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#teniposide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Podophyllotoxin_Derivative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thalidomide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thalidomide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Angiogenesis_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thioguanine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thioguanine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thiotepa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#thiotepa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tisagenlecleucel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tisagenlecleucel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#CAR-T_Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Chimeric_Antigen_Receptor_T-Cell_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_CAR-T_Immunotherapy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Cellular_Immunotherapy,_Autologous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#topotecan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#topotecan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Camptothecin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#toremifene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#toremifene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Estrogen_Receptor_Antagonist"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Selective_Estrogen_Receptor_Modulator_(SERM)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trametinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trametinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MEK_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trifluridine_and_tipiracil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trifluridine_and_tipiracil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Thymidine_Phosphorylase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tucatinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#tucatinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#valrubicin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#valrubicin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vemurafenib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vemurafenib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BRAF_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#venetoclax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#venetoclax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCL-2_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vinblastine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vinblastine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vindesine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vindesine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vinorelbine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vinorelbine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vismodegib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vismodegib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hedgehog_Pathway_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vorinostat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#vorinostat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#zanubrutinib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#zanubrutinib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Bruton_Tyrosine_Kinase_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anaplastic_Lymphoma_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracenedione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracenedione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-BCMA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-BCMA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CC_Chemokine_Receptor_4_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CC_Chemokine_Receptor_4_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD123 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD123"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD22"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD30"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD33"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD38"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD79B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD79B"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-GD2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-GD2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Nectin-4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Nectin-4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-1_Monoclonal_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-1_Monoclonal_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-L1_Monoclonal_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-PD-L1_Monoclonal_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-SLAMF7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-SLAMF7"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Trop-2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-Trop-2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antiandrogen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Aromatase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Aromatase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCL-2_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCL-2_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BCR-ABL_Tyrosine_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BRAF_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_BRAF_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Bruton_Tyrosine_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Bruton_Tyrosine_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_CAR-T_Immunotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_CAR-T_Immunotherapy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Camptothecin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Camptothecin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cephalotaxine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cephalotaxine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cyclin-Dependent_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Cyclin-Dependent_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_EZH2-Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_EZH2-Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Enzyme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Enzyme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epothilone_B_Analog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epothilone_B_Analog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Estrogen_Receptor_Antagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Estrogen_Receptor_Antagonist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_FLT3_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_FLT3_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Agonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Agonist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Antagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Gonadotropin-Releasing_Hormone_Antagonist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hedgehog_Pathway_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hedgehog_Pathway_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH1_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH1_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH2_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_IDH2_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Immune_Checkpoint_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Immune_Checkpoint_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_KIT_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_KIT_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MEK_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MEK_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MET_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_MET_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Nuclear_Export_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Nuclear_Export_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Oncolytic_Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Oncolytic_Virus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PARP_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PDGFR-alpha_Blocker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_PDGFR-alpha_Blocker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Phosphatidylinositol_3-Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Phosphatidylinositol_3-Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Platinum_Analog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Platinum_Analog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Podophyllotoxin_Derivative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Podophyllotoxin_Derivative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Proteasome_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Proteasome_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Protein_Synthesis_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Protein_Synthesis_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_RET_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_RET_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vinca_Alkaloid"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_mTOR_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_mTOR_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrosourea)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Triazene)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19/CD3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD19/CD3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate;_Antineoplastic_Agent,_Monoclonal_Antibody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibody_Drug_Conjugate;_Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Antifolate)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Purine_Analog);_Immunosuppressant_Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator;_Antineoplastic_Agent,_Miscellaneous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor;_Cytidine_Deaminase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_DNA_Methylation_Inhibitor;_Cytidine_Deaminase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Epidermal_Growth_Factor_Receptor_(EGFR)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Fibroblast_Growth_Factor_Receptor_(FGFR)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Fibroblast_Growth_Factor_Receptor_(FGFR)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Deacetylase_(HDAC)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Methyltransferase_(HMT)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Histone_Methyltransferase_(HMT)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone_(Estrogen/Nitrogen_Mustard) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Hormone_(Estrogen/Nitrogen_Mustard)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor;_Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Janus_Associated_Kinase_Inhibitor;_Antineoplastic_Agent,_Tyrosine_Kinase_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody_Product_Availability_Margenza:_FDA_approved_December_2020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody_Product_Availability_Margenza:_FDA_approved_December_2020"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tropomyosin_Receptor_Kinase_(TRK)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Tropomyosin_Receptor_Kinase_(TRK)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_Receptor_2_(VEGFR2)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_Receptor_2_(VEGFR2)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Miscellaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Miscellaneous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Disease_Modifying;_Immunosuppressant_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Disease_Modifying;_Immunosuppressant_Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Biological_Response_Modulator;_Interferon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Biological_Response_Modulator;_Interferon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Cellular_Immunotherapy,_Autologous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Cellular_Immunotherapy,_Autologous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist_Product_Availability_Orgovyx:_FDA_approved_December_2020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Gonadotropin_Releasing_Hormone_Antagonist_Product_Availability_Orgovyx:_FDA_approved_December_2020"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody;_Radiopharmaceutical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody;_Radiopharmaceutical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Ophthalmic_Agent,_Miscellaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Ophthalmic_Agent,_Miscellaneous"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Selective_Estrogen_Receptor_Modulator_(SERM) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Selective_Estrogen_Receptor_Modulator_(SERM)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#aflibercept_(ziv-aflibercept)_(systemic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#aflibercept_(ziv-aflibercept)_(systemic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#alitretinoin_(topical) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#alitretinoin_(topical)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#all-trans_retinoic_acid_(systemic_tretinoin) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#all-trans_retinoic_acid_(systemic_tretinoin)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Retinoic_Acid_Derivative"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bevacizumab_(including_biosimilars_of_bevacizumab) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bevacizumab_(including_biosimilars_of_bevacizumab)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Vascular_Endothelial_Growth_Factor_(VEGF)_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bexarotene_(systemic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#bexarotene_(systemic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Retinoic_Acid_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daratumumab_(intravenous) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daratumumab_(intravenous)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daratumumab_and_hyaluronidase_(subcutaneous) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#daratumumab_and_hyaluronidase_(subcutaneous)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#doxorubicin_(conventional) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#doxorubicin_(conventional)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anthracycline"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_II_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fluorouracil_(systemic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fluorouracil_(systemic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fluorouracil_(topical) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#fluorouracil_(topical)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Topical_Skin_Product"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimetabolite_(Pyrimidine_Analog)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#hydroxyurea_(hydroxycarbamide) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#hydroxyurea_(hydroxycarbamide)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#irinotecan_(conventional) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#irinotecan_(conventional)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Camptothecin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Topoisomerase_I_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mechlorethamine_(nitrogen_mustard)_topical_gel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mechlorethamine_(nitrogen_mustard)_topical_gel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Alkylating_Agent_(Nitrogen_Mustard)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_(intravenous_and_intravesical)_(systemic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_(intravenous_and_intravesical)_(systemic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_(ophthalmic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_(ophthalmic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Ophthalmic_Agent,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_for_pyelocalyceal_instillation_(ureteral_gel) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#mitomycin_for_pyelocalyceal_instillation_(ureteral_gel)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nanoparticle_albumin_bound_paclitaxel_(nabpaclitaxel) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#nanoparticle_albumin_bound_paclitaxel_(nabpaclitaxel)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#paclitaxel_(conventional) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#paclitaxel_(conventional)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Antimicrotubular"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Taxane_Derivative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegylated_interferon_(peginterferon)_alfa-2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pegylated_interferon_(peginterferon)_alfa-2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Biological_Response_Modulator"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Biological_Response_Modulator;_Interferon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pertuzumab,_trastuzumab,_and_hyaluronidase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#pertuzumab,_trastuzumab,_and_hyaluronidase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rituximab_(intravenous)_including_biosimilars_of_rituximab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rituximab_(intravenous)_including_biosimilars_of_rituximab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Immunosuppressant_Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antirheumatic,_Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rituximab_and_hyaluronidase_(subcutaneous) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#rituximab_and_hyaluronidase_(subcutaneous)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-CD20"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trastuzumab_(intravenous)_including_biosimilars_of_trastuzumab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trastuzumab_(intravenous)_including_biosimilars_of_trastuzumab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trastuzumab_and_hyaluronidase_(subcutaneous) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#trastuzumab_and_hyaluronidase_(subcutaneous)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Anti-HER2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meerapatel/ontologies/2020/11/antineoplastic_drugs#Antineoplastic_Agent,_Monoclonal_Antibody"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

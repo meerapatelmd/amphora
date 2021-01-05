@@ -22,9 +22,7 @@ Suggests:
     rmarkdown,
     spelling,
     R.rsp
-VignetteBuilder: 
-    knitr,
-    R.rsp
+VignetteBuilder: knitr
 Encoding: UTF-8
 Language: en-US
 LazyData: true

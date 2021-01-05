@@ -1,4 +1,4 @@
-#' @title Antineoplastics Notes
+#' @title Antineoplastics Annotation
 #' @description
 #' Notes on the `False Positive` status of RxNorm Antineoplastic ingredients and
 #' additional comments from OHDSI Oncologists.
@@ -11,5 +11,10 @@
 #'   \item{\code{false_positive}}{logical}
 #'   \item{\code{comment}}{character}
 #'}
-"antineoplastics"
+"antineoplastics_annotation"
 
+#' @title mOMOP Tables
+#' @description
+#' mOMOP in the OMOP Vocabulary format to reflect the
+#' contrived class hierarchy.
+"MOMOP_TABLES"

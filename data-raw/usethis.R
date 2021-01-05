@@ -1,6 +1,9 @@
 library(readr)
-antineoplastics <- readr::read_csv("/Users/meerapatel/GitHub/packages/amphora/data-raw/antineoplastics.csv")
+library(broca)
+antineoplastics_annotation <- readr::read_csv("/Users/meerapatel/GitHub/packages/amphora/data-raw/antineoplastics.csv")
+MOMOP_TABLES <- broca::read_full_excel("/Users/meerapatel/GitHub/packages/amphora/data-raw/MOMOP_TABLES.xlsx")
 usethis::use_data(
-	antineoplastics,
+	antineoplastics_annotation,
+	MOMOP_TABLES,
 overwrite = TRUE
 )
