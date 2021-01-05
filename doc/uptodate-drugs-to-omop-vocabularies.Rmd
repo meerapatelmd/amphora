@@ -1,0 +1,134 @@
+---
+title: "UpToDate Drugs OMOP Vocabularies"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{UpToDate Drugs OMOP Vocabularies}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  cache = TRUE
+)
+```
+
+```{r setup}
+library(amphora)
+library(uptodate)
+library(tidyverse)
+```
+
+The datasets in the `uptodate` package are joined together to get the drug name 
+along with its associated data in UpToDate. 
+
+```{r}
+UPTODATE <- 
+  UTD_PDF_INVENTORY %>%
+  left_join(UTD_CSV_INVENTORY, by = "pdf") %>%
+  left_join(UTD_DRUG_DATA, by = "csv") %>%
+  filter(header == "Pharmacologic Category") %>%
+  select(drug, 
+         pharmacologic_category = header_text) %>%
+  separate_rows(pharmacologic_category,
+                sep = "[;]{1} ")
+rMarkedDown::print_dt(UPTODATE)
+```
+
+```{r}
+CONCEPT_A <-
+  UPTODATE %>%
+  distinct(drug) %>%
+  transmute(concept_id = "",
+    concept_name = drug,
+    domain_id = "Drug",
+    vocabulary_id = "UpToDate",
+    concept_class_id = "Drug",
+    standard_concept = NA_character_,
+    concept_code = 1:length(unique(UPTODATE$drug)),
+    valid_start_date = Sys.Date(),
+    valid_end_date = as.Date(NA_character_),
+    invalid_reason = NA_character_)
+```
+
+```{r}
+CONCEPT_B <-
+  UPTODATE %>%
+  distinct(pharmacologic_category) %>%
+  transmute(concept_id = "",
+    concept_name = pharmacologic_category,
+    domain_id = "Drug",
+    vocabulary_id = "UpToDate",
+    concept_class_id = "Pharmacologic Category",
+    standard_concept = "C",
+    concept_code = 1:length(unique(UPTODATE$pharmacologic_category)),
+    valid_start_date = Sys.Date(),
+    valid_end_date = as.Date(NA_character_),
+    invalid_reason = NA_character_)
+```
+
+```{r}
+CONCEPT <-
+  bind_rows(CONCEPT_A,
+            CONCEPT_B)
+```
+
+```{r}
+CONCEPT$concept_id <- uuid::UUIDgenerate(use.time = TRUE, n = nrow(CONCEPT))
+```
+
+The Concept Relationship table is constructed using the Concepts. 
+
+```{r}
+CONCEPT_RELATIONSHIP <-
+UPTODATE %>%
+  inner_join(CONCEPT,
+             by = c("drug" = "concept_name")) %>%
+  select(concept_id_1 = concept_id,
+         pharmacologic_category) %>%
+  inner_join(CONCEPT,
+             by = c("pharmacologic_category" = "concept_name")) %>%
+  transmute(concept_id_1,
+            relationship_id = "Is a",
+            concept_id_2 = concept_id,
+            valid_start_date = Sys.Date(),
+            valid_end_date = as.Date(NA_character_),
+            invalid_reason = NA_character_)
+
+```
+
+```{r}
+CONCEPT_RELATIONSHIP_INVERSE <-
+  CONCEPT_RELATIONSHIP %>%
+  transmute(concept_id_1 = concept_id_2,
+            relationship_id = "Subsumes",
+            concept_id_2 = concept_id_1,
+            valid_start_date,
+            valid_end_date,
+            invalid_reason)
+```
+
+```{r}
+CONCEPT_RELATIONSHIP <-
+  bind_rows(CONCEPT_RELATIONSHIP,
+            CONCEPT_RELATIONSHIP_INVERSE)
+```
+
+
+The dataset is written to data-raw/ if it does not already exist. 
+
+```{r}
+UPTODATE_TABLES <-
+  list(CONCEPT = CONCEPT,
+       CONCEPT_RELATIONSHIP = CONCEPT_RELATIONSHIP) 
+
+file <- file.path("data-raw", "UPTODATE_TABLES.xlsx")
+if (!file.exists(file)) {
+  broca::write_full_excel(x = UPTODATE_TABLES,
+                          file = file)
+}
+```
+
+

@@ -18,3 +18,9 @@
 #' mOMOP in the OMOP Vocabulary format to reflect the
 #' contrived class hierarchy.
 "MOMOP_TABLES"
+
+#' @title UpToDate Drug Tables
+#' @description
+#' Drugs in UpToDate in the OMOP Vocabulary format, classified based on
+#' their assigned Pharmacologic Category in Lexicomp.
+"UPTODATE_TABLES"

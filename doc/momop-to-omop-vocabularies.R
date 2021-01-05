@@ -51,11 +51,21 @@ CONCEPT_A %>%
                          remove = FALSE) %>%
   mutate(concept_id_2 = coalesce(concept_id, concept)) %>%
   transmute(concept_id_1,
-             relationship_id = "Is a",
+             relationship_id = "Subsumes",
              concept_id_2,
              valid_start_date = Sys.Date(),
              valid_end_date = as.Date(NA_character_),
              invalid_reason = NA_character_)
+
+## -----------------------------------------------------------------------------
+CONCEPT_RELATIONSHIP_INVERSE <-
+  CONCEPT_RELATIONSHIP %>%
+  transmute(concept_id_1 = concept_id_2,
+            relationship_id = "Is a",
+            concept_id_2 = concept_id_1,
+            valid_start_date,
+            valid_end_date,
+            invalid_reason)
 
 ## ----message='hide'-----------------------------------------------------------
 CONCEPT_B <-
@@ -72,6 +82,11 @@ CONCEPT <-
               mutate_all(as.character),
             CONCEPT_B %>%
               mutate_all(as.character))
+
+## -----------------------------------------------------------------------------
+CONCEPT_RELATIONSHIP <-
+  bind_rows(CONCEPT_RELATIONSHIP,
+            CONCEPT_RELATIONSHIP_INVERSE)
 
 ## -----------------------------------------------------------------------------
 MOMOP_TABLES <-
