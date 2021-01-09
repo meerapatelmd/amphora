@@ -93,13 +93,16 @@ CONCEPT_RELATIONSHIP_INVERSE <-
 ```
 
 ```{r,message='hide'}
+conn <- chariot::connectAthena()
 CONCEPT_B <-
 chariot::join_on_concept_id(
   data = CONCEPT_RELATIONSHIP %>%
             mutate_at(vars(concept_id_2), as.integer),
-  column = "concept_id_2"
+  column = "concept_id_2",
+  conn = conn
 ) %>%
   select(concept_id:last_col())
+chariot::dcAthena()
 ```
 
 Both subsets of the Concept data, including `concept_id` is converted to character because the `uuid` identifiers created are not integers. 

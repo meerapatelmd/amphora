@@ -1077,7 +1077,7 @@ HTMLWidgets.widget({
     //  (b) Never want to fill the container (we want the pagination
     //      level to determine the size of the container)
     if (window.FlexDashboard && !window.FlexDashboard.isFillPage()) {
-      data.options.bPaginate = true;
+      data.options.paging = true;
       data.fillContainer = false;
     }
 
@@ -1144,7 +1144,7 @@ HTMLWidgets.widget({
 
       // if we aren't paginating then move around the info/filter controls
       // to save space at the bottom and rephrase the info callback
-      if (data.options.bPaginate === false) {
+      if (data.options.paging === false) {
 
         // we know how to do this cleanly for bootstrap, not so much
         // for other themes/layouts
@@ -1161,17 +1161,20 @@ HTMLWidgets.widget({
     }
 
     // auto hide navigation if requested
-    if (data.autoHideNavigation === true) {
-      if (bootstrapActive && data.options.bPaginate !== false) {
-        // strip all nav if length >= cells
-        if ((cells instanceof Array) && data.options.iDisplayLength >= cells.length)
-          options.dom = "<'row'<'col-sm-12'tr>>";
-        // alternatively lean things out for flexdashboard mobile portrait
-        else if (window.FlexDashboard && window.FlexDashboard.isMobilePhone())
-          options.dom = "<'row'<'col-sm-12'f>>" +
-                        "<'row'<'col-sm-12'tr>>"  +
-                        "<'row'<'col-sm-12'p>>";
-      }
+    // Note, this only works on client-side processing mode as on server-side,
+    // cells (data.data) is null; In addition, we require the pageLength option
+    // being provided explicitly to enable this. Despite we may be able to deduce
+    // the default value of pageLength, it may complicate things so we'd rather
+    // put this responsiblity to users and warn them on the R side.
+    if (data.autoHideNavigation === true && data.options.paging !== false) {
+      // strip all nav if length >= cells
+      if ((cells instanceof Array) && data.options.pageLength >= cells.length)
+        options.dom = bootstrapActive ? "<'row'<'col-sm-12'tr>>" : "t";
+      // alternatively lean things out for flexdashboard mobile portrait
+      else if (bootstrapActive && window.FlexDashboard && window.FlexDashboard.isMobilePhone())
+        options.dom = "<'row'<'col-sm-12'f>>" +
+                      "<'row'<'col-sm-12'tr>>"  +
+                      "<'row'<'col-sm-12'p>>";
     }
 
     $.extend(true, options, data.options || {});
@@ -2239,12 +2242,12 @@ HTMLWidgets.widget({
     });
 
     methods.addRow = function(data, rowname, resetPaging) {
-      var data0 = table.row(0).data(), n = data0.length, d = n - data.length;
+      var n = table.columns().indexes().length, d = n - data.length;
       if (d === 1) {
         data = rowname.concat(data)
       } else if (d !== 0) {
         console.log(data);
-        console.log(data0);
+        console.log(table.columns().indexes());
         throw 'New data must be of the same length as current data (' + n + ')';
       };
       table.row.add(data).draw(resetPaging);
@@ -53567,8 +53570,8 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <a class="sourceLine" id="cb4-16" data-line-number="16">    <span class="dt">valid_end_date =</span> <span class="kw">as.Date</span>(<span class="ot">NA_character_</span>),</a>
 <a class="sourceLine" id="cb4-17" data-line-number="17">    <span class="dt">invalid_reason =</span> <span class="ot">NA_character_</span>)</a>
 <a class="sourceLine" id="cb4-18" data-line-number="18">rMarkedDown<span class="op">::</span><span class="kw">print_dt</span>(CONCEPT_A)</a></code></pre></div>
-<div id="htmlwidget-06cf0ef8516b32089fc9" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-06cf0ef8516b32089fc9">{"x":{"filter":"none","extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"],["1b211fa4-8cde-4294-911a-35f044d6abfa","e9878683-1867-4a1a-98f6-f24519ecca94","9da44102-76ed-4f2c-91bd-2cccf2a141fe","a391faae-b4a0-4247-8257-6afac075e9a8","108ee402-c394-4b5b-bb14-4a0102d5c664","bb3dba88-1aec-480b-9e4a-f45063f66a2b","29355da3-84e9-4d90-aac2-34c380adba6d","06eba777-0fa2-462c-ae27-e067311b3ea6","fa6f0232-7a63-473d-9f24-4f7fd1888e1a","ef0a9dc9-2d25-4341-8ba4-231b6d604593","33f4469c-0c14-483a-9fd2-968ecd833e31","c2ab4226-3900-49b4-a424-6429bbcb7f93","0f789384-a0ba-4f03-8cd8-19d4a784cdc6","875cdbe7-5c03-48de-8c29-c3a7020dc219","7d691908-e9a6-40ff-a609-32393ec8b10c","a8ed1abb-f8a6-40f6-82c2-3c38639da21b","cc8fdf8f-2726-4559-8a28-7cf6427e5f2e","ae69d6d4-23e2-489d-89f9-24409912db45","a2b10241-494f-4d87-b8b0-f468499de54f","a019adad-316b-4f93-803b-eca4fe17a833","f6feb21e-2bc3-4593-9001-8d7c0f7edb9b"],["Cancer Body Location","Cancer Disease Status Evidence ","Cancer Disorder","Cancer Related Surgical Procedu","Cancer Staging","Cancer Staging System","Comorbid Condition","Condition Status Trend","Genomics","Histology Morphology Behavior","Laterality","Primary Or Uncertain Behavior C","Radiation Procedure","Radiation Target Body Site","Secondary Cancer Disorder","Specimen","Treatment Intent","Treatment Termination Reason","Tumor Marker Measurement","Units Of Measurement","Yes No Unknown"],["Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier"],["mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP"],["Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class"],["C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C"],[21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21],["2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05","2021-01-05"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>concept_id<\/th>\n      <th>concept_name<\/th>\n      <th>domain_id<\/th>\n      <th>vocabulary_id<\/th>\n      <th>concept_class_id<\/th>\n      <th>standard_concept<\/th>\n      <th>concept_code<\/th>\n      <th>valid_start_date<\/th>\n      <th>valid_end_date<\/th>\n      <th>invalid_reason<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Blfrtip","buttons":["copy","csv","excel","pdf","print"],"lengthMenu":[[10,25,50,-1],["10","25","50","All"]],"columnDefs":[{"className":"dt-right","targets":7},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6cdc1d92db324d084aba" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6cdc1d92db324d084aba">{"x":{"filter":"none","extensions":["Buttons"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"],["477d63aa-022a-4bf3-a63b-7fb999ff36f5","27054d37-562b-46c4-af4a-0ec1fa1c52f8","69ab3210-5e4f-4116-a27b-27040df21a33","9f5a9b4a-7502-4a6c-9e07-cb0d1f804fc9","800b4f57-e43e-4e22-877a-60c55321fd75","40d67254-1bdf-4d82-9f8b-2661eca6ca1b","f9af0f5d-f0e5-411d-9065-2ae1f346931b","253d9359-447a-434e-b6e0-963cd5b762d9","cc280147-f5de-4ae3-ba61-8a8219e730d2","74233e1f-d10f-47d6-93ee-15e58f858a94","6af010c8-8909-4d8c-bbc0-44d06e585288","a7061a95-a4c7-4845-ba69-18923dbb9859","c5f604fb-6c5c-495f-aac0-924a46063802","1246fead-9442-4286-ab7f-1e2da9733c6f","860c79bf-254e-48ae-9789-b74a14b3dc1c","9f09e4a7-e681-47a4-b63b-2e1e50099059","118a8d8c-d4b1-4dc5-933f-4c8efc351384","fbbcba55-3aa1-4951-8082-98f5c4c9b40a","bac651a2-f7e3-4f3c-9f44-8ab0d6253d14","02b6c038-b8fe-434c-aa64-c1a293fa2916","2ff6e958-6166-4b59-83a2-11bb454304c9"],["Cancer Body Location","Cancer Disease Status Evidence ","Cancer Disorder","Cancer Related Surgical Procedu","Cancer Staging","Cancer Staging System","Comorbid Condition","Condition Status Trend","Genomics","Histology Morphology Behavior","Laterality","Primary Or Uncertain Behavior C","Radiation Procedure","Radiation Target Body Site","Secondary Cancer Disorder","Specimen","Treatment Intent","Treatment Termination Reason","Tumor Marker Measurement","Units Of Measurement","Yes No Unknown"],["Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier","Cancer Modifier"],["mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP","mOMOP"],["Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class","Class"],["C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C"],[21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21],["2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08","2021-01-08"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>concept_id<\/th>\n      <th>concept_name<\/th>\n      <th>domain_id<\/th>\n      <th>vocabulary_id<\/th>\n      <th>concept_class_id<\/th>\n      <th>standard_concept<\/th>\n      <th>concept_code<\/th>\n      <th>valid_start_date<\/th>\n      <th>valid_end_date<\/th>\n      <th>invalid_reason<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Blfrtip","buttons":["copy","csv","excel","pdf","print"],"lengthMenu":[[10,25,50,-1],["10","25","50","All"]],"columnDefs":[{"className":"dt-right","targets":7},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">CONCEPT_RELATIONSHIP &lt;-</a>
 <a class="sourceLine" id="cb5-2" data-line-number="2">CONCEPT_A <span class="op">%&gt;%</span></a>
 <a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">  </span><span class="kw">transmute</span>(<span class="dt">concept_id_1 =</span> concept_id,</a>
@@ -53594,67 +53597,70 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <a class="sourceLine" id="cb6-6" data-line-number="6">            valid_start_date,</a>
 <a class="sourceLine" id="cb6-7" data-line-number="7">            valid_end_date,</a>
 <a class="sourceLine" id="cb6-8" data-line-number="8">            invalid_reason)</a></code></pre></div>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1">CONCEPT_B &lt;-</a>
-<a class="sourceLine" id="cb7-2" data-line-number="2">chariot<span class="op">::</span><span class="kw">join_on_concept_id</span>(</a>
-<a class="sourceLine" id="cb7-3" data-line-number="3">  <span class="dt">data =</span> CONCEPT_RELATIONSHIP <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="st">            </span><span class="kw">mutate_at</span>(<span class="kw">vars</span>(concept_id_<span class="dv">2</span>), as.integer),</a>
-<a class="sourceLine" id="cb7-5" data-line-number="5">  <span class="dt">column =</span> <span class="st">&quot;concept_id_2&quot;</span></a>
-<a class="sourceLine" id="cb7-6" data-line-number="6">) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb7-7" data-line-number="7"><span class="st">  </span><span class="kw">select</span>(concept_id<span class="op">:</span><span class="kw">last_col</span>())</a>
-<a class="sourceLine" id="cb7-8" data-line-number="8"><span class="co">#&gt; [2021-01-05 01:59:32]    Target column: concept_id_2</span></a>
-<a class="sourceLine" id="cb7-9" data-line-number="9"><span class="co">#&gt; Connecting using PostgreSQL driver</span></a>
-<a class="sourceLine" id="cb7-10" data-line-number="10"><span class="co">#&gt; [2021-01-05 01:59:33]    Dropping patelm9.V20210105015933...</span></a>
-<a class="sourceLine" id="cb7-11" data-line-number="11"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-12" data-line-number="12"><span class="co">#&gt; ✓ Open connection</span></a>
-<a class="sourceLine" id="cb7-13" data-line-number="13"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-14" data-line-number="14"><span class="co">#&gt; ✓ JDBC connection</span></a>
-<a class="sourceLine" id="cb7-15" data-line-number="15"><span class="co">#&gt; [2021-01-05 01:59:33]    SQL: DROP TABLE IF EXISTS patelm9.V20210105015933;</span></a>
-<a class="sourceLine" id="cb7-16" data-line-number="16"><span class="co">#&gt; [2021-01-05 01:59:33]    Sending...</span></a>
-<a class="sourceLine" id="cb7-17" data-line-number="17"><span class="co">#&gt; [2021-01-05 01:59:33]    Sending...complete</span></a>
-<a class="sourceLine" id="cb7-18" data-line-number="18"><span class="co">#&gt; [2021-01-05 01:59:33]    Dropping patelm9.V20210105015933...complete</span></a>
-<a class="sourceLine" id="cb7-19" data-line-number="19"><span class="co">#&gt; Warning: Problem with `mutate()` input `concept_id_2`.</span></a>
-<a class="sourceLine" id="cb7-20" data-line-number="20"><span class="co">#&gt; ℹ NAs introduced by coercion</span></a>
-<a class="sourceLine" id="cb7-21" data-line-number="21"><span class="co">#&gt; ℹ Input `concept_id_2` is `.Primitive(&quot;as.integer&quot;)(concept_id_2)`.</span></a>
-<a class="sourceLine" id="cb7-22" data-line-number="22"><span class="co">#&gt; Warning in mask$eval_all_mutate(dots[[i]]): NAs introduced by coercion</span></a>
-<a class="sourceLine" id="cb7-23" data-line-number="23"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-24" data-line-number="24"><span class="co">#&gt; ✓ Data 'data' has more than 0 rows</span></a>
-<a class="sourceLine" id="cb7-25" data-line-number="25"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-26" data-line-number="26"><span class="co">#&gt; ✓ Table name 'V20210105015933' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-27" data-line-number="27"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-28" data-line-number="28"><span class="co">#&gt; ✓ Field name 'concept_id_1' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-29" data-line-number="29"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-30" data-line-number="30"><span class="co">#&gt; ✓ Field name 'relationship_id' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-31" data-line-number="31"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-32" data-line-number="32"><span class="co">#&gt; ✓ Field name 'concept_id_2' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-33" data-line-number="33"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-34" data-line-number="34"><span class="co">#&gt; ✓ Field name 'valid_start_date' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-35" data-line-number="35"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-36" data-line-number="36"><span class="co">#&gt; ✓ Field name 'valid_end_date' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-37" data-line-number="37"><span class="co">#&gt; [2021-01-05 01:59:33]    </span></a>
-<a class="sourceLine" id="cb7-38" data-line-number="38"><span class="co">#&gt; ✓ Field name 'invalid_reason' is not a reserved word</span></a>
-<a class="sourceLine" id="cb7-39" data-line-number="39"><span class="co">#&gt; [2021-01-05 01:59:33]    Writing patelm9.V20210105015933...</span></a>
-<a class="sourceLine" id="cb7-40" data-line-number="40"><span class="co">#&gt; Warning in max(nchar(as.character(obj)), na.rm = TRUE): no non-missing arguments</span></a>
-<a class="sourceLine" id="cb7-41" data-line-number="41"><span class="co">#&gt; to max; returning -Inf</span></a>
-<a class="sourceLine" id="cb7-42" data-line-number="42"><span class="co">#&gt; [2021-01-05 01:59:49]    Writing patelm9.V20210105015933...complete</span></a>
-<a class="sourceLine" id="cb7-43" data-line-number="43"><span class="co">#&gt; [2021-01-05 01:59:49]    </span></a>
-<a class="sourceLine" id="cb7-44" data-line-number="44"><span class="co">#&gt; ✓ Open connection</span></a>
-<a class="sourceLine" id="cb7-45" data-line-number="45"><span class="co">#&gt; [2021-01-05 01:59:49]    </span></a>
-<a class="sourceLine" id="cb7-46" data-line-number="46"><span class="co">#&gt; ✓ JDBC connection</span></a>
-<a class="sourceLine" id="cb7-47" data-line-number="47"><span class="co">#&gt; [2021-01-05 01:59:49]    SQL: SELECT a.*, b.* FROM patelm9.V20210105015933 a LEFT JOIN omop_vocabulary.concept b ON a.concept_id_2 = b.concept_id WHERE b.invalid_reason IS NULL</span></a>
-<a class="sourceLine" id="cb7-48" data-line-number="48"><span class="co">#&gt; [2021-01-05 01:59:49]    Querying...</span></a>
-<a class="sourceLine" id="cb7-49" data-line-number="49"><span class="co">#&gt; [2021-01-05 02:01:09]    Querying...complete</span></a>
-<a class="sourceLine" id="cb7-50" data-line-number="50"><span class="co">#&gt; [2021-01-05 02:01:09]    </span></a>
-<a class="sourceLine" id="cb7-51" data-line-number="51"><span class="co">#&gt; ✓ Returned data has more than 0 rows</span></a>
-<a class="sourceLine" id="cb7-52" data-line-number="52"><span class="co">#&gt; [2021-01-05 02:01:09]    Dropping patelm9.V20210105015933...</span></a>
-<a class="sourceLine" id="cb7-53" data-line-number="53"><span class="co">#&gt; [2021-01-05 02:01:09]    </span></a>
-<a class="sourceLine" id="cb7-54" data-line-number="54"><span class="co">#&gt; ✓ Open connection</span></a>
-<a class="sourceLine" id="cb7-55" data-line-number="55"><span class="co">#&gt; [2021-01-05 02:01:09]    </span></a>
-<a class="sourceLine" id="cb7-56" data-line-number="56"><span class="co">#&gt; ✓ JDBC connection</span></a>
-<a class="sourceLine" id="cb7-57" data-line-number="57"><span class="co">#&gt; [2021-01-05 02:01:09]    SQL: DROP TABLE IF EXISTS patelm9.V20210105015933;</span></a>
-<a class="sourceLine" id="cb7-58" data-line-number="58"><span class="co">#&gt; [2021-01-05 02:01:09]    Sending...</span></a>
-<a class="sourceLine" id="cb7-59" data-line-number="59"><span class="co">#&gt; [2021-01-05 02:01:09]    Sending...complete</span></a>
-<a class="sourceLine" id="cb7-60" data-line-number="60"><span class="co">#&gt; [2021-01-05 02:01:09]    Dropping patelm9.V20210105015933...complete</span></a>
-<a class="sourceLine" id="cb7-61" data-line-number="61"><span class="co">#&gt; [2021-01-05 02:01:09]    Postgres connection to 'athena' closed</span></a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1">conn &lt;-<span class="st"> </span>chariot<span class="op">::</span><span class="kw">connectAthena</span>()</a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="co">#&gt; Connecting using PostgreSQL driver</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3">CONCEPT_B &lt;-</a>
+<a class="sourceLine" id="cb7-4" data-line-number="4">chariot<span class="op">::</span><span class="kw">join_on_concept_id</span>(</a>
+<a class="sourceLine" id="cb7-5" data-line-number="5">  <span class="dt">data =</span> CONCEPT_RELATIONSHIP <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="st">            </span><span class="kw">mutate_at</span>(<span class="kw">vars</span>(concept_id_<span class="dv">2</span>), as.integer),</a>
+<a class="sourceLine" id="cb7-7" data-line-number="7">  <span class="dt">column =</span> <span class="st">&quot;concept_id_2&quot;</span>,</a>
+<a class="sourceLine" id="cb7-8" data-line-number="8">  <span class="dt">conn =</span> conn</a>
+<a class="sourceLine" id="cb7-9" data-line-number="9">) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-10" data-line-number="10"><span class="st">  </span><span class="kw">select</span>(concept_id<span class="op">:</span><span class="kw">last_col</span>())</a>
+<a class="sourceLine" id="cb7-11" data-line-number="11"><span class="co">#&gt; [2021-01-08 22:34:29]    Target column: concept_id_2</span></a>
+<a class="sourceLine" id="cb7-12" data-line-number="12"><span class="co">#&gt; [2021-01-08 22:34:29]    Dropping patelm9.V20210108223429...</span></a>
+<a class="sourceLine" id="cb7-13" data-line-number="13"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-14" data-line-number="14"><span class="co">#&gt; ✓ Open connection</span></a>
+<a class="sourceLine" id="cb7-15" data-line-number="15"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-16" data-line-number="16"><span class="co">#&gt; ✓ JDBC connection</span></a>
+<a class="sourceLine" id="cb7-17" data-line-number="17"><span class="co">#&gt; [2021-01-08 22:34:29]    SQL: DROP TABLE IF EXISTS patelm9.V20210108223429;</span></a>
+<a class="sourceLine" id="cb7-18" data-line-number="18"><span class="co">#&gt; [2021-01-08 22:34:29]    Sending...</span></a>
+<a class="sourceLine" id="cb7-19" data-line-number="19"><span class="co">#&gt; [2021-01-08 22:34:29]    Sending...complete</span></a>
+<a class="sourceLine" id="cb7-20" data-line-number="20"><span class="co">#&gt; [2021-01-08 22:34:29]    Dropping patelm9.V20210108223429...complete</span></a>
+<a class="sourceLine" id="cb7-21" data-line-number="21"><span class="co">#&gt; Warning: Problem with `mutate()` input `concept_id_2`.</span></a>
+<a class="sourceLine" id="cb7-22" data-line-number="22"><span class="co">#&gt; ℹ NAs introduced by coercion</span></a>
+<a class="sourceLine" id="cb7-23" data-line-number="23"><span class="co">#&gt; ℹ Input `concept_id_2` is `.Primitive(&quot;as.integer&quot;)(concept_id_2)`.</span></a>
+<a class="sourceLine" id="cb7-24" data-line-number="24"><span class="co">#&gt; Warning in mask$eval_all_mutate(dots[[i]]): NAs introduced by coercion</span></a>
+<a class="sourceLine" id="cb7-25" data-line-number="25"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-26" data-line-number="26"><span class="co">#&gt; ✓ Data 'data' has more than 0 rows</span></a>
+<a class="sourceLine" id="cb7-27" data-line-number="27"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-28" data-line-number="28"><span class="co">#&gt; ✓ Table name 'V20210108223429' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-29" data-line-number="29"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-30" data-line-number="30"><span class="co">#&gt; ✓ Field name 'concept_id_1' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-31" data-line-number="31"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-32" data-line-number="32"><span class="co">#&gt; ✓ Field name 'relationship_id' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-33" data-line-number="33"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-34" data-line-number="34"><span class="co">#&gt; ✓ Field name 'concept_id_2' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-35" data-line-number="35"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-36" data-line-number="36"><span class="co">#&gt; ✓ Field name 'valid_start_date' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-37" data-line-number="37"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-38" data-line-number="38"><span class="co">#&gt; ✓ Field name 'valid_end_date' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-39" data-line-number="39"><span class="co">#&gt; [2021-01-08 22:34:29]    </span></a>
+<a class="sourceLine" id="cb7-40" data-line-number="40"><span class="co">#&gt; ✓ Field name 'invalid_reason' is not a reserved word</span></a>
+<a class="sourceLine" id="cb7-41" data-line-number="41"><span class="co">#&gt; [2021-01-08 22:34:29]    Writing patelm9.V20210108223429...</span></a>
+<a class="sourceLine" id="cb7-42" data-line-number="42"><span class="co">#&gt; Warning in max(nchar(as.character(obj)), na.rm = TRUE): no non-missing arguments</span></a>
+<a class="sourceLine" id="cb7-43" data-line-number="43"><span class="co">#&gt; to max; returning -Inf</span></a>
+<a class="sourceLine" id="cb7-44" data-line-number="44"><span class="co">#&gt; [2021-01-08 22:34:36]    Writing patelm9.V20210108223429...complete</span></a>
+<a class="sourceLine" id="cb7-45" data-line-number="45"><span class="co">#&gt; [2021-01-08 22:34:36]    </span></a>
+<a class="sourceLine" id="cb7-46" data-line-number="46"><span class="co">#&gt; ✓ Open connection</span></a>
+<a class="sourceLine" id="cb7-47" data-line-number="47"><span class="co">#&gt; [2021-01-08 22:34:36]    </span></a>
+<a class="sourceLine" id="cb7-48" data-line-number="48"><span class="co">#&gt; ✓ JDBC connection</span></a>
+<a class="sourceLine" id="cb7-49" data-line-number="49"><span class="co">#&gt; [2021-01-08 22:34:36]    SQL: SELECT a.*, b.* FROM patelm9.V20210108223429 a LEFT JOIN omop_vocabulary.concept b ON a.concept_id_2 = b.concept_id WHERE b.invalid_reason IS NULL</span></a>
+<a class="sourceLine" id="cb7-50" data-line-number="50"><span class="co">#&gt; [2021-01-08 22:34:36]    Querying...</span></a>
+<a class="sourceLine" id="cb7-51" data-line-number="51"><span class="co">#&gt; [2021-01-08 22:34:49]    Querying...complete</span></a>
+<a class="sourceLine" id="cb7-52" data-line-number="52"><span class="co">#&gt; [2021-01-08 22:34:49]    </span></a>
+<a class="sourceLine" id="cb7-53" data-line-number="53"><span class="co">#&gt; ✓ Returned data has more than 0 rows</span></a>
+<a class="sourceLine" id="cb7-54" data-line-number="54"><span class="co">#&gt; [2021-01-08 22:34:49]    Dropping patelm9.V20210108223429...</span></a>
+<a class="sourceLine" id="cb7-55" data-line-number="55"><span class="co">#&gt; [2021-01-08 22:34:49]    </span></a>
+<a class="sourceLine" id="cb7-56" data-line-number="56"><span class="co">#&gt; ✓ Open connection</span></a>
+<a class="sourceLine" id="cb7-57" data-line-number="57"><span class="co">#&gt; [2021-01-08 22:34:49]    </span></a>
+<a class="sourceLine" id="cb7-58" data-line-number="58"><span class="co">#&gt; ✓ JDBC connection</span></a>
+<a class="sourceLine" id="cb7-59" data-line-number="59"><span class="co">#&gt; [2021-01-08 22:34:49]    SQL: DROP TABLE IF EXISTS patelm9.V20210108223429;</span></a>
+<a class="sourceLine" id="cb7-60" data-line-number="60"><span class="co">#&gt; [2021-01-08 22:34:49]    Sending...</span></a>
+<a class="sourceLine" id="cb7-61" data-line-number="61"><span class="co">#&gt; [2021-01-08 22:34:49]    Sending...complete</span></a>
+<a class="sourceLine" id="cb7-62" data-line-number="62"><span class="co">#&gt; [2021-01-08 22:34:49]    Dropping patelm9.V20210108223429...complete</span></a>
+<a class="sourceLine" id="cb7-63" data-line-number="63">chariot<span class="op">::</span><span class="kw">dcAthena</span>()</a>
+<a class="sourceLine" id="cb7-64" data-line-number="64"><span class="co">#&gt; [2021-01-08 22:34:49]    Postgres connection was already closed</span></a></code></pre></div>
 <p>Both subsets of the Concept data, including <code>concept_id</code> is converted to character because the <code>uuid</code> identifiers created are not integers.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">CONCEPT &lt;-</a>
 <a class="sourceLine" id="cb8-2" data-line-number="2"><span class="st">  </span><span class="kw">bind_rows</span>(CONCEPT_A <span class="op">%&gt;%</span></a>

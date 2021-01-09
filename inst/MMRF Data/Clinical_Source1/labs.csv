@@ -1,0 +1,1777 @@
+cota_alias,delta_lab,lab_uln_operator,lab_uln,lab_lln_operator,lab_lln,lab_result,lab_test,lab_result_operator,lab_units,primary_key
+COTA_02b6dd24f66586a02c86,7,,,,,        6.2200,beta 2 microglobulin,,mg/l,d648160e72384476e713cf844665b63c01326e9d
+COTA_02b6dd24f66586a02c86,7,,,,222.0,      131.0000,ldh,,u/l,c3355c3fa73e02111e68c85926c3f0053b3378b9
+COTA_02b6dd24f66586a02c86,7,,,,,       74.3000,kappa flc,,mg/dl,ac3a36cc28d85a057a5e7432243f683687d24044
+COTA_02b6dd24f66586a02c86,7,,,,,positive,serum immunofixation,,,754d2cb312598c1c2ba0f7080ab1abc261c98230
+COTA_02b6dd24f66586a02c86,7,,,,,        9.4000,hemoglobin,,g/dl,8dcf88bc5e4795e880c654a276efcad82be2e9e2
+COTA_02b6dd24f66586a02c86,7,,,,,     7310.0000,igg,,mg/dl,7782155b4e5a3ff6eb5ba89b4ee319b45c4a172b
+COTA_02b6dd24f66586a02c86,7,,,,,        1.2000,creatinine,,mg/dl,49aa449c50487e3ba3c8d3c4c503996b654d2642
+COTA_02b6dd24f66586a02c86,7,,,,,        6.0000,serum m spike,,mg/dl,b04a93bd6d70efed65fda123a4c7924aa262e6ec
+COTA_02b6dd24f66586a02c86,7,,,,,         .2670,lambda flc,,mg/dl,aba88649bc282cf6b8e21fcd32a5eef42fd3e078
+COTA_02b6dd24f66586a02c86,7,,,,,        8.6000,calcium,,mg/dl,8916ae09ef4302b93d1e05fdfe71dc117d2d1df1
+COTA_02b6dd24f66586a02c86,7,,,,,       23.0000,iga,,mg/dl,b4e51528db83e8282d39bd1ed1034dee5826eea0
+COTA_02b6dd24f66586a02c86,7,,,,,        5.0000,igm,<,mg/dl,a9876cf170df45f38842780868b6cce72d6836ba
+COTA_02b6dd24f66586a02c86,34,,,,,positive,urine m-spike (bence-jones),,,91e832dc37608836ae1df1c9741b95dacc9959c3
+COTA_02b6dd24f66586a02c86,34,,,,,positive,urine immunofixation,,,e1d734433ff10e17f3de29040fe2372091105239
+COTA_02b6dd24f66586a02c86,35,,,,,       16.0000,iga,,mg/dl,aa23483583663fc074434d646d9cd61fd5932337
+COTA_02b6dd24f66586a02c86,35,,,,,        7.8000,calcium,,mg/dl,ce861a94bb3be5a7021f47847920afe45accfcd6
+COTA_02b6dd24f66586a02c86,35,,,,,        5.0000,igm,<,mg/dl,8f41e0f8ed9cc48eab3fc0ded19925dd9c704b58
+COTA_02b6dd24f66586a02c86,35,,,,,        5.0000,serum m spike,,mg/dl,22080e66848c15babd6313e4ce8ed650c90f495b
+COTA_02b6dd24f66586a02c86,35,,,,,       31.9000,kappa flc,,mg/dl,f3e73c080d80f94335743793828db6546d64eb38
+COTA_02b6dd24f66586a02c86,35,,,,,     5360.0000,igg,,mg/dl,6c1ac3cce371c3fb5f45d19b911e3e2d8f75d79a
+COTA_02b6dd24f66586a02c86,35,,,,,        1.2000,creatinine,,mg/dl,0bc6c7fe77282e5805920dd6def381102ce27d49
+COTA_02b6dd24f66586a02c86,35,,,,,         .2000,lambda flc,,mg/dl,70529006169220d646af2361e592fb1c6da965cf
+COTA_02b6dd24f66586a02c86,63,,,,,        3.6000,serum m spike,,mg/dl,b6164c99b455268f6bca2c4b5f1b7e9bc0ab81b3
+COTA_02b6dd24f66586a02c86,63,,,,,         .1760,lambda flc,,mg/dl,bf2322a42e4496ebdfc145f7f553549c6b2913b1
+COTA_02b6dd24f66586a02c86,63,,,,,       10.6000,kappa flc,,mg/dl,b29852768daa1a5843a7d7ce2ac8e7552061419b
+COTA_02b6dd24f66586a02c86,91,,,,,        5.6600,kappa flc,,mg/dl,2d8bf4196bcb6a8a1cbe883cbf7ddcda27e02da4
+COTA_02b6dd24f66586a02c86,91,,,,,         .2080,lambda flc,,mg/dl,cb9301297511b9f7ed563e7c5798832de12ebcff
+COTA_02b6dd24f66586a02c86,91,,,,,        2.7000,serum m spike,,mg/dl,bea0e3f1a9ec42831efaed764a5ede35ebcd2a19
+COTA_02b6dd24f66586a02c86,132,,,,,positive,urine immunofixation,,,498349c2919c7d6a947fdb845c1ee15c338bb70a
+COTA_02b6dd24f66586a02c86,133,,,,,        2.3000,serum m spike,,mg/dl,7297c107a95d36b8ce653215b05af615c8f65a8a
+COTA_02b6dd24f66586a02c86,133,,,,,         .1690,lambda flc,,mg/dl,95eadd91dd09f9aab7b01f026928d06dbfd83170
+COTA_02b6dd24f66586a02c86,133,,,,,        3.5800,kappa flc,,mg/dl,8b17f7d2de4d446408aed3da768c963fcfc5ad28
+COTA_02b6dd24f66586a02c86,133,,,,,positive,serum immunofixation,,,f3f9b9411f5827925a73bf5b97aef3c13701d85d
+COTA_02b6dd24f66586a02c86,165,,,,,         .7390,kappa flc,,mg/dl,5f002ab5b8c52de3c22e600ff7d3f32927b7f43a
+COTA_02b6dd24f66586a02c86,165,,,,,         .6180,lambda flc,,mg/dl,3de7c27b338e2b484b52be5394f63d81a8c18521
+COTA_02b6dd24f66586a02c86,167,,,,,positive,serum immunofixation,,,e8a4236a7b2cb7c579b342882157363c2ab4845c
+COTA_02b6dd24f66586a02c86,167,,,,,         .2590,kappa flc,,mg/dl,383084303f4cd28c9fc97bf326995081585d3a60
+COTA_02b6dd24f66586a02c86,167,,,,,        1.2000,serum m spike,,mg/dl,48ed08d2581598ae5f8c5b9cc6bf1e04692a4a47
+COTA_02b6dd24f66586a02c86,167,,,,,         .0355,lambda flc,,mg/dl,4d081ba33a8b9ac5564008edfeddde367d532e6e
+COTA_02b6dd24f66586a02c86,183,,,,,positive,serum immunofixation,,,0443eb5a0b15ca615a65d1036d380f8c5e45c04a
+COTA_02b6dd24f66586a02c86,183,,,,,         .2120,kappa flc,,mg/dl,c82e266ef44c83e90f8d467b6c6b32b29ffc56ab
+COTA_02b6dd24f66586a02c86,183,,,,,        1.0000,serum m spike,,mg/dl,ab523d10428614efdd3918b966827fc8ebdf53fc
+COTA_02b6dd24f66586a02c86,183,,,,,         .3070,lambda flc,,mg/dl,02055d2b37819c74fba1c66d47ab1911ff75ad69
+COTA_02b6dd24f66586a02c86,184,,,,,positive,urine immunofixation,,,bf5d359c3ea70cb4e0ddc84e41e0ed5c153739da
+COTA_02b6dd24f66586a02c86,184,,,,,negative,urine m-spike (bence-jones),,,fc08caea12cf176ed515f1c60a7a26c5703756f0
+COTA_02b6dd24f66586a02c86,189,,,,,        1.0000,serum m spike,,mg/dl,10569a38d8448ded88c18205a4f0d35fb4bab2ba
+COTA_02b6dd24f66586a02c86,237,,,,,         .0447,lambda flc,,mg/dl,39167ce9b6f3078e4a737a13958f19a698e3ee9f
+COTA_02b6dd24f66586a02c86,237,,,,,positive,serum immunofixation,,,2f920fadf4daecde7cb3f1dcc6c26e75fa87a869
+COTA_02b6dd24f66586a02c86,237,,,,,         .7000,serum m spike,,mg/dl,990495e151a7f8557e7decaa3455b6d06803c2d5
+COTA_02b6dd24f66586a02c86,237,,,,,negative,urine immunofixation,,,9ef69a858777fcab790ec0c41dc8505f25cea02a
+COTA_02b6dd24f66586a02c86,237,,,,,         .0000,urine m-spike (bence-jones),,mg/24hr,08234e53f0e1bc2384fcff5d3e94d108b90fec34
+COTA_02b6dd24f66586a02c86,237,,,,,         .1690,kappa flc,,mg/dl,051d06be455e21cecb480cc736369475543108ff
+COTA_02b6dd24f66586a02c86,364,,,,,negative,urine immunofixation,,,3009d7acfbb1d3a3f7270d115f2e23e832563c1d
+COTA_02b6dd24f66586a02c86,364,,,,,         .0000,serum m spike,,mg/dl,dac0f82c9bbc26f74375f25aeb483b68ad54e547
+COTA_02b6dd24f66586a02c86,364,,,,,        1.3800,kappa flc,,mg/dl,d6f3f107649182810f9ab139da551c5a5e796ea9
+COTA_02b6dd24f66586a02c86,364,,,,,negative,urine m-spike (bence-jones),,,f1bc2ecc5ab4f8ae9bc0c49a3c4e353ac387524b
+COTA_02b6dd24f66586a02c86,364,,,,,positive,serum immunofixation,,,ac82b26e70114bbf655078c167f6b3664064d6ca
+COTA_02b6dd24f66586a02c86,364,,,,,        1.7200,lambda flc,,mg/dl,31a90dc8c6b6b33c028978b11a4d58fb7f055aff
+COTA_02b6dd24f66586a02c86,450,,,,,         .0000,urine m-spike (bence-jones),,mg/24hr,331acac13c56dc81574281d65089d4e2c94deffd
+COTA_02b6dd24f66586a02c86,450,,,,,         .0000,serum m spike,,mg/dl,416a645ed1c2a5e97cb7c62fab5d8b958caf4a26
+COTA_02b6dd24f66586a02c86,450,,,,,         .8980,kappa flc,,mg/dl,7f949e24be27e0864ee483e443705b699d33e0be
+COTA_02b6dd24f66586a02c86,450,,,,,        1.1200,lambda flc,,mg/dl,2aa1c97e28863ca56f0834904120feee97338618
+COTA_02b6dd24f66586a02c86,450,,,,,negative,serum immunofixation,,,3c6be86783f2fc12de4279010eaad1c54cf1a141
+COTA_02b6dd24f66586a02c86,542,,,,,         .0000,urine m-spike (bence-jones),,mg/24hr,e52ec68b951f2f9cda2086a5d9acf1758b42ff9a
+COTA_02b6dd24f66586a02c86,542,,,,,         .0000,serum m spike,,mg/dl,32612cbf8a2396783fdb541fa7edd72be55bcecb
+COTA_02b6dd24f66586a02c86,545,,,,,         .0000,serum m spike,,mg/dl,5dca86a19c58e8e6ffa56801cc05d1f27cafcb1b
+COTA_02b6dd24f66586a02c86,545,,,,,         .0000,urine m-spike (bence-jones),,mg/24hr,0ee2d6d2a86d2c45a186ee85c893c63bf3934d34
+COTA_02b6dd24f66586a02c86,555,,,,,         .1190,lambda flc,,mg/dl,ec7f532d842352d334e1c242e39084ded21b01f5
+COTA_02b6dd24f66586a02c86,555,,,,,positive,urine immunofixation,,,45348c59ac9744c45542635a25f0a3c0c5b40025
+COTA_02b6dd24f66586a02c86,555,,,,,        4.2000,serum m spike,,mg/dl,12677dd189c0e49071f57ba43a62cab225420690
+COTA_02b6dd24f66586a02c86,555,,,,,       78.1000,kappa flc,,mg/dl,139cd6f45b61aaa7949d0420c7941a9cec60d5d7
+COTA_02b6dd24f66586a02c86,555,,,,,positive,serum immunofixation,,,1acda54f83ede8cbee1594f2afec8a5a30daf8f1
+COTA_02b6dd24f66586a02c86,568,,,,,       86.9000,kappa flc,,mg/dl,ef81ce7c920c468a88bf8e80645d5bb0d8129c00
+COTA_02b6dd24f66586a02c86,568,,,,,        4.6000,serum m spike,,mg/dl,b17c978ad5182dbe9c2806734ca8ad8f61d2178b
+COTA_02b6dd24f66586a02c86,568,,,,,        1.0000,urine m-spike (bence-jones),,mg/24hr,a5af480b776f3aeee968c5888ecb726be57716a1
+COTA_02b6dd24f66586a02c86,568,,,,,         .1460,lambda flc,,mg/dl,ebcce79f68e2687b931733cdc74bf7dc13533be9
+COTA_02b6dd24f66586a02c86,623,,,,,positive,serum immunofixation,,,77266f5230d45e0e098a716d9b3effde548fe478
+COTA_02b6dd24f66586a02c86,623,,,,,negative,urine immunofixation,,,7811302608f1fdb0005958b763facd13a842e853
+COTA_02b6dd24f66586a02c86,623,,,,,positive,urine m-spike (bence-jones),,,4ae68e112886fc8aae4cf1123fc07e1f395d167f
+COTA_02b6dd24f66586a02c86,623,,,,,        2.3000,serum m spike,,mg/dl,7b166550993e0df1da798135104ca6117b88228f
+COTA_02b6dd24f66586a02c86,680,,,,,         .1370,kappa flc,,mg/dl,3a190812d5ff6c6a01b37a4f18adb1cb255b72dc
+COTA_02b6dd24f66586a02c86,680,,,,,negative,urine m-spike (bence-jones),,,6c0b2ab51e7cbae5d6238874fc75dc3d595778c6
+COTA_02b6dd24f66586a02c86,680,,,,,         .5000,serum m spike,,mg/dl,340adfb5ecb19aaeac623ebdff25a1e8c32cc004
+COTA_02b6dd24f66586a02c86,680,,,,,         .1840,lambda flc,,mg/dl,0df2f0f4bed771cf2f0e3dc99b2b519ab8b8301a
+COTA_02b6dd24f66586a02c86,771,,,,,negative,urine m-spike (bence-jones),,,a0e85ad9ecdf79bf19872777ab845928b25b9c9d
+COTA_02b6dd24f66586a02c86,771,,,,,positive,serum immunofixation,,,5b790ab0f72199276341b79faa1f10ee796d4ee6
+COTA_02b6dd24f66586a02c86,771,,,,,         .0311,lambda flc,,mg/dl,f1a802fa5930d350f2d2e69323b6b59e263a2a65
+COTA_02b6dd24f66586a02c86,771,,,,,negative,serum m spike,,,d9f1725f02dcfba34a93f67e2f63bed005fdb81d
+COTA_02b6dd24f66586a02c86,771,,,,,         .0320,kappa flc,<,mg/dl,da8c81e7db1e4e162c4a57422fa4af7872420da4
+COTA_02b6dd24f66586a02c86,911,,,,,negative,urine m-spike (bence-jones),,,93e1b93adac119e2fb6679a17f9ce38de77077dc
+COTA_02b6dd24f66586a02c86,911,,,,,         .0398,lambda flc,,mg/dl,f9fe8dd1884eabae637e0ebf553d09880c98d5bd
+COTA_02b6dd24f66586a02c86,911,,,,,negative,serum m spike,,,0f0b9806e2e9774e7d8511e7c65233068cf56ad8
+COTA_02b6dd24f66586a02c86,911,,,,,positive,serum immunofixation,,,02e4ddf4f7ac5b8058c8f498f3b40d28d5a857a6
+COTA_02b6dd24f66586a02c86,911,,,,,         .1530,kappa flc,,mg/dl,5ff75a0b55a4742c9ba1c0d0b7b28792a2e4b092
+COTA_3b030d5f64de3b63c30a,-41,,,,,     5180.0000,igg,,mg/dl,8966e1ee428e66df185b059c5abbbbc32b95396e
+COTA_3b030d5f64de3b63c30a,-41,,,,,         .8000,creatinine,,mg/dl,653031eeda2d9188683e0d5fa0047609ab322891
+COTA_3b030d5f64de3b63c30a,-41,,,,,       34.0000,igm,,mg/dl,2a657a0a93e3004eaa1fe421ef14c712365693e1
+COTA_3b030d5f64de3b63c30a,-41,,,,,positive,serum immunofixation,,,0f31aea05d67864076df4996812915715712cba4
+COTA_3b030d5f64de3b63c30a,-41,,,,,       42.0000,iga,,mg/dl,6af1a22eff3b85ff4d779a372a754ab1f0a0102e
+COTA_3b030d5f64de3b63c30a,-41,,,,,        2.8000,albumin,,g/dl,079dc751916f91e7d43147d5a06432eca3d6238a
+COTA_3b030d5f64de3b63c30a,-7,,,,,       14.5000,hemoglobin,,g/dl,573a252a60170e18f4114c99821fde35d4bf1055
+COTA_3b030d5f64de3b63c30a,-7,,,,,        9.5000,calcium,,mg/dl,8142cc6c96d1d5c758ab26fb05038a7a65c248ce
+COTA_3b030d5f64de3b63c30a,-7,,,,,      126.0000,ldh,,u/l,db5570755b7ed29ac2a725eec937e828db20daee
+COTA_3b030d5f64de3b63c30a,-7,,,,,positive,serum immunofixation,,,74e41316cec343894dc026a16a2aa25693b0ccb0
+COTA_3b030d5f64de3b63c30a,-7,,,,,        3.5000,albumin,,g/dl,4a73c1dab263a666014d8ec824f46d06ab1b82c9
+COTA_3b030d5f64de3b63c30a,-7,,,,,        3.9000,serum m spike,,mg/dl,5d8e919f695f94f2c50b57526cae9dbd9bbfe8ea
+COTA_3b030d5f64de3b63c30a,-7,,,,,        2.7000,lambda flc,,mg/dl,6faa0a2c20158753abd79149696993fc30e6620b
+COTA_3b030d5f64de3b63c30a,-7,,,,,      194.2000,kappa flc,,mg/dl,69d64114aa498ba570949df3ddbdf1a6f2665b3d
+COTA_3b030d5f64de3b63c30a,-7,,,,,         .8100,creatinine,,mg/dl,aae075213abf7f0b822f440a68482da9e28ec04d
+COTA_3b030d5f64de3b63c30a,-7,,,,,        2.9700,beta 2 microglobulin,,mg/l,a5177ff58da90ce889cbddea0e03b1beb45c1001
+COTA_3b030d5f64de3b63c30a,-5,,,,,positive,urine immunofixation,,,e97f9a1a1892a44b02d2a27fad9eb3f69d6e6ba1
+COTA_3b030d5f64de3b63c30a,28,,,,,        3.2000,albumin,,g/dl,ae75cb9b08fd8a6576724b81a05191129be85bf0
+COTA_3b030d5f64de3b63c30a,28,,,,,         .8700,creatinine,,mg/dl,105aae205f0c1052735ae7f49a85ba07d0db750e
+COTA_3b030d5f64de3b63c30a,28,,,,,     5668.0000,igg,,mg/dl,db5053fcc9d0ba62b241f37fc9aa682484350be6
+COTA_3b030d5f64de3b63c30a,28,,,,,        9.2000,calcium,,mg/dl,8c81cf9d4321b7bdc0bdbd8885756d47267ea09b
+COTA_3b030d5f64de3b63c30a,49,,,,,         .8000,creatinine,,mg/dl,b1d59cc3ed7329537f880b4e313ac71c818e5b86
+COTA_3b030d5f64de3b63c30a,49,,,,,        4.7500,serum m spike,,mg/dl,3873b4174f9e530c72ade6d71ef3b3c8a6739418
+COTA_3b030d5f64de3b63c30a,49,,,,,         .1100,lambda flc,,mg/dl,127635f76e031a0adca9f62ff3747bfc7df42350
+COTA_3b030d5f64de3b63c30a,49,,,,,        9.0000,calcium,,mg/dl,800343732fb5a2fe6dd3c55f14702114e1bcd418
+COTA_3b030d5f64de3b63c30a,49,,,,,       42.0000,iga,,mg/dl,509ec9befb79da8db092911955a241fa05eea2b5
+COTA_3b030d5f64de3b63c30a,49,,,,,        3.2000,albumin,,g/dl,17c280266b4944c0226e77fde286368bba6a7d13
+COTA_3b030d5f64de3b63c30a,49,,,,,        9.2000,calcium,,mg/dl,4d3a6f449bc07a8ff92b46ded1c5e88f32e1d16d
+COTA_3b030d5f64de3b63c30a,49,,,,,       34.0000,igm,,mg/dl,fc143535d4f785e8ff9b2d1b25a3acd2910d1ba6
+COTA_3b030d5f64de3b63c30a,49,,,,,     5668.0000,igg,,mg/dl,4e7c0fc5cec5674a36f853ab4c167c959f135f41
+COTA_3b030d5f64de3b63c30a,49,,,,,positive,serum immunofixation,,,47089affba1373399dc6da30f7aaa3c9bbf447db
+COTA_3b030d5f64de3b63c30a,49,,,,,         .9000,creatinine,,mg/dl,5189a2f30f457668d837a874d563641a279c8774
+COTA_3b030d5f64de3b63c30a,49,,,,200.0,      101.0000,ldh,,u/l,ed418cc297ecfcbb43e9ddc6589c9cc666758f62
+COTA_3b030d5f64de3b63c30a,49,,,,,         .9600,creatinine,,mg/dl,6b82fb794b48a1fbafda1aa74b35633f01a8e6d6
+COTA_3b030d5f64de3b63c30a,49,,,,,       20.2000,kappa flc,,mg/dl,79e2fe8825157cd9963e0bf89171c7aefe7531a1
+COTA_3b030d5f64de3b63c30a,49,,,,,        2.7000,albumin,,g/dl,a8eba1eacb352146c19e99239dcf949fe2796ee7
+COTA_3b030d5f64de3b63c30a,86,,,,,        2.3000,lambda flc,,mg/dl,7a9f6271e0ce01e82e9a49f423d411620e067a69
+COTA_3b030d5f64de3b63c30a,86,,,,,positive,serum immunofixation,,,64912335f9ad9bb8da59a84005c1ae425d3ce7c7
+COTA_3b030d5f64de3b63c30a,86,,,,,      213.7000,kappa flc,,mg/dl,3e03a59f908c3ef0b71d75c393a4c01c982f6ba8
+COTA_3b030d5f64de3b63c30a,86,,,,,        4.4000,serum m spike,,mg/dl,982e8a2f6de31496e95ea4b684d44188c348c74f
+COTA_3b030d5f64de3b63c30a,114,,,,,       20.4000,kappa flc,,mg/dl,e2b42de45810ac1fd1b8b69e5e4fbea2adb00017
+COTA_3b030d5f64de3b63c30a,114,,,,,        2.5000,serum m spike,,mg/dl,13faf0dcf9ca7dec6d854408a3c452999a19f9d1
+COTA_3b030d5f64de3b63c30a,114,,,,,        6.7000,lambda flc,,mg/dl,d5b808ab6b7b749c0b5d3f6b803897f7ba2bfbd6
+COTA_3b030d5f64de3b63c30a,135,,,,,       14.9000,kappa flc,,mg/dl,580b70e5d29404910d0f21085453260d9a5231ee
+COTA_3b030d5f64de3b63c30a,135,,,,,        1.5000,serum m spike,,mg/dl,00cb3b451e676b997bf2cb2d784c468bef5f5d95
+COTA_3b030d5f64de3b63c30a,135,,,,,        7.3000,lambda flc,,mg/dl,9eb0f1ed2cdf1a347778262629230b806cdbc206
+COTA_3b030d5f64de3b63c30a,156,,,,,       14.8000,kappa flc,,mg/dl,7740c43cda4d8b28c497f4ba36b91dbcf467fcaa
+COTA_3b030d5f64de3b63c30a,156,,,,,         .9000,serum m spike,,mg/dl,ac69bd9681f98ae84ec0d7346443fdbcb2e239a6
+COTA_3b030d5f64de3b63c30a,156,,,,,        8.0000,lambda flc,,mg/dl,b5ee74a88bba2f155e7a6c449602b484db53df62
+COTA_3b030d5f64de3b63c30a,175,,,,,negative,urine m-spike (bence-jones),,,073042eec939280e9dada0735600c4408d41db5c
+COTA_3b030d5f64de3b63c30a,175,,,,,         .7700,lambda flc,,mg/dl,e14c11d55c843833e6f2329e3b9c2b75e8060d3f
+COTA_3b030d5f64de3b63c30a,175,,,,,         .4200,serum m spike,,mg/dl,daab3e332596e1b63317ed50ac129339a1175608
+COTA_3b030d5f64de3b63c30a,175,,,,,negative,urine immunofixation,,,ebc6d9623d57a63ca03292e61badd7dbbbdaf5f3
+COTA_3b030d5f64de3b63c30a,175,,,,,positive,serum immunofixation,,,77fcc777f7f01bb2fe73ee798bbf3184d66f7207
+COTA_3b030d5f64de3b63c30a,175,,,,,        1.3700,kappa flc,,mg/dl,8855902bb1d18b2bef77a04b6681366539d877d9
+COTA_3b030d5f64de3b63c30a,253,,,,,negative,urine immunofixation,,,3ab5a9a98d594c53b7c644b4c23f407fdf574324
+COTA_3b030d5f64de3b63c30a,253,,,,,         .5400,lambda flc,,mg/dl,d74887315f3cd3cbb80554bed166d1382c21ec5f
+COTA_3b030d5f64de3b63c30a,253,,,,,        1.0100,kappa flc,,mg/dl,4293bcd8dbd654865df7cd9b553b804d60381593
+COTA_3b030d5f64de3b63c30a,253,,,,,negative,urine m-spike (bence-jones),,,4d5d7126a0c628ec10751b08d0f1dab991b24cfe
+COTA_3b030d5f64de3b63c30a,253,,,,,         .2200,serum m spike,,mg/dl,344955f3525cfe5e0f2b4c12a512255eda00e6c4
+COTA_3b030d5f64de3b63c30a,253,,,,,positive,serum immunofixation,,,e28b8ea3e927962bafb5bd9c1cae0f4c86eeca7f
+COTA_3b030d5f64de3b63c30a,309,,,,,         .2200,lambda flc,,mg/dl,799bf8f808d1b8ea11f7ccace2a7e201b0216083
+COTA_3b030d5f64de3b63c30a,309,,,,,         .1900,serum m spike,,mg/dl,989ad1458b2b37b64fff08da4a61c761b5f61b92
+COTA_3b030d5f64de3b63c30a,309,,,,,positive,serum immunofixation,,,83c840380d9054eec467579e47b56cb0faacfe7c
+COTA_3b030d5f64de3b63c30a,309,,,,,        1.2400,kappa flc,,mg/dl,0364d91f27ca4da2ec787f912158855de84ae5a0
+COTA_3b030d5f64de3b63c30a,344,,,,,        3.7000,lambda flc,,mg/dl,1ea7446bd561fb35d334203abb7fe0a3ef01f272
+COTA_3b030d5f64de3b63c30a,344,,,,,borderline,serum m spike,,,c544e53d1a73e7c2f1d5a0cb6a6054c0c3224612
+COTA_3b030d5f64de3b63c30a,344,,,,,positive,serum immunofixation,,,5411e19c5303be6bd358c991e04dc85103ec6b01
+COTA_3b030d5f64de3b63c30a,344,,,,,       10.8000,kappa flc,,mg/dl,066d813ee799147e5ca82493682f7c5d809f5211
+COTA_3b030d5f64de3b63c30a,350,,,,,borderline,serum m spike,,,c5cf6e12b1111657f5c4731bbb11fa6af273b273
+COTA_3b030d5f64de3b63c30a,400,,,,,        6.7000,lambda flc,,mg/dl,21d738922c02e5b8c17df508d0be95df46f888e7
+COTA_3b030d5f64de3b63c30a,400,,,,,borderline,serum m spike,,,c4c769ba3604408ea03eff5a9f8b00dcb2094612
+COTA_3b030d5f64de3b63c30a,400,,,,,borderline,serum immunofixation,,,bce97a188dfbd19bbbacf6528043f5b79d539423
+COTA_3b030d5f64de3b63c30a,400,,,,,       19.6000,kappa flc,,mg/dl,e03252f41e41f75dc657dd331d9aa5de31578876
+COTA_3b030d5f64de3b63c30a,414,,,,,        1.0500,lambda flc,,mg/dl,d3549a6ccfc31c09c287ab6edc0e8ac13c13b590
+COTA_3b030d5f64de3b63c30a,414,,,,,positive,serum immunofixation,,,9de3be09de2afe9f3b4f65192d806e0efd2e903d
+COTA_3b030d5f64de3b63c30a,414,,,,,         .1700,serum m spike,,mg/dl,a08a57fa6bbf0eacd19f3f7a757087432744fd45
+COTA_3b030d5f64de3b63c30a,414,,,,,        2.2300,kappa flc,,mg/dl,c5db0b936a8718654ec71f778ce328b100dc4b03
+COTA_3b030d5f64de3b63c30a,442,,,,,       23.5000,kappa flc,,mg/dl,2631969e1a5ba8b974b9a0dd4d8ef2bbb610d585
+COTA_3b030d5f64de3b63c30a,442,,,,,positive,serum immunofixation,,,edbc8c8baa01aecb1d15f10c820258e545fb0b8b
+COTA_3b030d5f64de3b63c30a,442,,,,,borderline,serum m spike,,,36dde23588f5c18c5bab7eca72401b98acec823e
+COTA_3b030d5f64de3b63c30a,442,,,,,        9.4000,lambda flc,,mg/dl,d6719425c07fddf8e9151ab3c9b06806ee3f0b84
+COTA_3b030d5f64de3b63c30a,484,,,,,       20.2000,kappa flc,,mg/dl,bb390507512ec659aedc29f9de1c718fc3d01efd
+COTA_3b030d5f64de3b63c30a,484,,,,,insufficient sample,serum m spike,,,4c150b3d79f011a2398d69181868b8f37853a095
+COTA_3b030d5f64de3b63c30a,484,,,,,borderline,serum immunofixation,,,afc60c23582029e7ccf43bacdecc69630975ecff
+COTA_3b030d5f64de3b63c30a,484,,,,,        8.9000,lambda flc,,mg/dl,47b5ce3910f3e6b657cd1e57be4013cd10a0275a
+COTA_3b030d5f64de3b63c30a,519,,,,,       12.8000,lambda flc,,mg/dl,64f1b23ff5c2e4db39c4f42358a46c77d3a906d6
+COTA_3b030d5f64de3b63c30a,519,,,,,         .5000,serum m spike,,mg/dl,cbc24ef5d6a3dd7666639e28fe6032f3f514ce78
+COTA_3b030d5f64de3b63c30a,519,,,,,       28.7000,kappa flc,,mg/dl,1a7474b8588718a03341d7df43fb99771eecdc4e
+COTA_3b030d5f64de3b63c30a,568,,,,,       24.2000,kappa flc,,mg/dl,3f6be48fce2a4a4c2e8280cc6aeac5b17241b525
+COTA_3b030d5f64de3b63c30a,568,,,,,       12.2000,lambda flc,,mg/dl,39e011b09eda88bbd3cc0ab7594cf2506ce7cbc4
+COTA_3b030d5f64de3b63c30a,568,,,,,         .5000,serum m spike,,mg/dl,37394daafef5804e0b3b7e0713386c3f45d7d941
+COTA_3b030d5f64de3b63c30a,568,,,,,positive,serum immunofixation,,,890c01dcb238065d19dd0922b48d9ab1c5848dc6
+COTA_3b030d5f64de3b63c30a,582,,,,,        1.3300,lambda flc,,mg/dl,15edb301e9a28b5c3629e2c09dd9244bf83fafaf
+COTA_3b030d5f64de3b63c30a,582,,,,,        2.5700,kappa flc,,mg/dl,0a5224655856e15904d74f286497c66a9876cd72
+COTA_3b030d5f64de3b63c30a,582,,,,,         .2500,serum m spike,,mg/dl,0d1c9121b62ded44530ed24c437a4a05b462bf56
+COTA_3b030d5f64de3b63c30a,582,,,,,positive,serum immunofixation,,,16e16fc997cf8d2cf2cb1cbb377b73283185b3e0
+COTA_3b030d5f64de3b63c30a,617,,,,,       20.3000,kappa flc,,mg/dl,4dff12da95f5b94c348a557137e15c851bc990b0
+COTA_3b030d5f64de3b63c30a,617,,,,,         .5000,serum m spike,,mg/dl,5ba22170f0038bf4aa08cd37b451934fbb37e2ea
+COTA_3b030d5f64de3b63c30a,645,,,,,         .7000,serum m spike,,mg/dl,24af2beb5d1d8499456229e8ed92778f5a7e44c1
+COTA_3b030d5f64de3b63c30a,645,,,,,       12.2000,lambda flc,,mg/dl,611ed26516b91fa832ad42c02aeed1e69a4c591c
+COTA_3b030d5f64de3b63c30a,645,,,,,positive,serum immunofixation,,,1ae7df3807f61cafce4964e05f090a0dea38487d
+COTA_3b030d5f64de3b63c30a,645,,,,,       28.6000,kappa flc,,mg/dl,1e3a935888d6a4fe1e0fa80c0cbcfbf7447d3734
+COTA_3b030d5f64de3b63c30a,681,,,,,         .7000,serum m spike,,mg/dl,bd29b084ec730d26e6509442795cfb776c4f5481
+COTA_3b030d5f64de3b63c30a,681,,,,,positive,serum immunofixation,,,58906ed0e3a3196f5ac64968ff7ef1dacdd84506
+COTA_3b030d5f64de3b63c30a,708,,,,,       23.2000,kappa flc,,mg/dl,320fde45a57ae3d388bf1a66dd0384a4619cb89d
+COTA_3b030d5f64de3b63c30a,708,,,,,       11.0000,lambda flc,,mg/dl,706c976cdd49f9345629810b372a54521ebace9f
+COTA_3b030d5f64de3b63c30a,708,,,,,         .6000,serum m spike,,mg/dl,8c540195d660c840f0a26db9cb195012929ba770
+COTA_3b030d5f64de3b63c30a,708,,,,,positive,serum immunofixation,,,5a4ff164b9dc6125e7ae98e313e026ce418efa17
+COTA_3b030d5f64de3b63c30a,722,,,,,        1.1800,lambda flc,,mg/dl,fd0bd8631ace494b15901e682ac2e40f30d82b3c
+COTA_3b030d5f64de3b63c30a,722,,,,,         .3100,serum m spike,,mg/dl,58619df0774569201d5d3412f54ecb617a819de1
+COTA_3b030d5f64de3b63c30a,722,,,,,positive,serum immunofixation,,,bce52e6e8e4a14d75f0bd2b3771cc0358d7e8dfb
+COTA_3b030d5f64de3b63c30a,722,,,,,        2.5700,kappa flc,,mg/dl,f0bbe65ac30b992162fab1509fbd7ff93ea2c2c1
+COTA_3b030d5f64de3b63c30a,750,,,,,positive,serum immunofixation,,,634bb04fa15e2f5d4d7d2936020d4eee5c8a5e75
+COTA_3b030d5f64de3b63c30a,750,,,,,         .6000,serum m spike,,mg/dl,929dd0e17979a5aec25a6ea5980ec201ae2378c9
+COTA_3b030d5f64de3b63c30a,750,,,,,       12.4000,lambda flc,,mg/dl,5f0e35ba39d3bfb5794c0d4e89dbee3dc81c4368
+COTA_3b030d5f64de3b63c30a,750,,,,,       24.9000,kappa flc,,mg/dl,b68adc8b2dc303a7499d1a01798bacc14005fc39
+COTA_3b030d5f64de3b63c30a,784,,,,,positive,serum immunofixation,,,7788ae49f0dfe595ba46349efacd12eb0720c94b
+COTA_3b030d5f64de3b63c30a,784,,,,,       37.1000,kappa flc,,mg/dl,dd653b7b65f0e72f21662104eb45f6c0d93e68d0
+COTA_3b030d5f64de3b63c30a,784,,,,,         .7000,serum m spike,,mg/dl,f7eaf6751f6efe65c254d37fe9c90bfbe9bb3548
+COTA_3b030d5f64de3b63c30a,784,,,,,       26.5000,lambda flc,,mg/dl,0de29504acb7d31fc5a93a30627dfc1e6b1193b3
+COTA_3b030d5f64de3b63c30a,820,,,,,       26.0000,kappa flc,,mg/dl,d531b232d220d47b05f7dbcafbd225a5946260c0
+COTA_3b030d5f64de3b63c30a,820,,,,,         .6000,serum m spike,,mg/dl,0b3804a8e365be01599fe613d177fe883b97fc40
+COTA_3b030d5f64de3b63c30a,848,,,,,         .7000,serum m spike,,mg/dl,b7d66fc32409e70a1a4db039d0e14ad958f621a7
+COTA_3b030d5f64de3b63c30a,848,,,,,positive,serum immunofixation,,,024d86ca4d59a39a257d9caf0aa9d85513335df4
+COTA_3b030d5f64de3b63c30a,848,,,,,       23.2000,kappa flc,,mg/dl,285cd39933bc4aeca86fc7334e16e9b4d5919733
+COTA_3b030d5f64de3b63c30a,848,,,,,       12.2000,lambda flc,,mg/dl,10cd888462f9ef230f73cd5bdd9a08d4cc827d77
+COTA_3b030d5f64de3b63c30a,871,,,,,         .5000,serum m spike,,mg/dl,cd963840d9c6df8f517fee72674c548bafe98c70
+COTA_3b030d5f64de3b63c30a,904,,,,,positive,serum immunofixation,,,2090ed69318a4e50e5fa19cf6be73a30a4664516
+COTA_3b030d5f64de3b63c30a,904,,,,,       22.0000,kappa flc,,mg/dl,2fbfec7cafdd78d2d469a7ed89ad2ee42455515a
+COTA_3b030d5f64de3b63c30a,904,,,,,       12.1000,lambda flc,,mg/dl,18fa29f132081213884d720fdc31f2c0163c70c9
+COTA_3b030d5f64de3b63c30a,904,,,,,         .6000,serum m spike,,mg/dl,28e2a792233c5595ac8f4dff41d60e454dfad90b
+COTA_3b030d5f64de3b63c30a,940,,,,,        1.2600,lambda flc,,mg/dl,ab598fb47c3bf9385b3238b0c8c213795402a0ee
+COTA_3b030d5f64de3b63c30a,940,,,,,         .3800,serum m spike,,mg/dl,c8908e004a0bd5334bff81e9b55ea0fdadc9ba87
+COTA_3b030d5f64de3b63c30a,940,,,,,        1.8300,kappa flc,,mg/dl,fc3470f6014f6bf0fa7849a0e15e59b51a9afd3f
+COTA_3b030d5f64de3b63c30a,940,,,,,positive,serum immunofixation,,,5b25a521b7fa4b8a1f9a5aca7c657ceda3c5576c
+COTA_3b030d5f64de3b63c30a,990,,,,,positive,serum immunofixation,,,be1e228b15633bcc13ea048a3edac22374a2ca6f
+COTA_3b030d5f64de3b63c30a,990,,,,,       26.0000,kappa flc,,mg/dl,7432fbacde14cb37c8e206341f4e3c4e9182a635
+COTA_3b030d5f64de3b63c30a,990,,,,,         .7000,serum m spike,,mg/dl,332318ca46805144d0f94db026f2f033b91fc0d3
+COTA_3b030d5f64de3b63c30a,990,,,,,       40.6000,lambda flc,,mg/dl,086a45985a1a3d45ed0efce275dec15bac99b0f9
+COTA_3b030d5f64de3b63c30a,1053,,,,,       13.0000,lambda flc,,mg/dl,71ba4612809dc0b95a46386a7d754214dff515b3
+COTA_3b030d5f64de3b63c30a,1053,,,,,       24.6000,kappa flc,,mg/dl,c7ad1bfff0bda5dae37a34368d46ba6a587fcd48
+COTA_3b030d5f64de3b63c30a,1053,,,,,         .8000,serum m spike,,mg/dl,ba1f9b673e28a2539a9f1d40c410dfbee01d7e79
+COTA_3b030d5f64de3b63c30a,1053,,,,,positive,serum immunofixation,,,d6b418f68bbe4c9ded647feddb0e1014e2591261
+COTA_3b030d5f64de3b63c30a,1107,,,,,       16.7000,lambda flc,,mg/dl,e6eaa482c3e51f1e91d3c3542f0821c565755d24
+COTA_3b030d5f64de3b63c30a,1107,,,,,positive,serum immunofixation,,,4926fb21005bfe6216ffb773532dea82d878d65b
+COTA_3b030d5f64de3b63c30a,1107,,,,,         .9000,serum m spike,,mg/dl,4c544d8a1f08d8d5ec56c107cd479220ee5eff4c
+COTA_3b030d5f64de3b63c30a,1107,,,,,       25.8000,kappa flc,,mg/dl,be091814b4b0173190a239160b976bfd91f93c1d
+COTA_3b030d5f64de3b63c30a,1135,,,,,        1.2100,lambda flc,,mg/dl,a42cb3bfbf35c5700a5e42f1baa69bd235d6367f
+COTA_3b030d5f64de3b63c30a,1135,,,,,        2.0900,kappa flc,,mg/dl,ae29c2f88a3fdd269cf1012c2a2b0352d8064927
+COTA_3b030d5f64de3b63c30a,1135,,,,,         .3700,serum m spike,,mg/dl,062964e2e229895e443be022c88f5e2a70c38151
+COTA_3b030d5f64de3b63c30a,1135,,,,,positive,serum immunofixation,,,3a8dc351ee22c7145b84d990a800540512ad1780
+COTA_3b030d5f64de3b63c30a,1136,,,,,       21.0000,kappa flc,,mg/dl,bd83979e82297e19ad0a53dab9d43b3e980a6a76
+COTA_3b030d5f64de3b63c30a,1136,,,,,positive,serum immunofixation,,,452277452911065fc652932158f58fa46b03b730
+COTA_3b030d5f64de3b63c30a,1136,,,,,         .8000,serum m spike,,mg/dl,e7f6cea9683a88c0de9a2aba3c555a86b49a7fa5
+COTA_3b030d5f64de3b63c30a,1136,,,,,       11.4000,lambda flc,,mg/dl,9c5b73a7ea9f73abe3a2debc2bed46dfc7c18121
+COTA_3b030d5f64de3b63c30a,1241,,,,,         .7000,serum m spike,,mg/dl,df2c03ff5842fa70e85e51696606552d87181a82
+COTA_3b030d5f64de3b63c30a,1241,,,,,       24.2000,kappa flc,,mg/dl,4a00cfd771d7b917c7a6dbdc1991e7c34018e4ed
+COTA_3b030d5f64de3b63c30a,1284,,,,,positive,serum immunofixation,,,281c452f5ce9526f9725d5dd11eb37e43107e4f3
+COTA_3b030d5f64de3b63c30a,1284,,,,,       12.0000,lambda flc,,mg/dl,bdce0053275711a3568bb1467479ed8c4befc4a5
+COTA_3b030d5f64de3b63c30a,1284,,,,,         .7000,serum m spike,,mg/dl,e08f67b162c8b51c26a00be34ae790efa163b361
+COTA_3b030d5f64de3b63c30a,1284,,,,,       22.3000,kappa flc,,mg/dl,fed61cc7c31c4faeb7023f81ccfcdf397e8bd04b
+COTA_3b030d5f64de3b63c30a,1303,,,,,        2.5000,kappa flc,,mg/dl,5880ab91ab9fb5fd9b7b4254faf51222ab6d6fc9
+COTA_3b030d5f64de3b63c30a,1303,,,,,         .4600,serum m spike,,mg/dl,b258fe8d011ec14c56dee9ebca8d9c7d989fdc58
+COTA_3b030d5f64de3b63c30a,1303,,,,,positive,serum immunofixation,,,226d4ea6927369a8e38c5b67655071bb2ba441c2
+COTA_3b030d5f64de3b63c30a,1303,,,,,        1.5600,lambda flc,,mg/dl,0df2d261dea9874a94c06a5be6ba102ab317a9e2
+COTA_3bd54510d4b0eef84db0,-43,,,,,positive,serum immunofixation,,,ace8db943fc91c58fad4ba2eabf1f1d42725ee0a
+COTA_3bd54510d4b0eef84db0,-43,,,,,negative,serum m spike,,,ad4009e60a0594002124cc1dd23d95257b540cee
+COTA_3bd54510d4b0eef84db0,-43,,,,,      244.0000,igm,,mg/dl,8a46033684a37737985d131c8c5a231a825c8a05
+COTA_3bd54510d4b0eef84db0,-43,,,,,      994.0000,igg,,mg/dl,ac073b9390b585f95fd56dfde91de0a7fbf7296a
+COTA_3bd54510d4b0eef84db0,-43,,,,,       90.0000,iga,,mg/dl,e628402addd3690d4e387691011e6fbcaca2f594
+COTA_3bd54510d4b0eef84db0,-9,,,,,        9.2000,calcium,,mg/dl,9717c341ae552d485b5e0c4b0967329af75ac537
+COTA_3bd54510d4b0eef84db0,-9,,,,,        1.1000,creatinine,,mg/dl,9f4c74b1ec936982899661d57a3be6f2344a85fe
+COTA_3bd54510d4b0eef84db0,-9,,,,,        4.0000,albumin,,g/dl,b48ba156f1a5d157c5991f905d382881fc1b73af
+COTA_3bd54510d4b0eef84db0,0,,,,,      230.0000,igm,,mg/dl,77adf64657e3297748bc3751541c83b5bc098a03
+COTA_3bd54510d4b0eef84db0,0,,,,,positive,serum m spike,,,f724ff5da51a4d18a5c35d6a73f90803e462684b
+COTA_3bd54510d4b0eef84db0,0,,,,,       91.0000,iga,,mg/dl,6f844e43dc979814e7a0f58f51e5875a962de873
+COTA_3bd54510d4b0eef84db0,0,,,,618.0,      498.0000,ldh,,u/l,3d2c46f701b01b61c08d72d3b356bd6153a7f271
+COTA_3bd54510d4b0eef84db0,0,,,,,       12.6000,hemoglobin,,g/dl,a1b9c2c0f15eb361f8e5e1594b42cbf8b5307517
+COTA_3bd54510d4b0eef84db0,0,,,,,        1.4360,kappa flc,,mg/dl,c48e44419f6c3176fb0cd17e337361f1cf5682fb
+COTA_3bd54510d4b0eef84db0,0,,,,,        1.0100,creatinine,,mg/dl,76c303c02232595aa73e8dbfec88011b4bca5a79
+COTA_3bd54510d4b0eef84db0,0,,,,,     1035.0000,igg,,mg/dl,5496fc47733fcdc2b2267a80190aeb5f96b5c7a2
+COTA_3bd54510d4b0eef84db0,0,,,,,        4.5000,albumin,,g/dl,723c83241e26dacfb7ec62a28406486ac2710f80
+COTA_3bd54510d4b0eef84db0,0,,,,,        2.4340,lambda flc,,mg/dl,3a820ff9aa663f39bdc7037340831cdc7eedfe7f
+COTA_3bd54510d4b0eef84db0,0,,,,,        1.5000,beta 2 microglobulin,,mg/l,320718b20c8e7c8a6b020582afd747daeeb70c74
+COTA_3bd54510d4b0eef84db0,0,,,,,        9.2000,calcium,,mg/dl,0de8ded9a04ee6b0d45a97fc1d8e471d914e368c
+COTA_3bd54510d4b0eef84db0,0,,,,,positive,serum immunofixation,,,4ed8616bf2d0ea5f07edb610021836f13a1666d0
+COTA_3bd54510d4b0eef84db0,30,,,,,        1.0000,creatinine,,mg/dl,10b50c447824a381d1a512b534ff24631e55a900
+COTA_3bd54510d4b0eef84db0,30,,,,,        9.3000,calcium,,mg/dl,62fa98a97b2217c1713cecba07a4fd02f40df6b0
+COTA_3bd54510d4b0eef84db0,30,,,,,        3.9000,albumin,,g/dl,bb22945f2da028ffcc45f8e018dfe746c509b546
+COTA_3bd54510d4b0eef84db0,34,,,,,       16.1000,kappa flc,,mg/dl,d3b47dcedeec90d94f1b9ac0a3ee806ed915b36d
+COTA_3bd54510d4b0eef84db0,34,,,,,       27.8000,lambda flc,,mg/dl,abfaa6b662458438fe405f2fc400fe4bb57a9173
+COTA_3bd54510d4b0eef84db0,112,,,,,negative,urine m-spike (bence-jones),,,882a7e4e88ee3034a4cd572082a7bce5236ed3c8
+COTA_3bd54510d4b0eef84db0,112,,,,,negative,urine immunofixation,,,74f1bba0f70d34d4363a7271b9c6d039ec601a6f
+COTA_3bd54510d4b0eef84db0,112,,,,,        2.1130,lambda flc,,mg/dl,33cfba850adfc7e6dfa2ca743456a7902a7ea70b
+COTA_3bd54510d4b0eef84db0,112,,,,,negative,serum m spike,,,83bcc29f3c4831c6154db40237006bb00d2e0ac4
+COTA_3bd54510d4b0eef84db0,112,,,,,positive,serum immunofixation,,,8b164cc4288e329d09350d8d60ed221d4e6cb9fb
+COTA_3bd54510d4b0eef84db0,112,,,,,        1.5080,kappa flc,,mg/dl,116d38bc971fb9d401eaee240d42ba06cae42567
+COTA_3bd54510d4b0eef84db0,161,,,,,negative,urine immunofixation,,,e676558c2bb2cef57967aad395c29f866dc9438c
+COTA_3bd54510d4b0eef84db0,161,,,,,negative,serum m spike,,,e4fc29ef7e97670050abc8af1bec831d04f79418
+COTA_3bd54510d4b0eef84db0,161,,,,,negative,urine m-spike (bence-jones),,,acd7869d405f7a9e3b38af69ae1601e90be61d67
+COTA_3bd54510d4b0eef84db0,161,,,,,negative,serum immunofixation,,,4d8ae68fcf31b3feae5e5a06618fb654e269b1e4
+COTA_3bd54510d4b0eef84db0,161,,,,,        1.3500,lambda flc,,mg/dl,6e15dc0cf8029b6df093ea9bdf4d0cede5004613
+COTA_3bd54510d4b0eef84db0,161,,,,,        1.0620,kappa flc,,mg/dl,1f7fff6d597effa5f27c26ee152fa0b91163d26f
+COTA_3bd54510d4b0eef84db0,231,,,,,       14.6400,kappa flc,,mg/dl,783ea021b416ebba0fa636a6599cce46c3715146
+COTA_3bd54510d4b0eef84db0,231,,,,,       14.9400,lambda flc,,mg/dl,85b17d449427f8d2e8b2ab61442033c78a24cf9d
+COTA_3bd54510d4b0eef84db0,300,,,,,negative,serum m spike,,,629cec0ab06f263b9ad235b35f26437b9574920a
+COTA_3bd54510d4b0eef84db0,300,,,,,negative,serum immunofixation,,,894090e75e6170913c1d7b6af978b27a43a428d1
+COTA_3bd54510d4b0eef84db0,300,,,,,        1.2380,lambda flc,,mg/dl,93dccae74d30ff3790ebea2b033176ec81cb4814
+COTA_3bd54510d4b0eef84db0,300,,,,,        1.1790,kappa flc,,mg/dl,069b8f6399d3c616d4bc0f6e42b656aa7537b3dd
+COTA_3bd54510d4b0eef84db0,342,,,,,negative,serum m spike,,,a55291848fc7d13d3ff21dc82e3d729945073fcd
+COTA_3bd54510d4b0eef84db0,342,,,,,       14.0900,lambda flc,,mg/dl,27a3f78d14a1ecb524c9dd5cec19b5fe6f2b702b
+COTA_3bd54510d4b0eef84db0,342,,,,,       13.4700,kappa flc,,mg/dl,ffc5e2334a0c49f5e676c57bd16db0bb5302afca
+COTA_3bd54510d4b0eef84db0,351,,,,,         .9700,kappa flc,,mg/dl,c3d69a7b711f7119bb4d994e86540b1300135f99
+COTA_3bd54510d4b0eef84db0,351,,,,,        1.2830,lambda flc,,mg/dl,c167b4371a9d0d38289d905e01d65bd0178e5b16
+COTA_3bd54510d4b0eef84db0,378,,,,,positive,serum immunofixation,,,29782a0dd9211dd3845e069e0b78ced56efda972
+COTA_3bd54510d4b0eef84db0,379,,,,,negative,urine immunofixation,,,091e9dd5ba178de0e8af412ee97b05cb8f9a8c0c
+COTA_3bd54510d4b0eef84db0,379,,,,,negative,serum immunofixation,,,410aaa923981c867e853b86b4d753aaa7b3ddbb1
+COTA_3bd54510d4b0eef84db0,413,,,,,       13.6300,lambda flc,,mg/dl,98fcf18d5f6a9950160963c6517689f6cd34989f
+COTA_3bd54510d4b0eef84db0,413,,,,,negative,serum immunofixation,,,375215c5cf39bcb8e6b8c02a82b9ee9934c2558d
+COTA_3bd54510d4b0eef84db0,413,,,,,       10.0100,kappa flc,,mg/dl,2121fa23597e48b173752bcce58f7bf40062dd50
+COTA_3bd54510d4b0eef84db0,413,,,,,negative,urine m-spike (bence-jones),,,e02269020a0acd51fbe9c27e7905371383c06ee8
+COTA_3bd54510d4b0eef84db0,413,,,,,negative,serum m spike,,,1af92097c835e589271dffb57e9c1579f450834c
+COTA_3bd54510d4b0eef84db0,470,,,,,negative,serum m spike,,,15c934b2370d24d073ae1fa7ba52b9b5d86dc68a
+COTA_3bd54510d4b0eef84db0,470,,,,,negative,serum immunofixation,,,accd449272e5b1b9b3ce6d1066a50c141401e835
+COTA_3bd54510d4b0eef84db0,470,,,,,negative,urine m-spike (bence-jones),,,7018d9a195eba63e6b4c67f88ce57095dd7d6abc
+COTA_3bd54510d4b0eef84db0,470,,,,,       12.7300,lambda flc,,mg/dl,0c6f8d77845e3043fed92b208da1a8c0f4ab32fa
+COTA_3bd54510d4b0eef84db0,470,,,,,        9.4100,kappa flc,,mg/dl,e746a07d4933b7c37fc9132011a64c3df0ddf268
+COTA_3bd54510d4b0eef84db0,504,,,,,       18.6000,kappa flc,,mg/dl,d2ff23a04378ada60bbf5919b7865d3c87462622
+COTA_3bd54510d4b0eef84db0,504,,,,,negative,serum m spike,,,0cdbe549611c2ef24e93e04cc1852c2dfa6c985b
+COTA_3bd54510d4b0eef84db0,504,,,,,       17.4500,lambda flc,,mg/dl,5f267bfd307a73a1240920865f7524f348e4c661
+COTA_3bd54510d4b0eef84db0,504,,,,,       18.3000,kappa flc,,mg/dl,cdd6940e9ec70c36adf3f5ef5f926b832d0c0206
+COTA_3bd54510d4b0eef84db0,504,,,,,       15.7700,lambda flc,,mg/dl,8374ae981e16b497eddccc05784b5374ae02d283
+COTA_3bd54510d4b0eef84db0,504,,,,,negative,urine m-spike (bence-jones),,,7db060fb1d0882c1e74b635bfd8f8f50346373ad
+COTA_3bd54510d4b0eef84db0,532,,,,,       20.0100,kappa flc,,mg/dl,41d9b9dffcb040798561c92d86d87c24a00114ad
+COTA_3bd54510d4b0eef84db0,532,,,,,       16.5100,lambda flc,,mg/dl,8de0b4701672fd2d91c96b86a8ac9407100fc8e5
+COTA_3bd54510d4b0eef84db0,560,,,,,       16.5000,lambda flc,,mg/dl,41fb4c4b07667b30a5491f9d69791c5bb55fd822
+COTA_3bd54510d4b0eef84db0,560,,,,,       18.1600,kappa flc,,mg/dl,000b84641ad47a0cdfc40d614bc4d5f4661cc08c
+COTA_3bd54510d4b0eef84db0,560,,,,,negative,serum immunofixation,,,a481625d5963bd27ecedeaf1284e786374885156
+COTA_3bd54510d4b0eef84db0,560,,,,,negative,urine m-spike (bence-jones),,,35bb171d8a577e2d680932d62959da8c77607124
+COTA_3bd54510d4b0eef84db0,560,,,,,negative,serum m spike,,,0b5abce11b9cc4493c06c84b851c8b49618a0a83
+COTA_3bd54510d4b0eef84db0,595,,,,,negative,serum immunofixation,,,cfeaa40f8c56a98c7bfee1121a808f35b23ce0bd
+COTA_3bd54510d4b0eef84db0,595,,,,,negative,urine m-spike (bence-jones),,,634bbe3fad225d6d52d396754b3baae8d58cbd02
+COTA_3bd54510d4b0eef84db0,595,,,,,negative,serum m spike,,,42813cdd918f0e1a26da27e554ffaba9ebd1dc7c
+COTA_3bd54510d4b0eef84db0,623,,,,,       16.5400,lambda flc,,mg/dl,42187f99f9c89a648274e637e1ad4d841ba13176
+COTA_3bd54510d4b0eef84db0,623,,,,,       15.5000,kappa flc,,mg/dl,a96bf89702b899fb83cb540573ace4c9db713b2b
+COTA_3bd54510d4b0eef84db0,623,,,,,negative,serum m spike,,,36f6cefc310ffb2eccf9c06efb5ea09915ec91dd
+COTA_3bd54510d4b0eef84db0,624,,,,,negative,urine m-spike (bence-jones),,,1c31963047c2b42f5d52d8753d6794a9577bb1b8
+COTA_3bd54510d4b0eef84db0,658,,,,,       13.9300,kappa flc,,mg/dl,2f8c5baba0a32b20e98523ed4ea0837e4100958e
+COTA_3bd54510d4b0eef84db0,658,,,,,negative,urine m-spike (bence-jones),,,146ce7256f4e12461f85f203d851c339103319fb
+COTA_3bd54510d4b0eef84db0,658,,,,,       14.0600,lambda flc,,mg/dl,ec1dc3074238e50af69b97c11e5de34434ffd16c
+COTA_3bd54510d4b0eef84db0,658,,,,,negative,serum m spike,,,931dd2365bffb2eecb0201ff1d9ff66347d3a441
+COTA_3bd54510d4b0eef84db0,686,,,,,       13.3100,lambda flc,,mg/dl,7f7fb551dae8f0173fc0f8a524c2b831451c2256
+COTA_3bd54510d4b0eef84db0,686,,,,,       12.1800,kappa flc,,mg/dl,258ce4ddcd93a3e9e049bb7ce60ab162b38eafb8
+COTA_3bd54510d4b0eef84db0,686,,,,,negative,serum m spike,,,2063197fc91a7037f5f58148f01d30d3ae25486b
+COTA_3bd54510d4b0eef84db0,700,,,,,negative,urine m-spike (bence-jones),,,116ce9c1b7085fc8257030fedfa7452d002292b0
+COTA_3bd54510d4b0eef84db0,720,,,,,       11.1700,lambda flc,,mg/dl,7bbb59b125311b66f6334a5b72baa5145b0090e1
+COTA_3bd54510d4b0eef84db0,720,,,,,negative,serum immunofixation,,,183d4d1e246cf6a47a9145f3bdeb0ceadae6a982
+COTA_3bd54510d4b0eef84db0,720,,,,,       10.4200,kappa flc,,mg/dl,df585967e1a0ddb46fc47f23adf718e04c0dd0e7
+COTA_3bd54510d4b0eef84db0,720,,,,,negative,serum m spike,,,246966b5bb6a4c8f1383ada3b0023e9e35212f63
+COTA_3bd54510d4b0eef84db0,748,,,,,       14.2300,lambda flc,,mg/dl,9d1419e49de4bcd1c243bd522ba9c94a9d77596b
+COTA_3bd54510d4b0eef84db0,748,,,,,       12.5900,kappa flc,,mg/dl,b22f95a6ba899e5ba482055b00877dbd28d2fb69
+COTA_3bd54510d4b0eef84db0,748,,,,,negative,serum m spike,,,02d346df87e3186a289dee5e6fd651b371cb3a18
+COTA_3bd54510d4b0eef84db0,759,,,,,negative,urine m-spike (bence-jones),,,f068cb7cd1a3159c22ed838cdeba9da17e85b9a0
+COTA_3bd54510d4b0eef84db0,777,,,,,       15.8900,lambda flc,,mg/dl,30b7acd5677f889146fa0aabd82184f9b507b0b5
+COTA_3bd54510d4b0eef84db0,777,,,,,negative,serum immunofixation,,,7fa249122b3f8441b3340db5ce38d61c24bde6e6
+COTA_3bd54510d4b0eef84db0,777,,,,,       14.6000,kappa flc,,mg/dl,fee2742a072f4ebd7f4c076150e94c44aced1349
+COTA_3bd54510d4b0eef84db0,777,,,,,negative,serum m spike,,,0e2694342ac418db4e48526baa7dbc6bfc7cf6d9
+COTA_3bd54510d4b0eef84db0,805,,,,,       14.8300,kappa flc,,mg/dl,be4d89adca1a5db0c26c4636dc633c9bc6315fb9
+COTA_3bd54510d4b0eef84db0,805,,,,,       16.1500,lambda flc,,mg/dl,b81b6830ac8ad2acddcb70f58d38e99e38175724
+COTA_3bd54510d4b0eef84db0,832,,,,,       15.2400,lambda flc,,mg/dl,5e1ba873d418fb28601dc94a20514ceeba456ba5
+COTA_3bd54510d4b0eef84db0,832,,,,,negative,serum m spike,,,8383c35a3803341a3a4334dbe485d9e00771285b
+COTA_3bd54510d4b0eef84db0,832,,,,,       14.3900,kappa flc,,mg/dl,31c54e2d9da28689d00bccd984c087dbd348412f
+COTA_3bd54510d4b0eef84db0,832,,,,,negative,serum immunofixation,,,7b4d81b6f95883f5519311b9a1a9a71ec5397620
+COTA_3bd54510d4b0eef84db0,867,,,,,       13.5900,lambda flc,,mg/dl,ef8db710497bfdef6d86714eaf467d5030aa35a1
+COTA_3bd54510d4b0eef84db0,867,,,,,negative,serum m spike,,,2670b868a12f4bded8874434fb09aeca3e39f121
+COTA_3bd54510d4b0eef84db0,867,,,,,       11.8400,kappa flc,,mg/dl,2aed0c0604698c2321c6bb59479c57e0edc1c12d
+COTA_3bd54510d4b0eef84db0,869,,,,,negative,urine m-spike (bence-jones),,,618bfceedf2b66f21cb53a1b8793c18ab4a8480f
+COTA_3bd54510d4b0eef84db0,930,,,,,        1.7940,kappa flc,,mg/dl,bb0542e6173b2154050e4f3aab7bd0aa0f93482d
+COTA_3bd54510d4b0eef84db0,930,,,,,negative,serum m spike,,,ce4281fc2707359d156153c705eed5e44ca41498
+COTA_3bd54510d4b0eef84db0,930,,,,,        1.8430,lambda flc,,mg/dl,b4596e20838cb6cd9ec28bb1ba2a681ce7a757d6
+COTA_3bd54510d4b0eef84db0,958,,,,,        1.4520,kappa flc,,mg/dl,da357ab50cdeb641ee85dac450a8676e13f639f2
+COTA_3bd54510d4b0eef84db0,958,,,,,        1.6280,lambda flc,,mg/dl,dddefc3d19d51b155fac96dce0f7a7818a7d1fd9
+COTA_3bd54510d4b0eef84db0,958,,,,,negative,serum immunofixation,,,0a3dcbc69d2701a8d487e3fcc4ac190896dd1908
+COTA_3bd54510d4b0eef84db0,958,,,,,negative,serum m spike,,,fab6a4c01060e7d0b76085e168553ef77dec8b08
+COTA_3bd54510d4b0eef84db0,993,,,,,        1.2430,kappa flc,,mg/dl,c1fd930f1f66ddd4ea3225d908289dbf2214446e
+COTA_3bd54510d4b0eef84db0,993,,,,,        1.3910,lambda flc,,mg/dl,61e08bb8c8087f6042adc3259200e8124bf8cd52
+COTA_3bd54510d4b0eef84db0,993,,,,,negative,serum m spike,,,711b5fae9eef312d770584fc637833b20c179538
+COTA_3bd54510d4b0eef84db0,1022,,,,,       14.5300,kappa flc,,mg/dl,6c852855a7689ed4de45f5b009a6166b2638e7aa
+COTA_3bd54510d4b0eef84db0,1022,,,,,negative,serum m spike,,,ff2b49dc3968159009452fc41b791641816bacc2
+COTA_3bd54510d4b0eef84db0,1022,,,,,       16.0700,lambda flc,,mg/dl,641b3e6fc8f7c9ddc578a1b0684928eff6666c0d
+COTA_3bd54510d4b0eef84db0,1022,,,,,negative,serum immunofixation,,,179b90e97133647d8f7628308736ba25216843f7
+COTA_3bd54510d4b0eef84db0,1050,,,,,       11.9000,kappa flc,,mg/dl,c64c9269b8d7734e66d5d9d1256860c155f9b615
+COTA_3bd54510d4b0eef84db0,1050,,,,,       12.3300,lambda flc,,mg/dl,db279dc14b730ae2f6bcad1b4086d85da7c55287
+COTA_3bd54510d4b0eef84db0,1050,,,,,negative,serum immunofixation,,,3ce33638bc2860e845338047da2f242e81ac833f
+COTA_3bd54510d4b0eef84db0,1050,,,,,negative,serum m spike,,,166e517318e157a85f77e70f2943a2efc44e30b2
+COTA_3bd54510d4b0eef84db0,1078,,,,,       17.1700,lambda flc,,mg/dl,e032c6999df5b43ca6e3fbd38ccec21f82be9530
+COTA_3bd54510d4b0eef84db0,1078,,,,,       14.4200,kappa flc,,mg/dl,8ef34287be6dada58677aca71bb5218ee4121a8e
+COTA_3bd54510d4b0eef84db0,1120,,,,,        1.2260,kappa flc,,mg/dl,62e51d3598a9914d1483f50fec6cba472a3ac0f8
+COTA_3bd54510d4b0eef84db0,1120,,,,,negative,serum m spike,,,8b606ca2b21eab63a24cdc7739002041adc708fd
+COTA_3bd54510d4b0eef84db0,1120,,,,,        1.4310,lambda flc,,mg/dl,0ba42de160191440b76cff45639fe426b0f78668
+COTA_3bd54510d4b0eef84db0,1120,,,,,negative,serum immunofixation,,,8240309f3ecca2121ef33f11ec3cfc02f0351faa
+COTA_3bd54510d4b0eef84db0,1147,,,,,        1.1210,kappa flc,,mg/dl,7fb7851c4d39f19254428ba5d76f4754dbddfca9
+COTA_3bd54510d4b0eef84db0,1147,,,,,negative,serum m spike,,,5d407077c84c2eb0b63d19def4c92221f0067d3c
+COTA_3bd54510d4b0eef84db0,1147,,,,,        1.3140,lambda flc,,mg/dl,50dcbaa2109ea7fdf41b3de786f1605cedbbba29
+COTA_3bd54510d4b0eef84db0,1175,,,,,       14.1500,kappa flc,,mg/dl,74a2628e4e60b1b9da3be716776d05e1a35a7a57
+COTA_3bd54510d4b0eef84db0,1175,,,,,negative,serum m spike,,,e680a4e0ba0d31570022ecb377eeb268b2e429e8
+COTA_3bd54510d4b0eef84db0,1175,,,,,       18.3500,lambda flc,,mg/dl,ed7685ac5afa7a4ada4e009cc7b753fcf8e79a1a
+COTA_3bd54510d4b0eef84db0,1238,,,,,        1.5040,kappa flc,,mg/dl,0e55f9c1f56b7bd22380339853f22f8ab857c869
+COTA_3bd54510d4b0eef84db0,1238,,,,,        1.6740,lambda flc,,mg/dl,17e1bb5837fac50ea0e3c7ade8cdc134dcd3f8d4
+COTA_4aab2bbb562dff99c910,-20,,,,,        3.0300,creatinine,,mg/dl,be1c44bd075f5606897436ad92ff3c99413528a3
+COTA_4aab2bbb562dff99c910,-20,,,,,        9.9000,calcium,,mg/dl,8aff0b223c6bc288c72e8238fbf6683dd4892c3e
+COTA_4aab2bbb562dff99c910,-12,,,,,        5.0000,igm,<,mg/dl,937cca9843f4bb17c897c596664c78f15e95b2ed
+COTA_4aab2bbb562dff99c910,-12,,,,,      419.0000,igg,,mg/dl,aa24ac25f191bc77a8782117df18336a4efa7fa6
+COTA_4aab2bbb562dff99c910,-12,,,,,positive,serum immunofixation,,,ef4ecde3b119d49a2bddb4b909da62885bd4ccf2
+COTA_4aab2bbb562dff99c910,-12,,,,,       15.0000,iga,<,mg/dl,a4bafc006fef7a6af7b953dc0d0637dcb14998fe
+COTA_4aab2bbb562dff99c910,-5,,,,,       14.0000,igm,,mg/dl,3d88746689ad77c119738758658eea3d9d6cbe3a
+COTA_4aab2bbb562dff99c910,-5,,,,,         .0600,serum m spike,,mg/dl,831c3849ffe56cd097c6814ffb00e6a86cc07d45
+COTA_4aab2bbb562dff99c910,-5,,,,,       17.0000,iga,,mg/dl,eef324e1c09c81aa44ef8fae88333795ffadaf54
+COTA_4aab2bbb562dff99c910,-5,,,,,positive,serum immunofixation,,,483eb3f3f8835117b2876a60483eb5257ec65aef
+COTA_4aab2bbb562dff99c910,-5,,,,,      459.0000,igg,,mg/dl,f6ede4ccd73e862ba80a3c8277d25cfe6f9d3e1a
+COTA_4aab2bbb562dff99c910,-5,,,,,         .8900,lambda flc,,mg/dl,f26f4b9d94eca71d8c699b2b566d7df66f912109
+COTA_4aab2bbb562dff99c910,-5,,,,,       10.4000,calcium,,mg/dl,5faa651d9f709c1657cf06c10bd2f8abc4c7171c
+COTA_4aab2bbb562dff99c910,-5,,,,,       13.4000,beta 2 microglobulin,,mg/l,c100553c03630fc779f960d658c9ab30bc2a1be5
+COTA_4aab2bbb562dff99c910,-5,,,,,        4.9000,albumin,,g/dl,8dcc474045acef5ea73447faa10105bd73b1ddc7
+COTA_4aab2bbb562dff99c910,-5,,,,250.0,      151.0000,ldh,,u/l,024ea877a093f89deb4d38833fc3d301ea926c22
+COTA_4aab2bbb562dff99c910,-5,,,,,        3.0300,creatinine,,mg/dl,1bd9eb4a5d7a82b97788b9b7ae5e7b7fde833999
+COTA_4aab2bbb562dff99c910,-5,,,,,      327.5000,kappa flc,,mg/dl,46e4216c1b950cda5f12b8f6797b0ba6355462d9
+COTA_4aab2bbb562dff99c910,0,,,,,positive,urine immunofixation,,,a6797d7410200ac16c79e209da179c7ecea9578f
+COTA_4aab2bbb562dff99c910,0,,,,,        8.9000,hemoglobin,,g/dl,209d3e25e209fb3f9d1f1e15b941ed884a47e66c
+COTA_4aab2bbb562dff99c910,2,,,,,         .2000,serum m spike,,mg/dl,4e3d5fc493dd57f324e65fe987f0c5abcfbe7eba
+COTA_4aab2bbb562dff99c910,13,,,,,        2.7100,creatinine,,mg/dl,192f094f348f6d9edd82ddaf195d837729c0f0e5
+COTA_4aab2bbb562dff99c910,13,,,,,        9.9000,calcium,,mg/dl,97d0a8a852a3afe46523179f868329a72342e246
+COTA_4aab2bbb562dff99c910,13,,,,,        4.7000,albumin,,g/dl,51182e411a65c170291bfe3cce5298694740c13f
+COTA_4aab2bbb562dff99c910,20,,,,,        9.5000,calcium,,mg/dl,033ec7a1f6a96c0c9fd65bd1cb3ace41fccd450c
+COTA_4aab2bbb562dff99c910,20,,,,,        2.4100,creatinine,,mg/dl,e36e4da89c98e21843cd611ac51a5329aee921a3
+COTA_4aab2bbb562dff99c910,20,,,,,        4.1000,albumin,,g/dl,7a3d3cac7a8a573b87b64a721a1ff5ec6acf286c
+COTA_4aab2bbb562dff99c910,27,,,,,negative,serum m spike,,,b775509af8c37e81cc0c465de9839976b7fa8b35
+COTA_4aab2bbb562dff99c910,27,,,,,        9.5000,calcium,,mg/dl,c15e0904c254d307cece607e8c821e5a89f6425a
+COTA_4aab2bbb562dff99c910,27,,,,,       43.7500,kappa flc,,mg/dl,3f5615473d0c4b4861ba58f977a043060164479b
+COTA_4aab2bbb562dff99c910,27,,,,,        4.3000,albumin,,g/dl,e563ddf0b3f6c4c47ff337511b989096d7b57427
+COTA_4aab2bbb562dff99c910,27,,,,,negative,serum immunofixation,,,a990f04b86f782047d086db485fa0d08cf287430
+COTA_4aab2bbb562dff99c910,27,,,,,      345.0000,igg,,mg/dl,586d550d97fcac41ff025ab7cb940ef093d99df4
+COTA_4aab2bbb562dff99c910,27,,,,,        2.1500,creatinine,,mg/dl,f0bc6dcc5681b932dcc857e558f9f9acbe0138d6
+COTA_4aab2bbb562dff99c910,27,,,,,         .8100,lambda flc,,mg/dl,c712d28145265f0469bed2671ca0f8fccc0092b5
+COTA_4aab2bbb562dff99c910,27,,,,,       10.0000,igm,,mg/dl,859dc597a6bfc9c6db6ca251c8886dedc3b5eefb
+COTA_4aab2bbb562dff99c910,27,,,,,       10.0000,iga,,mg/dl,3910eb1a174b9ffbaf2576ba3ad509b1edd4934d
+COTA_4aab2bbb562dff99c910,34,,,,,        2.1000,creatinine,,mg/dl,8358cd32bd4412c2d5676a8b14b817fd8403a711
+COTA_4aab2bbb562dff99c910,34,,,,,       10.0000,calcium,,mg/dl,6be9b689d80fa8fd46e8b9e5f761f271d706e615
+COTA_4aab2bbb562dff99c910,34,,,,,        4.6000,albumin,,g/dl,77c93492a97b679f44d433dbfd80625b02735272
+COTA_4aab2bbb562dff99c910,48,,,,,         .5600,lambda flc,,mg/dl,a2670683b9ade27ca2f14e61e22f13255837b832
+COTA_4aab2bbb562dff99c910,48,,,,,negative,serum m spike,,,c3e268bbe8ac56f1879890b4a85235f1ed61e6cc
+COTA_4aab2bbb562dff99c910,48,,,,,negative,serum immunofixation,,,a3cd0703445fe848826c00d3db2df1a54b665c30
+COTA_4aab2bbb562dff99c910,48,,,,,        9.6400,kappa flc,,mg/dl,a6dea5b798897b9e5f51e7afc7f821b90e44d1c9
+COTA_4aab2bbb562dff99c910,83,,,,,negative,serum m spike,,,0f95121f864ddd0a71b8db602f37f04badb4350f
+COTA_4aab2bbb562dff99c910,83,,,,,        1.9900,kappa flc,,mg/dl,b58782edc4b6ddad91797f93365dfaf65c00b817
+COTA_4aab2bbb562dff99c910,83,,,,,negative,serum immunofixation,,,46aa6fe50651877ca2e88e7dcecf711c8c64176d
+COTA_4aab2bbb562dff99c910,83,,,,,        1.1200,lambda flc,,mg/dl,a78a1e69fc1a5d3c8fd565808a5852a97985d619
+COTA_4aab2bbb562dff99c910,111,,,,,negative,serum immunofixation,,,8d9916e7303ba243e194c8cce0e467a8b5b00172
+COTA_4aab2bbb562dff99c910,111,,,,,negative,serum m spike,,,059fa964b3b7e46e1cec7654c2f08ef7cd0355c2
+COTA_4aab2bbb562dff99c910,111,,,,,        1.3600,lambda flc,,mg/dl,71d3dfe74bef24eeb1ae34cb49419879188efc60
+COTA_4aab2bbb562dff99c910,111,,,,,        2.0000,kappa flc,,mg/dl,1498701a081f9f265597e980caef373fd1076334
+COTA_4aab2bbb562dff99c910,169,,,,,        1.1300,lambda flc,,mg/dl,43366f4258da8e2f38461b82c560f831ba1f8dad
+COTA_4aab2bbb562dff99c910,169,,,,,        1.4500,kappa flc,,mg/dl,177d9b51ed05106d58607e6bb492ee8b8fc511c1
+COTA_4aab2bbb562dff99c910,169,,,,,negative,serum immunofixation,,,c5acd3820d5174430b0c55153acdcce72128378f
+COTA_4aab2bbb562dff99c910,192,,,,,negative,urine m-spike (bence-jones),,,94439f4714ee736f5dc280bddb912493b795fb0c
+COTA_4aab2bbb562dff99c910,192,,,,,negative,urine immunofixation,,,0bfcacee68e51aebd0f9f669107f65c329bf4690
+COTA_4aab2bbb562dff99c910,293,,,,,negative,serum immunofixation,,,92139c36be100a5f631106b059195ddd3da02326
+COTA_4aab2bbb562dff99c910,293,,,,,         .5800,kappa flc,,mg/dl,7d21dae144fe5a0e7cb4448e510872391ab8bff3
+COTA_4aab2bbb562dff99c910,293,,,,,negative,serum m spike,,,69d40b2aa7f3edda7a5910dd3f6937f9a434111f
+COTA_4aab2bbb562dff99c910,293,,,,,         .7700,lambda flc,,mg/dl,d019647e0e2193fd89e9168798de1459392b571d
+COTA_4aab2bbb562dff99c910,309,,,,,negative,urine m-spike (bence-jones),,,fd131940e75cc6073224d5df910c1a5049da9bd8
+COTA_4aab2bbb562dff99c910,309,,,,,negative,urine immunofixation,,,bc8ed6b360ec8d5dfece3ed2b7b6e9cea7f98e03
+COTA_4aab2bbb562dff99c910,315,,,,,negative,serum immunofixation,,,0e5702adcf48a25ea0cbeec258b695dc0ae1c38d
+COTA_4aab2bbb562dff99c910,315,,,,,         .9600,lambda flc,,mg/dl,440ec8ead26358e11b16235b59a8e8189580e37e
+COTA_4aab2bbb562dff99c910,315,,,,,negative,serum m spike,,,a4b3ba77d1230d0d29879c0570b03899daed251c
+COTA_4aab2bbb562dff99c910,315,,,,,         .6700,kappa flc,,mg/dl,028aef0dc78a78b0ab82a3f49634308e4d899375
+COTA_4aab2bbb562dff99c910,366,,,,,negative,serum immunofixation,,,65ff2a47f0d082d13c7cba5c3dbb9bd0c8d7cd5d
+COTA_4aab2bbb562dff99c910,366,,,,,         .6700,kappa flc,,mg/dl,39cff3a0a24c51132b11499195228e113b7d589c
+COTA_4aab2bbb562dff99c910,366,,,,,negative,serum m spike,,,286b7929af134dc659e3caba58276685690a54e4
+COTA_4aab2bbb562dff99c910,366,,,,,         .9600,lambda flc,,mg/dl,902224906d1b4a3aa414dc08c10cef9bc3ebeba3
+COTA_4aab2bbb562dff99c910,457,,,,,negative,serum immunofixation,,,e1bc80fe91199a6cd19ebbce169e6bda09240afe
+COTA_4aab2bbb562dff99c910,457,,,,,        2.0300,kappa flc,,mg/dl,9c3e8ead25125a074edb8b4c8dbd6b9642f79f9b
+COTA_4aab2bbb562dff99c910,457,,,,,negative,serum m spike,,,f8448ddffc5eb70555ec65aa904f3649465ac0f2
+COTA_4aab2bbb562dff99c910,457,,,,,        1.1400,lambda flc,,mg/dl,80c2a1596789b8f8c66f687c8ccd756bd31a083d
+COTA_4aab2bbb562dff99c910,541,,,,,negative,serum m spike,,,bf1b0e12f2776dd6f5359f3cb34e50e94719fe1f
+COTA_4aab2bbb562dff99c910,541,,,,,        1.6900,lambda flc,,mg/dl,6fed81b3680aed3c3399254ee1330a124585e4a8
+COTA_4aab2bbb562dff99c910,541,,,,,negative,serum immunofixation,,,676ed355b541f169e81474b76ffbc4aa39bf1878
+COTA_4aab2bbb562dff99c910,541,,,,,        1.3400,kappa flc,,mg/dl,22ae9b61e6b4c909d121168b0e02f7965b7d0f27
+COTA_4aab2bbb562dff99c910,570,,,,,negative,serum m spike,,,355cb94c503c644a3db1d6a89fce10d2ca96f7f4
+COTA_4aab2bbb562dff99c910,570,,,,,        1.4200,lambda flc,,mg/dl,f432d2038eec02ff4cce489bdc8312f0c8c1179d
+COTA_4aab2bbb562dff99c910,570,,,,,negative,serum immunofixation,,,4f45c7f9e3dd3f4bfa415997233df68af5167f54
+COTA_4aab2bbb562dff99c910,570,,,,,        1.2900,kappa flc,,mg/dl,bf076cbc0552c5415f26da763c466d17ef3634b6
+COTA_4aab2bbb562dff99c910,658,,,,,negative,serum immunofixation,,,c0a48f24322cd72dc8adf76cce1ed8828a04e3b4
+COTA_4aab2bbb562dff99c910,658,,,,,         .7400,kappa flc,,mg/dl,995b1ba1a0476a77b608bf7dd56da4b1f2f9f8ca
+COTA_4aab2bbb562dff99c910,658,,,,,negative,serum m spike,,,eab9e5a8e7c1cd59cb90de3118b30b8aca330272
+COTA_4aab2bbb562dff99c910,658,,,,,         .8800,lambda flc,,mg/dl,130ad2d5d11a2dd9aa809a7ca047e6cfd7115fd4
+COTA_4aab2bbb562dff99c910,769,,,,,negative,serum immunofixation,,,2fb3cd504f36158b4386121fd72ee7ab6d6a8b33
+COTA_4aab2bbb562dff99c910,769,,,,,        1.3100,kappa flc,,mg/dl,9129264fb9a345aca577e669ef26339709295811
+COTA_4aab2bbb562dff99c910,769,,,,,negative,serum m spike,,,88c0e970f6d6fe6d79116cb98cc66667f699ab6a
+COTA_4aab2bbb562dff99c910,769,,,,,         .9500,lambda flc,,mg/dl,ddbe0d34f4e9c2993c3839394307c8d94b3e3e60
+COTA_4aab2bbb562dff99c910,853,,,,,negative,serum immunofixation,,,942029e5ec71df9424ff85054e5592f1acd789fc
+COTA_4aab2bbb562dff99c910,853,,,,,        1.3400,lambda flc,,mg/dl,5a0bec711b7532285a4a8529a149154967067d37
+COTA_4aab2bbb562dff99c910,853,,,,,        1.2100,kappa flc,,mg/dl,05b09515a3733df6bf25fd38a7ad5f569f658750
+COTA_4aab2bbb562dff99c910,853,,,,,negative,serum m spike,,,8f0697fb96ed448beefd93a01efcd110d9630ab7
+COTA_4aab2bbb562dff99c910,938,,,,,        1.7600,kappa flc,,mg/dl,b10c96567fdd3031d8846f5245b24c71fb2b7a6a
+COTA_4aab2bbb562dff99c910,938,,,,,negative,serum immunofixation,,,fab43903971000fb5672faa78df37d6ceb050ac9
+COTA_4aab2bbb562dff99c910,938,,,,,negative,serum m spike,,,bdaa795fa7a73dd88b6f62fb127c88af19bfd59a
+COTA_4aab2bbb562dff99c910,938,,,,,        1.6000,lambda flc,,mg/dl,1cfd17d8c367833088a064ad49778e1e3c64b662
+COTA_4aab2bbb562dff99c910,1023,,,,,negative,serum immunofixation,,,ea7e3772bca50fb877bacdf29587c6a1ca0481ce
+COTA_4aab2bbb562dff99c910,1023,,,,,        1.4500,kappa flc,,mg/dl,ae20494d2dcba7dc782aebc5945ade74f7244c1f
+COTA_4aab2bbb562dff99c910,1023,,,,,        1.5400,lambda flc,,mg/dl,0e67e8b31ed4ab978867debd4807cd334b52978a
+COTA_4aab2bbb562dff99c910,1023,,,,,negative,serum m spike,,,721838d14cd05e013ac360f932879f435b8fddfb
+COTA_4aab2bbb562dff99c910,1108,,,,,        1.5600,kappa flc,,mg/dl,65d17f12b57d054059606eab2a08a858bad2e8ac
+COTA_4aab2bbb562dff99c910,1108,,,,,negative,serum m spike,,,3b3986fcb09a93c66ab82ef13c25809376908645
+COTA_4aab2bbb562dff99c910,1108,,,,,negative,serum immunofixation,,,c79966b87ce181f4c5d0d1b8021487337ecb6049
+COTA_4aab2bbb562dff99c910,1108,,,,,        1.6400,lambda flc,,mg/dl,1c99036148d1891b770804dd852b5fd5a0728b07
+COTA_4aab2bbb562dff99c910,1192,,,,,negative,serum immunofixation,,,f5a885511a45296fcfeb7ce7120cf4947bd12669
+COTA_4aab2bbb562dff99c910,1192,,,,,        1.3800,lambda flc,,mg/dl,1fa9fe7137fe52681c057707103ab967c23cf586
+COTA_4aab2bbb562dff99c910,1192,,,,,        1.5700,kappa flc,,mg/dl,3ada09e2e73bdec713c4c865dd2cfa589212c39e
+COTA_4aab2bbb562dff99c910,1192,,,,,negative,serum m spike,,,0b91bff6d6c1fcd77b9834acab72b379f5263cba
+COTA_4aab2bbb562dff99c910,1284,,,,,        1.9600,lambda flc,,mg/dl,4110850088ea3188287cb0636fd0f8aa0d4bfa03
+COTA_4aab2bbb562dff99c910,1284,,,,,negative,serum m spike,,,87cd72c6f168e70e4e36c20d6a955c5aba44c2e2
+COTA_4aab2bbb562dff99c910,1284,,,,,negative,serum immunofixation,,,5f31988b826795787c3c3bc640faa48bb2a883ef
+COTA_4aab2bbb562dff99c910,1284,,,,,        1.3000,kappa flc,,mg/dl,b7edaafbb0c0f9c99a18fbab9c61ee6673727e53
+COTA_4aab2bbb562dff99c910,1388,,,,,negative,serum m spike,,,b583dcb7fa0a594d944d3252acfa50e1a6066347
+COTA_4aab2bbb562dff99c910,1388,,,,,        1.7500,kappa flc,,mg/dl,994fd8c9daaff91d7dc1bb39953325fede8f1495
+COTA_4aab2bbb562dff99c910,1388,,,,,        1.3400,lambda flc,,mg/dl,a11f6e40b208cb24dc5ebcc4732ebd1c68b1bd42
+COTA_4aab2bbb562dff99c910,1388,,,,,negative,serum immunofixation,,,eed42d380630dfb31f28bae54f08a4ae4291f801
+COTA_4aab2bbb562dff99c910,1484,,,,,        1.3200,lambda flc,,mg/dl,9a35c060cf340d966b3e3eb871c0a0bfe8797fee
+COTA_4aab2bbb562dff99c910,1484,,,,,negative,serum m spike,,,a520d8efc94bf4308f7d91cc068888b3da5108bd
+COTA_4aab2bbb562dff99c910,1484,,,,,negative,serum immunofixation,,,0561f82f8e25d150ed198d5b9c9a3ec0a4cfbe27
+COTA_4aab2bbb562dff99c910,1484,,,,,        1.0200,kappa flc,,mg/dl,48ed91931ae985403948ae4b70b523d437bc3f80
+COTA_4aab2bbb562dff99c910,1577,,,,,negative,serum immunofixation,,,cc8683b93a468d5eeaf95cb74bbbb0e92d8dc91c
+COTA_4aab2bbb562dff99c910,1577,,,,,        1.1800,lambda flc,,mg/dl,f84df6af1b8919a8bbcba7f9acb515192a3f6e9c
+COTA_4aab2bbb562dff99c910,1577,,,,,        1.2600,kappa flc,,mg/dl,ea699f2f0b68e73cb5477ca3d86ff7fabe3a187b
+COTA_4aab2bbb562dff99c910,1577,,,,,negative,serum m spike,,,72f7a9a1eb058515271cdc69b7151f0357478c94
+COTA_4aab2bbb562dff99c910,1658,,,,,        1.8800,lambda flc,,mg/dl,97e71a8725d5cfef5c4887b8b379a5dbb2f73b80
+COTA_4aab2bbb562dff99c910,1658,,,,,negative,serum m spike,,,68d78f62f30a1415b6a3a0c1a7a18cbf15b9d66e
+COTA_4aab2bbb562dff99c910,1658,,,,,negative,serum immunofixation,,,88342733aae02e59be052f8078598e97b1982d18
+COTA_4aab2bbb562dff99c910,1658,,,,,        1.8900,kappa flc,,mg/dl,49fc4f018107cc2ef08e3d684399013a03c8bb12
+COTA_4aab2bbb562dff99c910,1751,,,,,negative,serum immunofixation,,,1eeb3d5a2224388bec72e4bd1562b313f51c0fee
+COTA_4aab2bbb562dff99c910,1751,,,,,        1.5500,kappa flc,,mg/dl,dc19c997bdd806e847bfef4688ac8f1b26b846b8
+COTA_4aab2bbb562dff99c910,1751,,,,,        1.6700,lambda flc,,mg/dl,76d8c5b0a129105ba3de1da8030b8d065902a016
+COTA_4aab2bbb562dff99c910,1751,,,,,negative,serum m spike,,,d47f212e273ef434735e0be6bd19bb49454610ad
+COTA_4aab2bbb562dff99c910,1835,,,,,        1.5400,lambda flc,,mg/dl,5e6f5216f4c6526053c53aaef8248d5f84e1054c
+COTA_4aab2bbb562dff99c910,1835,,,,,negative,serum m spike,,,9a29ea47004fd8311b2e8bfbcad6779aad8a08bc
+COTA_4aab2bbb562dff99c910,1835,,,,,negative,serum immunofixation,,,d5bfc0232e14509942d4f291006484614e25b510
+COTA_4aab2bbb562dff99c910,1835,,,,,        1.5600,kappa flc,,mg/dl,038c2b4148dc094e95819363732bfae22013792b
+COTA_4aab2bbb562dff99c910,1917,,,,,negative,serum immunofixation,,,2e0d855598228dab5f5de73a01c65e4787bcdc44
+COTA_4aab2bbb562dff99c910,1917,,,,,        1.6100,kappa flc,,mg/dl,87441e65022eb0f536f5c4dddad0c0fe7eacb590
+COTA_4aab2bbb562dff99c910,1917,,,,,        1.7500,lambda flc,,mg/dl,6c3d0de706574dafc12c0b0e9bb073a99a1d9c4e
+COTA_4aab2bbb562dff99c910,1917,,,,,negative,serum m spike,,,8a6c5afd3dcba203a63b27e932fb742e1a95d93c
+COTA_4aab2bbb562dff99c910,2008,,,,,        1.6500,lambda flc,,mg/dl,539b24545e1da66ef949de39508d2bbf79251c73
+COTA_4aab2bbb562dff99c910,2008,,,,,negative,serum m spike,,,4571212bd8ac943a7d31060f674701e662e00a87
+COTA_4aab2bbb562dff99c910,2008,,,,,negative,serum immunofixation,,,896c2891b37ba0d8c3593adb59d7d36655e219c3
+COTA_4aab2bbb562dff99c910,2008,,,,,        1.7000,kappa flc,,mg/dl,c98dc1f9975c42254496d0497cc763bf23ab0aa6
+COTA_4aab2bbb562dff99c910,2093,,,,,negative,serum immunofixation,,,55b7420f5b0af103e7067a32fe2510610d56af50
+COTA_4aab2bbb562dff99c910,2093,,,,,        1.8100,kappa flc,,mg/dl,d26b704cd3793f747b36509cd58d4a23397658e2
+COTA_4aab2bbb562dff99c910,2093,,,,,        2.3500,lambda flc,,mg/dl,c6dc2c67c356aa65ea9dcc67ac395c98f1831f1d
+COTA_4aab2bbb562dff99c910,2093,,,,,negative,serum m spike,,,9339078ad3d0e6e05e6f0cb3d930f57368b17b7f
+COTA_4aab2bbb562dff99c910,2185,,,,,        2.7600,lambda flc,,mg/dl,8d46c62dcc258e05852fb74bd1fb3b61d2c11c52
+COTA_4aab2bbb562dff99c910,2185,,,,,negative,serum immunofixation,,,5f4775350b0973411c822c1ee2653e4a68aa7d5b
+COTA_4aab2bbb562dff99c910,2185,,,,,negative,serum m spike,,,863fcd9fc123eb3b49028753deb1ede09b5f7da3
+COTA_4aab2bbb562dff99c910,2185,,,,,        1.8500,kappa flc,,mg/dl,de98dfda86a44bb0986b95672cd3c05126fbb341
+COTA_4aab2bbb562dff99c910,2269,,,,,        1.5400,kappa flc,,mg/dl,b54f765192ed77da3627649e8114aed39cd1a074
+COTA_4aab2bbb562dff99c910,2269,,,,,        2.0100,lambda flc,,mg/dl,a0448f7c5cbf6e059d368c2d6722d9fd82f72abd
+COTA_4aab2bbb562dff99c910,2269,,,,,negative,serum immunofixation,,,b8d738f877e67d67e151e0384254885c4fdda8aa
+COTA_4aab2bbb562dff99c910,2269,,,,,negative,serum m spike,,,c3db7f9a6ef57a22f8b2903fa413fe68653d1eda
+COTA_4aab2bbb562dff99c910,2354,,,,,        1.4000,kappa flc,,mg/dl,23b71c0ca1ad192eee4aaa779cf41feb9f0d91e7
+COTA_4aab2bbb562dff99c910,2354,,,,,negative,serum m spike,,,d124c08122179e55cde5d6a51cec546eeed4bfb5
+COTA_4aab2bbb562dff99c910,2354,,,,,        1.9600,lambda flc,,mg/dl,34ddd0e6be2abb910aded700fed02f66392fc495
+COTA_4aab2bbb562dff99c910,2354,,,,,negative,serum immunofixation,,,c2c5c6a559a2d6cccaafdeb92f6e2d9cb602fc70
+COTA_4aab2bbb562dff99c910,2438,,,,,        1.6000,kappa flc,,mg/dl,8d3562231fb6a6821096661051708240e1d27643
+COTA_4aab2bbb562dff99c910,2438,,,,,        1.9700,lambda flc,,mg/dl,dbb1b39dd68b64c57cffc916a3ff0d810d0741ae
+COTA_4aab2bbb562dff99c910,2438,,,,,negative,serum m spike,,,f2f6a26bd06371f7e86068de386db6b62c1468ef
+COTA_4aab2bbb562dff99c910,2438,,,,,negative,serum immunofixation,,,380182a3b7a833e8cb99c3d79ff46cc6b6cb5c04
+COTA_4aab2bbb562dff99c910,2522,,,,,        1.4000,kappa flc,,mg/dl,8ba377ff511c511c7cc2e849f66225ae103ea37b
+COTA_4aab2bbb562dff99c910,2522,,,,,negative,serum immunofixation,,,cfcb6550d0bf68cb5d3d6dc857d08d27e5c089d3
+COTA_4aab2bbb562dff99c910,2522,,,,,negative,serum m spike,,,3e0a30b04b59f07ab2e9958721da236a0d44a224
+COTA_4aab2bbb562dff99c910,2522,,,,,        2.0500,lambda flc,,mg/dl,3abc0b41f361a4dc215b27f7ced0bf34d4acf102
+COTA_4aab2bbb562dff99c910,2605,,,,,        2.3800,lambda flc,,mg/dl,0d15852e807a4a09ceee587d8bde75edf84658f0
+COTA_4aab2bbb562dff99c910,2605,,,,,        1.4600,kappa flc,,mg/dl,a26db47cf7b74768b2e027d55b1d6da23fc9b8ec
+COTA_4aab2bbb562dff99c910,2605,,,,,negative,serum immunofixation,,,f3ab1aa30e7c91374577c6093236aafc86865b4e
+COTA_4aab2bbb562dff99c910,2605,,,,,negative,serum m spike,,,da1235cad59fb3c6e139d8ab0b1997aa48b1cf9b
+COTA_4aab2bbb562dff99c910,2689,,,,,        1.7700,lambda flc,,mg/dl,0433b4791098d8592cc042f1495c466fc754f723
+COTA_4aab2bbb562dff99c910,2689,,,,,negative,serum immunofixation,,,0f552c3dfed21eabf810524263de99a225097048
+COTA_4aab2bbb562dff99c910,2689,,,,,negative,serum m spike,,,98635e56da43c1e64edc096230ddb048c30e454a
+COTA_4aab2bbb562dff99c910,2689,,,,,        1.2000,kappa flc,,mg/dl,bb5c805269b793aa25e69fcf27458476ecd95d63
+COTA_4aab2bbb562dff99c910,2773,,,,,       25.6000,lambda flc,,mg/dl,f4096412f43a2b473fd7770772617b603eca2b9e
+COTA_4aab2bbb562dff99c910,2773,,,,,       24.1000,kappa flc,,mg/dl,2e8f483d5187d0a3ce26afb436ac121ad0753f82
+COTA_4aab2bbb562dff99c910,2773,,,,,negative,serum m spike,,,d51308764fc6390fd2a20b8fb8cd470bc629628d
+COTA_52f88169221a4229f567,-5,,,,,        6.0000,serum m spike,,mg/dl,eb75f5a5da2eb261658ad96468a8c045489ab5a9
+COTA_52f88169221a4229f567,-5,,,,,       29.9000,kappa flc,,mg/dl,d6aa76d3b3aa477abbfe3620f5875269a774704f
+COTA_52f88169221a4229f567,-5,,,,,    11784.0000,igg,,mg/dl,24b33583d0c4b15b7955c7d81b3a763b0759dee1
+COTA_52f88169221a4229f567,-5,,,,,         .4300,lambda flc,<,mg/dl,6c8112a5543c6b563a3bef661b924f4fde458ff8
+COTA_52f88169221a4229f567,-5,,,,,positive,urine m-spike (bence-jones),,,383afd4c77c0720354195e7db31faf2700889340
+COTA_52f88169221a4229f567,63,,,,,        4.5000,serum m spike,,mg/dl,ef90f5e8b58e71b12ecabe667bca20af2fe79085
+COTA_52f88169221a4229f567,63,,,,,       12.4800,urine m-spike (bence-jones),,mg/24hr,716fff3ce7a5e853079bed244a2c7ca3e217a31b
+COTA_52f88169221a4229f567,106,,,,,         .4000,lambda flc,<,mg/dl,8c83be29bf339b44af07519a5e329be8cda7ccc7
+COTA_52f88169221a4229f567,106,,,,,         .6500,kappa flc,,mg/dl,79956460cee454f8f651f686e1834afae01c407b
+COTA_52f88169221a4229f567,106,,,,,        4.7000,serum m spike,,mg/dl,198bb1aab76ae1b80b7b8beabbfbb8b4c5e24242
+COTA_52f88169221a4229f567,140,,,,,        4.1000,serum m spike,,mg/dl,1398404a336cd399946e011268456235a6c62ee7
+COTA_52f88169221a4229f567,156,,,,,        1.3400,kappa flc,,mg/dl,c319194a23ce6bad83a351956d674ce81237cc9e
+COTA_52f88169221a4229f567,156,,,,,        5.5000,serum m spike,,mg/dl,75d39a246d137e43a89f7b6d47ad5691c07f4dc6
+COTA_52f88169221a4229f567,156,,,,,         .4000,lambda flc,<,mg/dl,7667f7fdd4fd181c7dc05a3a24ec4cce8c67ade5
+COTA_52f88169221a4229f567,225,,,,,        1.2700,kappa flc,,mg/dl,5144b281541765a7d138eff7ac8f1ff1ab6177ea
+COTA_52f88169221a4229f567,225,,,,,        5.6000,serum m spike,,mg/dl,ea6c2e695929044b5af8bc3b7c57673f5343d48b
+COTA_52f88169221a4229f567,225,,,,,positive,urine m-spike (bence-jones),,,0bdc2a31bd181fd3454142d589ac2d5051331960
+COTA_52f88169221a4229f567,225,,,,,         .4000,lambda flc,<,mg/dl,83335a89d03970d75af776e9f920460426e04113
+COTA_52f88169221a4229f567,248,,,,,        1.2900,kappa flc,,mg/dl,750216a74c123b38810015ecaae3238e5c843671
+COTA_52f88169221a4229f567,248,,,,,         .7300,lambda flc,,mg/dl,6e42e1e628b8aa4cb5e65006ffe162cb764fe3da
+COTA_52f88169221a4229f567,248,,,,,        4.6000,serum m spike,,mg/dl,d655f8ebf06b4de8469206fb58d2570cfb1d42aa
+COTA_52f88169221a4229f567,290,,,,,        1.4000,kappa flc,,mg/dl,3cd7065c009c3198423bf7bf90176b8859ef61ea
+COTA_52f88169221a4229f567,290,,,,,         .3600,lambda flc,<,mg/dl,de779bdbad974070959c70e3e372f9054dfbd485
+COTA_52f88169221a4229f567,290,,,,,        4.6000,serum m spike,,mg/dl,1cf33bdecd9eafd25950f1eeecf07a3520670138
+COTA_52f88169221a4229f567,318,,,,,         .3600,lambda flc,<,mg/dl,d3d2086684e83252f98a51d0fb1da25374ea6bac
+COTA_52f88169221a4229f567,318,,,,,        1.0700,kappa flc,,mg/dl,b8adaac320d86f242065c860d6da71b33e21a781
+COTA_52f88169221a4229f567,318,,,,,        4.5000,serum m spike,,mg/dl,f978a39dd879ee1e28b22396673c2639956c187d
+COTA_52f88169221a4229f567,430,,,,,        4.0400,kappa flc,,mg/dl,4287d6f85e29671279718ce8b2a4399ec216a229
+COTA_52f88169221a4229f567,430,,,,,        1.1400,lambda flc,,mg/dl,ba21a43f12e5e659c40722834fe6cf594235ab9f
+COTA_52f88169221a4229f567,430,,,,,        2.6000,serum m spike,,mg/dl,f7fbc9e66249e9ccce29e49ca5a777eee1ae635d
+COTA_52f88169221a4229f567,458,,,,,        2.6000,serum m spike,,mg/dl,735c72e88c880c91f760b3722be80b83a9b0f143
+COTA_52f88169221a4229f567,458,,,,,         .6900,kappa flc,,mg/dl,8e3a254c50baf6338933bad821ac7c19b32aa2f0
+COTA_52f88169221a4229f567,458,,,,,         .9000,lambda flc,,mg/dl,c5f6b87d471094b4d1b93cf307b13b60a10bfb5c
+COTA_52f88169221a4229f567,465,,,,,        2.7500,serum m spike,,mg/dl,6b5adb373b4967226959a9e2cbccd9cf1397bfb8
+COTA_52f88169221a4229f567,487,,,,,        1.0500,lambda flc,,mg/dl,37e05700c6384e3c461383e18d847ddbe27b8fab
+COTA_52f88169221a4229f567,487,,,,,        4.4000,kappa flc,,mg/dl,5a3ce37173604bfc4b33279641cbee147dc576a7
+COTA_52f88169221a4229f567,487,,,,,        2.6000,serum m spike,,mg/dl,52dcab90024769422b4c9c67c96716b5358fa5ee
+COTA_52f88169221a4229f567,504,,,,,        2.3000,serum m spike,,mg/dl,4c933c79cefe4319b935e2fe89ece1ec1ba27179
+COTA_52f88169221a4229f567,504,,,,,         .6000,kappa flc,<,mg/dl,25843d2556417138c956fbfc08009575276346d4
+COTA_52f88169221a4229f567,504,,,,,         .6700,lambda flc,,mg/dl,33c38af13e18173f383fe6516c175bab77620827
+COTA_52f88169221a4229f567,514,,,,,        2.3000,serum m spike,,mg/dl,9e480eb10889784e0970ae2a9623b84f4c06d2b2
+COTA_52f88169221a4229f567,541,,,,,        2.1000,serum m spike,,mg/dl,6d6e570fd9f9dfc06bdce81f6a1533ad98aa803c
+COTA_52f88169221a4229f567,541,,,,,         .7000,lambda flc,,mg/dl,3adc001501293af3574b54a8186db9cbafb54b45
+COTA_52f88169221a4229f567,541,,,,,         .9000,kappa flc,,mg/dl,1620c52daaa0adcd5bb50a6b7b021e20bb8103eb
+COTA_52f88169221a4229f567,578,,,,,         .4000,kappa flc,,mg/dl,ec7eb355b46ed31792d4b9feb50551018197c280
+COTA_52f88169221a4229f567,578,,,,,        1.1000,lambda flc,,mg/dl,8c26ad7a6861835d76579118e8285e971e50e1ee
+COTA_52f88169221a4229f567,578,,,,,        2.1000,serum m spike,,mg/dl,a84e8deadcbcad70c2ac6f4b9782be739b20cfc6
+COTA_52f88169221a4229f567,597,,,,,        2.0000,serum m spike,,mg/dl,9418acf917dc24d5bf131766a0043bc1766e1695
+COTA_52f88169221a4229f567,602,,,,,         .4000,lambda flc,<,mg/dl,8d8a5f7cc0599aff11579237b925fede7de0abf4
+COTA_52f88169221a4229f567,602,,,,,         .6000,kappa flc,<,mg/dl,1140e4b636dcaf2c6bd56a275f9ac9ac55ff57ac
+COTA_52f88169221a4229f567,602,,,,,        1.9000,serum m spike,,mg/dl,c3364baed5398841a602bc9efc543bc250aab957
+COTA_52f88169221a4229f567,624,,,,,        2.2000,serum m spike,,mg/dl,5e05b85028b8c404ce29d213299cdba91005f2a0
+COTA_52f88169221a4229f567,648,,,,,        1.6900,lambda flc,,mg/dl,553c198e4b79087235f59a6b187ff022083c8f96
+COTA_52f88169221a4229f567,648,,,,,        1.6900,kappa flc,,mg/dl,fa96bc124a5a956ae6e06464d1fd8eb24f9fc874
+COTA_52f88169221a4229f567,648,,,,,        2.2000,serum m spike,,mg/dl,8e6bd92b434fb1d926c9f4b6fbad1e9bbf708889
+COTA_52f88169221a4229f567,679,,,,,         .4200,lambda flc,,mg/dl,4ffeade69d82bcdbfb049f61dd75c60049325ca8
+COTA_52f88169221a4229f567,679,,,,,         .6800,kappa flc,,mg/dl,02b573e5c79cb8c81afe6440eba3be9354ec429d
+COTA_52f88169221a4229f567,679,,,,,        2.5000,serum m spike,,mg/dl,dd88891b308b05e4aedf5459de8b46efac61fb76
+COTA_52f88169221a4229f567,696,,,,,         .6000,kappa flc,<,mg/dl,2f586c9c7a46c49c30c68d7720a17b967a2e7ed4
+COTA_52f88169221a4229f567,696,,,,,         .4900,lambda flc,<,mg/dl,f4d7de4afbde517ad57681a10be338f18b60c8bd
+COTA_52f88169221a4229f567,696,,,,,        3.1000,serum m spike,,mg/dl,05248e5b9217a7526d917a69354c701d9c9e2c1b
+COTA_52f88169221a4229f567,715,,,,,positive,serum immunofixation,,,d27690c1f17595add69658edc98667cbf6f03414
+COTA_52f88169221a4229f567,715,,,,,        2.8500,serum m spike,,mg/dl,f0afe01c800fcfd4bcc484d0cf57f7bbf660e039
+COTA_52f88169221a4229f567,715,,,,,         .0700,kappa flc,,mg/dl,e49bc76c5a77e1cdff1a34468cbc7ec2b49215bb
+COTA_52f88169221a4229f567,715,,,,,         .0670,lambda flc,,mg/dl,d8b83a2246a484d68ae56fb3b14350f57b67dd97
+COTA_52f88169221a4229f567,792,,,,,        2.5000,serum m spike,,mg/dl,79044a5856b8f0e6c3a5bb18337b4d93be129dae
+COTA_52f88169221a4229f567,792,,,,,         .5700,kappa flc,<,mg/dl,9ee933c008874c788498d31f66f78ca4a903b921
+COTA_52f88169221a4229f567,792,,,,,        1.1900,lambda flc,,mg/dl,fc35498e256eb5865dd4b2a016b171e074f34f10
+COTA_52f88169221a4229f567,829,,,,,        2.4800,lambda flc,,mg/dl,d46cf4fea83a00c9bfdbadf77fc756c6f619c1bb
+COTA_52f88169221a4229f567,829,,,,,        2.8000,kappa flc,,mg/dl,559297b2713c70d82f8c493a4756121e3884a377
+COTA_52f88169221a4229f567,829,,,,,        1.9000,serum m spike,,mg/dl,cd9bf20ee5c45637eee116ae6ce357fdf5f86a99
+COTA_52f88169221a4229f567,841,,,,,         .0480,lambda flc,,mg/dl,f2cf32ac4909f5d1f641199a16677370da3eb4ae
+COTA_52f88169221a4229f567,841,,,,,         .0330,kappa flc,,mg/dl,90869b6351415af20287cfff5caae0c61481edd0
+COTA_52f88169221a4229f567,841,,,,,        1.8500,serum m spike,,mg/dl,1bfd1ada3edb1e3a3aa98e6caa84301173fcd91b
+COTA_52f88169221a4229f567,857,,,,,        1.5300,kappa flc,,mg/dl,723f4251248abd5f180fff0513a955a161138bec
+COTA_52f88169221a4229f567,857,,,,,        2.1500,lambda flc,,mg/dl,b2ecf73c4bf384610897fad523e67215c800bcc0
+COTA_52f88169221a4229f567,857,,,,,        1.7000,serum m spike,,mg/dl,cf8376b8c83601d18d4c433d625e20f6f7c61b40
+COTA_52f88169221a4229f567,878,,,,,        1.9800,lambda flc,,mg/dl,52d6057fb931983104f5570526b908cedac47fee
+COTA_52f88169221a4229f567,878,,,,,        3.2700,kappa flc,,mg/dl,2ba1020b45e49fee7e7a606b91e31e2f8110844e
+COTA_52f88169221a4229f567,878,,,,,        1.9000,serum m spike,,mg/dl,ae735b499fe2cd4319710b748eca2304ceaf787a
+COTA_52f88169221a4229f567,883,,,,,        6.0000,kappa flc,<,mg/dl,8ebbb7b54290e701f9f46376dd1e8567980497e2
+COTA_52f88169221a4229f567,883,,,,,        6.5000,lambda flc,,mg/dl,ced3793d74492982dafbe0fd1a3d158adb113775
+COTA_52f88169221a4229f567,883,,,,,        1.8000,serum m spike,,mg/dl,5d85a398767fd1319e1918f21eadad5f651765dc
+COTA_52f88169221a4229f567,913,,,,,        1.5000,serum m spike,,mg/dl,d28974bd4d4aac337dd7a6fd88a840dfb9641029
+COTA_52f88169221a4229f567,942,,,,,        3.0700,kappa flc,,mg/dl,4a9c3dedecd7c3fbb30eb5eeed0404a7cc9538ba
+COTA_52f88169221a4229f567,942,,,,,        2.0600,lambda flc,,mg/dl,1e38155ddb5b91328df4261dfaefd56938607b7d
+COTA_52f88169221a4229f567,942,,,,,        1.4000,serum m spike,,mg/dl,077e7ea402bdfa7a43b04f6d0c51ded5e36f2f10
+COTA_52f88169221a4229f567,946,,,,,         .9500,serum m spike,,mg/dl,0c8880fcd0050334956047786f10ba53f6113a19
+COTA_52f88169221a4229f567,946,,,,,         .0640,kappa flc,,mg/dl,fb9f91f7ab1d9356082dfee4d5abee145091b304
+COTA_52f88169221a4229f567,946,,,,,         .0820,lambda flc,,mg/dl,0b3561c1acad5d79ad3dd5f483e06170deab9f13
+COTA_52f88169221a4229f567,970,,,,,        3.5000,kappa flc,,mg/dl,b3ca285c962608ed096352598b83cb3cf02dff35
+COTA_52f88169221a4229f567,970,,,,,        1.3000,lambda flc,<,mg/dl,366885b811e84f8c8ccabcd3920d8e6214a2f935
+COTA_52f88169221a4229f567,970,,,,,        1.4000,serum m spike,,mg/dl,41573dbc1ee0c8ae40b87a7089fb38cd34037ff1
+COTA_52f88169221a4229f567,981,,,,,        4.7000,lambda flc,<,mg/dl,bf50e447775d956a23c8db8d2f72b0741219322f
+COTA_52f88169221a4229f567,981,,,,,        1.3000,serum m spike,,mg/dl,580bd5731995e515056fc57e3f15171b9a35b9bf
+COTA_52f88169221a4229f567,981,,,,,        6.0000,kappa flc,<,mg/dl,859b44b2f8e748457e036a35940e09c08b387ccd
+COTA_52f88169221a4229f567,1018,,,,,        1.2000,serum m spike,,mg/dl,5446e8c7f9ba59b5d5f487a472c6db759b00a6f1
+COTA_52f88169221a4229f567,1018,,,,,        3.7000,kappa flc,,mg/dl,3f5ca2c68757cd87752db8f1d984e4c358e6fc55
+COTA_52f88169221a4229f567,1018,,,,,        2.3000,lambda flc,,mg/dl,73e2c533a574e0fbd482b48c465029c121e4bd44
+COTA_52f88169221a4229f567,1046,,,,,        3.1000,kappa flc,,mg/dl,37ed6a2ad227a6a33d99654a3d1838179e2c97b3
+COTA_52f88169221a4229f567,1046,,,,,        2.0000,lambda flc,,mg/dl,5d5e1bada7f7051dd91769904f0b14b3a14ed9a2
+COTA_52f88169221a4229f567,1046,,,,,        1.2000,serum m spike,,mg/dl,f20dad3eb33ff888ce69bbd0be73311985f6b372
+COTA_52f88169221a4229f567,1051,,,,,         .0770,lambda flc,,mg/dl,faa4d8a392c42d5cc9062d39d1719fc6e3e5fe16
+COTA_52f88169221a4229f567,1051,,,,,         .0410,kappa flc,,mg/dl,5e7c8d49cbe4ef24580596ba7d6e3e62015373e7
+COTA_52f88169221a4229f567,1051,,,,,        1.1900,serum m spike,,mg/dl,25acb551047e50b1727c711281d9ebfe97bb8399
+COTA_52f88169221a4229f567,1053,,,,,        1.1000,serum m spike,,mg/dl,8a1a9efff63cc5b64f368755e56828fa4a627bac
+COTA_52f88169221a4229f567,1074,,,,,        6.0000,kappa flc,<,mg/dl,ddb114a132356d1d48e7de5e9c1d55b1dce02cad
+COTA_52f88169221a4229f567,1074,,,,,        4.0000,lambda flc,<,mg/dl,7fb9d02c877ee3c65ce2667363c5d3f239152672
+COTA_52f88169221a4229f567,1074,,,,,        1.0000,serum m spike,,mg/dl,be760dd02e67dc023e4152b3ed8bcc7332937dd6
+COTA_52f88169221a4229f567,1088,,,,,        2.4000,lambda flc,,mg/dl,a04a661bb822550a8dfb12879161bf736e4eb54d
+COTA_52f88169221a4229f567,1088,,,,,        1.1000,serum m spike,,mg/dl,ae71c8d7669dc69ed6a4f760ad6aea397af9d1f3
+COTA_52f88169221a4229f567,1088,,,,,        3.7000,kappa flc,,mg/dl,3d79816fb9083ea8c08b864344f255b85c5d5da4
+COTA_52f88169221a4229f567,1123,,,,,        3.4000,kappa flc,,mg/dl,254ac4932f5ea4d41266e7e58804704b3fc7c237
+COTA_52f88169221a4229f567,1123,,,,,        1.4000,lambda flc,,mg/dl,8fb7b69c76bb0e06e94af8d1baeaa8c471c370cc
+COTA_52f88169221a4229f567,1150,,,,,         .0810,kappa flc,,mg/dl,e125c5df3894694c55fd190d96bbefcaa0e32be8
+COTA_52f88169221a4229f567,1150,,,,,         .1110,lambda flc,,mg/dl,d7197d0c07d9283b407cad1e018509644f02ab23
+COTA_52f88169221a4229f567,1150,,,,,         .8400,serum m spike,,mg/dl,c22d260f664bd5469b49d1207567bd7ee9d055d0
+COTA_52f88169221a4229f567,1150,,,,,positive,serum immunofixation,,,4a6289afc10a1120469b2c875eaa9b242b1177de
+COTA_52f88169221a4229f567,1174,,,,,        4.8000,kappa flc,,mg/dl,65264e9e45d66a88a396db1d5dbaf56952a39946
+COTA_52f88169221a4229f567,1174,,,,,        2.0000,lambda flc,,mg/dl,6a916eca6d7383cf7ae533c5127a2fe3b93e7113
+COTA_52f88169221a4229f567,1174,,,,,         .8000,serum m spike,,mg/dl,6b555744dc121df353331445b0e5bd1a76c9492a
+COTA_52f88169221a4229f567,1179,,,,,        5.4000,lambda flc,,mg/dl,0057fa45a5d2a3ac9acc3fa99e88b723225617b2
+COTA_52f88169221a4229f567,1179,,,,,         .7000,serum m spike,,mg/dl,ace7903d41d1b28f5af2a62ecf26e022f7eeabd5
+COTA_52f88169221a4229f567,1179,,,,,        6.0000,kappa flc,<,mg/dl,4b3f66cb3dce63b4325a6336c1243fdde47b255c
+COTA_52f88169221a4229f567,1187,,,,,         .9000,serum m spike,,mg/dl,60822d9863ba6655adfac8347085856523bb9082
+COTA_52f88169221a4229f567,1242,,,,,         .9000,serum m spike,,mg/dl,82fede8513d0285dea7c876c40d89a095a4ad572
+COTA_52f88169221a4229f567,1242,,,,,        2.0000,lambda flc,,mg/dl,cb84237483c892f47a2525cbb5df0b324531d3f1
+COTA_52f88169221a4229f567,1242,,,,,        5.3000,kappa flc,,mg/dl,fc59f96e7cf76961597427e3c198999ec5f6cbf6
+COTA_52f88169221a4229f567,1250,,,,,positive,serum immunofixation,,,55390281523d3d3c03129d2e3a9e89f9a6132dff
+COTA_52f88169221a4229f567,1250,,,,,         .7000,serum m spike,,mg/dl,4e020a3a83195c4b79b118c783f3c775b4a33324
+COTA_52f88169221a4229f567,1250,,,,,         .5400,lambda flc,<,mg/dl,c1b1d5baa5f89021836ee78e63b1cf8b07229bf3
+COTA_52f88169221a4229f567,1250,,,,,         .0820,kappa flc,,mg/dl,441989adf8cc21819aa734101e867bba877e6f26
+COTA_52f88169221a4229f567,1281,,,,,        6.6000,kappa flc,,mg/dl,4dd3c5b02f2ec2485c082d25a9e8dfc9fea1bf74
+COTA_52f88169221a4229f567,1281,,,,,         .7000,serum m spike,,mg/dl,3a3935b37a4fb689c45e60f3c8c92bb6bdaea93d
+COTA_52f88169221a4229f567,1281,,,,,        2.3000,lambda flc,,mg/dl,ca5416717422042364730652b34b32133ed53c1b
+COTA_52f88169221a4229f567,1348,,,,,        2.1800,lambda flc,,mg/dl,bdf209b6be6ba59234162052182dea7f65232389
+COTA_52f88169221a4229f567,1348,,,,,        4.3600,kappa flc,,mg/dl,c29a1fa61368722fd92527799713776ae5e37945
+COTA_52f88169221a4229f567,1348,,,,,         .7000,serum m spike,,mg/dl,8f5d1e0536ef5232c0406eeae254d65a1af84e84
+COTA_52f88169221a4229f567,1353,,,,,         .1030,lambda flc,,mg/dl,4d18effa680fd9576dd4877ebe12ff6d7dc30dd7
+COTA_52f88169221a4229f567,1353,,,,,         .6120,kappa flc,,mg/dl,668d1e8437609a5415a45aa7b28eb9ca777931bb
+COTA_52f88169221a4229f567,1353,,,,,         .5500,serum m spike,,mg/dl,829272f132053cefce896fe28d25d9624d8f8bd1
+COTA_52f88169221a4229f567,1353,,,,,positive,serum immunofixation,,,e71cfb4fe3bf10feb357874b5f7bd5194ad6d4ac
+COTA_52f88169221a4229f567,1388,,,,,        5.2000,kappa flc,,mg/dl,87ad8504595c5228ce1fa0304948821387983ad1
+COTA_52f88169221a4229f567,1388,,,,,        2.4700,lambda flc,,mg/dl,98c717cb99a01b22168253109380e0ad6ff6d4ba
+COTA_52f88169221a4229f567,1388,,,,,         .6000,serum m spike,,mg/dl,cdc473c84341bfddd946a7fd3437c6402f9469c0
+COTA_52f88169221a4229f567,1422,,,,,         .5000,serum m spike,,mg/dl,1957c8801a4f810704d24e223a26a37c616b6241
+COTA_52f88169221a4229f567,1422,,,,,        2.1700,lambda flc,,mg/dl,1d5dcce2709fac390196b10ed7c8ecb22888a500
+COTA_52f88169221a4229f567,1422,,,,,        5.4800,kappa flc,,mg/dl,480d6dbc6c9e6d1ac1a766e82b935edcdb58f6a4
+COTA_52f88169221a4229f567,1459,,,,,        2.4400,lambda flc,,mg/dl,79bcf57f775bbe6f8afb05b41d7863eb1692c50a
+COTA_52f88169221a4229f567,1459,,,,,         .5000,serum m spike,,mg/dl,d90b84ec5a192d61fbd04db3f55b97dea2daab19
+COTA_52f88169221a4229f567,1459,,,,,        4.1100,kappa flc,,mg/dl,93efb163c113d233f7e141867284d69f6e377606
+COTA_52f88169221a4229f567,1463,,,,,         .5000,serum m spike,,mg/dl,d14d45aee77a1f886bbe837c1fbb9ea3b9efb19b
+COTA_52f88169221a4229f567,1463,,,,,positive,serum immunofixation,,,fa93819fb747208614723823071cd05ced18a9e5
+COTA_52f88169221a4229f567,1463,,,,,         .0410,kappa flc,,mg/dl,bba1fee3bf1b1793cc3eeca55b60b4ed05eb5230
+COTA_52f88169221a4229f567,1463,,,,,         .0520,lambda flc,,mg/dl,3e8f991d4f06686fc06667266ce2fbe936f439c1
+COTA_52f88169221a4229f567,1480,,,,,        3.3200,kappa flc,,mg/dl,49a09f3cd5c91e9735972c372bec84c518c425fe
+COTA_52f88169221a4229f567,1480,,,,,        1.7100,lambda flc,,mg/dl,77b473103e141efb1fe3f05d75b304025bb53bce
+COTA_52f88169221a4229f567,1480,,,,,         .5000,serum m spike,,mg/dl,443e0c3ce9ea31e4e45b33a1d838b22290f9ec90
+COTA_52f88169221a4229f567,1515,,,,,         .5000,serum m spike,,mg/dl,9d1933b270fe03e20161ea1d43ee115e6fdac6cc
+COTA_52f88169221a4229f567,1563,,,,,        1.5000,lambda flc,,mg/dl,e41dffc306301029b0fd3f3068489b12e1c2f791
+COTA_52f88169221a4229f567,1563,,,,,        4.2000,kappa flc,,mg/dl,4cc4e6f5e94f79c4820884e11729a892048d2a9a
+COTA_52f88169221a4229f567,1563,,,,,         .5000,serum m spike,,mg/dl,302b13acb39e52a8311537f23bc37646612e5ac3
+COTA_52f88169221a4229f567,1585,,,,,         .0510,lambda flc,,mg/dl,82bebc885b23a16ef95c7dade4ff8d218f9087bb
+COTA_52f88169221a4229f567,1585,,,,,         .0500,kappa flc,,mg/dl,51159aaa9afda71f77d611e2ee7cf01b53e1481e
+COTA_52f88169221a4229f567,1585,,,,,         .4100,serum m spike,,mg/dl,d4e29137c256286b932e1ade3a95fb2ca204b0ae
+COTA_52f88169221a4229f567,1613,,,,,        1.5000,lambda flc,,mg/dl,507ccde1bf1a2434f6aa592fdf5639263e70fac9
+COTA_52f88169221a4229f567,1613,,,,,         .4000,serum m spike,,mg/dl,da01689a38eec0f2974e91f8b7534dfd012129dd
+COTA_52f88169221a4229f567,1613,,,,,        3.9000,kappa flc,,mg/dl,58314e3c1b8b47616e4813fb665bad4dbc65539e
+COTA_52f88169221a4229f567,1634,,,,,         .4000,serum m spike,,mg/dl,40eadbae464c65111634eeddd878529a35977562
+COTA_52f88169221a4229f567,1634,,,,,        2.0000,lambda flc,,mg/dl,7f75b998097361316e6e8c681508e2df02c6e588
+COTA_52f88169221a4229f567,1634,,,,,        5.0000,kappa flc,,mg/dl,d78983c5a841b907a70c7d706f29bfcbe9250936
+COTA_52f88169221a4229f567,1663,,,,,         .5000,serum m spike,,mg/dl,c86b8f654de3e6b7e48c040bfe87920e3e345acf
+COTA_52f88169221a4229f567,1704,,,,,         .3300,serum m spike,,mg/dl,583b71c553555efbef7c95c8924fdae4f30df425
+COTA_52f88169221a4229f567,1704,,,,,         .0650,lambda flc,,mg/dl,24925ec1bec9299391003d53e5e3862157b4aef4
+COTA_52f88169221a4229f567,1704,,,,,         .0720,kappa flc,,mg/dl,fbed45ee5ccdbf9c3abf47b50a29a2f638b42320
+COTA_52f88169221a4229f567,1729,,,,,        1.5000,lambda flc,,mg/dl,7fe83eee5d0a109a3e5eb7c4b23bde4bd9810d0d
+COTA_52f88169221a4229f567,1729,,,,,        1.2000,kappa flc,,mg/dl,83229f77777ffa119de11503532a5ff65bf0c1bb
+COTA_52f88169221a4229f567,1729,,,,,         .5000,serum m spike,,mg/dl,850cd03124dd44c0391573ab999e9fecf8f86cd0
+COTA_52f88169221a4229f567,1788,,,,,        1.4900,lambda flc,,mg/dl,42d38d0583a65f0741a7c869ccf6d26afabb987c
+COTA_52f88169221a4229f567,1788,,,,,        1.6400,kappa flc,,mg/dl,81144ab0508f1cae8100e3ddf44c503b15ae2f50
+COTA_52f88169221a4229f567,1796,,,,,         .0520,lambda flc,,mg/dl,8ccdb22bec5e625be6e3afcd493eda83c5dbedd2
+COTA_52f88169221a4229f567,1796,,,,,         .3300,serum m spike,,mg/dl,6e3d88c9220f7e86d26043d377feaecde5f21cbd
+COTA_52f88169221a4229f567,1796,,,,,         .0650,kappa flc,,mg/dl,f6c77a83cc7fa4e5ab8e9f3b72b0aa541ccb4b81
+COTA_52f88169221a4229f567,1815,,,,,         .4000,serum m spike,,mg/dl,b2b2812af8461fd9ce4b6804e1781cbe8a6c0d5c
+COTA_52f88169221a4229f567,1815,,,,,        4.0800,kappa flc,,mg/dl,03bf218b99339d5ab309bcfa44ecb0ab69f865f5
+COTA_52f88169221a4229f567,1815,,,,,        1.7000,lambda flc,,mg/dl,3d77baea4a1bdd1c7842e2504b348503c2469aa4
+COTA_52f88169221a4229f567,1821,,,,,       13.4100,kappa flc,,mg/dl,1d5ae7b3e11f963a9a58ef3827caef5343138bc2
+COTA_52f88169221a4229f567,1821,,,,,         .4500,lambda flc,,mg/dl,0c33ccbd6eaf99d43180ff366d03010067a92523
+COTA_52f88169221a4229f567,1821,,,,,         .4100,serum m spike,,mg/dl,0dd690f54c6075ecb36e7b470ad636c35603fe3b
+COTA_52f88169221a4229f567,1821,,,,,positive,serum immunofixation,,,33c3454b55aba4a76c114ce1986b74e229be17c9
+COTA_52f88169221a4229f567,1852,,,,,        4.0000,kappa flc,,mg/dl,40c254ae89bfa5c65d0ffc4cff6b97d24a33bfaa
+COTA_52f88169221a4229f567,1852,,,,,         .6000,serum m spike,,mg/dl,86ab0a678fcc2fc1add467b8bc7861ffc8ac8ab5
+COTA_52f88169221a4229f567,1852,,,,,        1.6000,lambda flc,,mg/dl,6ecede2523c32c11d082f32088c6ee10217e8057
+COTA_52f88169221a4229f567,1857,,,,,         .0800,lambda flc,,mg/dl,ec9342b171d755d93d0f04ce90ee2ab593e5ec0b
+COTA_52f88169221a4229f567,1857,,,,,positive,serum immunofixation,,,7db6991f8632227a65cf36b311f7fc7e66132f56
+COTA_52f88169221a4229f567,1857,,,,,         .3800,serum m spike,,mg/dl,0f2ccb6f567888423a9bad1c1e09fe5799022798
+COTA_52f88169221a4229f567,1857,,,,,         .0920,kappa flc,,mg/dl,f7445971e258fbb9e460299f8d9f0c73c5b98d92
+COTA_52f88169221a4229f567,1913,,,,,        2.1300,lambda flc,,mg/dl,8f366d952faee860239fee8e4bd02120bf22fb06
+COTA_52f88169221a4229f567,1913,,,,,         .5000,serum m spike,,mg/dl,3d4450384e544656cb18be4e646561e25e187e92
+COTA_52f88169221a4229f567,1913,,,,,         .9200,kappa flc,,mg/dl,76d56fab8ac52c3ff8a36c55d27894ce6e3cd69a
+COTA_52f88169221a4229f567,1921,,,,,         .3500,serum m spike,,mg/dl,6ceb1c1ddd4692bfa962b8a86e14a6893e52288a
+COTA_52f88169221a4229f567,1921,,,,,         .0420,kappa flc,<,mg/dl,344f48adecec94d22800ed23d75bd12138f07b99
+COTA_52f88169221a4229f567,1921,,,,,         .5600,lambda flc,,mg/dl,d07aef795961dd322a1f443278f4d37ea1a8a8dc
+COTA_52f88169221a4229f567,1978,,,,,         .5000,serum m spike,,mg/dl,cfb00241fe4a42113d54015524f3c5b19e52c0e6
+COTA_52f88169221a4229f567,1978,,,,,         .8500,kappa flc,,mg/dl,ead6410b99d133560fe11a68c15e8e9ec6a4d0f9
+COTA_52f88169221a4229f567,1978,,,,,        1.7600,lambda flc,,mg/dl,0188d304bf7da30f5854748665a129441537dd8c
+COTA_52f88169221a4229f567,1998,,,,,        6.0000,lambda flc,,mg/dl,4ea7e72fc80ec0ca7838c118495f732e5bc0b56c
+COTA_52f88169221a4229f567,1998,,,,,        3.0000,kappa flc,,mg/dl,a1f3565b68c2103489276729f97cfa576cf5e0bc
+COTA_52f88169221a4229f567,1998,,,,,         .4000,serum m spike,,mg/dl,c7726084647296ac8910064ef09e87730ec55304
+COTA_52f88169221a4229f567,2012,,,,,         .0840,lambda flc,,mg/dl,9bb18e0a42fc277170df3dafd421ad3a61ffdf9a
+COTA_52f88169221a4229f567,2012,,,,,         .3300,serum m spike,,mg/dl,f39be10ebca2db14d65dfbda6211e02b237a1f8f
+COTA_52f88169221a4229f567,2012,,,,,         .0860,kappa flc,,mg/dl,8561d3357243f8eb68c964543e48bab175a0dbc6
+COTA_52f88169221a4229f567,2035,,,,,         .5000,serum m spike,,mg/dl,94d7abfb643f61fa3c6d283e49860cc117851fa9
+COTA_52f88169221a4229f567,2035,,,,,        2.0000,kappa flc,,mg/dl,78033d47eb2b0c255c727c8d9dd2e5804b4990c1
+COTA_52f88169221a4229f567,2035,,,,,        3.0000,lambda flc,,mg/dl,6af1884fcc47ca60fe952cf77ff63c2f16b27be9
+COTA_52f88169221a4229f567,2053,,,,,         .0760,kappa flc,,mg/dl,e9bbebb6b475a0f6a9331b573a05ed9bd1617d2b
+COTA_52f88169221a4229f567,2053,,,,,         .3400,serum m spike,,mg/dl,89151636c5d7a441f49d28567feae73110e0d5a7
+COTA_52f88169221a4229f567,2053,,,,,positive,serum immunofixation,,,c5260359f2861d24ffdc25a5fefa86bb916c9538
+COTA_52f88169221a4229f567,2053,,,,,         .5850,lambda flc,,mg/dl,2471445bf71706f6045fadf67b0ca8504e1c1de7
+COTA_52f88169221a4229f567,2072,,,,,        3.0000,kappa flc,,mg/dl,b763de6654279718a7ca98f21f47cf58f0eba138
+COTA_52f88169221a4229f567,2072,,,,,        2.0000,lambda flc,,mg/dl,593f072ad75aa516a4e716271e3d742597b6d8c1
+COTA_52f88169221a4229f567,2072,,,,,         .5000,serum m spike,,mg/dl,e69424e798ccedad8d81fb9a21e68f8729f20702
+COTA_52f88169221a4229f567,2097,,,,,        4.0000,kappa flc,,mg/dl,45776fbdb8dc0af73cdef85598955d20a12233b9
+COTA_52f88169221a4229f567,2097,,,,,        2.0000,lambda flc,,mg/dl,a860234773de3149e9e38ef7bc1185b90a0ec7f1
+COTA_52f88169221a4229f567,2097,,,,,         .5000,serum m spike,,mg/dl,8f3660f85412ba7a1f448ed269becba9920a7db3
+COTA_52f88169221a4229f567,2135,,,,,        5.8000,lambda flc,,mg/dl,607fdd7ae301ba9df17de6fb084574b27c52e110
+COTA_52f88169221a4229f567,2135,,,,,         .5000,serum m spike,,mg/dl,91991dc43a69dfe9bbe768747640ea51b1ba324f
+COTA_52f88169221a4229f567,2135,,,,,        3.2000,kappa flc,,mg/dl,788f3ff4e6b651c8e366f3091af2dbbdd02308a7
+COTA_52f88169221a4229f567,2174,,,,,        6.9000,kappa flc,,mg/dl,9be5d14bc78935072118f626ffd8da415570729b
+COTA_52f88169221a4229f567,2174,,,,,         .6000,serum m spike,,mg/dl,31fb63f62a61fef5147535668e788f9992247fc2
+COTA_52f88169221a4229f567,2174,,,,,        8.2000,lambda flc,,mg/dl,7c6254c596397fb3aa5c0d0f3c0d43c42a2b1ce0
+COTA_52f88169221a4229f567,2185,,,,,         .6880,lambda flc,,mg/dl,c8a855c44541dfdeb68d5df7aa0e1c2a667717a9
+COTA_52f88169221a4229f567,2185,,,,,         .5700,kappa flc,,mg/dl,6bb60b0301d2a362e5399b770298057c326a9a93
+COTA_52f88169221a4229f567,2185,,,,,         .3900,serum m spike,,mg/dl,25d223331d428452e3fd21e00614fda760f70f2b
+COTA_52f88169221a4229f567,2243,,,,,        7.0000,kappa flc,,mg/dl,dbe91c4c2c10f3a338d260aa1d5cde718d28e454
+COTA_52f88169221a4229f567,2243,,,,,        6.0000,lambda flc,,mg/dl,366b9773f0472f64f0f67545d11a36f2a5ca43d6
+COTA_52f88169221a4229f567,2243,,,,,         .5000,serum m spike,,mg/dl,851fa1363d158a94b3c3e893fd19e505e2636a97
+COTA_52f88169221a4229f567,2305,,,,,         .6000,serum m spike,,mg/dl,4381bca160b181951cebf6973ed31daf74f74be6
+COTA_52f88169221a4229f567,2305,,,,,        9.6400,kappa flc,,mg/dl,38825f5bf141bd4eb6d6fea46280bcde15c8233b
+COTA_52f88169221a4229f567,2305,,,,,        8.3900,lambda flc,,mg/dl,2e26c441a40f02b45deb745cf54491e17aa92184
+COTA_52f88169221a4229f567,2363,,,,,         .7000,kappa flc,,mg/dl,d10804faf7ed01d7b8c493214ef53e6e72669d8d
+COTA_52f88169221a4229f567,2363,,,,,         .7000,serum m spike,,mg/dl,045b842b008f982262b991acfb5888da76ecd36d
+COTA_52f88169221a4229f567,2363,,,,,         .8000,lambda flc,,mg/dl,537e17a529a6fe2af0b9f3da6c7cbd37edf09b6c
+COTA_52f88169221a4229f567,2367,,,,,         .7160,kappa flc,,mg/dl,13d73f581188eef18a72d60fe347607a25bd139d
+COTA_52f88169221a4229f567,2367,,,,,         .7040,lambda flc,,mg/dl,56413e6cffa195f7c2a44fa90bbd39512b707958
+COTA_52f88169221a4229f567,2367,,,,,         .3600,serum m spike,,mg/dl,e9c4ac72f3491501e288ea4023e0a3c5aa3f0057
+COTA_52f88169221a4229f567,2425,,,,,        8.0000,kappa flc,,mg/dl,30b30fb0eb056ffd3b9e9cfc6038d2876ab699e3
+COTA_52f88169221a4229f567,2425,,,,,        7.0000,lambda flc,,mg/dl,7cb9e13e174ff2e96a1c432d0246310fa35a0052
+COTA_52f88169221a4229f567,2425,,,,,         .6000,serum m spike,,mg/dl,3cfd9c85a9fed73948446e4dded573c4a9eb0b3b
+COTA_52f88169221a4229f567,2496,,,,,        7.0000,lambda flc,,mg/dl,7bfb0db6e40d8115bfef88e4c82d9af9762103dd
+COTA_52f88169221a4229f567,2496,,,,,        7.0000,kappa flc,,mg/dl,b2a7e2540cad574ef10f1e23fb3b0b7597ef6277
+COTA_52f88169221a4229f567,2496,,,,,         .4000,serum m spike,,mg/dl,9b1be957bed41b26ff358d856c2500137f7a5ed9
+COTA_52f88169221a4229f567,2571,,,,,        8.0000,lambda flc,,mg/dl,3a931f1feb3eb2cc7b962bb355597073477a820b
+COTA_52f88169221a4229f567,2571,,,,,         .5000,serum m spike,,mg/dl,f10301de5518f375c571a7f6d510a11b319e9ac7
+COTA_52f88169221a4229f567,2571,,,,,        6.0000,kappa flc,,mg/dl,5d30c7a161b0dde5fb7899c3acdf1c5e96261289
+COTA_52f88169221a4229f567,2576,,,,,         .4300,serum m spike,,mg/dl,f4f0df4663840db061ae926955fbf0d8ef779cf3
+COTA_52f88169221a4229f567,2576,,,,,positive,serum immunofixation,,,d3280aaf7d967de0faad48e49f88dde542abc450
+COTA_52f88169221a4229f567,2576,,,,,         .6840,kappa flc,,mg/dl,d01fb52708f864d339fcb938df22684e42e7683f
+COTA_52f88169221a4229f567,2576,,,,,        1.2180,lambda flc,,mg/dl,df5b5bee27f4676417030cde48b99f08105c1609
+COTA_52f88169221a4229f567,2621,,,,,         .7000,serum m spike,,mg/dl,53cf07675015b287513d7ca3f7a3cea3452eefcf
+COTA_52f88169221a4229f567,2621,,,,,        6.0000,kappa flc,,mg/dl,b6740d98fe612e14d6a672692e8d7c71be0720a8
+COTA_52f88169221a4229f567,2621,,,,,        8.0000,lambda flc,,mg/dl,ed7cf421597da199c151cd3a5fb4383fe6e1ee70
+COTA_52f88169221a4229f567,2664,,,,,        6.4000,kappa flc,,mg/dl,78edf363de08c64651717b164b856b7e3580805d
+COTA_52f88169221a4229f567,2664,,,,,        8.5000,lambda flc,,mg/dl,1b8037120001c73e0428b41141e0af3faac08604
+COTA_52f88169221a4229f567,2664,,,,,         .5000,serum m spike,,mg/dl,fe00f68cd77dc88f1d0ebf53c0523de11328780e
+COTA_52f88169221a4229f567,2706,,,,,         .4000,serum m spike,,mg/dl,0f3f91160052c6f3090d7fc82edfd791671e286d
+COTA_52f88169221a4229f567,2706,,,,,        6.2000,kappa flc,,mg/dl,b9380c5369a720be29d8c5367886bf8d64b48326
+COTA_52f88169221a4229f567,2706,,,,,        8.1000,lambda flc,,mg/dl,67cb8db1ce408109e542a5efebd5c99dece465e9
+COTA_52f88169221a4229f567,2772,,,,,        8.9000,lambda flc,,mg/dl,7d915302625d91d50a55b5bf202d93460f3c0c73
+COTA_52f88169221a4229f567,2772,,,,,         .5000,serum m spike,,mg/dl,eeaf49456e774f5275799cfc092a399724331635
+COTA_52f88169221a4229f567,2772,,,,,        7.6000,kappa flc,,mg/dl,8c971fd8a6c48528f535a1232196e6b7b0ccdf7c
+COTA_52f88169221a4229f567,2831,,,,,         .5000,serum m spike,,mg/dl,975a0c0a2c8b38b4072fd013a636f3937e616712
+COTA_52f88169221a4229f567,2831,,,,,        9.0000,kappa flc,,mg/dl,a03bf75f7718b8215cf7b1be6e325da0a7100dd7
+COTA_52f88169221a4229f567,2831,,,,,       14.0000,lambda flc,,mg/dl,ee2df47d5d806184899ad344b8eec5c43445b8f2
+COTA_52f88169221a4229f567,2881,,,,,       16.0000,lambda flc,,mg/dl,b1ee53f2062eb7e293d24ddf4b9772a51793abe2
+COTA_52f88169221a4229f567,2881,,,,,       11.0000,kappa flc,,mg/dl,8107719f03b6ebabc571b1cba4100dd26110bd1e
+COTA_52f88169221a4229f567,2881,,,,,         .3000,serum m spike,,mg/dl,cb0acce98271f1c324d7729f5520f22a938f1890
+COTA_52f88169221a4229f567,2923,,,,,         .6000,serum m spike,,mg/dl,5a61897666d01670c0d552ecefd8656f3c166116
+COTA_52f88169221a4229f567,2923,,,,,       10.0000,kappa flc,,mg/dl,ebceacb10e40323fa3fd18a5d1a5f7fb25cdc497
+COTA_52f88169221a4229f567,2923,,,,,       13.0000,lambda flc,,mg/dl,ada14f9a283743e7226fcd91925561fe35b33660
+COTA_52f88169221a4229f567,2935,,,,,         .3700,serum m spike,,mg/dl,604a6ff7bfa3bef30e2922b5b9b902a3256e9351
+COTA_52f88169221a4229f567,2935,,,,,         .8170,kappa flc,,mg/dl,e1caa0388a44d0472401e0617102e56f8b2ae5c8
+COTA_52f88169221a4229f567,2935,,,,,         .8830,lambda flc,,mg/dl,a792372dddfa1ae516e8474d91af90af36447d93
+COTA_52f88169221a4229f567,2998,,,,,         .6000,serum m spike,,mg/dl,bda02903507486c60037bd89f91a46aa83670a79
+COTA_52f88169221a4229f567,2998,,,,,       10.0000,kappa flc,,mg/dl,75a3271132b2d9ad074f42da9e8d0475dfdd364c
+COTA_52f88169221a4229f567,2998,,,,,       13.0000,lambda flc,,mg/dl,e79cc36a655d98a9b77b4d265f610b89ca040fac
+COTA_52f88169221a4229f567,3031,,,,,       10.0000,lambda flc,,mg/dl,99b67c8103789a2d02ec447a225dd244eaa435aa
+COTA_52f88169221a4229f567,3031,,,,,         .5000,serum m spike,,mg/dl,c4155b36e070ac2133f6b65d62512e34678891a3
+COTA_52f88169221a4229f567,3031,,,,,       10.0000,kappa flc,,mg/dl,adf93165aae14bdac7b4d9124f31ca349202068b
+COTA_52f88169221a4229f567,3188,,,,,       10.0000,lambda flc,,mg/dl,3f5874d17d110c0abcd2e8ad36360b96a1c9a945
+COTA_52f88169221a4229f567,3188,,,,,         .4000,serum m spike,,mg/dl,361ceaac0a2384d55d1429ede5994a4521da0132
+COTA_52f88169221a4229f567,3188,,,,,       10.0000,kappa flc,,mg/dl,030a17c122e5b46af6d12478121f1e2f6dd96336
+COTA_52f88169221a4229f567,3213,,,,,         .7520,kappa flc,,mg/dl,651a409ea02c4fe09d69339ba659e2c0fa6f8e00
+COTA_52f88169221a4229f567,3213,,,,,         .4300,serum m spike,,mg/dl,7c8dda7354771f7a7e6e4d01bc7053f85237050b
+COTA_52f88169221a4229f567,3213,,,,,positive,serum immunofixation,,,8c15249d99be0dcd05d844c11d8a57df2712f830
+COTA_52f88169221a4229f567,3213,,,,,         .7360,lambda flc,,mg/dl,b2706e004df26c0411172e30ec43894a591aaf55
+COTA_52f88169221a4229f567,3222,,,,,       11.0000,lambda flc,,mg/dl,eb89d79dae33b363143c3d5a8935ff564e21ac18
+COTA_52f88169221a4229f567,3222,,,,,         .5000,serum m spike,,mg/dl,21d851c96c8c6b6eb50d27536f77acef8f742d99
+COTA_52f88169221a4229f567,3222,,,,,       11.0000,kappa flc,,mg/dl,091a1f7fae51bdc221c019f07e846048c8ca2b0a
+COTA_52f88169221a4229f567,3258,,,,,       11.0000,kappa flc,,mg/dl,400f6e920709ad860c561165863c346bd49b1353
+COTA_52f88169221a4229f567,3258,,,,,         .5000,serum m spike,,mg/dl,c7aee29eb82ed78df502e5931909e354cbb0f361
+COTA_52f88169221a4229f567,3258,,,,,        9.0000,lambda flc,,mg/dl,ca7720af8cdbfd08789c4c7856e02312498163a8
+COTA_52f88169221a4229f567,3294,,,,,         .5000,serum m spike,,mg/dl,1a698320ac87e08886ae52f85ee64f6d957f35e7
+COTA_52f88169221a4229f567,3335,,,,,         .6000,serum m spike,,mg/dl,eaf3553dc9b195d68469e295eec85550b029df60
+COTA_52f88169221a4229f567,3348,,,,,         .7900,kappa flc,,mg/dl,7c3b666b34f0657a6e36dad8dba460881d4655fd
+COTA_52f88169221a4229f567,3348,,,,,positive,serum immunofixation,,,0179f0ea47d757119fa53314f297c5cfa02c7ca2
+COTA_52f88169221a4229f567,3348,,,,,positive,serum m spike,,,7ee0fa526c524f59a6eec5d49b08f0be461433ba
+COTA_52f88169221a4229f567,3348,,,,,         .7600,lambda flc,,mg/dl,a62d26f8c094eb608d8c3ea03874290b07d58017
+COTA_52f88169221a4229f567,3411,,,,,       15.0000,lambda flc,,mg/dl,b3c010965f49d103bc4628f752974839e8be6fb5
+COTA_52f88169221a4229f567,3411,,,,,         .4000,serum m spike,,mg/dl,be6a0faef6928c94f46c932d453be01ed7dfed92
+COTA_52f88169221a4229f567,3411,,,,,       20.0000,kappa flc,,mg/dl,d7666c3900eee145d0e4c41f1943579d2bf7ea9c
+COTA_52f88169221a4229f567,3441,,,,,         .8000,serum m spike,,mg/dl,53fa708bc4c195291b9946d4f20084918027542c
+COTA_52f88169221a4229f567,3503,,,,,        9.0000,lambda flc,,mg/dl,a1ae8fb641d42e47791622e5a598c4a66133ca3c
+COTA_52f88169221a4229f567,3503,,,,,         .5000,serum m spike,,mg/dl,30acf60cb14739528930e2bd8adc06925590e568
+COTA_52f88169221a4229f567,3503,,,,,       11.0000,kappa flc,,mg/dl,3ad5c8ec09ff85b25e3cc987f83ae8ff6c7394ec
+COTA_52f88169221a4229f567,3549,,,,,        9.0000,lambda flc,,mg/dl,5507366e6d2979f82928afc9f15ce3c32b31c748
+COTA_52f88169221a4229f567,3549,,,,,       11.0000,kappa flc,,mg/dl,d9602db73bc64e07aaf3f0b81d4421f273a0cda2
+COTA_52f88169221a4229f567,3549,,,,,borderline,serum m spike,,,9c62c269e256756f072ed6c5c59487d2bbb386e9
+COTA_5d787b0930f1cc876c77,-19,,,,,        1.0000,creatinine,,mg/dl,67588283f14cf49e94d64eb04ba9df000961111f
+COTA_5d787b0930f1cc876c77,0,,,,,positive,urine immunofixation,,,285a705169cfac2f2d6557eb60f77d595a75b98c
+COTA_5d787b0930f1cc876c77,0,,,,,        3.6000,serum m spike,,mg/dl,d69dbe7b3f3d4e3ac893679270c3588ef64fe422
+COTA_5d787b0930f1cc876c77,5,,,,,        4.5000,serum m spike,,mg/dl,6f7dadc5d257fc4e85db746602996532093185f5
+COTA_5d787b0930f1cc876c77,36,,,,,        1.0000,creatinine,,mg/dl,44d8cb4290e9f012cf3de8918a04f0dead79f87e
+COTA_5d787b0930f1cc876c77,36,,,,,        9.4000,calcium,,mg/dl,98947b11dbf61b0f4443856f41d1b480833ab270
+COTA_5d787b0930f1cc876c77,43,,,,,        1.0000,creatinine,,mg/dl,b129ad9519bc051d7628f87ae09e4cb777027534
+COTA_5d787b0930f1cc876c77,43,,,,,       13.0000,hemoglobin,,g/dl,073077a60877f8670896c1e55642abee9ecf4f87
+COTA_5d787b0930f1cc876c77,64,,,,,        3.5000,serum m spike,,mg/dl,b6780d17e2a634602e2a13c47edc9274c67bd126
+COTA_5d787b0930f1cc876c77,76,,,,,         .9000,creatinine,,mg/dl,090db1e53cfd26e96287b4223f4cadc07883c45a
+COTA_5d787b0930f1cc876c77,76,,,,,        1.4000,serum m spike,,mg/dl,15ae4d0f5b569cbcaa42aceb1d4ae54b390986b3
+COTA_5d787b0930f1cc876c77,76,,,,,        1.7000,serum m spike,,mg/dl,22c43c050cb28182b5c8ed2d0cef280b37ea4b08
+COTA_5d787b0930f1cc876c77,76,,,,,        9.1000,calcium,,mg/dl,ba57ef07cadadce9eabf4656d30b3fbb19df4c60
+COTA_5d787b0930f1cc876c77,150,,,,,         .4000,serum m spike,,mg/dl,c65f25c8d5d213b6d47050e8c16a696b7d80b64e
+COTA_5d787b0930f1cc876c77,178,,,,,         .2000,serum m spike,,mg/dl,d358f20cfcfff1ad33484bfe710492efb1c45a09
+COTA_5d787b0930f1cc876c77,260,,,,,negative,serum m spike,,,149766bb0d547dfd1699cad40c5ac46d4545c6c9
+COTA_5d787b0930f1cc876c77,806,,,,,negative,serum m spike,,,2ccc42af529189137ab7eb2612839bc65012f3c9
+COTA_5d787b0930f1cc876c77,806,,,,,negative,serum immunofixation,,,c0a14283fddd0b1e73912bc47c52b4a815da5570
+COTA_5d787b0930f1cc876c77,1156,,,,,negative,serum m spike,,,8f3d18037e3bcc6f638a845a3206c4bc23874d55
+COTA_5d787b0930f1cc876c77,1184,,,,,negative,serum m spike,,,aa5602485ba0a826d53c38a2b564ff869da55673
+COTA_5d787b0930f1cc876c77,1324,,,,,negative,serum m spike,,,f3c6b747b61614c7cc5f1b6032654252ece1f878
+COTA_5d787b0930f1cc876c77,1730,,,,,         .3000,serum m spike,,mg/dl,a86279378c481ddabf58d45fb344a91c1be5cc27
+COTA_5d787b0930f1cc876c77,1854,,,,,         .4000,serum m spike,,mg/dl,6daaf2ecde33f442acd8b229b744b75a1fc99834
+COTA_5d787b0930f1cc876c77,1912,,,,,         .4000,serum m spike,,mg/dl,5f991eae9e14b1ff8160344104c628daccfac202
+COTA_5d787b0930f1cc876c77,1947,,,,,         .6000,serum m spike,,mg/dl,e43082a4cc913e93a7179b5ef0480cd4457895b8
+COTA_5d787b0930f1cc876c77,1975,,,,,         .5000,serum m spike,,mg/dl,180dc21aad25ac249669486a4ea0ace3dbcea0c6
+COTA_5d787b0930f1cc876c77,2003,,,,,         .6000,serum m spike,,mg/dl,80c691a1216df6618b4d9d0499346b662d13a9d9
+COTA_5d787b0930f1cc876c77,2038,,,,,         .6000,serum m spike,,mg/dl,a3e3da3fc923e055ada7c839db6a2ffeade754ea
+COTA_5d787b0930f1cc876c77,2073,,,,,         .8000,serum m spike,,mg/dl,7ec6e8bf56dff302b5190aed9d1e144a8a4710fd
+COTA_5d787b0930f1cc876c77,2101,,,,,         .8000,serum m spike,,mg/dl,8f194501bbc55a941685660171c1ce7a6df0cc47
+COTA_5d787b0930f1cc876c77,2129,,,,,         .9000,serum m spike,,mg/dl,058a290c25e889c586fa4c515faac6a29784fd63
+COTA_5d787b0930f1cc876c77,2157,,,,,        1.0000,serum m spike,,mg/dl,96339e6db65fd2ec085aa4f49671aee90af1df3c
+COTA_5d787b0930f1cc876c77,2185,,,,,         .9000,serum m spike,,mg/dl,fcccb8dfbeb93557c769f77d09c6050f07cfe2d3
+COTA_5d787b0930f1cc876c77,2220,,,,,        1.0000,serum m spike,,mg/dl,c26ffd43c28a8c81a3b767684fa43ff207e98ac7
+COTA_5d787b0930f1cc876c77,2248,,,,,        1.1000,serum m spike,,mg/dl,4f2dbcbc6ec30ec4a816ad310cfa183dc17c161e
+COTA_5d787b0930f1cc876c77,2276,,,,,        1.5000,serum m spike,,mg/dl,db54b0cdaec34c3f24fa13a668ca48f36a1a757f
+COTA_5d787b0930f1cc876c77,2311,,,,,        1.2000,serum m spike,,mg/dl,7e7fcbf964c49a951caf5ad85f5a1017f65be997
+COTA_5d787b0930f1cc876c77,2339,,,,,        1.4000,serum m spike,,mg/dl,63098852d6b4372039c8632d2cd59f02fcbe0639
+COTA_5d787b0930f1cc876c77,2374,,,,,        1.3000,serum m spike,,mg/dl,d8c1cf3c04ce5b85ebfdda4affd7373fd270cc20
+COTA_5d787b0930f1cc876c77,2402,,,,,        1.7000,serum m spike,,mg/dl,0da8cbe3f0f5b9387d87296fc6e4a2f7910ab680
+COTA_5d787b0930f1cc876c77,2421,,,,,        1.5000,serum m spike,,mg/dl,6a3a6177250a5870f4c70a22d384d0a1b442fb7a
+COTA_5d787b0930f1cc876c77,2437,,,,,        1.8000,serum m spike,,mg/dl,3f5e01ae53656d3efc93b2c98b3d30399d85f4c7
+COTA_5d787b0930f1cc876c77,2465,,,,,        1.3000,serum m spike,,mg/dl,f4c2e48a4cf57421b34804a301b7e0bd1fc87d71
+COTA_5d787b0930f1cc876c77,2500,,,,,        1.1000,serum m spike,,mg/dl,5161f3f00d7303cf5d8c333b39453bcac0e6e329
+COTA_5d787b0930f1cc876c77,2528,,,,,        1.4000,serum m spike,,mg/dl,71c801110e0f747c417d030bf271d9da61062d11
+COTA_5d787b0930f1cc876c77,2556,,,,,         .9000,serum m spike,,mg/dl,d0b99bc8467e373b7876b79b43369730e2246607
+COTA_5d787b0930f1cc876c77,2584,,,,,        1.5000,serum m spike,,mg/dl,8f82de0042e6bbe38d05e70029b54249eab26800
+COTA_5d787b0930f1cc876c77,2612,,,,,         .6000,serum m spike,,mg/dl,00454c95e733604a60c07f97b27373a20acbf252
+COTA_5d787b0930f1cc876c77,2647,,,,,        1.0000,serum m spike,,mg/dl,a96135920d91a5af0470eea88d0271a762e8db4f
+COTA_5d787b0930f1cc876c77,2675,,,,,       94.6600,lambda flc,,mg/dl,a9425f7e5b20074904abe4be84d0f8d45ba978b6
+COTA_5d787b0930f1cc876c77,2675,,,,,       16.7900,kappa flc,,mg/dl,521e72ff549db2f4b7cd05a5fe3c324fc26915fd
+COTA_5d787b0930f1cc876c77,2675,,,,,         .8000,serum m spike,,mg/dl,1b2101fb79d632481bec7eb087e6b76c27ed62be
+COTA_5d787b0930f1cc876c77,2703,,,,,        1.5920,kappa flc,,mg/dl,af078ca0572691c9017ad57105946404c558b934
+COTA_5d787b0930f1cc876c77,2703,,,,,         .7000,serum m spike,,mg/dl,14fe6440c6bae914ef8789b5c4ac48fdc0f765c1
+COTA_5d787b0930f1cc876c77,2703,,,,,        8.0040,lambda flc,,mg/dl,5c2029b276632bfc34d93d12bb56772ab959d2fd
+COTA_5d787b0930f1cc876c77,2738,,,,,         .7000,serum m spike,,mg/dl,5030cdb1ef8d9178c8686241344d1309059ff0eb
+COTA_5d787b0930f1cc876c77,2738,,,,,        1.7150,kappa flc,,mg/dl,03479b40be9b31d24aecc3c041fca209178e5987
+COTA_5d787b0930f1cc876c77,2738,,,,,        9.5230,lambda flc,,mg/dl,5619f91cd64291441efc7dfb5291f06a80b552c1
+COTA_5d787b0930f1cc876c77,2766,,,,,        7.5420,lambda flc,,mg/dl,5673804a3d4f46eb5c5bb57919300ff6c99eeae0
+COTA_5d787b0930f1cc876c77,2766,,,,,         .8000,serum m spike,,mg/dl,216ef107974e5527f3a9983daca6bb92aac232be
+COTA_5d787b0930f1cc876c77,2766,,,,,        1.6090,kappa flc,,mg/dl,e9b66a45b9ef5aaac0b1a3627e657da1496b0962
+COTA_5d787b0930f1cc876c77,2801,,,,,        1.5200,kappa flc,,mg/dl,e055322ab87db41dce4b57755f5b794bba4f87e8
+COTA_5d787b0930f1cc876c77,2801,,,,,         .7000,serum m spike,,mg/dl,410ae26854d6a01490124eac5e757dedec5b782a
+COTA_5d787b0930f1cc876c77,2801,,,,,        6.6300,lambda flc,,mg/dl,96c7b94f7f37a957d178cec7bb98c5787e3e979b
+COTA_5d787b0930f1cc876c77,2829,,,,,        3.3000,lambda flc,,mg/dl,b7b6ca956c6a9dab5fdf457a8c89fecdd33a6073
+COTA_5d787b0930f1cc876c77,2829,,,,,         .6000,serum m spike,,mg/dl,ca79f9c6cd7cbc66a5fe2724a9d5c26f2db81fb7
+COTA_5d787b0930f1cc876c77,2829,,,,,        1.3500,kappa flc,,mg/dl,c799d9a30f11e11f312e68c42c9a474483d1da06
+COTA_5d787b0930f1cc876c77,2850,,,,,         .8000,serum m spike,,mg/dl,b810ea46d11c39bd7863ace95ca6348d53f41741
+COTA_5d787b0930f1cc876c77,2850,,,,,        7.7300,lambda flc,,mg/dl,ee179def94a4493b1022d25478050dab85ea833e
+COTA_5d787b0930f1cc876c77,2850,,,,,        2.3300,kappa flc,,mg/dl,da3bf50e5c9d9ae1b71a6bcd6128c8cec1d6619d
+COTA_5d787b0930f1cc876c77,2892,,,,,        8.1600,lambda flc,,mg/dl,692041433ff092f0bd2567f474e4d6c920f043aa
+COTA_5d787b0930f1cc876c77,2892,,,,,        2.2300,kappa flc,,mg/dl,1898a39117407d614df3420b92c8859b689c574a
+COTA_5d787b0930f1cc876c77,2892,,,,,         .6000,serum m spike,,mg/dl,5bcec1cc9b9454d6866c7bf324558cd6ba71fab7
+COTA_5d787b0930f1cc876c77,2913,,,,,        1.5300,kappa flc,,mg/dl,1facab47557f5d002d8e1e7f7257ba1ae69bc296
+COTA_5d787b0930f1cc876c77,2913,,,,,        3.1500,lambda flc,,mg/dl,2674d1fef3e0bd7aa122f011f9e79f0011f2de48
+COTA_5d787b0930f1cc876c77,2913,,,,,         .7000,serum m spike,,mg/dl,855b8677f23ed8fe94252f2d40d57d2d2b36df8c
+COTA_5d787b0930f1cc876c77,2947,,,,,        3.1000,lambda flc,,mg/dl,01f5839908ffa89ec891cb6e605e7f0fbbbd09c8
+COTA_5d787b0930f1cc876c77,2947,,,,,        1.8200,kappa flc,,mg/dl,72943d5bae89652f76c3b391a3a3ed4066e199b0
+COTA_5d787b0930f1cc876c77,2947,,,,,         .6000,serum m spike,,mg/dl,679860bd7abf35827048d7bfb01f8ab6eacf4712
+COTA_5d787b0930f1cc876c77,2983,,,,,        2.3300,kappa flc,,mg/dl,c3f15c878788c270f09e9c92b26de99252e7f627
+COTA_5d787b0930f1cc876c77,2983,,,,,        6.3700,lambda flc,,mg/dl,2ce69fb7f6f75e08f437f4959ddb2325a87f3615
+COTA_5d787b0930f1cc876c77,2983,,,,,         .6000,serum m spike,,mg/dl,71b0ec4156cef44afbc467e60d897728b6c53e2c
+COTA_5d787b0930f1cc876c77,3011,,,,,        5.1300,lambda flc,,mg/dl,59dddee14e2ff6d9036a19520a6ce853b2fe39bc
+COTA_5d787b0930f1cc876c77,3011,,,,,         .6000,serum m spike,,mg/dl,487b45d909c9a63a271a62dbaebf4b046e08c25f
+COTA_5d787b0930f1cc876c77,3011,,,,,        2.4500,kappa flc,,mg/dl,c4cf9b6db974c353b7fadb6c55b0be8ea10d34a3
+COTA_5d787b0930f1cc876c77,3046,,,,,        1.9300,kappa flc,,mg/dl,21151bf0a027fbd65dc2ef073de6b708c9d121e7
+COTA_5d787b0930f1cc876c77,3046,,,,,        4.2900,lambda flc,,mg/dl,5c131abb5d4498cc8c8c99a27c1f1b28e5668128
+COTA_5d787b0930f1cc876c77,3046,,,,,         .6000,serum m spike,,mg/dl,2e129aa1d6f8b806a569a1ce47a0bc157e4dec30
+COTA_5d787b0930f1cc876c77,3065,,,,,        2.1900,kappa flc,,mg/dl,8655a90259ca4b07bc8ae63efdc83d29103bbe1f
+COTA_5d787b0930f1cc876c77,3065,,,,,        3.7400,lambda flc,,mg/dl,c0a840be605a9adba38df9b30277fe17f64d84d9
+COTA_5d787b0930f1cc876c77,3065,,,,,         .4000,serum m spike,,mg/dl,9ba89fff8480d25accd76a4341de92a9e78b0288
+COTA_5d787b0930f1cc876c77,3095,,,,,        4.0800,lambda flc,,mg/dl,21413d2ffe05ce832d8937544ed29bac9a250175
+COTA_5d787b0930f1cc876c77,3095,,,,,        2.1700,kappa flc,,mg/dl,3d088579dd467214789ae891b93bf9df808ce8cc
+COTA_5d787b0930f1cc876c77,3095,,,,,         .4000,serum m spike,,mg/dl,c7de3fdb32f9aa43c7cb04364151a2a40bf4a89e
+COTA_5d787b0930f1cc876c77,3130,,,,,        4.3600,lambda flc,,mg/dl,d8cfd9b3aa8f63a1fc1ad07b1668c1d0592b2877
+COTA_5d787b0930f1cc876c77,3130,,,,,        2.6500,kappa flc,,mg/dl,300becc232399db7bb825a9f72c27aa89641753c
+COTA_5d787b0930f1cc876c77,3130,,,,,         .4000,serum m spike,,mg/dl,88467a991d02e38d7c9c92f9fe9d4036f3c45582
+COTA_5d787b0930f1cc876c77,3165,,,,,        1.3800,kappa flc,,mg/dl,b31fa1cffdc0a639393bebd6360b1616cd3587fc
+COTA_5d787b0930f1cc876c77,3165,,,,,        2.8100,lambda flc,,mg/dl,952304906b8de1439b387a0bcaf39f9f381ab30c
+COTA_5d787b0930f1cc876c77,3165,,,,,         .4000,serum m spike,,mg/dl,4df1e5ba6519de8e47dde5366f435bc62be2a611
+COTA_5d787b0930f1cc876c77,3193,,,,,        2.8600,lambda flc,,mg/dl,4d5adea41da540d4e83a012ed3b9ae572286b5eb
+COTA_5d787b0930f1cc876c77,3193,,,,,        1.9900,kappa flc,,mg/dl,80a803a28b4604087fa46783b0ccd42c5301fd05
+COTA_5d787b0930f1cc876c77,3193,,,,,         .5000,serum m spike,,mg/dl,839dd832a10db5c3b5a032a3f02f322f0259c3c5
+COTA_5d787b0930f1cc876c77,3228,,,,,        2.3000,kappa flc,,mg/dl,99f8bdcf5b52ad7f91841ea45b4793b947b43947
+COTA_5d787b0930f1cc876c77,3228,,,,,        3.2400,lambda flc,,mg/dl,3d2e15baf217ae577c322dd8973990ca9108039f
+COTA_5d787b0930f1cc876c77,3228,,,,,         .4000,serum m spike,,mg/dl,89db3ce919173e39afe7433a53b167a07b73ab1d
+COTA_5d787b0930f1cc876c77,3256,,,,,        3.9600,lambda flc,,mg/dl,3c821c385e3209fbf1104ddf64850d38b199a74f
+COTA_5d787b0930f1cc876c77,3256,,,,,         .5000,serum m spike,,mg/dl,806c2e82c3acafd38da6a8d0e1f38f0ed5f9d4b3
+COTA_5d787b0930f1cc876c77,3256,,,,,        2.4500,kappa flc,,mg/dl,551c637d3688fff4bb4c80a04b25c76269e7f58a
+COTA_5d787b0930f1cc876c77,3284,,,,,        2.7100,kappa flc,,mg/dl,ede5baf7f891ae5289c7c158e0002eedc6073280
+COTA_5d787b0930f1cc876c77,3284,,,,,        3.6600,lambda flc,,mg/dl,c711d2d1731f803825bf1de508f02e4dacd962d4
+COTA_5d787b0930f1cc876c77,3284,,,,,         .3000,serum m spike,,mg/dl,a039fbfbf90febb8fffd49fe2d69f2c6bf5f7715
+COTA_5d787b0930f1cc876c77,3319,,,,,        2.6400,kappa flc,,mg/dl,246f0b33bbb6bab22ad7345c837aff6b9607b7c4
+COTA_5d787b0930f1cc876c77,3319,,,,,         .4000,serum m spike,,mg/dl,94694a8defb7879241102635936afc8ac5aaab30
+COTA_5d787b0930f1cc876c77,3319,,,,,        3.7200,lambda flc,,mg/dl,8026fe22e1cfed77de72e825df7de5fb0d0e21f8
+COTA_5d787b0930f1cc876c77,3354,,,,,        4.2800,lambda flc,,mg/dl,c96f81563585e08d95d00829a54a4e91765172a7
+COTA_5d787b0930f1cc876c77,3354,,,,,         .3000,serum m spike,,mg/dl,dee59391fce0a378dddda4562b7c20fdc0865e63
+COTA_5d787b0930f1cc876c77,3354,,,,,        2.5300,kappa flc,,mg/dl,4723b2a95fbced2f702d3cd81cafe3fa9b11816b
+COTA_5d787b0930f1cc876c77,3375,,,,,        2.7000,lambda flc,,mg/dl,4e75c125e83b17c02b49d2529b3f30577730036f
+COTA_5d787b0930f1cc876c77,3375,,,,,        2.2100,kappa flc,,mg/dl,4e77b944cc1a373c7093285eec1981961f1e0665
+COTA_5d787b0930f1cc876c77,3375,,,,,         .3000,serum m spike,,mg/dl,6aa994a7a91d533004234935199b9bbe133ed5a9
+COTA_5d787b0930f1cc876c77,3403,,,,,         .3000,serum m spike,,mg/dl,f9096920acf3436e6e76000aad5ee3d3d1691837
+COTA_5d787b0930f1cc876c77,3403,,,,,        2.2800,kappa flc,,mg/dl,75b8209a9378d0f8c3fa7f584e2760808322595d
+COTA_5d787b0930f1cc876c77,3403,,,,,        3.6300,lambda flc,,mg/dl,8d9c16c6c2aaa779316810d19e202f743c1a3bec
+COTA_5d787b0930f1cc876c77,3431,,,,,        2.2200,kappa flc,,mg/dl,41b4ca2d8870d26c50bf54b88b04777e727968ec
+COTA_5d787b0930f1cc876c77,3431,,,,,        2.3700,lambda flc,,mg/dl,cebfb956710681f62d527c88f6924fcfe0116ad1
+COTA_5d787b0930f1cc876c77,3431,,,,,         .3000,serum m spike,,mg/dl,805fd68169b5394d8c302976e9eb1e55b20a6217
+COTA_5d787b0930f1cc876c77,3466,,,,,        2.6400,kappa flc,,mg/dl,d797df8f4ed302234bc55131585dcab5f125a5d0
+COTA_5d787b0930f1cc876c77,3466,,,,,        3.2500,lambda flc,,mg/dl,bc0576bbab59e8214ef7b4e23a3d3cc8f1cd1e76
+COTA_5d787b0930f1cc876c77,3466,,,,,         .2000,serum m spike,,mg/dl,2c50c9d56406151253854e34f74c1a173bd7b0d4
+COTA_5d787b0930f1cc876c77,3501,,,,,         .3000,serum m spike,,mg/dl,074b48e0ea7e0da9f53ef2548dce3e6828fffde9
+COTA_5d787b0930f1cc876c77,3501,,,,,        2.4000,kappa flc,,mg/dl,8eb64b8d6c72e3689bc799d2c27322cb3bcdc69b
+COTA_5d787b0930f1cc876c77,3501,,,,,        2.7300,lambda flc,,mg/dl,f9054f160bb56c63abf9c3eed4748ffcf563a99f
+COTA_5d787b0930f1cc876c77,3529,,,,,         .2000,serum m spike,,mg/dl,90bfc60739372a233bebbe7815714b1b947ab6cc
+COTA_5d787b0930f1cc876c77,3529,,,,,        1.3700,kappa flc,,mg/dl,5d3ae876bd32bb939a721108c8e1603c3e239842
+COTA_5d787b0930f1cc876c77,3529,,,,,        2.0200,lambda flc,,mg/dl,62fc04ef0c3b7b4caa51c8c2044f1e2b084d6b9b
+COTA_5d787b0930f1cc876c77,3558,,,,,        2.7000,lambda flc,,mg/dl,6347b85351189eb97187b6f5ec87ccbe45fc46d8
+COTA_5d787b0930f1cc876c77,3558,,,,,        1.5200,kappa flc,,mg/dl,635991003622fb985a4dd082d98df7456c27242d
+COTA_5d787b0930f1cc876c77,3558,,,,,         .2000,serum m spike,,mg/dl,e19457b8eea92738022b605393f8051fd8d92b51
+COTA_5d787b0930f1cc876c77,3592,,,,,        2.7000,lambda flc,,mg/dl,4b6b7f29fff37d55f65cc2cd216dd181f799c88e
+COTA_5d787b0930f1cc876c77,3592,,,,,        1.8100,kappa flc,,mg/dl,62a5004eaa5e2dd2bc3998a36b2af51a159f1d6e
+COTA_5d787b0930f1cc876c77,3592,,,,,         .2000,serum m spike,,mg/dl,27a9ffacf8947ff3cb99feb9e73a6ad155f3e34e
+COTA_5d787b0930f1cc876c77,3627,,,,,        2.3900,lambda flc,,mg/dl,002a5e6a5f8134af8e5c70290e75d67539982dfe
+COTA_5d787b0930f1cc876c77,3627,,,,,        2.4400,kappa flc,,mg/dl,923161cc5a62b255e881d55dc55a0826c003c907
+COTA_5d787b0930f1cc876c77,3627,,,,,         .2000,serum m spike,,mg/dl,58be1c69099a26c7a6ad75ccc0d93d3e6453eb8e
+COTA_5d787b0930f1cc876c77,3646,,,,,         .2000,serum m spike,,mg/dl,0056613bbe99cebdd5f3f4c45b04da0fbe61e3f1
+COTA_5d787b0930f1cc876c77,3646,,,,,        2.5600,kappa flc,,mg/dl,f77e4e3ee16f71646b6f80f3bfe3e94c23f64788
+COTA_5d787b0930f1cc876c77,3646,,,,,        2.5100,lambda flc,,mg/dl,875cad123a8cd5e983af1ad424a87b090f460356
+COTA_5d787b0930f1cc876c77,3710,,,,,        2.1900,kappa flc,,mg/dl,396951013456c691f8342bb496b613fed46d9077
+COTA_5d787b0930f1cc876c77,3710,,,,,        2.2000,lambda flc,,mg/dl,818c78b84e8db46e1750840418ed2ca21a618da0
+COTA_5d787b0930f1cc876c77,3710,,,,,         .3000,serum m spike,,mg/dl,afbbf147c97f7bd8037ca37312c80b487db6733c
+COTA_5d787b0930f1cc876c77,3739,,,,,         .2000,serum m spike,,mg/dl,684e0fb2bad0d5d2c972732f099c15cb99876caa
+COTA_5d787b0930f1cc876c77,3739,,,,,        2.3200,kappa flc,,mg/dl,bbb3f67d772777bc781d7701a0f5fc18e2feaa53
+COTA_5d787b0930f1cc876c77,3739,,,,,        2.8300,lambda flc,,mg/dl,ee0ec3c5b951054f432108bd08a6793574cdd39e
+COTA_5d787b0930f1cc876c77,3774,,,,,         .2000,serum m spike,,mg/dl,78a81ad925f7bc1215e0d4e03a783f715154852c
+COTA_5d787b0930f1cc876c77,3774,,,,,        4.0000,kappa flc,,mg/dl,a01ed6328bc705cc2963117b6e8cb01e7b716134
+COTA_5d787b0930f1cc876c77,3774,,,,,        2.5400,lambda flc,,mg/dl,73d04dacdf26d1d46bb4eb1513b1279eb7fb64bb
+COTA_5d787b0930f1cc876c77,3802,,,,,        2.8300,lambda flc,,mg/dl,053576d12d1b3c0068bbd483b3dbbb2d7eb38e68
+COTA_5d787b0930f1cc876c77,3802,,,,,        2.5500,kappa flc,,mg/dl,8e726f4a76a6029cbfd4a7915915c6be1587df1c
+COTA_5d787b0930f1cc876c77,3802,,,,,         .4000,serum m spike,,mg/dl,785be6052f57a4c6c7fa22f7a249b2cc01316dbe
+COTA_5d787b0930f1cc876c77,3830,,,,,        2.4900,lambda flc,,mg/dl,c80ff2d78c164209fb0763806de11bbbb7737c03
+COTA_5d787b0930f1cc876c77,3830,,,,,        2.3200,kappa flc,,mg/dl,a21f691a20e334fedbead8f6249ade681a8c4cb7
+COTA_5d787b0930f1cc876c77,3830,,,,,         .2000,serum m spike,,mg/dl,3894245ab9fd4725b09649b9624446ecf1617556
+COTA_5d787b0930f1cc876c77,3865,,,,,         .2000,serum m spike,,mg/dl,3612ec971157ffc308208d7316644260dd53efd4
+COTA_5d787b0930f1cc876c77,3865,,,,,        2.0600,kappa flc,,mg/dl,202f06ad666fee73ad74285c2b76f7254b43ef02
+COTA_5d787b0930f1cc876c77,3865,,,,,        2.7200,lambda flc,,mg/dl,aadc92230c19bfc2c7e39e247d322ac7088a544c
+COTA_5d787b0930f1cc876c77,3893,,,,,        2.6400,lambda flc,,mg/dl,0c1ab002c8a190802a689e45f7012e16f8b3e350
+COTA_5d787b0930f1cc876c77,3893,,,,,        2.0400,kappa flc,,mg/dl,97ee6b19077389407dcc476861260d5422566e3b
+COTA_5d787b0930f1cc876c77,3893,,,,,         .3000,serum m spike,,mg/dl,36bfd3567ce35e69eae034a80be945833b808a43
+COTA_5d787b0930f1cc876c77,3921,,,,,         .2000,serum m spike,,mg/dl,8d8f51b8e9d73025932e29aff4e4395b2eb51bbe
+COTA_5d787b0930f1cc876c77,3921,,,,,        2.3500,kappa flc,,mg/dl,f86b941a06cad1de0ce57f22399cc8d74596f097
+COTA_5d787b0930f1cc876c77,3921,,,,,        2.4500,lambda flc,,mg/dl,e5ed6e75b2eeb219b86539441e0752180e31f106
+COTA_5d787b0930f1cc876c77,3982,,,,,        2.1000,lambda flc,,mg/dl,e882dd6510ffe40df061f241e39375d22e0fcd14
+COTA_5d787b0930f1cc876c77,3982,,,,,        1.8500,kappa flc,,mg/dl,2223141e6509688588a847b7cf84bbb85a579f4d
+COTA_5d787b0930f1cc876c77,3982,,,,,         .3000,serum m spike,,mg/dl,dc11f89ed9eb1116cf188ca5bf455dffe61a6f74
+COTA_5d787b0930f1cc876c77,4019,,,,,        2.2100,lambda flc,,mg/dl,4d3d86c4f84eb7a751b84354669c620b7590d4c5
+COTA_5d787b0930f1cc876c77,4019,,,,,        2.2470,kappa flc,,mg/dl,c883ebc9761f2453ae02fe5da159879808001c19
+COTA_5d787b0930f1cc876c77,4019,,,,,         .2000,serum m spike,,mg/dl,c4c695c4b7899fa3f0bad7d1f1a909508f3589e3
+COTA_5d787b0930f1cc876c77,4047,,,,,        2.6230,kappa flc,,mg/dl,067a01fa667a91f9904abe38086ef1639af95c7b
+COTA_5d787b0930f1cc876c77,4047,,,,,borderline,serum m spike,,,205b60b0ba10037e3d3c9ae09cd801096a6d1121
+COTA_5d787b0930f1cc876c77,4047,,,,,        1.9750,lambda flc,,mg/dl,e7a02a4df4c993f6823e35311080f407637ee0bc
+COTA_5d787b0930f1cc876c77,4075,,,,,        2.9510,kappa flc,,mg/dl,517dd344bb7038c953488ad9963948b771a4cebe
+COTA_5d787b0930f1cc876c77,4075,,,,,        2.1330,lambda flc,,mg/dl,bf788029cb15eae39888d8c43ce49dd529187d9f
+COTA_5d787b0930f1cc876c77,4103,,,,,        1.7190,lambda flc,,mg/dl,58de9d2bb5aae1aff067f704fdf0881e2b96e210
+COTA_5d787b0930f1cc876c77,4103,,,,,        2.2610,kappa flc,,mg/dl,6d5105fcdca8c8b62cf992e38126602f9bfd054e
+COTA_5d787b0930f1cc876c77,4103,,,,,borderline,serum m spike,,,13325969f983f40b7dc2842281e1c8e8e31b15de
+COTA_5d787b0930f1cc876c77,4138,,,,,negative,serum m spike,,,4318d6b0db0a7a6c1762386ed9bc0a074c47423b
+COTA_5d787b0930f1cc876c77,4138,,,,,        2.6020,kappa flc,,mg/dl,421e2b7e96b44eb27f2daa7bb39bcd16dcf7cc5e
+COTA_5d787b0930f1cc876c77,4138,,,,,        2.0960,lambda flc,,mg/dl,4026855a73794faaa1bdb4d2b80454ffceb9979f
+COTA_5d787b0930f1cc876c77,4159,,,,,borderline,serum m spike,,,6ac1ff6af7764e810b3f754c05f90550d7ce7bc7
+COTA_5d787b0930f1cc876c77,4159,,,,,        2.1340,kappa flc,,mg/dl,6657a42db3218501068bcc2e42eea5080b4361e4
+COTA_5d787b0930f1cc876c77,4159,,,,,        1.8350,lambda flc,,mg/dl,6e1a3ab695dc36bd0c7dca8773c8b0782994629a
+COTA_5d787b0930f1cc876c77,4194,,,,,        1.7810,lambda flc,,mg/dl,105a3c14d15a788f1320a6eb240c1053b65b9532
+COTA_5d787b0930f1cc876c77,4194,,,,,        2.1930,kappa flc,,mg/dl,8fdafb1cd47e8c0b4fde1e6e665d66ea04959823
+COTA_5d787b0930f1cc876c77,4194,,,,,negative,serum m spike,,,f9734a9da9519c827d662a0a4d51bcf2eced327e
+COTA_5d787b0930f1cc876c77,4229,,,,,        1.8800,lambda flc,,mg/dl,1cea7ea1d6c6c3d23bb8d6cfe9dcc28b5252e229
+COTA_5d787b0930f1cc876c77,4229,,,,,        2.5310,kappa flc,,mg/dl,43c269d9ed1e00eed236fe4900b3d27a9b3be8a0
+COTA_5d787b0930f1cc876c77,4229,,,,,negative,serum m spike,,,3b365eeaa4d23e794e660a1f95b8030d5923dd4a
+COTA_5d787b0930f1cc876c77,4264,,,,,        1.4160,lambda flc,,mg/dl,1706fcd07b4c379115f9e2b5738e8821a63233ce
+COTA_5d787b0930f1cc876c77,4264,,,,,        2.1630,kappa flc,,mg/dl,25383dc42e8bb49950e2b1f026a2c5e99f39af7c
+COTA_5d787b0930f1cc876c77,4264,,,,,negative,serum m spike,,,8363a9cfd6b0073f75985119247e4dda96479e41
+COTA_5d787b0930f1cc876c77,4290,,,,,        1.4700,lambda flc,,mg/dl,7854ca39c64b81d9303828009f172607e173dfb0
+COTA_5d787b0930f1cc876c77,4290,,,,,        2.2790,kappa flc,,mg/dl,2a4261b57c6d0c73781bccca0a87bc34a9eb60df
+COTA_5d787b0930f1cc876c77,4290,,,,,negative,serum m spike,,,fb74b6f86aae2cda2dc4467ddc8a36bcc595d50e
+COTA_5d787b0930f1cc876c77,4320,,,,,        2.7400,kappa flc,,mg/dl,744d08fb8b2c3dab4d94edfa5bcddef0618d5c68
+COTA_5d787b0930f1cc876c77,4320,,,,,        1.4720,lambda flc,,mg/dl,8e5709e5000041d9ab9b186bd02633dd89bdc706
+COTA_5d787b0930f1cc876c77,4347,,,,,negative,serum m spike,,,7062cfe77be49ff99115da3fcd803059f8aa9879
+COTA_5d787b0930f1cc876c77,4347,,,,,        2.4160,kappa flc,,mg/dl,1df3154b7dd5995984b476d2b619173e092ef4e9
+COTA_5d787b0930f1cc876c77,4347,,,,,        1.6110,lambda flc,,mg/dl,25ec917e20ab9b403cef2acdbff5c775726cbcf0
+COTA_5d787b0930f1cc876c77,4383,,,,,        3.7750,kappa flc,,mg/dl,e29d73c98c00d33d92658e5101b931717a7d0c8e
+COTA_5d787b0930f1cc876c77,4383,,,,,negative,serum m spike,,,5f82af6838b841d31b341620976acc6ec2a0fd03
+COTA_5d787b0930f1cc876c77,4383,,,,,        2.6260,lambda flc,,mg/dl,c0e0101f7f5610876c020863d9b2a12e12886a07
+COTA_5d787b0930f1cc876c77,4438,,,,,        3.5830,kappa flc,,mg/dl,f6d1acb70cb9ca49931c20cd89c10022c4f6edde
+COTA_5d787b0930f1cc876c77,4438,,,,,negative,serum m spike,,,a358015a633b021f41c4826d176f6ce8310e8445
+COTA_5d787b0930f1cc876c77,4438,,,,,        2.8100,lambda flc,,mg/dl,968b91231601b96e18667538c81f82059137f81f
+COTA_5d787b0930f1cc876c77,4474,,,,,        3.2370,kappa flc,,mg/dl,3b6b7bda86904a53a47a4bee1216751802f3399f
+COTA_5d787b0930f1cc876c77,4474,,,,,negative,serum m spike,,,6bb888fadfcb5160bf58a11406b6239e2eab4e8a
+COTA_5d787b0930f1cc876c77,4474,,,,,        2.4470,lambda flc,,mg/dl,32728f4edf0e86f56cc5d2010d3185dded4c2c1a
+COTA_5d787b0930f1cc876c77,4530,,,,,negative,serum m spike,,,3efd178f583740d8143ebe9d3d3ed56ab343c700
+COTA_5d787b0930f1cc876c77,4530,,,,,        2.4360,lambda flc,,mg/dl,b4cf2385c5ca6e8abd039333b0ded444ac47b274
+COTA_5d787b0930f1cc876c77,4530,,,,,        3.2350,kappa flc,,mg/dl,ce5bbe55fc67f91f6f1f3e65339da7092fa0c501
+COTA_5d787b0930f1cc876c77,4565,,,,,        5.7090,kappa flc,,mg/dl,9e3c5d250a3ce0025e160744c6c1ac906d6bb846
+COTA_5d787b0930f1cc876c77,4565,,,,,negative,serum m spike,,,cdea185d4b926c0c3e7c48079d2d0b2fb78c78be
+COTA_5d787b0930f1cc876c77,4565,,,,,        2.9110,lambda flc,,mg/dl,31f5fdb4ce2506e51285427f23dd127d063779e0
+COTA_5d787b0930f1cc876c77,4628,,,,,        1.9830,lambda flc,,mg/dl,c0d64da6718cbf4e4f45089c4a20b2e22f7ffd6c
+COTA_5d787b0930f1cc876c77,4628,,,,,        3.4860,kappa flc,,mg/dl,162debdc6867784773aab62c6436dd00575adc23
+COTA_5d787b0930f1cc876c77,4628,,,,,negative,serum m spike,,,7204d69b1751112b42b23354d016cbc6c4a53431
+COTA_5d787b0930f1cc876c77,4656,,,,,        1.9890,lambda flc,,mg/dl,6a6d106e76cd8dff497a82f30d4483a43d063436
+COTA_5d787b0930f1cc876c77,4656,,,,,        3.3960,kappa flc,,mg/dl,7fa8d280a061d1256fe39135a0c6643e477300ca
+COTA_5d787b0930f1cc876c77,4684,,,,,        4.1450,kappa flc,,mg/dl,4b1fdff643f7f3e226495cf59b6c7fac53615d60
+COTA_5d787b0930f1cc876c77,4684,,,,,negative,serum m spike,,,82cb3da2d027dcfc1b9eda0599cabbac4b43900c
+COTA_5d787b0930f1cc876c77,4684,,,,,        2.1840,lambda flc,,mg/dl,767cbe5ebf6f3c8aa5328f551eb2aeb1d46c13f8
+COTA_5d787b0930f1cc876c77,4719,,,,,        2.4860,lambda flc,,mg/dl,09b000376a62abb6497e2b2b3cff05a53cd91cd5
+COTA_5d787b0930f1cc876c77,4719,,,,,        3.7730,kappa flc,,mg/dl,b1a478f0cceda6f983b4fa84bc6365338995f4ad
+COTA_5d787b0930f1cc876c77,4719,,,,,negative,serum m spike,,,8e7e2a8dcb58acea74e951bdb9c7d3db41329330
+COTA_5d787b0930f1cc876c77,4747,,,,,        2.8190,lambda flc,,mg/dl,f29f480737c286394aedb70506beae823926e311
+COTA_5d787b0930f1cc876c77,4747,,,,,        4.3560,kappa flc,,mg/dl,8a972df762630599f47910a518d716a32e0e2d0e
+COTA_5d787b0930f1cc876c77,4747,,,,,negative,serum m spike,,,6803e8a3227331fab61d672d7be47f83240926d3
+COTA_5d787b0930f1cc876c77,4780,,,,,        4.0720,kappa flc,,mg/dl,43c9791647046865c41b5d25a7ae715a5f40dafc
+COTA_5d787b0930f1cc876c77,4780,,,,,negative,serum m spike,,,bbbc965787810099cebfcc38a090db7488fc6473
+COTA_5d787b0930f1cc876c77,4780,,,,,        2.8540,lambda flc,,mg/dl,68e7fe7f3dfce95d77b4713699b80fbff1373d9b
+COTA_5d787b0930f1cc876c77,4810,,,,,        4.8300,kappa flc,,mg/dl,5638be6c1bf49da2982a4a614326d20729fad82b
+COTA_5d787b0930f1cc876c77,4810,,,,,        3.0940,lambda flc,,mg/dl,b9597054b6a57dd2792a3fcfbb1b023097134fc9
+COTA_5d787b0930f1cc876c77,4810,,,,,borderline,serum m spike,,,7c47ddfcc41791ebfc6835040aebdc9e55e3ef43
+COTA_5d787b0930f1cc876c77,4838,,,,,        5.1160,kappa flc,,mg/dl,5425fea0b835b8b10af4b72b0af007aa60123602
+COTA_5d787b0930f1cc876c77,4838,,,,,negative,serum m spike,,,7b8a60c3eef9e5028dafa035001cbc9fe06902f3
+COTA_5d787b0930f1cc876c77,4838,,,,,        3.3240,lambda flc,,mg/dl,a773b64a40d3eb1884763eaaf03c0a33f11c1bcd
+COTA_5d787b0930f1cc876c77,4866,,,,,        5.5940,kappa flc,,mg/dl,c01195bfec17122c2d398a25f9b0f18e602ed4ae
+COTA_5d787b0930f1cc876c77,4866,,,,,        3.8060,lambda flc,,mg/dl,f4a278bde259f3acf3cd6ac64bc04195d22ea8ab
+COTA_5d787b0930f1cc876c77,4866,,,,,borderline,serum m spike,,,0225718b7e8bd9bd960dda1932f1813fd56d411c
+COTA_5d787b0930f1cc876c77,4901,,,,,borderline,serum m spike,,,2ef6aadb7968958aff1bb8ae4b2dc8a8f6f5eb95
+COTA_5d787b0930f1cc876c77,4901,,,,,        3.8280,kappa flc,,mg/dl,bb52dba18f7c21ebb355766b4db6807b85cb80c2
+COTA_5d787b0930f1cc876c77,4901,,,,,        3.0140,lambda flc,,mg/dl,49e840773ad1ed7e1bd24821299c31c0220c243a
+COTA_5d787b0930f1cc876c77,4929,,,,,negative,urine m-spike (bence-jones),,,1a0f68644a05b88284a04fbf9dfdfc96092cec63
+COTA_5d787b0930f1cc876c77,4929,,,,,borderline,serum m spike,,,d5917cbc087c460bbbce9a01390da00a23b66610
+COTA_5d787b0930f1cc876c77,4929,,,,,negative,urine immunofixation,,,f6259d7464a8585f38b4df3462474ed5240fdcf4
+COTA_5d787b0930f1cc876c77,4929,,,,,        2.9840,lambda flc,,mg/dl,244761459e4a82dd8873a28f2fd990023663d9d1
+COTA_5d787b0930f1cc876c77,4929,,,,,        4.1150,kappa flc,,mg/dl,8254036e499021ac691af987b77dc6549dadcb5c
+COTA_5d787b0930f1cc876c77,4957,,,,,borderline,serum m spike,,,3eb98e5d327717d550ae9b06ef7a9d89b858567d
+COTA_5d787b0930f1cc876c77,4957,,,,,        2.9510,lambda flc,,mg/dl,eaf08eaddcb570d05f5a37a118c0126beaa90bda
+COTA_5d787b0930f1cc876c77,4957,,,,,        3.9320,kappa flc,,mg/dl,90768f58af6de72b812df82ff8114dbe3b554d5c
+COTA_5d787b0930f1cc876c77,4985,,,,,        3.8610,kappa flc,,mg/dl,a87eb57aee821db1e334c3428ee393131fd3a847
+COTA_5d787b0930f1cc876c77,4985,,,,,borderline,serum m spike,,,ee0a10e19403cb08c7870790b1a77beec8b5c5e5
+COTA_5d787b0930f1cc876c77,4985,,,,,        2.9020,lambda flc,,mg/dl,ab40ed2d210c2fe5f9cf0b50112ef70a1e5a3a02
+COTA_5d787b0930f1cc876c77,5048,,,,,        2.8010,kappa flc,,mg/dl,e9afd3e86f914ad99c23abe70d2871c69fe76f21
+COTA_5d787b0930f1cc876c77,5048,,,,,        2.3510,lambda flc,,mg/dl,98a6825859cc3d8ccd8dad5ec3cd733de0fc5032
+COTA_5d787b0930f1cc876c77,5048,,,,,borderline,serum m spike,,,22985ac43a014cdfbfeb96b3b3ef1e26d293413f
+COTA_5d787b0930f1cc876c77,5083,,,,,         .3000,serum m spike,,mg/dl,32ff724e5e83e7960f238e415f85ce288c0fa2ca
+COTA_5d787b0930f1cc876c77,5083,,,,,        3.4640,kappa flc,,mg/dl,a047cc666674b36895435cf0d545dbf64ef41e09
+COTA_5d787b0930f1cc876c77,5083,,,,,        2.6070,lambda flc,,mg/dl,e975df230a2dbbd8b2f3b044ce3227b63495ce69
+COTA_5d787b0930f1cc876c77,5111,,,,,        4.2170,kappa flc,,mg/dl,3cd4667f8a7a7d9a6522191faf15165fa0ea26e8
+COTA_5d787b0930f1cc876c77,5111,,,,,         .2000,serum m spike,,mg/dl,fd5c47103e4d1c242ed546cdd63b020c8e95716d
+COTA_5d787b0930f1cc876c77,5111,,,,,        3.1900,lambda flc,,mg/dl,c9165165dd0f90ee00e7e4978c0172c7051df7ca
+COTA_5d787b0930f1cc876c77,5139,,,,,        4.2120,kappa flc,,mg/dl,42c46cf160bb89e1c585a6ce3c34a9bbeb0fe0f9
+COTA_5d787b0930f1cc876c77,5139,,,,,         .3000,serum m spike,,mg/dl,38c46f582d58386d96a50b563f782460dd1c5ee4
+COTA_5d787b0930f1cc876c77,5139,,,,,        3.3160,lambda flc,,mg/dl,07f3988f104dbf7de58a6bc858f5c8f7d0d4efc3
+COTA_5d787b0930f1cc876c77,5174,,,,,        2.8310,lambda flc,,mg/dl,2fcc201af95480a0bec628a466826e95dd9f7688
+COTA_5d787b0930f1cc876c77,5174,,,,,         .2000,serum m spike,,mg/dl,3cebcea0be102a1214e9a7adb3349bc9fe5a098c
+COTA_5d787b0930f1cc876c77,5174,,,,,        3.6980,kappa flc,,mg/dl,1fe68d1bdbb594e9763abde8991e23949dc2e61f
+COTA_5d787b0930f1cc876c77,5202,,,,,        3.2200,lambda flc,,mg/dl,38397e71aec836ce2da1c9593ba4f2df0f17f16a
+COTA_5d787b0930f1cc876c77,5202,,,,,         .4000,serum m spike,,mg/dl,05efe18d25f141c1a463ad24b09bf423c5242321
+COTA_5d787b0930f1cc876c77,5202,,,,,        4.1650,kappa flc,,mg/dl,6e1efc65c2445a10c87243962fd07919367d1728
+COTA_5d787b0930f1cc876c77,5230,,,,,        3.8750,kappa flc,,mg/dl,5bc5f1d15edadef2b7318fb102740f2a7ee7959e
+COTA_5d787b0930f1cc876c77,5230,,,,,         .3000,serum m spike,,mg/dl,299025c02565947f247acc5c51d604313e9d57aa
+COTA_5d787b0930f1cc876c77,5230,,,,,        3.2650,lambda flc,,mg/dl,5543d12ec0b947fee7829487a52f10e4ccc3c8aa
+COTA_5d787b0930f1cc876c77,5265,,,,,        3.7290,kappa flc,,mg/dl,b0f417db06489171a33d5386228b3edd7f355221
+COTA_5d787b0930f1cc876c77,5265,,,,,         .2000,serum m spike,,mg/dl,101134e63d025ff950abdcc53d1d3e52df552525
+COTA_5d787b0930f1cc876c77,5265,,,,,        3.0680,lambda flc,,mg/dl,b9cb1accf3dad30b0c8beaafe1a78353edcd46d3
+COTA_5d787b0930f1cc876c77,5293,,,,,        4.3430,kappa flc,,mg/dl,20bf261c7d96c1f436e216438859c2360f6bd374
+COTA_5d787b0930f1cc876c77,5293,,,,,        3.1230,lambda flc,,mg/dl,2eeca7abb1e01d22eb8bebab8b885c9f0261779b
+COTA_5d787b0930f1cc876c77,5293,,,,,         .3000,serum m spike,,mg/dl,dab69d0c26e4612a08b3dbf102b5bf17f1c48903
+COTA_5d787b0930f1cc876c77,5328,,,,,        2.7240,lambda flc,,mg/dl,d8ac7c1dfbea39b24bb2a4380e1a35ecd8550fec
+COTA_5d787b0930f1cc876c77,5328,,,,,        3.0620,kappa flc,,mg/dl,9c49d651c212a5cf5ce47fda58e7783cb0d9c9f5
+COTA_5d787b0930f1cc876c77,5328,,,,,         .3000,serum m spike,,mg/dl,a7860f52d9c6181eaf34b595cdf25358c46686bf
+COTA_a286661e5281029b56d6,-19,,,,,        2.1600,serum m spike,,mg/dl,35077fbe9783dc2b95bbc9f51e9bc1a9bd48b3c9
+COTA_a286661e5281029b56d6,-19,,,,,     2950.0000,igg,,mg/dl,212c99a57888d9efe0931c5540eac0df2f3a6a7d
+COTA_a286661e5281029b56d6,-19,,,,,       42.0000,igm,,mg/dl,1ca596b173273944aea9552110f18f3cd8e8bf82
+COTA_a286661e5281029b56d6,-19,,,,,      294.0000,iga,,mg/dl,9f5544a57747ade501e1562a939cbb135d8af644
+COTA_a286661e5281029b56d6,0,,,,,negative,urine m-spike (bence-jones),,,a96c3ce0662fd41c51bcadbe6a33c6d967b94c0c
+COTA_a286661e5281029b56d6,24,,,,,        1.6600,beta 2 microglobulin,,mg/l,03887f387ceec73b185498655a8613354ff11f13
+COTA_a286661e5281029b56d6,24,,,,,        4.0000,albumin,,g/dl,d9f70d45ac2f773a70cdb67945e98f63d3fdfc84
+COTA_a286661e5281029b56d6,24,,,,,        2.3000,serum m spike,,mg/dl,01091601782251f5e9db0b2d0efb0142c75c33c2
+COTA_a286661e5281029b56d6,39,,,,,         .7000,creatinine,,mg/dl,6c8fc13a28e12edbe6a08342f89ea55e74d2f5ad
+COTA_a286661e5281029b56d6,39,,,,,        9.3000,calcium,,mg/dl,51cf52283f054d58bcf86db7bc39dd38de2b6882
+COTA_a286661e5281029b56d6,3252,,,,,        3.5000,albumin,>,g/dl,86347de9e9503bdd8a0b7735cb780a4f3877755d
+COTA_a286661e5281029b56d6,3252,,,,,        3.5000,beta 2 microglobulin,<,mg/l,8c5a80831c8d474f1cd6569aaec04935ecd7a2c6
+COTA_a286661e5281029b56d6,3257,,,,,        1.0000,lambda flc,<,mg/dl,4aae3a3cb5bbfd03656fab94388b48c9aacba404
+COTA_a286661e5281029b56d6,3257,,,,,        2.0000,beta 2 microglobulin,,mg/l,2d519fe54a601f44d625c8c6790caa15ac1add90
+COTA_a286661e5281029b56d6,3257,,,,,        3.1900,serum m spike,,mg/dl,6431a0b701b9d49fc23b5511f4f50531e0769c58
+COTA_a286661e5281029b56d6,3257,,,,,        3.7000,albumin,,g/dl,ed0d734badd71247941bc56c036204253763f2a9
+COTA_a286661e5281029b56d6,3257,,,,,        9.4000,calcium,,mg/dl,bccefef3245bd5b029e323f10c1f2f6add2d9a04
+COTA_a286661e5281029b56d6,3257,,,,,      119.0000,kappa flc,,mg/dl,911e9048f71faa5c26d65f83ba9fe9859141014a
+COTA_a286661e5281029b56d6,3257,,,,231.0,      121.0000,ldh,,u/l,ef535a100410533487a64e608c103b792e88efda
+COTA_a286661e5281029b56d6,3257,,,,,       10.5000,hemoglobin,,g/dl,7e212f8d3f9d107b59b0ecf5c2a71714da805f27
+COTA_a286661e5281029b56d6,3257,,,,,         .6200,creatinine,,mg/dl,aa380daf0ca8738596fe7cc0995435608a282194
+COTA_a286661e5281029b56d6,3273,,,,,negative,urine immunofixation,,,8d6cac68b9a2f032111b30d2d24def6a7ca6f178
+COTA_a286661e5281029b56d6,3280,,,,,      230.2000,kappa flc,,mg/dl,9db5580eaa5b30619dcff083c7193a414e500cc9
+COTA_a286661e5281029b56d6,3280,,,,,negative,urine immunofixation,,,815c80eb076132019477a39833f6b2066e77a9b2
+COTA_a286661e5281029b56d6,3280,,,,,        1.0000,lambda flc,,mg/dl,fdf3334fe2fb1049ce5fef4bcfc27d28021f256c
+COTA_a286661e5281029b56d6,3301,,,,,positive,urine immunofixation,,,a63c7686dec07f95c74127b5347497dabf1875bf
+COTA_a286661e5281029b56d6,3322,,,,,negative,urine immunofixation,,,d37efcc7cf4f0a15af2c4ac7088577b1cdac6e72
+COTA_a286661e5281029b56d6,3351,,,,,negative,urine immunofixation,,,d486f74776bb9511ffdf961c577562346830c3ae
+COTA_a286661e5281029b56d6,3435,,,,,        1.0000,lambda flc,<,mg/dl,e8fe08ad1411fecd76246a6630a3fe4332417102
+COTA_a286661e5281029b56d6,3435,,,,,       20.3000,kappa flc,,mg/dl,3833ee72235d1374b02addd4c92538d9290e55eb
+COTA_a286661e5281029b56d6,3448,,,,,negative,urine immunofixation,,,150c1a45f6aff8a3ac3f9f738fa6852329d335dd
+COTA_a286661e5281029b56d6,3448,,,,,         .4600,serum m spike,,mg/dl,7cc7fbdf0ff420c544682dbcbf5aca01bfb77a21
+COTA_a286661e5281029b56d6,3469,,,,,negative,urine immunofixation,,,a096004f2f42dd08b79ae2224f7e91752d7e67f8
+COTA_a286661e5281029b56d6,3469,,,,,        7.0000,lambda flc,,mg/dl,0d33384e6194378779381144cd40283ee120199e
+COTA_a286661e5281029b56d6,3469,,,,,       15.0000,kappa flc,,mg/dl,65965df537ea440c98174b2b3291ff5cb941b0c0
+COTA_a286661e5281029b56d6,3495,,,,,        7.5000,lambda flc,,mg/dl,ef759dc1718b77284c3b44f1de420b473d518755
+COTA_a286661e5281029b56d6,3495,,,,,negative,urine immunofixation,,,e8f7771020cee65358430fab49ec1e73d03b2417
+COTA_a286661e5281029b56d6,3495,,,,,       15.2000,kappa flc,,mg/dl,10458a62c1c977cebfc5a5a2cf4a5c79cbd7a6c9
+COTA_a286661e5281029b56d6,3523,,,,,         .6000,lambda flc,,mg/dl,fc730fc3d1f49dbeca30a3d5b488306cd7cbd140
+COTA_a286661e5281029b56d6,3523,,,,,negative,urine immunofixation,,,fce03c14fbc08c8591a298c740ced1649d90144a
+COTA_a286661e5281029b56d6,3523,,,,,        1.8900,kappa flc,,mg/dl,578e4b448a05f25b94df7c0840d2aa4e22864ef5
+COTA_a286661e5281029b56d6,3551,,,,,negative,urine immunofixation,,,2d38c322916f6e655c669decca348cec738e9910
+COTA_a286661e5281029b56d6,3551,,,,,         .8600,lambda flc,,mg/dl,dbf8986a9b9374f441e4d50ffe445cf3f22f6755
+COTA_a286661e5281029b56d6,3551,,,,,        2.3900,kappa flc,,mg/dl,0fa88187d8bef7c564e3931851c42d60ce4d8006
+COTA_a286661e5281029b56d6,3586,,,,,negative,urine immunofixation,,,ee8865c3ba824d1861789bae55a0b41d465d88bb
+COTA_a286661e5281029b56d6,3586,,,,,         .8200,lambda flc,,mg/dl,c61c9c8d7aa144cda652f04aca5f9d3da34afbd1
+COTA_a286661e5281029b56d6,3586,,,,,        2.0100,kappa flc,,mg/dl,2f41e557cd605cb25e2f90a4c3de1b71098cacd6
+COTA_a286661e5281029b56d6,3615,,,,,         .9600,lambda flc,,mg/dl,6188db9ef9ddef4a4130142df159337231ba934c
+COTA_a286661e5281029b56d6,3615,,,,,negative,urine immunofixation,,,f82bf74c6483746e62fc4f98988855151bb8cd21
+COTA_a286661e5281029b56d6,3615,,,,,        2.3200,kappa flc,,mg/dl,a45bd644e6f459c0b8106934a95dc1d690d9097c
+COTA_a286661e5281029b56d6,3643,,,,,negative,urine immunofixation,,,d0c5eaf58c3865304521a64891c40bd2394d46e7
+COTA_a286661e5281029b56d6,3643,,,,,        1.0600,lambda flc,,mg/dl,bee619c3e49169dbf30667c7222aca85388724d6
+COTA_a286661e5281029b56d6,3643,,,,,         .4000,serum m spike,,mg/dl,14d918ba00097bd0d562f78df42862f3aa28e250
+COTA_a286661e5281029b56d6,3643,,,,,         .4500,serum m spike,,mg/dl,5e211c627cdb5e9d136edaddd1fc3e479f86f210
+COTA_a286661e5281029b56d6,3643,,,,,        2.5100,kappa flc,,mg/dl,a4d417227b977a9c1b8f2804bf77434e37949d9a
+COTA_a286661e5281029b56d6,3671,,,,,        2.3700,kappa flc,,mg/dl,219a16fc49a8ac9d67294a4d9d56134008e573d6
+COTA_a286661e5281029b56d6,3671,,,,,negative,urine immunofixation,,,18b2acc1eff53c794d7ca17adfd76299ad7f984e
+COTA_a286661e5281029b56d6,3671,,,,,        1.0900,lambda flc,,mg/dl,5848b8039640755344b28be387f69cbb1b5f32d1
+COTA_a286661e5281029b56d6,3699,,,,,        1.1100,lambda flc,,mg/dl,63615877fea7ca04f275bdffc200a6e3bf4d5c17
+COTA_a286661e5281029b56d6,3699,,,,,negative,urine immunofixation,,,bb01f4a7c26454c1fe0846b37d9ee5733ec3459a
+COTA_a286661e5281029b56d6,3699,,,,,        2.5500,kappa flc,,mg/dl,33cb6092e335a6c7984f2fcd68a9b439e0c3bdad
+COTA_a286661e5281029b56d6,3726,,,,,         .9600,lambda flc,,mg/dl,1f3a41ddc19987a06f115f22d36b032103d5adae
+COTA_a286661e5281029b56d6,3726,,,,,        2.1300,kappa flc,,mg/dl,e15583261e58c3893824e37eb73514d79c69575a
+COTA_a286661e5281029b56d6,3726,,,,,negative,urine immunofixation,,,d57dc15c2bcafa5f5f3c432f18118f512a13d033
+COTA_a286661e5281029b56d6,3726,,,,,         .3500,serum m spike,,mg/dl,e45d607329313fbf5e4ce0e76fad0adfa3c472fd
+COTA_a286661e5281029b56d6,3755,,,,,positive,serum m spike,,,f4c843dadf49cac705cb771456f94d4b8e156a9d
+COTA_a286661e5281029b56d6,3755,,,,,negative,urine immunofixation,,,b33251c4afc8cdb87c808d3cd1aa30c86207fa98
+COTA_a286661e5281029b56d6,3755,,,,,        2.1200,kappa flc,,mg/dl,943be3c213ad43ac059109cede0e9110453396b2
+COTA_a286661e5281029b56d6,3755,,,,,        1.0100,lambda flc,,mg/dl,2a02415311935765687778fcbefe584e0575b754
+COTA_a286661e5281029b56d6,3783,,,,,        1.4500,lambda flc,,mg/dl,89a5e11d81c14d45581e9768803bfddc55ae90f4
+COTA_a286661e5281029b56d6,3783,,,,,negative,urine m-spike (bence-jones),,,d6cc9b84a7c96d5aa13a3112f9cb5eb04089c2dc
+COTA_a286661e5281029b56d6,3783,,,,,negative,urine immunofixation,,,4bf5a1f5ea52473e5c4bc0dd4e27b898b1b7d483
+COTA_a286661e5281029b56d6,3783,,,,,        3.4800,kappa flc,,mg/dl,217e9be9f3250dbfc9acb2c43e83c995f892bc24
+COTA_a286661e5281029b56d6,3811,,,,,insufficient sample,urine m-spike (bence-jones),,,4ba6123485fa12ed0b60d7b498bacd986864cbdb
+COTA_a286661e5281029b56d6,3811,,,,,negative,urine immunofixation,,,dac1c42dab350a74f4813fbd27948b8be52d01bd
+COTA_a286661e5281029b56d6,3811,,,,,        1.1700,lambda flc,,mg/dl,6f2cbd53938bc7d1d547aefb662e5d0ce5e5be83
+COTA_a286661e5281029b56d6,3811,,,,,        2.5100,kappa flc,,mg/dl,9b94a58fe3763c08bd0fb0c22511ccd6d40716da
+COTA_a286661e5281029b56d6,3819,,,,,         .5100,serum m spike,,mg/dl,b4ba9dd7605d73b620a312679c4a6d6a4797c042
+COTA_a286661e5281029b56d6,3819,,,,,        2.3600,kappa flc,,mg/dl,4f5de57b925ccf8d83167fa8e8f2d7bee02e7e15
+COTA_a286661e5281029b56d6,3819,,,,,        1.0100,lambda flc,,mg/dl,4d979ace56a4a25e15bce4f8f8d32efbb26263f2
+COTA_a286661e5281029b56d6,3847,,,,,        1.5200,lambda flc,,mg/dl,35461e78605b207f454b14c0f95849837827b4a7
+COTA_a286661e5281029b56d6,3847,,,,,negative,urine immunofixation,,,077160b38b5a63ceab19dffd2b8b125ca6a2d11e
+COTA_a286661e5281029b56d6,3847,,,,,        3.7200,kappa flc,,mg/dl,641a29610ec383518811afab670d3295f621a058
+COTA_a286661e5281029b56d6,3875,,,,,negative,urine immunofixation,,,a52c0f92024e8ea3a5ea96a9fd8ae982e40f10ae
+COTA_a286661e5281029b56d6,3875,,,,,        1.8900,lambda flc,,mg/dl,6142a5a0138ac5ab888f9a9f05503a7feb0f623a
+COTA_a286661e5281029b56d6,3875,,,,,        3.7900,kappa flc,,mg/dl,90aee176aaf43627cb97af97ed67991be79c813e
+COTA_a286661e5281029b56d6,3903,,,,,negative,urine immunofixation,,,8b61fee5c282e5b8fb043bbf0bb4eea975bd4b8e
+COTA_a286661e5281029b56d6,3903,,,,,        1.8300,lambda flc,,mg/dl,969461c7bc8ca66af091c75467e16329cc04cb22
+COTA_a286661e5281029b56d6,3903,,,,,        3.7600,kappa flc,,mg/dl,a05248b31c458d5d68af09cc5b485ed641acf503
+COTA_a286661e5281029b56d6,3931,,,,,        1.7600,lambda flc,,mg/dl,89ed63bb8e5ac7f8057d00ffb7ce3bb88461377c
+COTA_a286661e5281029b56d6,3931,,,,,negative,urine m-spike (bence-jones),,,d4fe402d15583fa57268f3b70dffaeac2bf7fb9f
+COTA_a286661e5281029b56d6,3931,,,,,        3.3000,kappa flc,,mg/dl,75097cc981bfe36cf0fbf31f59256469bf225c52
+COTA_a286661e5281029b56d6,3931,,,,,negative,urine immunofixation,,,dc3598167e73a2e05ed660c66dfbf467d019bc8e
+COTA_a286661e5281029b56d6,3959,,,,,        2.1100,lambda flc,,mg/dl,5bb9cdb3d4a3492188ffc7c76e6adfc50347ca2c
+COTA_a286661e5281029b56d6,3959,,,,,        3.6800,kappa flc,,mg/dl,138f3c567be104ad20271298fe7729e4c41a893a
+COTA_a286661e5281029b56d6,3959,,,,,negative,urine immunofixation,,,8bb19264fe7491df9babc41978ce4ce0f5bf9ace
+COTA_a286661e5281029b56d6,3987,,,,,negative,urine m-spike (bence-jones),,,0efb413521bc24824ad6f4271233496e75a89bb6
+COTA_a286661e5281029b56d6,3987,,,,,negative,urine immunofixation,,,8f08ea45f3880c69e30c8abd5ba1159655b1fec6
+COTA_a286661e5281029b56d6,3987,,,,,        2.1100,lambda flc,,mg/dl,81a6990cdde0f869f368ff80e63d56f02e24c592
+COTA_a286661e5281029b56d6,3987,,,,,        3.4700,kappa flc,,mg/dl,be18fd5e8e8af816cec36c3c541df03a3e8a3d5b
+COTA_a286661e5281029b56d6,4015,,,,,        3.1600,kappa flc,,mg/dl,91dc72e0e7c8f3d4d8ced10196a1cdeeca19fa70
+COTA_a286661e5281029b56d6,4015,,,,,negative,urine m-spike (bence-jones),,,3b6582910bf9f38c611f74d48264e1c90d277f34
+COTA_a286661e5281029b56d6,4015,,,,,negative,urine immunofixation,,,e60f74a3c08626f7c668260df7b205d48234cabf
+COTA_a286661e5281029b56d6,4015,,,,,        2.0700,lambda flc,,mg/dl,82ea514c067d45bd6cf941a3cd047aaf9880519b
+COTA_a286661e5281029b56d6,4043,,,,,negative,urine m-spike (bence-jones),,,eb5563608ff5a98275ea07a225f7ead55f7996bf
+COTA_a286661e5281029b56d6,4043,,,,,negative,urine immunofixation,,,ff113bb2908ac2ad59c277506a7582a8c9598ed7
+COTA_a286661e5281029b56d6,4043,,,,,        1.7700,lambda flc,,mg/dl,2d30552ae4d8455628956bd49969457bb4ecaa58
+COTA_a286661e5281029b56d6,4043,,,,,        3.1900,kappa flc,,mg/dl,0e7442fbda212ab4988db1061612ac19b8a6b202
+COTA_a286661e5281029b56d6,4071,,,,,        3.3600,kappa flc,,mg/dl,b768b98fb6839899969ec2de33b27097c1eca64a
+COTA_a286661e5281029b56d6,4071,,,,,negative,urine immunofixation,,,60c2772953697c800f6f1580b9488e087139c000
+COTA_a286661e5281029b56d6,4071,,,,,        1.8700,lambda flc,,mg/dl,a868f975183cc43a37e0792229a974a8b04fff5a
+COTA_a286661e5281029b56d6,4099,,,,,        1.8500,lambda flc,,mg/dl,bb8531472d8cbaa7ee4162ff0da619cc65c9df50
+COTA_a286661e5281029b56d6,4099,,,,,negative,urine immunofixation,,,89fcdf2c3605dfb3c51a497203407e1e280db3ff
+COTA_a286661e5281029b56d6,4099,,,,,        3.7000,kappa flc,,mg/dl,bd10c69eb8ed93a3627895cdbb23771e1b253ab4
+COTA_a286661e5281029b56d6,4127,,,,,        4.1900,kappa flc,,mg/dl,eadcfccc032855d6481b01d2abfb027dd75f1dcd
+COTA_a286661e5281029b56d6,4127,,,,,negative,urine immunofixation,,,802595fddb1c425670000f9dafbcebbdae27decc
+COTA_a286661e5281029b56d6,4127,,,,,negative,urine m-spike (bence-jones),,,7eb18c1e614a94f58761561275273e45a45f01b3
+COTA_a286661e5281029b56d6,4127,,,,,         .5600,serum m spike,,mg/dl,1a43311195ae77ecdfdfd59b3eabac4c180c3cbf
+COTA_a286661e5281029b56d6,4127,,,,,        2.1900,lambda flc,,mg/dl,accacc793b625ed08e92e1933ae3195df0624984
+COTA_a286661e5281029b56d6,4155,,,,,        2.3600,lambda flc,,mg/dl,ff3d0055cd0cd178efe2741ef37678a4917a46b3
+COTA_a286661e5281029b56d6,4155,,,,,negative,urine m-spike (bence-jones),,,e6e165c9842d761944f69cceaf9e941924984ec4
+COTA_a286661e5281029b56d6,4155,,,,,        5.0400,kappa flc,,mg/dl,e3df3d157c9004979d00d670cacd5b95d42903bb
+COTA_a286661e5281029b56d6,4155,,,,,negative,urine immunofixation,,,7dcecc7f7a84e91744c9b9b958b8c56c4c1d9680
+COTA_a286661e5281029b56d6,4183,,,,,        2.1400,lambda flc,,mg/dl,dfc6fe3324f3ca12fb6550cc3e65c775c4078770
+COTA_a286661e5281029b56d6,4183,,,,,negative,urine m-spike (bence-jones),,,a56d4b57dfe62795237d0b2191b54f98ff9b7ece
+COTA_a286661e5281029b56d6,4183,,,,,negative,urine immunofixation,,,81a502ae697ac6d87182079e7258bfbf687010b4
+COTA_a286661e5281029b56d6,4183,,,,,        4.8300,kappa flc,,mg/dl,ff174dc035fe417d1caf7c2c228bdab9e1f69df4
+COTA_a286661e5281029b56d6,4211,,,,,        1.9700,lambda flc,,mg/dl,e8e3cb0c781fd5ec37ea3a42ee13e3fdabf8ff0d
+COTA_a286661e5281029b56d6,4211,,,,,negative,urine immunofixation,,,27a8db3a640715d200b77bdec46aa66c41fc6e61
+COTA_a286661e5281029b56d6,4211,,,,,        3.1800,kappa flc,,mg/dl,4e4d60ed2c610c7019089303ab24246482c5ae11
+COTA_a286661e5281029b56d6,4211,,,,,         .3800,serum m spike,,mg/dl,6b07ea36bb78b60275c79d8f62d351650afcb651
+COTA_a286661e5281029b56d6,4239,,,,,         .4900,serum m spike,,mg/dl,b7f67185927a541d471841d02bb09c697b85253f
+COTA_a286661e5281029b56d6,4239,,,,,negative,urine immunofixation,,,8aed79d20c12309ec8e251638e8d5b082d75ff3c
+COTA_a286661e5281029b56d6,4239,,,,,        2.0400,lambda flc,,mg/dl,e673e0ca77cf9227db4482ab47c558d484cb1c07
+COTA_a286661e5281029b56d6,4239,,,,,        3.3500,kappa flc,,mg/dl,f8f6fc2e7a7552f815854c5d87aafe577eb47afc
+COTA_a286661e5281029b56d6,4267,,,,,negative,urine immunofixation,,,20b14898f4d14587fceaa000b8a1e7e373c1bc2c
+COTA_a286661e5281029b56d6,4267,,,,,        1.8600,lambda flc,,mg/dl,906d4b1677d5a28c0fe10d90c799c9e78f3b34c3
+COTA_a286661e5281029b56d6,4267,,,,,         .5700,serum m spike,,mg/dl,ef602fc6850a5e96d528c1140ee20246c7715adb
+COTA_a286661e5281029b56d6,4267,,,,,        3.0600,kappa flc,,mg/dl,95f87caa52f842962e1fc8f0283c0aefd8483bd6
+COTA_a286661e5281029b56d6,4295,,,,,positive,serum m spike,,,3949d262e38d6b5b31f854620c34b2f5be800f75
+COTA_a286661e5281029b56d6,4295,,,,,        3.3800,kappa flc,,mg/dl,5a31c324de666e59dec3e02200491515302cb9d7
+COTA_a286661e5281029b56d6,4295,,,,,        2.4100,lambda flc,,mg/dl,4cd12f742f743a7b01fb27e383bdae5ce712792c
+COTA_a286661e5281029b56d6,4295,,,,,negative,urine immunofixation,,,e24e4d6ebafa1277a2b2f408baea058f7eefc832
+COTA_a286661e5281029b56d6,4323,,,,,negative,urine immunofixation,,,5fd55bf670a4eff3ce71279fe572097fb7af757c
+COTA_a286661e5281029b56d6,4323,,,,,        2.6400,lambda flc,,mg/dl,2be1ee698e8803ff093e11650e117ac150291253
+COTA_a286661e5281029b56d6,4323,,,,,        3.1900,kappa flc,,mg/dl,0f6c8ac7cb053a5be42d3cc6fa4aa353b2a152a6
+COTA_a286661e5281029b56d6,4351,,,,,negative,urine immunofixation,,,d15b91563aca3eb82651275a45a52161357c9927
+COTA_a286661e5281029b56d6,4351,,,,,        2.6200,kappa flc,,mg/dl,654c6c28501cf3fd8d988a6249597be9a2b1d875
+COTA_a286661e5281029b56d6,4351,,,,,        2.1700,lambda flc,,mg/dl,0555c61f47afe1f993182867f4a6f5819156e9fe
+COTA_a286661e5281029b56d6,4379,,,,,        1.9900,lambda flc,,mg/dl,a828efae37feddb7af8f203e35f2b5b3eb6eea3e
+COTA_a286661e5281029b56d6,4379,,,,,negative,urine immunofixation,,,333f21b0627993183342e0792d22855a635b45ba
+COTA_a286661e5281029b56d6,4379,,,,,        2.4000,kappa flc,,mg/dl,7ab3a2f05fda265b5dd6601182120b1fa99eb5c9
+COTA_a286661e5281029b56d6,4407,,,,,negative,urine immunofixation,,,272243870017c903677c7f4714efbb54a1203ae9
+COTA_a286661e5281029b56d6,4407,,,,,        2.4500,kappa flc,,mg/dl,883e310a90ef59d007c5d55778ab25ea02eb837d
+COTA_a286661e5281029b56d6,4407,,,,,        1.6000,lambda flc,,mg/dl,7c3b2be7191ad649cfe33ff4b829a6811b72e2bd
+COTA_a286661e5281029b56d6,4436,,,,,negative,urine immunofixation,,,a5dc12fcba92a6d148894b7b06acfc82b825495a
+COTA_a286661e5281029b56d6,4436,,,,,        2.2000,kappa flc,,mg/dl,7a1b2d7351ff7d4d2a0b4d175ace71ed78cae825
+COTA_a286661e5281029b56d6,4436,,,,,        1.7800,lambda flc,,mg/dl,a5dbe48b34c41dfccbdb604d2f3c4bd30ba87667
+COTA_a286661e5281029b56d6,4471,,,,,        1.8600,kappa flc,,mg/dl,dc147cfcb24da1905bc8225d23e54b6fadbd4338
+COTA_a286661e5281029b56d6,4471,,,,,negative,urine immunofixation,,,4ec55e88239c22f8ca2d4ea22d3ae1780d5b3a39
+COTA_a286661e5281029b56d6,4471,,,,,        1.5200,lambda flc,,mg/dl,b73ec6df0d9c474dd423055d10d6cf291b56095e
+COTA_a286661e5281029b56d6,4499,,,,,positive,urine immunofixation,,,b4a030dc8ce30c5f836a89adbdfb7214dfaad6ee
+COTA_a286661e5281029b56d6,4499,,,,,        2.0300,lambda flc,,mg/dl,458a906d373627cc152a13a8b91f10dcb2a17b12
+COTA_a286661e5281029b56d6,4499,,,,,        2.3700,kappa flc,,mg/dl,72037fdf95357d6f5c2e9e6f18591e3b339cb272
+COTA_a286661e5281029b56d6,4527,,,,,negative,urine immunofixation,,,123aed8a683d479a29aa39fa6e4729e6b9b0eb6b
+COTA_a286661e5281029b56d6,4527,,,,,        2.1200,lambda flc,,mg/dl,f013a21fc703f2a3acb7428f4f8d30690c4fefc3
+COTA_a286661e5281029b56d6,4527,,,,,        2.6300,kappa flc,,mg/dl,8519b9abf85ea22863add6b7020b83c0296bfeba
+COTA_a286661e5281029b56d6,4554,,,,,negative,urine immunofixation,,,b12d7043db946efbfd6d268c067d7842fe83bfcf
+COTA_a286661e5281029b56d6,4583,,,,,        2.1000,kappa flc,,mg/dl,854eae0da3d31552d38be9163ff7e7bb6b8a2534
+COTA_a286661e5281029b56d6,4583,,,,,negative,urine immunofixation,,,1ff4d2c1922045bfbea32b17f4462f72f75e45c1
+COTA_a286661e5281029b56d6,4583,,,,,        1.5200,lambda flc,,mg/dl,8c39c6c44f5b17f37d9b841a89f1ca73d39efca0
+COTA_a286661e5281029b56d6,4617,,,,,        1.4600,lambda flc,,mg/dl,4f372ff4fe8792fa3d7ee0b4458bbeb450de567e
+COTA_a286661e5281029b56d6,4617,,,,,        1.7700,kappa flc,,mg/dl,6874bd5f11e82eb406c0de742dd082e9c3191a55
+COTA_a286661e5281029b56d6,4617,,,,,negative,urine immunofixation,,,6be0709e208f2a5cd65311f202f9549f98ff9918
+COTA_a286661e5281029b56d6,4646,,,,,        2.1800,kappa flc,,mg/dl,1f4f28d400aae480b772c1d9e8f95d5e23b991a0
+COTA_a286661e5281029b56d6,4646,,,,,negative,urine immunofixation,,,ef45b609f4749938b3a9c0f30a65addaf53da4d6
+COTA_a286661e5281029b56d6,4646,,,,,        1.8400,lambda flc,,mg/dl,6b90c2c75ef5d018bb520a51be6970044fda36fe
+COTA_a286661e5281029b56d6,4674,,,,,        2.0600,lambda flc,,mg/dl,8e3b8a24524bbfab878ba1c360762c8ff996955d
+COTA_a286661e5281029b56d6,4674,,,,,negative,urine immunofixation,,,45b749db63eb0de6751c4381992f0f2ce514727e
+COTA_a286661e5281029b56d6,4674,,,,,        2.3700,kappa flc,,mg/dl,35822e0885831edce347a58120c51965d9036758
+COTA_b36b9a3131eef275e763,-102,,,,,       76.0000,lambda flc,,mg/dl,9e8d94843ae924d08746767cc4c8296229f0db6d
+COTA_b36b9a3131eef275e763,-102,,,,,negative,urine m-spike (bence-jones),,,63aa6123a1b4422b8dbd147e358cc96c1c3d7f1a
+COTA_b36b9a3131eef275e763,-102,,,,,        1.9000,serum m spike,,mg/dl,a026f832f9f6e670c722730b6ef148ba3175d34d
+COTA_b36b9a3131eef275e763,-102,,,,,     2802.0000,igg,,mg/dl,af3aa95233ffc9700871b9d5e1aace9b56873cb2
+COTA_b36b9a3131eef275e763,0,,,,,        2.7000,beta 2 microglobulin,,mg/l,46c290d731608f44f6dfb6eec78ac48aafc14be0
+COTA_b36b9a3131eef275e763,0,,,,,positive,serum immunofixation,,,6301d301b563ad5141dba1dbf3d40cf7841fbdb0
+COTA_b36b9a3131eef275e763,0,,,,,         .2150,kappa flc,,mg/dl,a12504343068788ed2ac4da541dad479921d7e41
+COTA_b36b9a3131eef275e763,0,,,,,         .9000,creatinine,,mg/dl,7d3f92d92caa56b2f04e5e881ce4588e11869fa4
+COTA_b36b9a3131eef275e763,0,,,,,      123.0000,ldh,,u/l,29c7efba6e839e0ed92c9d48c2a6acea0275137f
+COTA_b36b9a3131eef275e763,0,,,,,       30.0000,igm,,mg/dl,7403f593a64e5a5cab4c1076e33fc5bf2dbcf145
+COTA_b36b9a3131eef275e763,0,,,,,       46.0000,iga,,mg/dl,071b8a8a93d6df6d0f33935ade8afc96ef3b5ec3
+COTA_b36b9a3131eef275e763,0,,,,,        4.0000,albumin,,g/dl,9e7a4d395478a98d698882b8fec66e532e19884f
+COTA_b36b9a3131eef275e763,0,,,,,        7.3400,lambda flc,,mg/dl,f667e05349bfab1b00a5cef71896d56d332569d5
+COTA_b36b9a3131eef275e763,0,,,,,        2.5500,serum m spike,,mg/dl,1782dae1b2b6237964a0486ccbc3e3e4fcf54ffd
+COTA_b36b9a3131eef275e763,0,,,,,     2950.0000,igg,,mg/dl,b9151ec6dc654db7c9ae4a8fc0d75e652a01112e
+COTA_b36b9a3131eef275e763,0,,,,,       12.9000,hemoglobin,,g/dl,5d89803ee0942b5a5eac9b3a5441bd9aef9e700b
+COTA_b36b9a3131eef275e763,308,,,,,         .5510,kappa flc,,mg/dl,cbb6c5e8355bc7f8d8feb0279b2599a9646cb4a0
+COTA_b36b9a3131eef275e763,383,,,,,        2.4000,serum m spike,,mg/dl,cd366bb4f55d863980840df628de633abc76ae6e
+COTA_b36b9a3131eef275e763,540,,,,,        9.0400,lambda flc,,mg/dl,da08f8fa262fda39c6fd7ecd6082ba64e0b5fd81
+COTA_b36b9a3131eef275e763,540,,,,,        2.6000,serum m spike,,mg/dl,e750028fa2008ac56a66f461391fa8d7ce6df05d
+COTA_b36b9a3131eef275e763,540,,,,,borderline,urine m-spike (bence-jones),,,e79872c1c9c6ba88ca7901e426af806fa0495a55
+COTA_b36b9a3131eef275e763,981,,,,,        3.2000,kappa flc,,mg/dl,a4de2d0243f2afe3099f85029fde667f5aab0600
+COTA_b36b9a3131eef275e763,981,,,,,       89.6000,lambda flc,,mg/dl,e0758cc09a8f128c0cd82cb086d3335dbe60e552
+COTA_b36b9a3131eef275e763,1001,,,,,        2.8000,serum m spike,,mg/dl,ba988be1ad6f47232d000bcda29542bae5fa8443
+COTA_b36b9a3131eef275e763,1024,,,,,        2.7000,serum m spike,,mg/dl,b44456588c9071453c2d0ed104cb1ec1d0fbc03d
+COTA_b36b9a3131eef275e763,1083,,,,,         .3126,kappa flc,,mg/dl,a96f13b7be4d4c30e98646316afa01f45292e185
+COTA_b36b9a3131eef275e763,1156,,,,,        2.7000,serum m spike,,mg/dl,c1e30e236cb9273344af472e4fd3629f6ac54e90
+COTA_b36b9a3131eef275e763,1183,,,,,        2.7000,serum m spike,,mg/dl,447a54ec46e5f41c4ac34c980cce00d50f569dea
+COTA_b36b9a3131eef275e763,1183,,,,,         .3296,kappa flc,,mg/dl,bf55a0e82e50cbdaee162c281e4c57dc9faebe6a
+COTA_b36b9a3131eef275e763,1215,,,,,         .7000,lambda flc,<,mg/dl,bc40ffc460c0f1a09b7a616a42c1106afe808f8e
+COTA_b36b9a3131eef275e763,1339,,,,,         .3330,kappa flc,,mg/dl,374dad32d95fec6da60bb915056367dce22e6d67
+COTA_b36b9a3131eef275e763,1339,,,,,        2.8000,serum m spike,,mg/dl,0738e980905cbcf76f2723062adbe59441286b40
+COTA_b36b9a3131eef275e763,1416,,,,,        2.7000,serum m spike,,mg/dl,fcb7510eb734f04e98200b79ffac243ac86f2afb
+COTA_b36b9a3131eef275e763,1416,,,,,         .3010,kappa flc,,mg/dl,55cc60d6570ffa35e3a5e23f32ec1e22db66d5ee
+COTA_b36b9a3131eef275e763,1418,,,,,        2.8000,serum m spike,,mg/dl,bdd133ede52395e61a826425950fe44ffd8ad1da
+COTA_b36b9a3131eef275e763,1528,,,,,        3.2400,kappa flc,,mg/dl,9e292046c4b3126aae51d740a52ff4f0cd6ce9ae
+COTA_b36b9a3131eef275e763,1528,,,,,       84.2000,lambda flc,,mg/dl,3ea580eb1295c535ba2f46d5fe95a196befa4fa9
+COTA_b36b9a3131eef275e763,1571,,,,,         .7000,lambda flc,<,mg/dl,794059dc198498a8945e97d170bd7b9a23271161
+COTA_b36b9a3131eef275e763,1571,,,,,         .9773,kappa flc,,mg/dl,28c39674bb71bbb6fad562efdf25329bb711d4fa
+COTA_b36b9a3131eef275e763,1571,,,,,        2.8000,serum m spike,,mg/dl,fce3802704304b9e8a36442afd4f3a36c04d5dad
+COTA_b36b9a3131eef275e763,1663,,,,,        2.6000,serum m spike,,mg/dl,cfb74b89f818d1a912f1392d7479d7a85fa17986
+COTA_b36b9a3131eef275e763,1759,,,,,        2.7000,serum m spike,,mg/dl,57bdee6cd8fd961831547f5023efcca3fcfcbeaa
+COTA_b36b9a3131eef275e763,1843,,,,,        2.4000,serum m spike,,mg/dl,8c2aff47dc25745e648e1f04a675c18f68429edd
+COTA_b36b9a3131eef275e763,1891,,,,,       71.9000,lambda flc,,mg/dl,723f99c511358d8f2549c21ec7bc896cf8a371d9
+COTA_b36b9a3131eef275e763,1891,,,,,        5.2000,kappa flc,,mg/dl,215d08c03bdea278efae4b4b1409263585516c80
+COTA_b36b9a3131eef275e763,1983,,,,,        2.6000,serum m spike,,mg/dl,3d5540f50d046dcf83fb4039d9384e84f7d3f858
+COTA_b36b9a3131eef275e763,1984,,,,,         .6420,kappa flc,,mg/dl,8b1ef405ef26fda546e8d12c28f08bcd45830629
+COTA_b36b9a3131eef275e763,1997,,,,,        2.4000,serum m spike,,mg/dl,0eec6e8d043367e603c56c3aef62c1a1206c35e1
+COTA_b36b9a3131eef275e763,2078,,,,,         .6500,kappa flc,,mg/dl,4270076532499fe72f0b989a30742687643ddb57
+COTA_b36b9a3131eef275e763,2078,,,,,        1.9000,serum m spike,,mg/dl,f587d024f0e62420cc0686a2ed2f809ff63c0f2e
+COTA_b36b9a3131eef275e763,2089,,,,,        2.6000,serum m spike,,mg/dl,1d9624355720861748850639dec26900e18939ec
+COTA_b36b9a3131eef275e763,2185,,,,,        2.1000,serum m spike,,mg/dl,fb33af3954c1f398f724120efcf5455b40353029
+COTA_b36b9a3131eef275e763,2187,,,,,         .5200,kappa flc,,mg/dl,f4a4a1628e4574b09befc9d1fd98942ad586e305
+COTA_b36b9a3131eef275e763,2268,,,,,        1.9000,serum m spike,,mg/dl,c3a102c82e8d6f8e51b52fb13e722b3cc1209928
+COTA_b36b9a3131eef275e763,2268,,,,,         .5400,kappa flc,,mg/dl,a19c96d546a911ce8b7772de44b7c3e72517e63b
+COTA_b36b9a3131eef275e763,2270,,,,,        2.0000,serum m spike,,mg/dl,465a88b89b471b61818bdf67fb364f72e404d5ca
+COTA_b36b9a3131eef275e763,2312,,,,,         .7900,kappa flc,,mg/dl,50a2c45ba9fe744aedaea29cc41bf06aa71a864a
+COTA_b36b9a3131eef275e763,2312,,,,,       10.0500,lambda flc,,mg/dl,198e1da0890e4100e3969c592875ee5d1e8f20be
+COTA_b36b9a3131eef275e763,2337,,,,,         .7200,kappa flc,,mg/dl,9b4371a92975f6c18701ce9e35e157e66b7854b2
+COTA_b36b9a3131eef275e763,2337,,,,,        2.1000,serum m spike,,mg/dl,dde75c916d3d2d2dca1db77e2f71221453c4e46a
+COTA_b36b9a3131eef275e763,2485,,,,,        2.0000,serum m spike,,mg/dl,6d4c0fe636514207e3e764f30cb6002dd66a7639
+COTA_b36b9a3131eef275e763,2485,,,,,         .4000,lambda flc,,mg/dl,38c1ed715837009b422869ffb28100d8e4d00eed
+COTA_b36b9a3131eef275e763,2485,,,,,        2.3000,serum m spike,,mg/dl,3f6beab9dec3d29f4df729b58e28f4b8e56dc00e
+COTA_b36b9a3131eef275e763,2485,,,,,         .8200,kappa flc,,mg/dl,1323a1f4d018c9f3d309635d1c96751cce99c55b
+COTA_b36b9a3131eef275e763,2575,,,,,       10.5400,lambda flc,,mg/dl,4fe948db689280853c404b8253d44dbd9dd07c7b
+COTA_b36b9a3131eef275e763,2575,,,,,        2.3000,serum m spike,,mg/dl,34e11ba13680c65827b75db1f980b3a042db8d29
+COTA_b36b9a3131eef275e763,2577,,,,,         .6800,kappa flc,,mg/dl,e30792d10a926df23c8fc090d46455301a00eee8
+COTA_b36b9a3131eef275e763,2577,,,,,        2.0000,serum m spike,,mg/dl,769d0ee42d6507c7d7e846fdaf331a486deb8080
+COTA_b36b9a3131eef275e763,2662,,,,,         .8000,kappa flc,,mg/dl,81b7a3d2172be35d8e7053c7868edc829dd3ac6a
+COTA_b36b9a3131eef275e763,2662,,,,,        1.8000,serum m spike,,mg/dl,28faa78485028730e13721faa2fb7719bbeb9a0e
+COTA_b36b9a3131eef275e763,2667,,,,,       10.7700,lambda flc,,mg/dl,18ce8014d23489f4ad52cb94d56fcf62ea0b767b
+COTA_b36b9a3131eef275e763,2667,,,,,        2.0000,serum m spike,,mg/dl,b4523087c55d8d53e1f44a2c1b79a7f4891d82c8
+COTA_b36b9a3131eef275e763,2759,,,,,        4.3000,lambda flc,,mg/dl,b47a6fbac9c35daf90c5990658e5f95df40be0d4
+COTA_b36b9a3131eef275e763,2759,,,,,        1.8000,serum m spike,,mg/dl,431ad5aa44f325bf4916c21a55867e293074ae1f
+COTA_b36b9a3131eef275e763,2765,,,,,         .6800,kappa flc,,mg/dl,42c018696f78e3f5ed5bcc17dc01bc92dcceb10a
+COTA_b36b9a3131eef275e763,2765,,,,,        1.8000,serum m spike,,mg/dl,c5c4e8bc62427882490d29157123925c5ccbc25e
+COTA_b36b9a3131eef275e763,2852,,,,,        8.4600,lambda flc,,mg/dl,4fa9e5e8b99b303e3459a8b62ae2f5e506eb4944
+COTA_b36b9a3131eef275e763,2852,,,,,         .7700,kappa flc,,mg/dl,b567af713c0ce97f1e5b60d3dfae8b743a99c7e6
+COTA_b36b9a3131eef275e763,2997,,,,,        2.0000,serum m spike,,mg/dl,53329d9a89ebbe47178c8c49d3d0e9f6625734ca
+COTA_b36b9a3131eef275e763,2997,,,,,         .6000,kappa flc,,mg/dl,fa423e8733a6f533dbf7f304f21c27904e8ec4b2
+COTA_b36b9a3131eef275e763,3001,,,,,        1.8000,serum m spike,,mg/dl,3df4d791292ec975c74f85e82ccbb6426a95d377
+COTA_b36b9a3131eef275e763,3001,,,,,        9.8400,lambda flc,,mg/dl,ab5c5ebd63152783dbc61ea681aa7b67354fa628
+COTA_b36b9a3131eef275e763,3018,,,,,         .6500,kappa flc,,mg/dl,d97f8dd4e462becddb8a296e49cb4bc2094111c6
+COTA_b36b9a3131eef275e763,3018,,,,,       12.9900,lambda flc,,mg/dl,4e412b96955f0cb05ea88d1f8dd5e2adc1cb2d50
+COTA_b36b9a3131eef275e763,3063,,,,,       10.5400,lambda flc,,mg/dl,b3b5741d7bd22a9c92129ea553b9392e780006ef
+COTA_b36b9a3131eef275e763,3065,,,,,        2.0000,serum m spike,,mg/dl,0eae2b721b2577e7230dc3d1234cba136364cbd9
+COTA_b36b9a3131eef275e763,3065,,,,,         .6400,kappa flc,,mg/dl,66072f45ed3f8633ecb25371ebe526d37d3ea4d3
+COTA_b36b9a3131eef275e763,3154,,,,,       12.2900,lambda flc,,mg/dl,ae4e61c336e1d7f086df8a2b888e8b5febc0921a
+COTA_b36b9a3131eef275e763,3154,,,,,        2.0000,serum m spike,,mg/dl,fc27ff6067119d06da248b726bcad79b7c4122fb
+COTA_b36b9a3131eef275e763,3157,,,,,        2.0000,serum m spike,,mg/dl,38a7f392f4c62a3cbd362509b02c1f7a828b3867
+COTA_b36b9a3131eef275e763,3157,,,,,         .5700,kappa flc,,mg/dl,a4a0d3963106dbafd60d9a732a5865073fbff2a2
+COTA_b36b9a3131eef275e763,3275,,,,,        9.1100,lambda flc,,mg/dl,0a75e06b6841164f4cf20235a15767ce98775bf8
+COTA_b36b9a3131eef275e763,3275,,,,,        2.0000,serum m spike,,mg/dl,61a2f7d015bb9b7fd3864f3402a87cd3647fa551
+COTA_b36b9a3131eef275e763,3280,,,,,        2.1000,serum m spike,,mg/dl,d7c4c3c38754bac2263e6910c98337069ab42408
+COTA_b36b9a3131eef275e763,3280,,,,,         .6000,kappa flc,,mg/dl,a272dacc3a86ab6eba530138f2713f6571981c28
+COTA_b36b9a3131eef275e763,3366,,,,,        3.3500,lambda flc,,mg/dl,bf5e209cf80f5d37607ed4190cb92f0ff565432a
+COTA_b36b9a3131eef275e763,3366,,,,,        2.0000,serum m spike,,mg/dl,f8c0947d41290e16d15da0946567e2e5fb124620
+COTA_b36b9a3131eef275e763,3368,,,,,        1.9000,serum m spike,,mg/dl,2df450f783f653744e5c8e3dd41227aa73d4fdfa
+COTA_b36b9a3131eef275e763,3368,,,,,         .4500,kappa flc,,mg/dl,a3cff5ff92930674c92aed109a2113532360b373
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,        4.3200,kappa flc,,mg/dl,f2cc7976c7879da6fab654d72d49d4f7d221465f
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,        1.3000,beta 2 microglobulin,,mg/l,65bcdf16198d1b4e5f54ce2b10fd086c9f855250
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,         .2900,lambda flc,,mg/dl,4aba4b33f94d76c6883519822ce99e62f09fee12
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,        9.1000,calcium,,mg/dl,cad1681bb6dc1d145b743456114a26ba85b74e05
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,        1.9200,serum m spike,,mg/dl,2719b936712e9460cb6f60f235d356fdb6076806
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,        3.9000,albumin,,g/dl,cc320ca7aef1e429701def8829a500c05b5b9a47
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,         .6300,creatinine,,mg/dl,b4a5c298b07d8a5bdb01c5e3abbd6373544d637c
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,       43.0000,iga,,mg/dl,835f46d61b908a78a0ceaabc27068d5e58836ece
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,231.0,       95.0000,ldh,,u/l,3ca4bc6e898df16a2e8d4c2b41d27b3cb1b81b36
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,       24.0000,igm,,mg/dl,8b832a47471d2641e7c7f99bdbc783a27c283451
+COTA_f6abc4f2cd2c55b1c3a8,-42,,,,,     2684.0000,igg,,mg/dl,bde8aba1f07c7bdd3216299e4e94df3a24863476
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,         .5700,creatinine,,mg/dl,c29cc2b35e0f53d3b9dc8b96a69b176e33a06f89
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,        4.5700,kappa flc,,mg/dl,f9b5c603904ba5af2b19fd18fb728ca4550ef65d
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,       43.0000,iga,,mg/dl,1b4522bc180372477a7277d3cc202d13060f5b95
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,         .3100,lambda flc,,mg/dl,68e7279dd9bf4324b7e74784fcea7f4a716e1bb1
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,       21.0000,igm,,mg/dl,a76153693575a10fe7f68179cbd43a522726aaa8
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,        2.1100,serum m spike,,mg/dl,f436f8f85e2a4f939f0f399738f5fe0864824ec1
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,        4.1000,albumin,,g/dl,4dce4bfad3def599529a8ffb5094d6571352245c
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,        1.4000,beta 2 microglobulin,,mg/l,828206564f7e8664f03fe50adc2bfb6c18e34391
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,     2803.0000,igg,,mg/dl,a974abdb63dbffe80353c5e2fde6f710d5af41d3
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,       12.1000,hemoglobin,,g/dl,bb10709c799745d9869f3e0254a4203a81bac6a7
+COTA_f6abc4f2cd2c55b1c3a8,0,,,,,        9.4000,calcium,,mg/dl,5d01861d87dcd931f995cccc46740b795cb1ce10
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,         .3300,lambda flc,,mg/dl,54d7c3e5ba435e679e039d683832daf356c5c3c6
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,negative,urine m-spike (bence-jones),,,7867e8b8d62a317025105e677324aec5ae537fbe
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,        2.2600,serum m spike,,mg/dl,e1ed8c697f983713da3c4a1f70cfe1563a7094f0
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,positive,urine immunofixation,,,2704e5c9a681796baac45b218d431b305d9aad83
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,positive,serum immunofixation,,,f5504b49d2f933a91a9404b772a352b853c815db
+COTA_f6abc4f2cd2c55b1c3a8,66,,,,,        5.3400,kappa flc,,mg/dl,41e7ba299cc5aa91dc419e6bed0189a2e217c19a
+COTA_f6abc4f2cd2c55b1c3a8,133,,,,,positive,urine immunofixation,,,0ab78aa9e9539a6412a240cee9c8ceb121049b73
+COTA_f6abc4f2cd2c55b1c3a8,133,,,,,        5.7100,kappa flc,,mg/dl,307c5769cf5738264beef42caadb79360c910741
+COTA_f6abc4f2cd2c55b1c3a8,133,,,,,negative,urine m-spike (bence-jones),,,c057734688f8187db55f43f4b9c9461c841d2a88
+COTA_f6abc4f2cd2c55b1c3a8,133,,,,,         .5900,lambda flc,,mg/dl,5f7f1c9ee388ba18f9c012bab905b2a1b55366d8
+COTA_fba9d4b338d6cb8c31bb,-12,,,,,        4.5000,albumin,,g/dl,cf57d3c8fc419fe54503aaadcbbbf42cca106fb1
+COTA_fba9d4b338d6cb8c31bb,-12,,,,,negative,serum m spike,,,a3edb4a1ea86433c68626739dc7c85001d5c1beb
+COTA_fba9d4b338d6cb8c31bb,-12,,,,,positive,urine m-spike (bence-jones),,,802b9d62125dcf4532610c27f166fcdce6f4908c
+COTA_fba9d4b338d6cb8c31bb,-12,,,,,       11.5000,hemoglobin,,g/dl,f98563527e707b102fb5dfeb81ae2c65970b7a9c
+COTA_fba9d4b338d6cb8c31bb,-12,,,,,       10.4000,calcium,,mg/dl,6d35f26a4f912f899ac2c46c6086856521d51ca7
+COTA_fba9d4b338d6cb8c31bb,0,,,,,        4.2000,beta 2 microglobulin,,mg/l,eb3c3fdc7ad539bdc6610cbd791728b7060675a4
+COTA_fba9d4b338d6cb8c31bb,0,,,,,positive,urine immunofixation,,,d2753226a27695a9f357dc6eed67f0362bac9518
+COTA_fba9d4b338d6cb8c31bb,0,,,,,negative,serum immunofixation,,,b8929c4863661ad867a58c1f5cf98c52737a7329
+COTA_fba9d4b338d6cb8c31bb,58,,,,,        1.5800,kappa flc,,mg/dl,76ce9c93386923480590c4284e0ff366a371e1fc
+COTA_fba9d4b338d6cb8c31bb,58,,,,,         .8500,lambda flc,,mg/dl,4129cf44f5cb15d89dc05fd83aa8214a5de06434
+COTA_fba9d4b338d6cb8c31bb,92,,,,,borderline,serum immunofixation,,,8220c36a3e67d36bf96330983e946d5ce75b9674
+COTA_fba9d4b338d6cb8c31bb,93,,,,,         .7200,lambda flc,,mg/dl,11d40c730769888586ab6881210f2e520a108a65
+COTA_fba9d4b338d6cb8c31bb,93,,,,,        1.1500,kappa flc,,mg/dl,e01dc172caf5cca213cfe7dbf6bbac6df558e53c
+COTA_fba9d4b338d6cb8c31bb,172,,,,,         .9800,kappa flc,,mg/dl,cf891bc351e1a94158f9afe9e9dba0d7480a9e74
+COTA_fba9d4b338d6cb8c31bb,172,,,,,         .6800,lambda flc,,mg/dl,fdc0dab8b7040cfe6ddfe0cd60fa418720a42511
+COTA_fba9d4b338d6cb8c31bb,172,,,,,negative,serum immunofixation,,,354e14fbe157dca0401617df20f1205afb54ebff
+COTA_fba9d4b338d6cb8c31bb,172,,,,,negative,urine immunofixation,,,9129a33a983abab66208f098b6971c91a424325a
+COTA_fba9d4b338d6cb8c31bb,179,,,,,         .3600,lambda flc,,mg/dl,79c42a412b395eac53fe0f948f566d1fc0d24019
+COTA_fba9d4b338d6cb8c31bb,179,,,,,         .9300,kappa flc,,mg/dl,1c7ba96ee964ae761933d6ec8ab311bb496132ae
+COTA_fba9d4b338d6cb8c31bb,226,,,,,         .9100,lambda flc,,mg/dl,c415cd7bb09c9b8e7b1d14b3d3af35149e430cec
+COTA_fba9d4b338d6cb8c31bb,226,,,,,        1.8300,kappa flc,,mg/dl,c20dccc61314378b29bb3ba07f2a0049a6347a96
+COTA_fba9d4b338d6cb8c31bb,274,,,,,         .3800,lambda flc,,mg/dl,c4b475cd2cc41cb71ac4814080573878e4a69d12
+COTA_fba9d4b338d6cb8c31bb,274,,,,,        1.3200,kappa flc,,mg/dl,89cf9f9cd3d50927e0a7638e059b82ced09c1d95
+COTA_fba9d4b338d6cb8c31bb,360,,,,,negative,urine immunofixation,,,dda4df8e20addf008ce4ffdc8c853cc2740d3c87
+COTA_fba9d4b338d6cb8c31bb,360,,,,,        1.0600,kappa flc,,mg/dl,05215e31f5403e1d033dd5e30f3cace1ef947903
+COTA_fba9d4b338d6cb8c31bb,360,,,,,negative,serum immunofixation,,,9bbd589a416a306f99a379b07666c9435e8c4224
+COTA_fba9d4b338d6cb8c31bb,360,,,,,        1.0400,lambda flc,,mg/dl,033438435d3336d920faa6281a401fb036f790f2
+COTA_fba9d4b338d6cb8c31bb,408,,,,,        1.6300,kappa flc,,mg/dl,5b31a4eb4abfeb033b0a514efab206a7a3308170
+COTA_fba9d4b338d6cb8c31bb,408,,,,,        1.5000,lambda flc,,mg/dl,5446758aa512ffa6f147ea0adadc301ba8372b79
+COTA_fd7bdf51c303981f8cb6,97,,,,,         .0570,lambda flc,,mg/dl,d4b77242bc0338fe98f71ca51b509d2956fd3a62
+COTA_fd7bdf51c303981f8cb6,97,,,,,        2.6000,serum m spike,,mg/dl,c89f22a0b7f2475cd50322689a0b380cf2e8c30d
+COTA_fd7bdf51c303981f8cb6,97,,,,,        7.9100,kappa flc,,mg/dl,99c88e625297a1a183eda9400a05156bbcf3ed9d
+COTA_fd7bdf51c303981f8cb6,116,,,,,        2.5500,serum m spike,,mg/dl,c8242c62bd89be6703e205d833d886f2f228c30e
+COTA_fd7bdf51c303981f8cb6,116,,,,,         .5110,lambda flc,,mg/dl,2978fd1cd79f9449e01d30085fb1e345414269a5
+COTA_fd7bdf51c303981f8cb6,116,,,,,positive,serum immunofixation,,,8fed51d45b83082c5dc4ee977c6bd4ab3b6e678c
+COTA_fd7bdf51c303981f8cb6,116,,,,,        6.4410,kappa flc,,mg/dl,d58a5b45945330ac9d9026dab47cb15954372cb4
+COTA_fd7bdf51c303981f8cb6,141,,,,,        8.2760,kappa flc,,mg/dl,ffb9f1cec06375333ada92a111c7f790564a6559
+COTA_fd7bdf51c303981f8cb6,141,,,,,        2.7000,serum m spike,,mg/dl,6ec63be4fc6bd8815d91e1229046cb9f64b795e6
+COTA_fd7bdf51c303981f8cb6,141,,,,,         .0570,lambda flc,,mg/dl,78680037380f056ac8669ccaec2493e71900bad0
+COTA_fd7bdf51c303981f8cb6,169,,,,,       10.4460,kappa flc,,mg/dl,226f72d3fed6802522a009ae0cbfe95cdf251a10
+COTA_fd7bdf51c303981f8cb6,169,,,,,        2.8800,serum m spike,,mg/dl,7cef0c3b0e3c2707aafe04a595d908566fd515be
+COTA_fd7bdf51c303981f8cb6,224,,,,,         .0440,lambda flc,,mg/dl,0faad0c45c2976c81390c1a24436fee64d4cb276
+COTA_fd7bdf51c303981f8cb6,224,,,,,       12.0100,kappa flc,,mg/dl,76e3459c9aed80fd13809a7012513963a7e950fd
+COTA_fd7bdf51c303981f8cb6,253,,,,,        3.7800,serum m spike,,mg/dl,35715a4d5ed1c3afce24e3237ac973a8816ab5ab
+COTA_fd7bdf51c303981f8cb6,253,,,,,         .4300,lambda flc,<,mg/dl,151d895de0ca0932ec3b6dc4b4931ce648064a87
+COTA_fd7bdf51c303981f8cb6,253,,,,,       16.4730,kappa flc,,mg/dl,466ec0c6cbe0dee2d8b8b5426bf91dda1a8b9e0f
+COTA_fd7bdf51c303981f8cb6,281,,,,,        1.1000,creatinine,,mg/dl,c6d5aac08c232a1343b6eab2363bac2720d67a23
+COTA_fd7bdf51c303981f8cb6,281,,,,220.0,      166.0000,ldh,,u/l,728c8eeea3b948d1971f16185e38b571d6e18bb2
+COTA_fd7bdf51c303981f8cb6,281,,,,,       13.4000,hemoglobin,,g/dl,2d2b62a13b7886d8b7ba231240ac290d8bbaa33d
+COTA_fd7bdf51c303981f8cb6,281,,,,,       10.1000,calcium,,mg/dl,3db6b77f798b2c408ec0bcc93250aaa0a7290e1d
+COTA_fd7bdf51c303981f8cb6,281,,,,,        3.8000,albumin,,g/dl,64e4814f353992ae64e2ad98ce62f81f69f13e41
+COTA_fd7bdf51c303981f8cb6,305,,,,,negative,urine immunofixation,,,f41f22a438991528a54ab0b56333268c4ee6a232
+COTA_fd7bdf51c303981f8cb6,305,,,,,negative,urine m-spike (bence-jones),,,77659679b0ffe64b20f84c6f64ffd8cc667c4964
+COTA_fd7bdf51c303981f8cb6,309,,,,,        9.0000,igm,,mg/dl,82c44f5154fd991e1029e9c8fbbb6dc4cd547cd6
+COTA_fd7bdf51c303981f8cb6,309,,,,,       12.3000,hemoglobin,,g/dl,c386ba840ab90aa093142aa3dc58f37c31e2fa63
+COTA_fd7bdf51c303981f8cb6,309,,,,,       10.2000,calcium,,mg/dl,fb222f2c1e8a8628789314f3a400b8f19e277779
+COTA_fd7bdf51c303981f8cb6,309,,,,,        3.9400,serum m spike,,mg/dl,425bc22d7413666fa20140f4fbeefc920f8db342
+COTA_fd7bdf51c303981f8cb6,309,,,,,         .9800,creatinine,,mg/dl,1c16fee43683fcc5807f11b77a4f7650ea2fafb9
+COTA_fd7bdf51c303981f8cb6,309,,,,220.0,      185.0000,ldh,,u/l,02e1311f2cb87e766d65f503f782890a34c5940b
+COTA_fd7bdf51c303981f8cb6,309,,,,,         .4500,lambda flc,<,mg/dl,19c2a63615c83eb8c357b2f9ca47ac6065ad3865
+COTA_fd7bdf51c303981f8cb6,309,,,,,       23.4110,kappa flc,,mg/dl,63517a5eefbfa8a27d6569e8760408903d7e86bf
+COTA_fd7bdf51c303981f8cb6,309,,,,,        4.0000,albumin,,g/dl,edcf930f208cfb65ad9fe9493bdda1550735b436
+COTA_fd7bdf51c303981f8cb6,309,,,,,     4926.0000,igg,,mg/dl,1bc9bba5920227e259d1d663b497eda8b73234e0
+COTA_fd7bdf51c303981f8cb6,309,,,,,        8.0000,iga,,mg/dl,7a37bcb64ec3234a85f78d0aa75a3106972cbdd8
+COTA_fd7bdf51c303981f8cb6,334,,,,220.0,      153.0000,ldh,,u/l,0e7a96f06b7832d5e46c5d5dcf118c931ef365e9
+COTA_fd7bdf51c303981f8cb6,334,,,,,        9.3000,calcium,,mg/dl,fbbc3be4e8a82575e4e2ba66bd33a571e02f78af
+COTA_fd7bdf51c303981f8cb6,334,,,,,        3.3000,albumin,,g/dl,9574c4f4479de925e81f429ae2a41d386b6eeb55
+COTA_fd7bdf51c303981f8cb6,334,,,,,         .4500,lambda flc,<,mg/dl,188e8a0b28f52a5d0f3bf201e798f53fbb2609ab
+COTA_fd7bdf51c303981f8cb6,334,,,,,       10.0000,igm,,mg/dl,cc987516376f2b6f22bf3170e6734673bba016ee
+COTA_fd7bdf51c303981f8cb6,334,,,,,       11.0000,iga,,mg/dl,9b3bcc591997f23f6451eb251138fd0563cff579
+COTA_fd7bdf51c303981f8cb6,334,,,,,     5331.0000,igg,,mg/dl,fba77fd816ea16afdfe3812befbec46e6c42dbfc
+COTA_fd7bdf51c303981f8cb6,334,,,,,        4.1400,serum m spike,,mg/dl,0dbc6dc23c3cc5f39355a6cd76ffec052fda055b
+COTA_fd7bdf51c303981f8cb6,334,,,,,       11.8000,hemoglobin,,g/dl,f0810b45b006e60ed3b132489b55202d886202c2
+COTA_fd7bdf51c303981f8cb6,334,,,,,       28.9560,kappa flc,,mg/dl,976428b67693a161faba120693ecb309d11f7e36
+COTA_fd7bdf51c303981f8cb6,334,,,,,        1.0000,creatinine,,mg/dl,0c73a906ac712cd152f092643a810f35806126cd
+COTA_fd7bdf51c303981f8cb6,334,,,,,        3.3800,beta 2 microglobulin,,mg/l,9d5ad7e432b26129905b90b9798473be1f9657c7
+COTA_fd7bdf51c303981f8cb6,366,,,,,        1.6900,serum m spike,,mg/dl,80bef0effd6937b7c6b31fa22a30cbd3419a5ef7
+COTA_fd7bdf51c303981f8cb6,366,,,,,         .1350,lambda flc,,mg/dl,da9d0fdf42edac9a2f301022a7358898c2ffa3c2
+COTA_fd7bdf51c303981f8cb6,366,,,,,         .7090,kappa flc,,mg/dl,8418ec554616c80abc4bd9efedb3674ae6e92dd5
+COTA_fd7bdf51c303981f8cb6,369,,,,,        1.4600,serum m spike,,mg/dl,f94d962c2da7e71b3142af3b3226fd3127252344
+COTA_fd7bdf51c303981f8cb6,369,,,,,         .5550,kappa flc,,mg/dl,9a036101c4d175e975e2f8ce1194f4502a49ffbd
+COTA_fd7bdf51c303981f8cb6,369,,,,,         .0830,lambda flc,,mg/dl,afa9c3ba7f3395cb0e88c11bf2c54cd1a95a173f
+COTA_fd7bdf51c303981f8cb6,394,,,,,         .0420,kappa flc,<,mg/dl,92931742de7c5461f696c70ad53b3c84ad328978
+COTA_fd7bdf51c303981f8cb6,394,,,,,         .3600,serum m spike,,mg/dl,10069b50d0f1da21ae2f47c053e88199adc57113
+COTA_fd7bdf51c303981f8cb6,394,,,,,         .0450,lambda flc,<,mg/dl,16d0d03b0e9f108f810f914e3d36c0d8a34c28ee
+COTA_fd7bdf51c303981f8cb6,408,,,,,         .6730,kappa flc,,mg/dl,d99fb9675adf6455ede238064784d5f409f7f5ab
+COTA_fd7bdf51c303981f8cb6,408,,,,,         .1050,lambda flc,,mg/dl,c775cc6cc8b776bf6dee611e49f5bd733e01c228
+COTA_fd7bdf51c303981f8cb6,408,,,,,         .2200,serum m spike,,mg/dl,0a0aed39ae222ac019b99d920b44170843c10f5a
+COTA_fd7bdf51c303981f8cb6,422,,,,,         .6210,lambda flc,,mg/dl,3649791a37a32d2e75445f2998e2875d2641ce13
+COTA_fd7bdf51c303981f8cb6,422,,,,,         .0700,serum m spike,,mg/dl,432266e55a22ac30004d010681db9cb83f731d6b
+COTA_fd7bdf51c303981f8cb6,422,,,,,         .9080,kappa flc,,mg/dl,f7e335b2006ef34494ce399f46632405029e2bb7
+COTA_fd7bdf51c303981f8cb6,443,,,,,         .5730,lambda flc,,mg/dl,beee30bcf52a9202f8a19eeb433d9774fb902b48
+COTA_fd7bdf51c303981f8cb6,443,,,,,         .8440,kappa flc,,mg/dl,0ce6f902fa1a063f08eac14facbf971cefa4b8ee
+COTA_fd7bdf51c303981f8cb6,448,,,,,borderline,serum m spike,,,a08a02c057a636d5f982e148430850c481d5ce17
+COTA_fd7bdf51c303981f8cb6,448,,,,,         .5730,lambda flc,,mg/dl,6419eb3c12926fb2c40d24aebc63b46c71a5097e
+COTA_fd7bdf51c303981f8cb6,448,,,,,         .8780,kappa flc,,mg/dl,0c37ab053b7d10808477ff1ffc3c983ff96684cd
+COTA_fd7bdf51c303981f8cb6,471,,,,,        1.1220,kappa flc,,mg/dl,45a5d9ed12acecd388c29aed6af80f0c500aff2f
+COTA_fd7bdf51c303981f8cb6,471,,,,,         .6910,lambda flc,,mg/dl,2d57ba65ec509a04e5b47f36cad02b8a43f77962
+COTA_fd7bdf51c303981f8cb6,499,,,,,         .8850,kappa flc,,mg/dl,33d59746bf1e704f099096abe2e5943b35aede7a
+COTA_fd7bdf51c303981f8cb6,499,,,,,negative,serum m spike,,,4e75579385d50141f3f9e70d90420ad2f2a139d0
+COTA_fd7bdf51c303981f8cb6,499,,,,,         .5460,lambda flc,,mg/dl,62d0f6b356e6f263848c89e76d3999be335983c4
+COTA_fd7bdf51c303981f8cb6,526,,,,,negative,serum m spike,,,85a2085cfe20a95a11721ba6228c93d468b6b7f4
+COTA_fd7bdf51c303981f8cb6,526,,,,,         .6300,lambda flc,,mg/dl,1630c33de7c92a2c666242f15f5ab975ba0ccac8
+COTA_fd7bdf51c303981f8cb6,526,,,,,         .8500,kappa flc,,mg/dl,8e004b7035c32c02aa1b5e43643aad5555ddf309
+COTA_fd7bdf51c303981f8cb6,526,,,,,         .9000,kappa flc,,mg/dl,66b2c9491926c9f8073b15b6b20f34318a2a5d7d
+COTA_fd7bdf51c303981f8cb6,526,,,,,         .5820,lambda flc,,mg/dl,e1b76a61af2eb867802f93f083eb6fb9c51dd686
+COTA_fd7bdf51c303981f8cb6,565,,,,,         .7690,kappa flc,,mg/dl,d3feb2f7615a6ce7738fe1376c44cbc821b16e71
+COTA_fd7bdf51c303981f8cb6,565,,,,,         .1760,lambda flc,,mg/dl,a60ed4e06d969a3a925aaa4770bcf6ab15e4c296
+COTA_fd7bdf51c303981f8cb6,565,,,,,negative,serum m spike,,,d4d919431d05e7c0f508ef480da1eba421566ad1
+COTA_fd7bdf51c303981f8cb6,565,,,,,negative,serum immunofixation,,,da060f2ead427867ca25e89a219ae96f367d8ce7
+COTA_fd7bdf51c303981f8cb6,590,,,,,         .7570,lambda flc,,mg/dl,f7f6a8646abb8b9cab1a777f14346a5c9638cc6a
+COTA_fd7bdf51c303981f8cb6,590,,,,,        1.0020,kappa flc,,mg/dl,1bed46531fffe6d7b0e79432f5a6da0fb76abb7d
+COTA_fd7bdf51c303981f8cb6,590,,,,,negative,serum m spike,,,688c4520b6fc2d38c0519f282324a6b87eb98305
+COTA_fd7bdf51c303981f8cb6,618,,,,,        1.2030,kappa flc,,mg/dl,03df54f6540221fed60e5d532552e26b14c0458a
+COTA_fd7bdf51c303981f8cb6,618,,,,,         .8560,lambda flc,,mg/dl,e79ab1352f52dee898920c390cf2bad2f874fa99
+COTA_fd7bdf51c303981f8cb6,618,,,,,negative,serum m spike,,,e66a9ceefe229f835798f6935b068db3a5b8823f
+COTA_fd7bdf51c303981f8cb6,646,,,,,        1.2340,kappa flc,,mg/dl,8fcd7418944580c647659462398f0f37aac964ff
+COTA_fd7bdf51c303981f8cb6,646,,,,,negative,serum m spike,,,6b09325c4f9f074ac8439658104956c7d3287d74
+COTA_fd7bdf51c303981f8cb6,646,,,,,         .8190,lambda flc,,mg/dl,ac19f66ef54af54c6d94edae40d4b7afc7c1295d
+COTA_fd7bdf51c303981f8cb6,681,,,,,negative,serum m spike,,,7b70eb0aca2e6961bfe8d2e9f2d24be31c7f76ab
+COTA_fd7bdf51c303981f8cb6,681,,,,,        1.1000,kappa flc,,mg/dl,e62b05480d30b480fd3059d4fbdc5cd25f82ff9d
+COTA_fd7bdf51c303981f8cb6,709,,,,,         .6850,lambda flc,,mg/dl,a17599ce8393ff6c41832c885ad6f441d55a9412
+COTA_fd7bdf51c303981f8cb6,709,,,,,negative,serum m spike,,,7d042b4881a3f28d86ed01990f037b4f295c5c8d
+COTA_fd7bdf51c303981f8cb6,709,,,,,        1.0390,kappa flc,,mg/dl,45a0b34d96416ba885c183e3c2beaec371e8f553
+COTA_fd7bdf51c303981f8cb6,734,,,,,negative,serum m spike,,,0e454bcbddf8339ce18de10a58438bfbaf44e311
+COTA_fd7bdf51c303981f8cb6,734,,,,,         .8710,lambda flc,,mg/dl,70cd803b69b71e01ccaf8d9d17aa7a96346891ea
+COTA_fd7bdf51c303981f8cb6,734,,,,,        1.1920,kappa flc,,mg/dl,2d4efe562945ec176594f20b0bc657bc42f26f66
+COTA_fd7bdf51c303981f8cb6,758,,,,,negative,serum m spike,,,8a0f9b1cead26d79835e048945a2d9b62f0ddbc3
+COTA_fd7bdf51c303981f8cb6,758,,,,,        1.2570,kappa flc,,mg/dl,e9de0e3503748a55e6adb32a21b8ad828671ac90
+COTA_fd7bdf51c303981f8cb6,758,,,,,         .9010,lambda flc,,mg/dl,6f175942ef4b84a23ae4581fbacc1e4eaf7adc21
+COTA_fd7bdf51c303981f8cb6,786,,,,,        1.3080,kappa flc,,mg/dl,983599767043dbcc78832fd73e3046531f684b61
+COTA_fd7bdf51c303981f8cb6,786,,,,,         .9390,lambda flc,,mg/dl,7d80a7d34bd8fc0b7236b5427c7420e768debd53
+COTA_fd7bdf51c303981f8cb6,786,,,,,negative,serum m spike,,,0b4377e029ae6b35302ecedfac2fbd58bf0c41c2
+COTA_fd7bdf51c303981f8cb6,814,,,,,         .8760,kappa flc,,mg/dl,618cb78bc2a3fed5d1abd3cf4ef2b4ffbedacbfb
+COTA_fd7bdf51c303981f8cb6,814,,,,,negative,serum m spike,,,85eb8bedf80825a8194ff51119d41a31533f1f1e
+COTA_fd7bdf51c303981f8cb6,842,,,,,         .5210,lambda flc,,mg/dl,6dd8c2ad5fef827337880b2f3cb2c52796f2b7a3
+COTA_fd7bdf51c303981f8cb6,842,,,,,         .5410,kappa flc,,mg/dl,f1eb2f1b1a9978110d2cb4b1a45e90a685c23812
+COTA_fd7bdf51c303981f8cb6,842,,,,,negative,serum m spike,,,2c3f46f1a7d22b375f95b9db19ee66c0974ef11b
+COTA_fd7bdf51c303981f8cb6,870,,,,,         .8000,kappa flc,,mg/dl,55ae22a0e10eca101353ac0f1f59e2ce219c70db
+COTA_fd7bdf51c303981f8cb6,870,,,,,        1.2400,lambda flc,,mg/dl,9fe548e69a6e9a8ff2349af76f7f5f4a17b4a03a
+COTA_fd7bdf51c303981f8cb6,870,,,,,negative,serum immunofixation,,,1329b08326aff72218bfaf909b62c9adf60da729
+COTA_fd7bdf51c303981f8cb6,870,,,,,negative,serum m spike,,,16612e39306c65fec413c34d7f72d40a42e1ed49
+COTA_fd7bdf51c303981f8cb6,935,,,,,         .0770,lambda flc,,mg/dl,f664b5bae4151d7170f47985e8a6aff94ab34db1
+COTA_fd7bdf51c303981f8cb6,935,,,,,negative,serum m spike,,,450bf0a030b93e649a6dbf1ac2f671d4e30aed43
+COTA_fd7bdf51c303981f8cb6,935,,,,,         .8480,kappa flc,,mg/dl,8a01b9f57b0fa81df801795be25c01df9091a295
+COTA_fd7bdf51c303981f8cb6,968,,,,,         .0900,lambda flc,,mg/dl,4c4d44ae0e430b7c9bac2b68be0dc50709495300
+COTA_fd7bdf51c303981f8cb6,968,,,,,negative,serum m spike,,,4cfec7c5f883f5615438c5e7a8b7e5de0db654ae
+COTA_fd7bdf51c303981f8cb6,968,,,,,         .7290,kappa flc,,mg/dl,cf9327425f35f788310572bb93a579033515d60f
+COTA_fd7bdf51c303981f8cb6,996,,,,,negative,serum m spike,,,e7cafffe763e15e188bcc5aac4b70c8ac0f89924
+COTA_fd7bdf51c303981f8cb6,996,,,,,         .1020,lambda flc,,mg/dl,19c6448423f34d5ff3fab01d350e54ef945d8e1f
+COTA_fd7bdf51c303981f8cb6,996,,,,,         .8780,kappa flc,,mg/dl,9b4e68e95a647df0662aa7d8bbcf7f9a2fc1775a
+COTA_fd7bdf51c303981f8cb6,1031,,,,,         .5090,lambda flc,,mg/dl,2e1e2f84a1ddc70ae41e9fc7be1cd4fd23ffe654
+COTA_fd7bdf51c303981f8cb6,1031,,,,,         .8280,kappa flc,,mg/dl,672b0fc5710a6e2decf8f6602841a0baae623e73
+COTA_fd7bdf51c303981f8cb6,1031,,,,,negative,serum m spike,,,5ae32e2862a1ef79481f09a1c66142bdc33a7b4f
+COTA_fd7bdf51c303981f8cb6,1055,,,,,negative,urine m-spike (bence-jones),,,df9c82eadd19b5b80bba7a201597bb559b504fde
+COTA_fd7bdf51c303981f8cb6,1055,,,,,negative,urine immunofixation,,,c49522e15da12da2ba40385e933e21b8e439810d
+COTA_fd7bdf51c303981f8cb6,1143,,,,,negative,serum m spike,,,7e43a70c0e494b8a103d140162bfb86432b00a46
+COTA_fd7bdf51c303981f8cb6,1143,,,,,         .1950,lambda flc,,mg/dl,f02202c46e873956fd5584c9c6b90278ed0acb0e
+COTA_fd7bdf51c303981f8cb6,1143,,,,,         .7830,kappa flc,,mg/dl,dde4c5e69321eee59ae6efe3ce908f5892a98411
+COTA_fd7bdf51c303981f8cb6,1178,,,,,         .1690,lambda flc,,mg/dl,0ed14963961baef6f444273c3a55a9108109c8c5
+COTA_fd7bdf51c303981f8cb6,1178,,,,,         .9290,kappa flc,,mg/dl,0116eaabc3b8616fd76e6832a4d14483b6a7932b
+COTA_fd7bdf51c303981f8cb6,1178,,,,,negative,serum m spike,,,dc372d43966d5d4deb7f06f181fda870365c2af1
+COTA_fd7bdf51c303981f8cb6,1213,,,,,         .4560,lambda flc,,mg/dl,e1cf417cc802156c1cf12fd8ce5bd403857750db
+COTA_fd7bdf51c303981f8cb6,1213,,,,,         .6740,kappa flc,,mg/dl,84b00e8a05c334c27f0493119bcd27ce2704613f
+COTA_fd7bdf51c303981f8cb6,1213,,,,,negative,serum m spike,,,f1b98f5b8711b1d2058cad7171e528068f94a6dc
+COTA_fd7bdf51c303981f8cb6,1241,,,,,negative,serum m spike,,,df99c0d111c89b2f05157c3b61fa1dea63bdb615
+COTA_fd7bdf51c303981f8cb6,1241,,,,,         .5350,lambda flc,,mg/dl,e7f8c77a70dcc2ccccfd1dbfef49ac7909a45b8c
+COTA_fd7bdf51c303981f8cb6,1241,,,,,         .8970,kappa flc,,mg/dl,23d117c107da7ad4f910f482cd0715eab6a5628d
+COTA_fd7bdf51c303981f8cb6,1246,,,,,negative,serum immunofixation,,,69402984f8a4d55221f2b721abf6208b690b9fff
+COTA_fd7bdf51c303981f8cb6,1269,,,,,         .9200,kappa flc,,mg/dl,6a39092fb4764eeb7a0a49beb698c02b838419ea
+COTA_fd7bdf51c303981f8cb6,1269,,,,,negative,serum m spike,,,e0f0cb86eb76bef410ed3bba437c4f01d2a7bcc5
+COTA_fd7bdf51c303981f8cb6,1269,,,,,         .1560,lambda flc,,mg/dl,775ca5d22afdea5fc589c73f4defd7738f4642f1
+COTA_fd7bdf51c303981f8cb6,1297,,,,,         .5280,lambda flc,,mg/dl,7e4dc42b65d70688958a8e3c59f5995512c9d896
+COTA_fd7bdf51c303981f8cb6,1297,,,,,negative,serum m spike,,,c4a8b4786c87c5ebf882d05ba67ec2c55c6974c8
+COTA_fd7bdf51c303981f8cb6,1297,,,,,        1.1640,kappa flc,,mg/dl,ee9060733a9320453b4f8acb476bde4d634e4738
+COTA_fd7bdf51c303981f8cb6,1332,,,,,         .5050,lambda flc,,mg/dl,e8334cc8360aad7b73068f984d9c0c93df14d88f
+COTA_fd7bdf51c303981f8cb6,1332,,,,,        1.0210,kappa flc,,mg/dl,37258e0de9f89ffc6339112525d171a7f509075e
+COTA_fd7bdf51c303981f8cb6,1332,,,,,negative,serum m spike,,,aa5bc7215751f93ca2b75e460f152ab692f14204
+COTA_fd7bdf51c303981f8cb6,1360,,,,,         .8100,kappa flc,,mg/dl,1f155fed4a1f308c4a0657b951228b11edda4f86
+COTA_fd7bdf51c303981f8cb6,1360,,,,,         .2790,lambda flc,,mg/dl,260fa4a229132c53d576fec3b362623d351cf5ff
+COTA_fd7bdf51c303981f8cb6,1360,,,,,negative,serum m spike,,,0223c3df554051f7fefeba01cf9525def72adbf9
+COTA_fd7bdf51c303981f8cb6,1395,,,,,         .9160,kappa flc,,mg/dl,afbeea4470efe2d22fbe9f127b145fd8472225d9
+COTA_fd7bdf51c303981f8cb6,1395,,,,,negative,serum m spike,,,99ea4f37e0afa838720053f913ab49cab64f2b76
+COTA_fd7bdf51c303981f8cb6,1395,,,,,         .1530,lambda flc,,mg/dl,5e83d27efa8830c3da5d921a49b742210bb9c50b
+COTA_fd7bdf51c303981f8cb6,1423,,,,,         .4720,lambda flc,,mg/dl,d8cbb7173b4d08189acd5734a4276628f3034410
+COTA_fd7bdf51c303981f8cb6,1423,,,,,negative,serum m spike,,,b66db5ae5f94c6336325f987c470bad81dab69fb
+COTA_fd7bdf51c303981f8cb6,1423,,,,,         .6640,kappa flc,,mg/dl,24c298cafb25686150eb3542305aafdd2bd7a3c7
+COTA_fd7bdf51c303981f8cb6,1454,,,,,negative,serum m spike,,,1c2db5d0032233d8a3cbc554599b4c8593c23c34
+COTA_fd7bdf51c303981f8cb6,1454,,,,,         .5770,lambda flc,,mg/dl,102f5a5bf6f7d6b11a6043b60d5f4907d3006512
+COTA_fd7bdf51c303981f8cb6,1454,,,,,        1.0410,kappa flc,,mg/dl,666df9238c8ec34cd7e1103279fe38a05b44c028
+COTA_fd7bdf51c303981f8cb6,1454,,,,,negative,serum immunofixation,,,7e6f22861fcb12803cd505bdd99bc9e63e2bfcb1
+COTA_fd7bdf51c303981f8cb6,1542,,,,,         .5290,lambda flc,,mg/dl,8d4acec50bb4f1e3432d0cf604c5767301e4ebbf
+COTA_fd7bdf51c303981f8cb6,1542,,,,,         .9380,kappa flc,,mg/dl,4422451a1b78f4564fc52bf5adf7a2e0d47c5e70
+COTA_fd7bdf51c303981f8cb6,1542,,,,,negative,serum m spike,,,8b4bfb3142fd71ee0523d6bd6aad25c8886d4668
+COTA_fd7bdf51c303981f8cb6,1542,,,,,negative,serum immunofixation,,,a5fbbabde60bf130fefe0daae0849fe3286dd596
+COTA_fd7bdf51c303981f8cb6,1570,,,,,         .6890,lambda flc,,mg/dl,63dc4f9ce64aa91f20e6afa2e1795601261f60bc
+COTA_fd7bdf51c303981f8cb6,1570,,,,,        1.2980,kappa flc,,mg/dl,efcb636c762599b1eb1107a9bbef9dfaa6fec299
+COTA_fd7bdf51c303981f8cb6,1570,,,,,negative,serum m spike,,,e25cd47d9e19d4206aca942c609b7767491cd081
+COTA_fd7bdf51c303981f8cb6,1605,,,,,        1.0110,kappa flc,,mg/dl,74a0fe28b748c4f9a4ddbd005b383658a846fb8a
+COTA_fd7bdf51c303981f8cb6,1605,,,,,negative,serum m spike,,,0c6595c1f2c218ea755f29b1281a3f3e6ae34a03
+COTA_fd7bdf51c303981f8cb6,1605,,,,,         .8240,lambda flc,,mg/dl,f9a381cfc03d8a5a23609c230a5c13f1e52ac9d5
+COTA_fd7bdf51c303981f8cb6,1640,,,,,negative,serum m spike,,,f3faab6e9ce0553a5878bfdd782e78891260ff4a
+COTA_fd7bdf51c303981f8cb6,1640,,,,,         .5090,lambda flc,,mg/dl,7ecfe4dd5b5ee6bcf9f72a3a2eb6beed420bae36
+COTA_fd7bdf51c303981f8cb6,1640,,,,,        1.1640,kappa flc,,mg/dl,b0593a0cc1ba07fc5a638bec4d55baa8c017d930
+COTA_fd7bdf51c303981f8cb6,1661,,,,,        1.2630,kappa flc,,mg/dl,f2f03067137eba981d7c7e9ee41a7a689addb2c6
+COTA_fd7bdf51c303981f8cb6,1661,,,,,negative,serum m spike,,,3cf7174319993798d8503d7b665d90ae6eeec2e3
+COTA_fd7bdf51c303981f8cb6,1661,,,,,         .4350,lambda flc,,mg/dl,97aefc672dc12f6f6dc5a94042887032b7d5cd43
+COTA_fd7bdf51c303981f8cb6,1696,,,,,        1.1700,kappa flc,,mg/dl,ad26ed0f90bd8d9e770e69caadc292692b3be63f
+COTA_fd7bdf51c303981f8cb6,1696,,,,,negative,serum m spike,,,c750373aac331ea63589f6b1bd94590671a32daf
+COTA_fd7bdf51c303981f8cb6,1696,,,,,         .6070,lambda flc,,mg/dl,dd16f6083a4bf762d7a122672905ea74a58482cc
+COTA_fd7bdf51c303981f8cb6,1724,,,,,         .9880,kappa flc,,mg/dl,fcbefeeeb58021493455ec2854a638d89779de9e
+COTA_fd7bdf51c303981f8cb6,1724,,,,,negative,serum immunofixation,,,2915484f67a1dff0a8cf21b5285efa7f5c940295
+COTA_fd7bdf51c303981f8cb6,1724,,,,,negative,serum m spike,,,8253b5bba40a59813b57c1064317a506d874e92e
+COTA_fd7bdf51c303981f8cb6,1724,,,,,         .6320,lambda flc,,mg/dl,c60a4c78737612c1f1056f0f87725fc65371dde4
+COTA_fd7bdf51c303981f8cb6,1756,,,,,        1.3860,kappa flc,,mg/dl,b57b411e61d974b57ac806d7fd1c471d1d869f1d
+COTA_fd7bdf51c303981f8cb6,1756,,,,,         .7810,lambda flc,,mg/dl,86ba403586a421bb188b5e4d1a48cae5902c2584
+COTA_fd7bdf51c303981f8cb6,1756,,,,,negative,serum immunofixation,,,67fc971c636a558da7ff5b2ed74d9e9855835ce0
+COTA_fd7bdf51c303981f8cb6,1756,,,,,negative,serum m spike,,,357189dd8057027f316b21daafdffbc0e7cab149
+COTA_fd7bdf51c303981f8cb6,1787,,,,,        1.0600,kappa flc,,mg/dl,c9417ad470db7e8f901c6c1e6630ca536ccc1070
+COTA_fd7bdf51c303981f8cb6,1787,,,,,negative,serum m spike,,,33806457945db0459418fb180ec7346736a81dc7
+COTA_fd7bdf51c303981f8cb6,1787,,,,,         .5450,lambda flc,,mg/dl,f7081a76a98ab6cdc00daf72132bbf5fa45e05c6
+COTA_fd7bdf51c303981f8cb6,1815,,,,,negative,serum m spike,,,20f815a7215184d754a380e364ecc23882e98bb3
+COTA_fd7bdf51c303981f8cb6,1815,,,,,         .5370,lambda flc,,mg/dl,9bbfdbebc9b9d0bde3f34dd2dc719900aeefd168
+COTA_fd7bdf51c303981f8cb6,1815,,,,,        1.0270,kappa flc,,mg/dl,6d22c3a24b6cab9ee38a68b6bcb4659599efd29d
+COTA_fd7bdf51c303981f8cb6,1850,,,,,negative,serum m spike,,,26801431f9a553de0d2a4e5d495705cf2e70d1f9
+COTA_fd7bdf51c303981f8cb6,1850,,,,,         .6730,lambda flc,,mg/dl,4d0bcc336b0519c2a0d3caeab321654a1b191edd
+COTA_fd7bdf51c303981f8cb6,1850,,,,,        1.3060,kappa flc,,mg/dl,ca8d0d7735ce878ee76f384bbfa4b25d4272c961
+COTA_fd7bdf51c303981f8cb6,1878,,,,,        1.0330,kappa flc,,mg/dl,ebdde0a7dfc06379588c0a3baa7dee41ed499fc6
+COTA_fd7bdf51c303981f8cb6,1878,,,,,         .6100,lambda flc,,mg/dl,7751b2a0e4adb46718f49e79293e141925700409
+COTA_fd7bdf51c303981f8cb6,1878,,,,,negative,serum m spike,,,6f725f3d2b6cab1ba7d8a1b143eb38f9d3e0b67d
+COTA_fd7bdf51c303981f8cb6,1913,,,,,        1.0710,kappa flc,,mg/dl,bdeb046b34fe705df11220b25af3729346b0c6fa
+COTA_fd7bdf51c303981f8cb6,1913,,,,,         .6750,lambda flc,,mg/dl,f3bb2613cd946b0f75c7eece289e3344a2d00c7a
+COTA_fd7bdf51c303981f8cb6,1913,,,,,negative,serum m spike,,,4e8bc07928d40fe6d216d92a6766052cea568578
+COTA_fd7bdf51c303981f8cb6,1934,,,,,negative,serum immunofixation,,,e97a0220692b6c4ac92cf626a5fa3f4f1cac3f8c
+COTA_fd7bdf51c303981f8cb6,1934,,,,,         .7820,lambda flc,,mg/dl,735d86f025c51807127644011f1cf933773d29cd
+COTA_fd7bdf51c303981f8cb6,1934,,,,,negative,serum m spike,,,2c82484246f6635aad14049abb0b38a8126f3722
+COTA_fd7bdf51c303981f8cb6,1934,,,,,        1.2430,kappa flc,,mg/dl,93b3c3b7eb71d4a764d406100e6732ab8abd3e52
+COTA_fd7bdf51c303981f8cb6,1961,,,,,         .7350,lambda flc,,mg/dl,1ddd96ea6b93a43c3299a597c6387e0d2c22d9ae
+COTA_fd7bdf51c303981f8cb6,1961,,,,,negative,serum immunofixation,,,c5f088485112c0212834256405efe158d20d450e
+COTA_fd7bdf51c303981f8cb6,1961,,,,,negative,serum m spike,,,8af81021f73c1f125393e7a2beacb4bb9cbaf297
+COTA_fd7bdf51c303981f8cb6,1961,,,,,         .9880,kappa flc,,mg/dl,289aed17e5e975e0d33350b1df14f4c62cffb309
+COTA_fd7bdf51c303981f8cb6,2004,,,,,        1.5130,lambda flc,,mg/dl,0901477b581d54fcbbb24e0bc28c341088941736
+COTA_fd7bdf51c303981f8cb6,2004,,,,,negative,serum m spike,,,02779b40bf3cab16cf39e6c1613ceb1c91b41188
+COTA_fd7bdf51c303981f8cb6,2004,,,,,        1.1160,kappa flc,,mg/dl,38e5650ba86e1a2a7642fb041c3729e97530b72d
+COTA_fd7bdf51c303981f8cb6,2032,,,,,        1.1440,kappa flc,,mg/dl,30ff37d1cc0487cb7d1e2433c8b8c6465e57dfd5
+COTA_fd7bdf51c303981f8cb6,2032,,,,,negative,serum m spike,,,12a4f29c383c38049019118d56c85aeaf2e43a8c
+COTA_fd7bdf51c303981f8cb6,2032,,,,,        1.3520,lambda flc,,mg/dl,dc68579240a86997c89283e11f9f96a2f20f9af9
+COTA_fd7bdf51c303981f8cb6,2060,,,,,         .9260,kappa flc,,mg/dl,e1e13ed5b18048d49f036b88997e0c9625934966
+COTA_fd7bdf51c303981f8cb6,2060,,,,,negative,serum m spike,,,2a85d5f31cdec693c77136728da83a0d6c8b5989
+COTA_fd7bdf51c303981f8cb6,2060,,,,,        1.2100,lambda flc,,mg/dl,250db5056eaae9b9c0b32d8f4fa723e15b20edfe
+COTA_fd7bdf51c303981f8cb6,2088,,,,,         .9400,kappa flc,,mg/dl,8baa01a9c58ffc63dd6553106e6f181310a4b652
+COTA_fd7bdf51c303981f8cb6,2088,,,,,        1.1040,lambda flc,,mg/dl,a0ad9928c31490ddd7c86bf02ddeb32f0aa4238a
+COTA_fd7bdf51c303981f8cb6,2088,,,,,negative,serum m spike,,,055ddb5f78bbe3b4860de56afc71d634bb8f42cf
+COTA_fd7bdf51c303981f8cb6,2123,,,,,         .8800,lambda flc,,mg/dl,ee0cfd35db7d5e9ade08959abd90926cba56ab9b
+COTA_fd7bdf51c303981f8cb6,2123,,,,,negative,serum m spike,,,ee8ddf0d8b8b204fdbe73564a044e7438067adaf
+COTA_fd7bdf51c303981f8cb6,2123,,,,,         .8400,kappa flc,,mg/dl,b75540fd909373fac68a996b2cb73e82b0a5da9a
+COTA_fd7bdf51c303981f8cb6,2151,,,,,        1.0700,lambda flc,,mg/dl,7ad4b4b48caffe9c48793e07e5f5d287b76199d5
+COTA_fd7bdf51c303981f8cb6,2151,,,,,negative,serum m spike,,,4a5d06976a1f7a797fe9e35b86497ba8b685c4db
+COTA_fd7bdf51c303981f8cb6,2151,,,,,        1.1700,kappa flc,,mg/dl,a89432179bd05bb0b81c175d93a685b0df3618f2
+COTA_fd7bdf51c303981f8cb6,2200,,,,,         .8900,lambda flc,,mg/dl,127237c99725b94cb4dec9b1e6f6c0a389cff564
+COTA_fd7bdf51c303981f8cb6,2200,,,,,negative,serum m spike,,,db1799ce6d10e5845fb8fcb8d3ab8b6ee412873a
+COTA_fd7bdf51c303981f8cb6,2200,,,,,         .7600,kappa flc,,mg/dl,2a8d7225819b3361eb4463357b5c30c72e26f8dc
+COTA_fd7bdf51c303981f8cb6,2218,,,,,         .8100,lambda flc,,mg/dl,956cb1f6191357c00003669ead8076314da1510c
+COTA_fd7bdf51c303981f8cb6,2218,,,,,         .7700,kappa flc,,mg/dl,0b585bb6edfd05d1410b5049ae6a4c4a84411e0d
+COTA_fd7bdf51c303981f8cb6,2218,,,,,negative,serum m spike,,,1532891c5a613c1c90300abc1a808338e02b2c23
+COTA_fd7bdf51c303981f8cb6,2218,,,,,negative,serum immunofixation,,,5512329d0e483b0d6b636ce31ed487c2186e1a14
+COTA_fd7bdf51c303981f8cb6,2230,,,,,negative,serum immunofixation,,,326cfd2a638818f25ea570d086e5052bb8e68c43

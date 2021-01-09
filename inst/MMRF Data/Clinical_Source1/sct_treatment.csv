@@ -1,0 +1,10 @@
+cota_alias,delta_chemo_start,delta_chemo_stop,agent,num_cells,treatment_units,therapy_detail,therapy_detail_attribute,clinical_trial,primary_key
+COTA_02b6dd24f66586a02c86,168,,autologous stem cell transplant,4.48,10^6 cells/kg,,,,72ea48d5ded9aabc955dc9555084fd8f7fbf51b6
+COTA_3b030d5f64de3b63c30a,210,,autologous stem cell transplant,,,,,,47edc417a4873d94ff84eb76cc962e9da31eb0f9
+COTA_3bd54510d4b0eef84db0,139,,autologous stem cell transplant,,,,,yes,cd65ad039e58f32bf549a4a3abdeaf2e234ed5cc
+COTA_4aab2bbb562dff99c910,220,,autologous stem cell transplant,,,,,,15b5c98c9deb09b9363c5b4d8729e39182f9be22
+COTA_52f88169221a4229f567,227,,autologous stem cell transplant,,,,,yes,2262676a8b84d1b0c98a2484429f7535de357831
+COTA_5d787b0930f1cc876c77,226,,autologous stem cell transplant,,,,,,edbe866d1f4efcc7e6150bc453a790207924bd27
+COTA_a286661e5281029b56d6,3371,,autologous stem cell transplant,7.61,10^6 cells/kg,,,yes,27fe59a120c54723d865cabef813c6eb06524023
+COTA_fba9d4b338d6cb8c31bb,183,,autologous stem cell transplant,,,,,,81585957595115b73ad94c34148e5058bf355940
+COTA_fd7bdf51c303981f8cb6,565,,,,,declined intervention: patient decision,,,c369e233a831135567d82228c79131bf56cdb3fb

@@ -1,0 +1,4 @@
+cota_alias,delta_radiation_start_date,delta_radiation_stop_date,total_dose,radiation_type,radiation_units,reason_for_discontinuation,clinical_trial,primary_key
+COTA_3bd54510d4b0eef84db0,-302,-279.0,40.0,external beam,gy,,,e3a4c2682d97c3c44c6c891a411fbcad12f3dae0
+COTA_3bd54510d4b0eef84db0,-190,,,"radiation therapy, unspecified",,Doctor Preference,,dc02ec5ee5b56251f2ed4bc67b043cd426659e51
+COTA_3bd54510d4b0eef84db0,-153,-140.0,2500.0,"external beam, imrt",cgy,,,3ccf082edbfcd2149558ad23c925796393d771c8

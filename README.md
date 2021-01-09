@@ -10,11 +10,8 @@ image by VectorStock / vectorstock</a>
 
 <!-- badges: end -->
 
-Amphora was inititally created to serve as an extension of the chariot R
-package to create interactive Reingold-Tilford tree diagrams in D3.js.
-It has now been extended to include the reading, parsing, and authoring
-of hierarchies files for knowledge representation in the clinical
-medicine domain. Wrappers to install
+Amphora is a package for reading, parsing, and authoring for knowledge
+representation in the clinical medicine domain. Wrappers to install
 [ROBOT](http://robot.obolibrary.org/) and use it for format conversions
 are also included.
 
