@@ -9,7 +9,6 @@
 add_source_concept <-
         function(conn,
                  source_concept_name,
-                 subclass,
                  standard_library_schema,
                  verbose = TRUE,
                  render_sql = TRUE,
@@ -64,10 +63,40 @@ add_source_to_target_mapping <-
         function(conn,
                  standard_library_schema,
                  source_concept_obj,
-                 target_concept_obj) {
+                 target_concept_obj,
+                 verbose = TRUE,
+                 render_sql = TRUE,
+                 render_only = FALSE) {
 
                 source_id <- source_concept_obj@concept_id
                 target_id <- target_concept_obj@concept_id
+
+
+                pg13::append_table(conn = conn,
+                                   schema = standard_library_schema,
+                                   table = "concept_relationship",
+                                   data = tibble::tibble(concept_id_1 = source_id,
+                                                         concept_id_2 = target_id,
+                                                         relationship_id	= "Maps to",
+                                                         valid_start_date = Sys.Date(),
+                                                         valid_end_date = as.Date("2099-12-31"),
+                                                         invalid_reason = NA),
+                                   verbose = verbose,
+                                   render_sql = render_sql,
+                                   render_only = render_only)
+
+                pg13::append_table(conn = conn,
+                                   schema = standard_library_schema,
+                                   table = "concept_relationship",
+                                   data = tibble::tibble(concept_id_1 = target_id,
+                                                         concept_id_2 = source_id,
+                                                         relationship_id	= "Mapped from",
+                                                         valid_start_date = Sys.Date(),
+                                                         valid_end_date = as.Date("2099-12-31"),
+                                                         invalid_reason = NA),
+                                   verbose = verbose,
+                                   render_sql = render_sql,
+                                   render_only = render_only)
 
 
         }
