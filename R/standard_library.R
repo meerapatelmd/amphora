@@ -102,7 +102,7 @@ instantiate_standard_library <-
                 }
         }
 
-create_classes <-
+create_classification <-
         function(class_hierarchy = list('CANCER ANATOMY' = c('NAACCR_Laterality'),
                              'CANCER CLINICAL PERFORMANCE' = c('ICDO3_Behavior'),
                              'CANCER GRADES' = c('CNS_Tumors'),
@@ -115,6 +115,103 @@ create_classes <-
                  verbose = TRUE,
                  render_sql = TRUE,
                  render_only = FALSE) {
+
+
+                for (i in seq_along(class_hierarchy)) {
+                        class <- names(class_hierarchy)[i]
+                        subClasses <- class_hierarchy[[i]]
+
+                        class_concept_id <- uuid::UUIDgenerate()
+                        pg13::append_table(conn = conn,
+                                           schema = standard_library_schema,
+                                           table = "concept",
+                                           data = tibble::tibble(concept_id = class_concept_id,
+                                                                 concept_name = class,
+                                                                 domain_id = "Standard Library",
+                                                                 vocabulary_id = "Amphora",
+                                                                 concept_class_id = "Class",
+                                                                 standard_concept = "C",
+                                                                 concept_code = sprintf("00%s",i),
+                                                                 valid_start_date = Sys.Date(),
+                                                                 valid_end_date = as.Date("2099-12-31"),
+                                                                 invalid_reason = NA),
+                                           verbose = verbose,
+                                           render_sql = render_sql,
+                                           render_only = render_only)
+
+                        pg13::append_table(conn = conn,
+                                           schema = standard_library_schema,
+                                           table = "concept_ancestor",
+                                           data = tibble::tibble(ancestor_concept_id = class_concept_id,
+                                                                 descendant_concept_id = class_concept_id,
+                                                                 min_levels_of_separation = 0,
+                                                                 max_levels_of_separation = 0),
+                                           verbose = verbose,
+                                           render_sql = render_sql,
+                                           render_only = render_only)
+
+
+                        for (j in seq_along(subClasses)) {
+                                subClass <- subClasses[j]
+
+                                subclass_concept_id <- uuid::UUIDgenerate()
+                                pg13::append_table(conn = conn,
+                                                   schema = standard_library_schema,
+                                                   table = "concept",
+                                                   data = tibble::tibble(concept_id = subclass_concept_id,
+                                                                         concept_name = subClass,
+                                                                         domain_id = "Standard Library",
+                                                                         vocabulary_id = "Amphora",
+                                                                         concept_class_id = "subClass",
+                                                                         standard_concept = "C",
+                                                                         concept_code = sprintf("00%s_00%s",i, j),
+                                                                         valid_start_date = Sys.Date(),
+                                                                         valid_end_date = as.Date("2099-12-31"),
+                                                                         invalid_reason = NA),
+                                                   verbose = verbose,
+                                                   render_sql = render_sql,
+                                                   render_only = render_only)
+
+                                pg13::append_table(conn = conn,
+                                                   schema = standard_library_schema,
+                                                   table = "concept_relationship",
+                                                   data = tibble::tibble(concept_id_1 = class_concept_id,
+                                                                         concept_id_2 = subclass_concept_id,
+                                                                         relationship_id	= "Subsumes",
+                                                                         valid_start_date = Sys.Date(),
+                                                                         valid_end_date = as.Date("2099-12-31"),
+                                                                         invalid_reason = NA),
+                                                   verbose = verbose,
+                                                   render_sql = render_sql,
+                                                   render_only = render_only)
+
+
+                                pg13::append_table(conn = conn,
+                                                   schema = standard_library_schema,
+                                                   table = "concept_relationship",
+                                                   data = tibble::tibble(concept_id_1 = subclass_concept_id,
+                                                                         concept_id_2 = class_concept_id,
+                                                                         relationship_id	= "Is a",
+                                                                         valid_start_date = Sys.Date(),
+                                                                         valid_end_date = as.Date("2099-12-31"),
+                                                                         invalid_reason = NA),
+                                                   verbose = verbose,
+                                                   render_sql = render_sql,
+                                                   render_only = render_only)
+
+                                pg13::append_table(conn = conn,
+                                                   schema = standard_library_schema,
+                                                   table = "concept_ancestor",
+                                                   data = tibble::tibble(ancestor_concept_id = class_concept_id,
+                                                                         descendant_concept_id = subclass_concept_id,
+                                                                         min_levels_of_separation = 1,
+                                                                         max_levels_of_separation = 1),
+                                                   verbose = verbose,
+                                                   render_sql = render_sql,
+                                                   render_only = render_only)
+                        }
+
+                }
 
 
 
@@ -136,8 +233,7 @@ add_omop_concept_to_library <-
                             sql_statement =
                                     SqlRender::render("SELECT concept_id
                                                       FROM @standard_library_schema.concept
-                                                      WHERE vocabulary_id = 'Standard Library'
-                                                        AND invalid_reason IS NULL
+                                                      WHERE invalid_reason IS NULL
                                                         AND standard_concept = 'C'
                                                         AND LOWER(concept_name) = LOWER('@subclass');",
                                                       standard_library_schema = standard_library_schema,
@@ -146,7 +242,7 @@ add_omop_concept_to_library <-
                             render_sql = render_sql,
                             render_only = render_only)
 
-                if (nrow(class_resultset) == 0) {
+                if (nrow(subclass_resultset) == 0) {
                         stop(sprintf("subclass '%s' does not exist.", subclass))
                 }
 

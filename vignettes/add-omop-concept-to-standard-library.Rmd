@@ -16,4 +16,45 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(amphora)
+library(tidyverse)
 ```
+
+```{r}
+output <-
+list.files(path = "~/GitHub/projects/bibliotech/VALUESETS/KMI_OMOP", full.names = TRUE, recursive = TRUE) %>%
+  map(read_csv) %>%
+  map(function(x) x %>% mutate_at(vars(any_of("concept_id")), as.character)) %>%
+  set_names(list.files(path = "~/GitHub/projects/bibliotech/VALUESETS/KMI_OMOP", full.names = TRUE, recursive = TRUE)) %>%
+  bind_rows(.id = "Group") %>%
+  extract(col = Group,
+          into = c("Class", "subClass"),
+          regex = "/Users/meerapatel/GitHub/projects/bibliotech/VALUESETS/KMI_OMOP/(.*?)/(.*?)[.]{1}csv$") %>%
+  filter(!is.na(concept_id))
+```
+
+
+```{r}
+output %>% 
+  select(Class, subClass) %>%
+  distinct() %>%
+  rubix::split_by(col = Class) %>%
+  map(select, subClass) %>%
+  map(unlist) %>%
+  map(unique) %>%
+  map(cave::vector_to_string)
+```
+
+```{r}
+for (i in 1:nrow(output)) {
+  secretary::typewrite_progress(i,
+                                total = nrow(output))
+  subClass <- output$subClass[i]
+  concept_obj <- chariot::get_concept(concept_id = output$concept_id[i])
+  add_omop_concept_to_library(conn = conn, 
+                              standard_library_schema = "standard_library",
+                              concept_obj = concept_obj,
+                              subclass = subClass,
+                              render_only = FALSE)
+}
+```
+
