@@ -1,0 +1,19 @@
+---
+title: "Add an OMOP Concept To Standard Library"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Add an OMOP Concept To Standard Library}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(amphora)
+```
