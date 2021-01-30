@@ -40,208 +40,231 @@ library(amphora)
 conn <- pg13::local_connect()
 ```
 
-Reverse engineering the false positives will allows for identification of the OMOP Concept Classes in ATC and/or HemOnc that contain the false positive drugs that can then be excluded from analyses. The false positive concepts are as follows:
+Reverse engineering the false positives will for identification of the 
+OMOP Concept Classes in ATC and/or HemOnc that contain the false positive drugs 
+that can then be excluded from analyses. 298 RxNorm Ingredients falling under 
+the ATC Antineoplastics Class were reviewed and drugs that are less likely to be 
+used in an oncology context and/or is more likely to be used for treatment of a 
+disease unrelated to cancer were identified by a panel of oncologists, the 
+results of which are included in the `antineoplastics_annotation` dataset in 
+this package. 
+
+<br>
 
 ```{r}
-false_positives <- false_positive_ingredients()
-staging_table_name <- 
-        pg13::write_staging_table(conn = conn, 
-                                  schema = "public",
-                                  drop_existing = TRUE,
-                                  data = false_positives)
-sql_statement <-
-pg13::build_join_query(distinct = TRUE,
-                 schema = "public",
-                 table = staging_table_name,
-                 column = "rxnorm_ingredient_id",
-                 join_on_schema = "omop_vocabulary",
-                 join_on_table = "concept",
-                 join_on_column = "concept_id")
+rMarkedDown::print_dt(antineoplastics_annotation)
+```
 
+<br>
+
+The annotated dataframe is filtered for the `false positive` RxNorm Ingredients.  
+
+```{r}
 false_positives <-
-pg13::query(conn = conn, 
-            sql_statement = sql_statement) %>%
-        dplyr::select(-rxnorm_ingredient_id)
-
+  antineoplastics_annotation %>%
+  filter(false_positive == TRUE)
 false_positives
 ```
 
-The classification of the false positives is derived from the Concept Ancestor Table, where any ancestors to the false positives are first identified and selected for if they are a OMOP Drug Class.  
+The `false positives` are first rejoined with the Concept table to retrieve all 
+the concept attributes. 
 
 ```{r}
-staging_table_name <- 
-        pg13::write_staging_table(conn = conn, 
-                                  schema = "public",
-                                  drop_existing = TRUE,
-                                  data = false_positives %>%
-                                          select(fp_ingr_id = concept_id,
-                                                 fp_ingr_name = concept_name))
-sql_statement <-
-pg13::build_join_query(distinct = TRUE,
-                 schema = "public",
-                 table = staging_table_name,
-                 column = "fp_ingr_id",
-                 join_on_schema = "omop_vocabulary",
-                 join_on_table = "concept_ancestor",
-                 join_on_column = "descendant_concept_id")
-
-false_positives_anc <-
-pg13::query(conn = conn, 
-            sql_statement = sql_statement) 
-
-staging_table_name <- 
-        pg13::write_staging_table(conn = conn, 
-                                  schema = "public",
-                                  drop_existing = TRUE,
-                                  data = false_positives_anc)
-
-sql_statement <-
-pg13::build_join_query(distinct = TRUE,
-                 schema = "public",
-                 table = staging_table_name,
-                 column = "ancestor_concept_id",
-                 join_on_schema = "omop_vocabulary",
-                 join_on_table = "concept",
-                 join_on_column = "concept_id",
-                 where_in_join_on_field = "standard_concept",
-                 case_insensitive = FALSE,
-                 where_in_join_on_vector = "C")
-
-false_positives_anc2 <-
-pg13::query(conn = conn, 
-            sql_statement = sql_statement)
-
-false_positives_anc2
+false_positives2 <-
+  chariot::join_on_concept_id(
+    data = false_positives %>%
+              select(false_positive_id = concept_id)
+  ) %>%
+  select(-false_positive_id)
+false_positives2
 ```
 
-The distribution of the false positives across the OMOP Vocabularies identified. 
+The classification of the false positives is derived from the Concept Ancestor 
+Table, where any ancestors to the false positives are first identified and 
+selected for if they are a OMOP Drug Class.  
 
 ```{r}
-plot <- ggplot(data = false_positives_anc2,
-               aes(x = vocabulary_id))
-plot + geom_histogram(stat = "count")
+false_positive_ancestors <-
+  false_positives2 %>%
+  left_join(
+    chariot::join_for_ancestors(data = false_positives2,
+                                descendant_id_column = "concept_id") %>%
+      # Filter for classes 
+      filter(ancestor_standard_concept == "C") %>%
+      # Filter for valid concepts
+      filter(is.na(ancestor_invalid_reason))  %>%
+      filter(ancestor_vocabulary_id %in% c("HemOnc", "ATC")),
+    by = c(
+        "concept_id", 
+           "concept_name", 
+           "domain_id", 
+           "vocabulary_id", 
+           "concept_class_id", 
+           "standard_concept", 
+           "concept_code", 
+           "valid_start_date", 
+           "valid_end_date", 
+           "invalid_reason"
+        )
+    ) %>%
+  distinct()
+false_positive_ancestors
 ```
 
-Focusing on the ATC and HemOnc Classifications:
+The following special relationships require additional modification before
+moving forward:
+
+@  There may be cases where the minimum level of separation is not equal
+    to the max levels of separation. Since this particular use case indicates an
+    offset of 1 level, the maximum level of separation is used to determine the
+    hierarchy.
 
 ```{r}
-false_positives_anc3 <-
-        false_positives_anc2 %>%
-        filter(vocabulary_id %in% c("HemOnc", "ATC"))
-```
-
-
-```{r}
-plot <- ggplot(data = false_positives_anc3,
-               aes(x = vocabulary_id))
-plot + geom_histogram(stat = "count")
-```
-
-The following special relationships require additional modification before moving forward:  
-1. There are cases where the minimum level of separation is not the equivalent to the max levels of separation. Since this particular use case indicates an offset of 1 level, the maximum level of separation is used to determine the hierarchy.   
-
-```{r}
-false_positives_anc3 %>%
+false_positive_ancestors %>%
         filter(min_levels_of_separation != max_levels_of_separation) %>%
-        select(min_levels_of_separation, 
+        select(ancestor_vocabulary_id,
+               ancestor_concept_class_id,
+               min_levels_of_separation, 
                max_levels_of_separation) %>%
         distinct()
 ```
 
-1. There are cases of O levels of separation between an RxNorm Ingredient and either a ATC or a HemOnc Class. These cases will be treated as 1 level of separation.   
+@ There are cases of O levels of separation between an RxNorm Ingredient and 
+either a ATC or a HemOnc Class. These cases will be treated as 1 level of 
+separation.   
 
 ```{r}
-false_positives_anc3 %>%
+false_positive_ancestors %>%
         filter(min_levels_of_separation == 0|max_levels_of_separation == 0) %>%
-        select(min_levels_of_separation,
-               max_levels_of_separation,
-               vocabulary_id) %>%
+        select(ancestor_vocabulary_id,
+               ancestor_concept_class_id,
+               min_levels_of_separation, 
+               max_levels_of_separation) %>%
         distinct()
 ```
 
+The resolve the scenarios outlined:  
+* All ATC 5th Concept Classes are excluded because they are redundant to  
+the RxNorm Ingredient and therefore do not add clinical value  
+* `min_levels_of_separation` as the source of hierarchy 
 
 ```{r}
-false_positives_anc4 <-
-        false_positives_anc3 %>%
-        mutate(levels_of_separation = coalesce(max_levels_of_separation, min_levels_of_separation)) %>%
-        mutate(levels_of_separation = ifelse(levels_of_separation == 0, 1, levels_of_separation)) %>%
-        select(-max_levels_of_separation,
-               -min_levels_of_separation)
-false_positives_anc4
+false_positive_ancestors2 <-
+  false_positive_ancestors %>%
+  filter(!(ancestor_concept_class_id %in% c("ATC 5th"))) %>%
+  mutate(level_of_separation = max_levels_of_separation) %>%
+  select(-min_levels_of_separation, -max_levels_of_separation) %>%
+  chariot::merge_strip(into = "ancestor", ancestor_vocabulary_id, prefix = "ancestor_") %>%
+  chariot::merge_strip(into = "concept") %>%
+  select(-concept_id, -ancestor_id)
 ```
 
 # HemOnc 
 
 ```{r}
-false_positives_anc5_ho <-
-        false_positives_anc4 %>%
-        filter(vocabulary_id %in% "HemOnc") %>%
-        unite(col = "0",
-              fp_ingr_id,
-              fp_ingr_name,
-              sep = " ",
-              na.rm = TRUE) %>%
-        unite(col = ancestor,
-              concept_id, 
-              concept_name,
-              sep = " ",
-              na.rm = TRUE) %>%
-        select(`0`,
-               ancestor, 
-               levels_of_separation)
+false_positive_ancestors2_ho <-
+  false_positive_ancestors2 %>%
+  filter(ancestor_vocabulary_id %in% "HemOnc") %>%
+  select(-ancestor_vocabulary_id)
 ```
 
+
 ```{r}
-ho_collapsible_tree <-
-false_positives_anc5_ho %>%
-        pivot_wider(id_cols = `0`,
-                    names_from = levels_of_separation,
+false_positive_ancestors2_ho2 <-
+false_positive_ancestors2_ho %>%
+        pivot_wider(id_cols = concept,
+                    names_from = level_of_separation,
                     values_from = ancestor,
                     values_fn = function(x) paste(unique(x), collapse = "|")) %>%
-        select(all_of(as.character(0:4))) %>%
+        select(concept, all_of(as.character(0:4))) %>%
         separate_rows(`1`, sep = "[|]{1}") %>%
         separate_rows(`2`, sep = "[|]{1}") %>%
         separate_rows(`3`, sep = "[|]{1}") %>%
         separate_rows(`4`, sep = "[|]{1}")
 ```
 
+Since there are some NA values at levels, they are replaced with a dummy value. 
 
 ```{r}
-ho_tree <- collapsibleTree::collapsibleTree(df = ho_collapsible_tree, 
-                                 hierarchy = as.character(0:4),
-                                 root = "HemOnc False Positives",
-                                 linkLength = 250,
-                                 width = 1500,
-                                 height = 1500,
+false_positive_ancestors2_ho2 %>%
+  filter_all(any_vars(is.na(.)))
+```
+
+
+```{r}
+parent_child_cols <-
+  list(c(parent = "concept", child = "0"),
+       c(parent = "0", child =  "1"),
+       c(parent = "1", child =  "2"),
+       c(parent = "2", child =  "3"),
+       c(parent = "3", child =  "4"))
+
+output <- list()
+for (i in seq_along(parent_child_cols)) {
+  parent_child_col <- parent_child_cols[[i]]
+  child_col <- sym(parent_child_col["child"])
+  parent_col <- sym(parent_child_col["parent"])
+  col_to_coalesce <- sym(as.character(as.integer(parent_child_col["child"])+1))
+  
+  output[[i]] <-
+    false_positive_ancestors2_ho2 %>%
+    transmute(parent = {{ parent_col }},
+              child = coalesce({{ child_col }}, {{ col_to_coalesce }})) 
+  
+  colnames(output[[i]]) <- c("parent", "child")
+  
+}
+false_positive_ancestors2_ho3 <-
+  bind_rows(output) %>%
+  distinct()
+false_positive_ancestors2_ho3
+```
+
+```{r}
+  if (i == 1) {
+    root <- 
+      tibble(parent = NA_character_,
+                child = "HemOnc")
+    root2 <-
+      output[[i]] %>%
+      mutate(child = parent) %>%
+      mutate(parent = "HemOnc") %>%
+      select(parent, child)
+  }
+```
+
+
+
+
+
+```{r}
+false_positive_ancestors2_ho4 <-
+  false_positive_ancestors2_ho3 %>%
+  chariot::unmerge_strip(strip_col = child)
+```
+
+
+```{r}
+ho_tree <- collapsibleTree::collapsibleTreeNetwork(
+                                false_positive_ancestors2_ho3,
                                  zoomable = TRUE,
                                  collapsed = FALSE
                                  )
+```
+
+```{r}
 
 htmlwidgets::saveWidget(widget = ho_tree,
                         file = file.path(getwd(), "vignettes/widgets/reverse_engineered_false_positives_ho.html"))
 ```
 
-
 # ATC  
 
-
 ```{r}
-false_positives_anc5_atc <-
-        false_positives_anc4 %>%
-        filter(vocabulary_id %in% "ATC") %>%
-        unite(col = "0",
-              fp_ingr_id,
-              fp_ingr_name,
-              sep = " ",
-              na.rm = TRUE) %>%
-        unite(col = ancestor,
-              concept_id, 
-              concept_name,
-              sep = " ",
-              na.rm = TRUE) %>%
-        select(`0`,
-               ancestor, 
-               levels_of_separation)
+false_positive_ancestors2_atc <-
+  false_positive_ancestors2 %>%
+  filter(ancestor_vocabulary_id %in% "ATC") %>%
+  select(-ancestor_vocabulary_id)
 ```
 
 
@@ -249,12 +272,14 @@ Though ATC has 5 levels, only 4 are chosen since the topmost level (5 in this us
 
 ```{r}
 atc_collapsible_tree <-
-false_positives_anc5_atc %>%
-        pivot_wider(id_cols = `0`,
-                    names_from = levels_of_separation,
+false_positive_ancestors2_atc  %>%
+        arrange(level_of_separation) %>%
+        pivot_wider(id_cols = concept,
+                    names_from = level_of_separation,
                     values_from = ancestor,
                     values_fn = function(x) paste(unique(x), collapse = "|")) %>%
-        select(`0`, `2`, `3`) %>%
+        select(concept, `1`, `2`, `3`) %>%
+        separate_rows(`1`, sep = "[|]{1}") %>%
         separate_rows(`2`, sep = "[|]{1}") %>%
         separate_rows(`3`, sep = "[|]{1}") %>%
         distinct()
@@ -263,7 +288,7 @@ false_positives_anc5_atc %>%
 
 ```{r}
 atc_tree <- collapsibleTree::collapsibleTree(df = atc_collapsible_tree, 
-                                 hierarchy = c("0", "2", "3"),
+                                 hierarchy = c("1", "2", "3"),
                                  root = "ATC False Positives",
                                  linkLength = 350,
                                  width = 1250,

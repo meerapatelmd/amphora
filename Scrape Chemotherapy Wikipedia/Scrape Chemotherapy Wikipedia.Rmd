@@ -1,0 +1,186 @@
+---
+title: "Scrape Chemotherapy Wikipedia"
+author: "Meera Y. Patel, M.D."
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    css: style.css
+    theme: flatly
+    highlight: kate  
+    toc: yes
+    number_sections: true
+    toc_depth: 3 
+    toc_float: 
+      collapsed: false  
+      smooth_scroll: false
+    code_folding: show #or hide
+    df_print: paged
+    fig_height: 5 
+    fig_width: 7 
+    fig_caption: true
+    dev: png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = "##",
+                      tidy = TRUE, #`styler` to use styler:style_text() to reformat code
+                      tidy.opts = list(blank = FALSE, width.cutoff = 60),
+                      echo = TRUE,
+                      eval = TRUE,
+                      cache = TRUE,
+                      cache.path = "reports/cache/",
+                      child = NULL, #file/s to knit and then include,
+                      collapse = FALSE, #collapse all output into a single block,
+                      error = TRUE, #display error messages in doc. FALSE stops render when error is thrown
+                      fig.align = "center", #left, right, center, or default
+                      fig.width = 7, #inches
+                      fig.height = 7, #inches
+                      fig.asp=0.50, #adds whitespace around images
+                      include = TRUE, #include chunk?
+                      message = TRUE, #display code messages?
+                      tidy = TRUE, #tidy code 
+                      warning = TRUE, #include warnings?
+                      results = "markup"
+                        # "asis": passthrough results
+                        # "hide": do not display results 
+                        # "hold": put all results below all code
+                      )
+```
+  
+  
+```{r}
+library(rvest)
+library(tidyverse)
+```
+
+```{r}
+response <- read_html("https://en.wikipedia.org/wiki/List_of_chemotherapeutic_agents")
+```
+
+```{r}
+headlines <- c('Alkylating agents', 'Anthracyclines', 'Cytoskeletal disruptors (taxanes)', 'Epothilones', 'Histone deacetylase inhibitors', 'Inhibitors of topoisomerase I', 'Inhibitors of topoisomerase II', 'Kinase inhibitors', 'Nucleotide analogs and precursor analogs', 'Peptide antibiotics', 'Platinum-based agents', 'Retinoids', 'Vinca alkaloids and derivatives', 'Full alphabetical listing', 'Comprehensive table')
+headlines
+```
+
+```{r}
+content <-
+  response %>%
+  html_nodes(".mw-headline, li a") %>%
+  html_text()
+content
+```
+
+```{r}
+content <- content[16:81]
+```
+
+```{r}
+headline_index <- lapply(headlines, grep, x = content, fixed = TRUE)
+names(headline_index) <- headlines
+headline_index <- sapply(headline_index, function(x) x[1])
+headline_index <- headline_index[!is.na(headline_index)]
+headline_index
+```
+
+```{r}
+index_matrix <-
+tibble(
+  headline = names(headline_index), 
+  headline_index = headline_index,
+  headline_content_start_index = headline_index+1, 
+  headline_content_end_index = c((headline_index[-1]-1), length(content))
+  ) %>%
+  mutate(headline_content_index = sprintf("%s:%s", headline_content_start_index, headline_content_end_index)) %>%
+  select(headline,
+         headline_index,
+         headline_content_index)
+index_matrix
+```
+
+```{r}
+output <- list()
+for (i in 1:nrow(index_matrix)) {
+  output[[i]] <-
+    content[eval(rlang::parse_expr(index_matrix$headline_content_index[i]))]
+  names(output)[i] <- index_matrix$headline[i]
+}
+```
+
+```{r}
+output <-
+output %>%
+  purrr::map(as_tibble_col) %>%
+  bind_rows(.id = "Class") %>%
+  rename(Drug = value)
+output
+```
+
+```{r}
+omop <-
+chariot::join_on_concept_synonym_name(data = output, 
+                                      column = "Drug")
+omop <- 
+  chariot::join_on_concept_id(data = omop %>%
+                                      select(class, 
+                                             drug, 
+                                             drug_concept_id = concept_id), 
+                              column = "drug_concept_id")
+```
+
+```{r}
+omop2 <-
+  omop %>%
+  dplyr::select(-drug_concept_id) %>%
+  chariot::merge_strip(into = "drug_concept",
+                       vocabulary_id, 
+                       concept_class_id) %>%
+  unite(col = vocabulary_concept_class, 
+        vocabulary_id,
+        concept_class_id, 
+        sep = " ",
+        remove = FALSE) %>%
+  mutate(vocabulary_id = factor(vocabulary_id, 
+                                levels = c('RxNorm', 'HemOnc', 'ATC', 'MeSH', 'LOINC', 'HCPCS', 'Nebraska Lexicon', 'SNOMED', 'NDFRT', 'dm+d', 'JMDC', 'BDPM', 'NCCD', 'GGR', 'CTD', 'APC', 'AMT', 'DPD', 'SPL', 'NA'))) %>%
+  arrange(vocabulary_id) %>%
+  pivot_wider(id_cols = c(class, drug),
+              names_from = vocabulary_concept_class, 
+              values_from = drug_concept, 
+              values_fn = list(drug_concept = ~ paste(unique(.), collapse = "\n")))
+```
+
+
+
+Erroneous headlines "Full alphabetical listing" and 
+"Comprehensive table" are removed, leaving the classifications. 
+
+```{r}
+headlines <-
+  headlines[1:13]
+headlines
+```
+
+Each headline is a hash-prefixed section header and is formatted 
+as such to retrieve its contents. 
+
+```{r}
+sections <- 
+  str_replace_all(
+    string = headlines,
+    pattern = "[ ]{1}",
+    replacement = "_"
+  )
+
+sections
+```
+
+```{r}
+content <- 
+  response %>%
+  html_nodes("#content") %>%
+  html_text() %>%
+  strsplit("\n") %>%
+  unlist()
+```
+
+
+
