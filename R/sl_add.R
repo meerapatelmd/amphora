@@ -1,4 +1,4 @@
-add_classification <-
+sl_add_classification <-
         function(class_hierarchy,
                  conn,
                  standard_library_schema,
@@ -129,7 +129,7 @@ add_classification <-
 
         }
 
-add_omop_concept_to_library <-
+sl_add_omop_concept <-
         function(conn,
                  concept_obj,
                  subclass,
@@ -205,7 +205,7 @@ add_omop_concept_to_library <-
         }
 
 
-add_new_concept_to_library <-
+sl_add_new_concept <-
         function(conn,
                  concept_name,
                  subclass,
@@ -278,37 +278,4 @@ add_new_concept_to_library <-
                                    verbose = verbose,
                                    render_sql = render_sql,
                                    render_only = render_only)
-        }
-
-remove_from_library <-
-        function(conn,
-                 concept_obj,
-                 standard_library_schema) {
-
-
-                pg13::append_table(conn = conn,
-                                   schema = standard_library_schema,
-                                   table = "concept",
-                                   data = tibble::tibble(concept_id = concept_obj@concept_id,
-                                                         concept_name = concept_obj@concept_name,
-                                                         domain_id = "Standard Library",
-                                                         vocabulary_id = concept_obj@vocabulary_id,
-                                                         concept_class_id = concept_obj@concept_class_id,
-                                                         standard_concept = concept_obj@standard_concept,
-                                                         concept_code = concept_obj@concept_code,
-                                                         valid_start_date = concept_obj@valid_start_date,
-                                                         valid_end_date = Sys.Date(),
-                                                         invalid_reason = "R"),
-                                   verbose = verbose,
-                                   render_sql = render_sql,
-                                   render_only = render_only)
-
-
-                pg13::send(conn = conn,
-                           sql_statement = SqlRender::render(
-                                   "DELETE FROM @standard_library_schema.concept
-                                   WHERE concept_id = '@concept_id' AND invalid_reason IS NULL",
-                                   standard_library_schema = standard_library_schema,
-                                   concept_id = concept_obj@concept_id))
-
         }

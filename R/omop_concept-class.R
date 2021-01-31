@@ -1,14 +1,14 @@
 #' @title
-#' Concept Class (S4)
+#' OMOP Concept Class (S4)
 #'
 #' @description
 #' This class allows to know the full OMOP concept representation in R Studio.
 #'
-#' @export concept
+#' @export omop_concept
 
-concept <- setClass("concept",
+omop_concept <- setClass("omop_concept",
          representation(
-                 concept_id = "numeric",
+                 concept_id = "character",
                  concept_name = "character",
                  concept_synonym_names = "character",
                  domain_id = "character",
@@ -20,7 +20,7 @@ concept <- setClass("concept",
                  valid_end_date = "Date",
                  invalid_reason = "character"),
          prototype(
-                 concept_id = NA_integer_,
+                 concept_id = NA_character_,
                  concept_name = NA_character_,
                  domain_id = NA_character_,
                  vocabulary_id = NA_character_,
@@ -33,9 +33,9 @@ concept <- setClass("concept",
 
 #' @export
 
-is.concept <-
+is.omop_concept <-
         function(object) {
 
-                class(object) == "concept"
+                class(object) == "omop_concept"
         }
 

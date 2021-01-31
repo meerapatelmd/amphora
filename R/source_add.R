@@ -1,14 +1,8 @@
-
-
-
-
-
-
-
-
-add_source_concept <-
+source_add_concept <-
         function(conn,
                  source_concept_name,
+                 vocabulary_id = "Unspecified",
+                 concept_class_id = "Unspecified",
                  standard_library_schema,
                  verbose = TRUE,
                  render_sql = TRUE,
@@ -21,10 +15,13 @@ add_source_concept <-
                                             SqlRender::render("SELECT concept_id
                                                       FROM @standard_library_schema.concept
                                                       WHERE invalid_reason IS NULL
-                                                        AND vocabulary_id = 'Source'
-                                                        AND concept_class_id = 'Concept'
+                                                        AND domain_id = 'Source'
+                                                        AND vocabulary_id = '@vocabulary_id'
+                                                        AND concept_class_id = '@concept_class_id'
                                                         AND LOWER(concept_name) = LOWER('@source_concept_name);",
                                                               standard_library_schema = standard_library_schema,
+                                                              vocabulary_id = vocabulary_id,
+                                                              concept_class_id = concept_class_id,
                                                               source_concept_name = source_concept_name),
                                     verbose = verbose,
                                     render_sql = render_sql,
@@ -46,8 +43,8 @@ add_source_concept <-
                                    data = tibble::tibble(concept_id = concept_id,
                                                          concept_name = source_concept_name,
                                                          domain_id = "Source",
-                                                         vocabulary_id = "Source",
-                                                         concept_class_id = "Concept",
+                                                         vocabulary_id = vocabulary_id,
+                                                         concept_class_id = concept_class_id,
                                                          standard_concept = NA,
                                                          concept_code = as.character(Sys.time()),
                                                          valid_start_date = Sys.Date(),
@@ -59,7 +56,7 @@ add_source_concept <-
         }
 
 
-add_source_to_target_mapping <-
+source_add_map_to_target <-
         function(conn,
                  standard_library_schema,
                  source_concept_obj,
