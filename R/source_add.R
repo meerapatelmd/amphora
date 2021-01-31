@@ -1,3 +1,32 @@
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param conn PARAM_DESCRIPTION
+#' @param source_concept_name PARAM_DESCRIPTION
+#' @param vocabulary_id PARAM_DESCRIPTION, Default: 'Unspecified'
+#' @param concept_class_id PARAM_DESCRIPTION, Default: 'Unspecified'
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{append_table}}
+#'  \code{\link[SqlRender]{render}}
+#'  \code{\link[uuid]{UUIDgenerate}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname source_add_concept
+#' @export 
+#' @importFrom pg13 query append_table
+#' @importFrom SqlRender render
+#' @importFrom uuid UUIDgenerate
+#' @importFrom tibble tibble
 source_add_concept <-
         function(conn,
                  source_concept_name,
@@ -56,6 +85,30 @@ source_add_concept <-
         }
 
 
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param conn PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param source_concept_obj PARAM_DESCRIPTION
+#' @param target_concept_obj PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[pg13]{append_table}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname source_add_map_to_target
+#' @export 
+#' @importFrom pg13 append_table
+#' @importFrom tibble tibble
 source_add_map_to_target <-
         function(conn,
                  standard_library_schema,

@@ -1,3 +1,30 @@
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param class_hierarchy PARAM_DESCRIPTION
+#' @param conn PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{append_table}}
+#'  \code{\link[SqlRender]{render}}
+#'  \code{\link[uuid]{UUIDgenerate}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname sl_add_classification
+#' @export 
+#' @importFrom pg13 query append_table
+#' @importFrom SqlRender render
+#' @importFrom uuid UUIDgenerate
+#' @importFrom tibble tibble
 sl_add_classification <-
         function(class_hierarchy,
                  conn,
@@ -129,6 +156,32 @@ sl_add_classification <-
 
         }
 
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param conn PARAM_DESCRIPTION
+#' @param concept_obj PARAM_DESCRIPTION
+#' @param subclass PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{append_table}}
+#'  \code{\link[SqlRender]{render}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname sl_add_omop_concept
+#' @export 
+#' @importFrom pg13 query append_table
+#' @importFrom SqlRender render
+#' @importFrom tibble tibble
 sl_add_omop_concept <-
         function(conn,
                  concept_obj,
@@ -205,6 +258,34 @@ sl_add_omop_concept <-
         }
 
 
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param conn PARAM_DESCRIPTION
+#' @param concept_name PARAM_DESCRIPTION
+#' @param subclass PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[pg13]{c("query", "query")}},\code{\link[pg13]{append_table}}
+#'  \code{\link[SqlRender]{render}}
+#'  \code{\link[uuid]{UUIDgenerate}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname sl_add_new_concept
+#' @export 
+#' @importFrom pg13 query append_table
+#' @importFrom SqlRender render
+#' @importFrom uuid UUIDgenerate
+#' @importFrom tibble tibble
 sl_add_new_concept <-
         function(conn,
                  concept_name,

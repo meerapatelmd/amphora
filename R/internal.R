@@ -13,12 +13,28 @@
 #' 3. Copy the Concept to the Standard Library.
 #' 4. Add the "Has concept" relationship to the Class
 #' 5. Add that "Concept of" relationship to the Concept
-
-
-
-
-
-
+#'
+#' @param conn PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @examples
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso
+#'  \code{\link[pg13]{schema_exists}},\code{\link[pg13]{create_schema}},\code{\link[pg13]{send}}
+#'  \code{\link[SqlRender]{render}}
+#'  \code{\link[secretary]{typewrite}}
+#' @rdname instantiate_standard_library
+#' @export
+#' @importFrom pg13 schema_exists create_schema send
+#' @importFrom SqlRender render
+#' @importFrom secretary typewrite
 instantiate_standard_library <-
         function(conn,
                  standard_library_schema,
@@ -102,6 +118,43 @@ instantiate_standard_library <-
                 }
         }
 
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param class_hierarchy PARAM_DESCRIPTION, Default: list(`CANCER ANATOMY` = c("NAACCR_Laterality"), `CANCER CLINICAL PERFORMANCE` = c("ICDO3_Behavior"),
+#'    `CANCER GRADES` = c("CNS_Tumors"), `CANCER STAGES` = c("AnnArbor_HodgkinLymphoma",
+#'        "Lugano_NonHodgkinLymphoma", "NAACCR_Clinical_Stage",
+#'        "NAACCR_Path_Stage"), `CANCER TYPE` = c("ICD10", "ICDO3_Histology",
+#'        "ICDO3_Top_Topography", "ICDO3_Topography"), DRUGS = c("BY RXNORM INGREDIENT/GLUCOCORTICOID",
+#'        "BY RXNORM INGREDIENT/IMMUNOMODULATOR_IMIDE", "BY RXNORM INGREDIENT/IMMUNOMODULATOR_TNFa_INHIBITOR",
+#'        "BY RXNORM INGREDIENT/IMMUNOMODULATOR", "BY RXNORM INGREDIENT/NSAID",
+#'        "BY RXNORM INGREDIENT/STATIN", "BY RXNORM INGREDIENT/VASOPRESSOR"),
+#'    LABS = c("BLEEDING_TIME", "BLOOD_GASES", "BLOOD_TYPE", "CBC",
+#'        "CREATINE_KINASE", "DIFFERENTIAL", "IMMUNOGLOBULIN_PANEL",
+#'        "INFECTIOUS_DISEASE_DNA", "INFECTIOUS_DISEASE_RNA", "LACTATE_DEHYDROGENASE",
+#'        "LIPID_PANEL", "METABOLIC_PANEL", "SINGLE_ORDER_LABS",
+#'        "SPECIMEN_TYPE"))
+#' @param conn PARAM_DESCRIPTION
+#' @param standard_library_schema PARAM_DESCRIPTION
+#' @param verbose PARAM_DESCRIPTION, Default: TRUE
+#' @param render_sql PARAM_DESCRIPTION, Default: TRUE
+#' @param render_only PARAM_DESCRIPTION, Default: FALSE
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso
+#'  \code{\link[uuid]{UUIDgenerate}}
+#'  \code{\link[pg13]{append_table}}
+#'  \code{\link[tibble]{tibble}}
+#' @rdname create_classification
+#' @export
+#' @importFrom uuid UUIDgenerate
+#' @importFrom pg13 append_table
+#' @importFrom tibble tibble
 create_classification <-
         function(class_hierarchy = list('CANCER ANATOMY' = c('NAACCR_Laterality'),
                              'CANCER CLINICAL PERFORMANCE' = c('ICDO3_Behavior'),
